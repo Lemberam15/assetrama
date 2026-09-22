@@ -5,14 +5,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>What is CAGR? Compound Annual Growth Rate Explained Simply — Asset Rama</title>
 <meta name="description" content="CAGR (Compound Annual Growth Rate) explained in plain English with Indian examples — the honest way to compare two investments, funds or gold vs equity.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23f7c531'/%3E%3Ctext x='32' y='45' font-size='36' text-anchor='middle' font-family='Georgia' font-weight='bold' fill='%231a1300'%3E%E2%82%B9%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"What is CAGR? The only honest way to compare two investments","author":{"@type":"Person","name":"Ram Lembe"},"publisher":{"@type":"Organization","name":"Asset Rama"},"about":["CAGR","Compound Annual Growth Rate","Investing basics"],"inLanguage":"en-IN"}
+</script>
 </head>
 <body>
+
+<div class="progress" id="pbar"></div>
 
 <header class="site">
   <div class="container mast">
     <div class="brand">
       <div class="logo">₹</div>
-      <div class="name">ASSET RAMA<span>by Ram Lembe</span></div>
+      <div class="name"><b>ASSET RAMA</b><span>by Ram Lembe</span></div>
     </div>
     <nav class="main">
       <a class="navlink" href="../index.html">Home</a>
@@ -23,58 +32,77 @@
 </header>
 
 <div class="container article-wrap">
-  <p class="crumbs"><a href="../index.html">Home</a> / <a href="../lessons.html">Lessons</a> / What is CAGR?</p>
+  <p class="crumbs"><a href="../index.html">Home</a> · <a href="../lessons.html">Lessons</a> · <span>What is CAGR?</span></p>
   <article>
+    <div class="meta"><span class="tag">Basics</span><span class="read">3 min read</span></div>
     <h1>What is CAGR? The only honest way to compare two investments</h1>
-    <div class="meta"><span>Basics</span><span>3 min read</span></div>
+    <p class="dek">"I doubled my money" means nothing — until you ask the one question that changes everything: in how many years?</p>
 
-    <p>"My investment doubled in 5 years!" Sounds impressive — until someone else says theirs doubled in 3. To compare them fairly, you need one common yardstick: <strong>CAGR — Compound Annual Growth Rate</strong>. It tells you the smooth yearly growth rate an investment actually delivered between two points in time.</p>
+    <div class="article-body">
+      <p>"My investment doubled in 5 years!" Sounds impressive — until someone else says theirs doubled in 3. To compare them fairly, you need one common yardstick: <strong>CAGR — Compound Annual Growth Rate</strong>. It tells you the smooth yearly growth rate an investment actually delivered between two points in time.</p>
 
-    <h2>The idea in one sentence</h2>
-    <p>CAGR answers: <em>if this investment had grown at a steady rate every year, what would that rate be?</em> Real markets jump around; CAGR flattens that journey into one comparable annual number.</p>
+      <h2>The idea in one sentence</h2>
+      <p>CAGR answers: <em>if this investment had grown at a steady rate every year, what would that rate be?</em> Real markets jump around; CAGR flattens that journey into one comparable annual number.</p>
 
-    <div class="keyfact"><strong>The formula:</strong> CAGR = (Final value ÷ Initial value)<sup>1/years</sup> − 1. Multiply by 100 for a percentage.</div>
+      <div class="keyfact"><strong>The formula:</strong> CAGR = (Final value ÷ Initial value)<sup>1/years</sup> − 1. Multiply by 100 for a percentage.</div>
 
-    <h2>A worked example</h2>
-    <p>You invested ₹1,00,000 and after 5 years it became ₹1,80,000.</p>
-    <ul>
-      <li>1,80,000 ÷ 1,00,000 = 1.8</li>
-      <li>1.8 raised to the power (1 ÷ 5) = 1.1247</li>
-      <li>CAGR = 12.47% per year</li>
-    </ul>
-    <p>So "I made 80% total" and "I made ~12.5% a year" are the same fact — but only the second lets you compare against a fund that grew 65% in 4 years (14.9% CAGR, actually the better one).</p>
+      <h2>A worked example</h2>
+      <p>You invested ₹1,00,000 and after 5 years it became ₹1,80,000.</p>
+      <ul>
+        <li>1,80,000 ÷ 1,00,000 = 1.8</li>
+        <li>1.8 raised to the power (1 ÷ 5) = 1.1247</li>
+        <li>CAGR = 12.47% per year</li>
+      </ul>
+      <p>So "I made 80% total" and "I made ~12.5% a year" are the same fact — but only the second lets you compare against a fund that grew 65% in 4 years (14.9% CAGR, actually the better one).</p>
 
-    <h2>Why total return misleads</h2>
-    <table class="demo">
-      <tr><th>Investment</th><th>Total return</th><th>Period</th><th>CAGR</th></tr>
-      <tr><td>Option A</td><td>80%</td><td>5 years</td><td>12.5%</td></tr>
-      <tr><td>Option B</td><td>65%</td><td>4 years</td><td class="up">13.3%</td></tr>
-      <tr><td>Option C</td><td>100%</td><td>10 years</td><td class="down">7.2%</td></tr>
-    </table>
-    <p>By total return, C looks like the winner. By CAGR — the honest yardstick — it's the slowest. Advertisements love total returns; smart investors check CAGR.</p>
+      <h2>Why total return misleads</h2>
+      <table class="demo">
+        <tr><th>Investment</th><th>Total return</th><th>Period</th><th>CAGR</th></tr>
+        <tr><td>Option A</td><td>80%</td><td>5 years</td><td>12.5%</td></tr>
+        <tr><td>Option B</td><td>65%</td><td>4 years</td><td class="up">13.3%</td></tr>
+        <tr><td>Option C</td><td>100%</td><td>10 years</td><td class="down">7.2%</td></tr>
+      </table>
+      <p>By total return, C looks like the winner. By CAGR — the honest yardstick — it's the slowest. Advertisements love total returns; smart investors check CAGR.</p>
 
-    <h2>Three honest limits of CAGR</h2>
-    <ol>
-      <li><strong>It ignores the journey.</strong> A fund that fell 40% and then recovered can show the same CAGR as a smooth one — same number, very different sleepless nights.</li>
-      <li><strong>It says nothing about future returns.</strong> A 5-star past CAGR is not a promise.</li>
-      <li><strong>It doesn't apply to money added in pieces.</strong> For SIPs (money going in every month), the right measure is called XIRR — CAGR only fits single lump-sum investments.</li>
-    </ol>
+      <h2>Three honest limits of CAGR</h2>
+      <ol>
+        <li><strong>It ignores the journey.</strong> A fund that fell 40% and then recovered can show the same CAGR as a smooth one — same number, very different sleepless nights.</li>
+        <li><strong>It says nothing about future returns.</strong> A 5-star past CAGR is not a promise.</li>
+        <li><strong>It doesn't apply to money added in pieces.</strong> For SIPs (money going in every month), the right measure is called XIRR — CAGR only fits single lump-sum investments.</li>
+      </ol>
 
-    <div class="article-cta">
-      <h3>Want your fund's CAGR checked?</h3>
-      <p>Send the fund name, amount and dates on WhatsApp — questions on any topic covered on this site are answered free.</p>
-      <a class="btn gold" href="https://wa.me/919049547427?text=Hi%20Ram%2C%20please%20help%20me%20check%20a%20fund%27s%20CAGR." target="_blank" rel="noopener">Message Ram on WhatsApp</a>
+      <div class="article-cta">
+        <h3>Want your fund's CAGR checked?</h3>
+        <p>Send the fund name, amount and dates on WhatsApp — questions on any topic covered on this site are answered free.</p>
+        <a class="btn gold" href="https://wa.me/919049547427?text=Hi%20Ram%2C%20please%20help%20me%20check%20a%20fund%27s%20CAGR." target="_blank" rel="noopener">Message Ram on WhatsApp</a>
+      </div>
+
+      <h2>Quick recap</h2>
+      <ol>
+        <li>CAGR = the steady yearly growth rate between two points in time.</li>
+        <li>Always compare investments by CAGR, never by total return.</li>
+        <li>For SIPs ask for XIRR instead.</li>
+        <li>Past CAGR is history, not a forecast.</li>
+      </ol>
+
+      <div class="next-lessons">
+        <h4>Keep reading</h4>
+        <div class="lesson-grid">
+          <div class="lesson">
+            <div class="top"><span class="tag">Mutual Funds</span><span class="read">4 min</span></div>
+            <h3><a href="what-is-sip.html">What is a SIP?</a></h3>
+            <p>The ₹5,000-a-month habit that builds real wealth.</p>
+            <a class="go" href="what-is-sip.html">Read →</a>
+          </div>
+          <div class="lesson">
+            <div class="top"><span class="tag gold">Market Moves</span><span class="read">3 min</span></div>
+            <h3><a href="market-falls-sip.html">Why market falls help SIPs</a></h3>
+            <p>History's lesson for long-term investors.</p>
+            <a class="go" href="market-falls-sip.html">Read →</a>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <h2>Quick recap</h2>
-    <ol>
-      <li>CAGR = the steady yearly growth rate between two points in time.</li>
-      <li>Always compare investments by CAGR, never by total return.</li>
-      <li>For SIPs ask for XIRR instead.</li>
-      <li>Past CAGR is history, not a forecast.</li>
-    </ol>
-
-    <p class="crumbs"><a href="../lessons.html">← See all lessons</a></p>
   </article>
 </div>
 
@@ -83,6 +111,17 @@
     <p class="disclaimer">Asset Rama is an educational website. Views are personal and do not represent any employer. Educational only — not investment advice. Investments carry risk; read all scheme-related documents carefully before investing.</p>
   </div>
 </footer>
+
+<script>
+(function () {
+  var bar = document.getElementById('pbar');
+  window.addEventListener('scroll', function () {
+    var h = document.documentElement;
+    var pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+    bar.style.width = pct + '%';
+  }, { passive: true });
+})();
+</script>
 
 </body>
 </html>

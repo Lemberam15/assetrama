@@ -4,7 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>All Finance Lessons — Asset Rama</title>
-<meta name="description" content="Every Asset Rama finance lesson in one place — SIPs, mutual funds, stock market basics, tax and insurance explained simply for Indian investors.">
+<meta name="description" content="Every Asset Rama finance lesson in one place — SIPs, mutual funds, stock market basics, tax and insurance explained simply for Indian investors. New lesson daily.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23f7c531'/%3E%3Ctext x='32' y='45' font-size='36' text-anchor='middle' font-family='Georgia' font-weight='bold' fill='%231a1300'%3E%E2%82%B9%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -12,12 +16,12 @@
   <div class="container mast">
     <div class="brand">
       <div class="logo">₹</div>
-      <div class="name">ASSET RAMA<span>by Ram Lembe</span></div>
+      <div class="name"><b>ASSET RAMA</b><span>by Ram Lembe</span></div>
     </div>
     <nav class="main">
       <a class="navlink" href="index.html">Home</a>
       <a class="navlink" href="#list">Lessons</a>
-      <a class="navlink" href="index.html#contact">Contact</a>
+      <a class="navlink" href="index.html#about">About</a>
       <a class="btn-wa" href="https://wa.me/919049547427?text=Hi%20Ram%2C%20I%20visited%20Asset%20Rama%20and%20want%20to%20ask%20a%20finance%20question." target="_blank" rel="noopener">WhatsApp Ram</a>
     </nav>
   </div>
@@ -25,42 +29,37 @@
 
 <section>
   <div class="container">
-    <div class="sec-kicker">The library</div>
-    <h2>All lessons</h2>
-    <p class="lead">Short, practical finance lessons in plain English. New lessons are added every day — bookmark this page.</p>
-    <div id="list">
-
-      <div class="article-row">
-        <span class="tag">MUTUAL FUNDS</span>
-        <div>
-          <h3><a href="articles/what-is-sip.html">What is a SIP? The ₹5,000-a-month habit that builds real wealth</a></h3>
-          <p>How a Systematic Investment Plan actually works, what a fall in the market does to your units, and why starting matters more than the amount.</p>
-        </div>
+    <div class="sec-head reveal">
+      <div class="sec-kicker">The library</div>
+      <h2>All lessons</h2>
+      <p>Short, practical finance lessons in plain English. New lessons are added every day — bookmark this page and come back often.</p>
+    </div>
+    <div class="lesson-grid" id="list">
+      <div class="lesson reveal">
+        <div class="top"><span class="tag">Mutual Funds</span><span class="read">4 min read</span></div>
+        <h3><a href="articles/what-is-sip.html">What is a SIP? The ₹5,000-a-month habit that builds real wealth</a></h3>
+        <p>How a Systematic Investment Plan actually works, what a fall in the market does to your units, and why starting matters more than the amount.</p>
+        <a class="go" href="articles/what-is-sip.html">Read the lesson →</a>
       </div>
-
-      <div class="article-row">
-        <span class="tag">BASICS</span>
-        <div>
-          <h3><a href="articles/what-is-cagr.html">What is CAGR? The only honest way to compare two investments</a></h3>
-          <p>Total return hides the truth. CAGR — Compound Annual Growth Rate — is the one number that makes every comparison fair.</p>
-        </div>
+      <div class="lesson reveal">
+        <div class="top"><span class="tag">Basics</span><span class="read">3 min read</span></div>
+        <h3><a href="articles/what-is-cagr.html">What is CAGR? The only honest way to compare two investments</a></h3>
+        <p>Total return hides the truth. CAGR — Compound Annual Growth Rate — is the one number that makes every comparison fair.</p>
+        <a class="go" href="articles/what-is-cagr.html">Read the lesson →</a>
       </div>
-
-      <div class="article-row">
-        <span class="tag gold">MARKET MOVES</span>
-        <div>
-          <h3><a href="articles/market-falls-sip.html">Why market falls are actually good news for SIP investors</a></h3>
-          <p>A 10% fall feels scary. For a running SIP it quietly buys more units at lower prices — the engine of long-term wealth.</p>
-        </div>
+      <div class="lesson reveal">
+        <div class="top"><span class="tag gold">Market Moves</span><span class="read">3 min read</span></div>
+        <h3><a href="articles/market-falls-sip.html">Why market falls are actually good news for SIP investors</a></h3>
+        <p>A 10% fall feels scary. For a running SIP it quietly buys more units at lower prices — the engine of long-term wealth.</p>
+        <a class="go" href="articles/market-falls-sip.html">Read the lesson →</a>
       </div>
-
     </div>
   </div>
 </section>
 
 <section id="contact">
   <div class="container">
-    <div class="lead-box">
+    <div class="lead-box reveal">
       <div class="sec-kicker">Free · No obligation</div>
       <h2>Have a finance question? Ask Ram.</h2>
       <p>Questions on any topic covered on this site are answered free.</p>
@@ -77,6 +76,17 @@
     <p class="disclaimer">Asset Rama is an educational website. Views are personal and do not represent any employer. Educational only — not investment advice. Investments carry risk; read all scheme-related documents carefully before investing.</p>
   </div>
 </footer>
+
+<script>
+(function () {
+  var els = document.querySelectorAll('.reveal');
+  if (!('IntersectionObserver' in window)) { els.forEach(function (e) { e.classList.add('in'); }); return; }
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
+  }, { threshold: 0.12 });
+  els.forEach(function (e) { io.observe(e); });
+})();
+</script>
 
 </body>
 </html>
