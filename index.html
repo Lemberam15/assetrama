@@ -1,198 +1,575 @@
-<!DOCTYPE html>
-<html lang="en-IN">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Asset Rama — Simple Finance Lessons for Indian Investors | SIP, Mutual Funds, Stock Market</title>
-<meta name="description" content="Learn personal finance in plain English — SIPs, mutual funds, stock market basics, tax and insurance made simple for Indian investors. New lesson every day by Ram Lembe.">
-<meta property="og:title" content="Asset Rama — Simple Finance Lessons for Indian Investors">
-<meta property="og:description" content="SIPs, mutual funds, stocks and tax explained in plain English. New lesson every day. Ask your finance question free on WhatsApp.">
-<meta property="og:type" content="website">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23f7c531'/%3E%3Ctext x='32' y='45' font-size='36' text-anchor='middle' font-family='Georgia' font-weight='bold' fill='%231a1300'%3E%E2%82%B9%3C/text%3E%3C/svg%3E">
+<title>Asset Rama</title>
+<meta name="description" content="Plain-English personal finance for Indian investors — SIPs, mutual funds, stock market basics, tax and insurance. New lesson every day by Ram Lembe.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","name":"Asset Rama","description":"Simple finance lessons for Indian investors, by Ram Lembe.","inLanguage":"en-IN"}
-</script>
-</head>
-<body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&family=Source+Sans+3:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ink:#0B1215; --ink-2:#34403F; --muted:#5E6B69;
+  --paper:#FFFFFF; --mist:#F2F5F4; --rule:#D8E0DD;
+  --accent:#0B7A5C; --accent-ink:#FFFFFF; --accent-soft:#E2F0EA;
+  --band:#0B1215; --band-ink:#E9EFED; --band-muted:#9AA8A5; --band-rule:#243034;
+  --display:"Hanken Grotesk",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  --body:"Source Sans 3",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --wrap:1240px;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ink:#E8EEEC; --ink-2:#C3CDCA; --muted:#8E9C99;
+    --paper:#0C1316; --mist:#121C20; --rule:#243135;
+    --accent:#3CC99A; --accent-ink:#06120E; --accent-soft:#12302A;
+    --band:#070C0E; --band-ink:#E8EEEC; --band-muted:#8E9C99; --band-rule:#1D282B;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ink:#E8EEEC; --ink-2:#C3CDCA; --muted:#8E9C99;
+  --paper:#0C1316; --mist:#121C20; --rule:#243135;
+  --accent:#3CC99A; --accent-ink:#06120E; --accent-soft:#12302A;
+  --band:#070C0E; --band-ink:#E8EEEC; --band-muted:#8E9C99; --band-rule:#1D282B;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding-inline:clamp(16px,4vw,40px)}
+h1,h2,h3,h4{font-family:var(--display);margin:0;text-wrap:balance;letter-spacing:-.015em}
+.eyebrow{font-family:var(--mono);font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:500}
+.btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--display);font-weight:600;font-size:15.5px;text-decoration:none;padding:14px 22px;border:1.5px solid var(--ink);color:var(--ink);background:transparent;cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.btn:hover{background:var(--ink);color:var(--paper)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn.primary:hover{filter:brightness(1.08);background:var(--accent);color:var(--accent-ink)}
+.btn .arr{transition:transform .2s}
+.btn:hover .arr{transform:translateX(4px)}
+.link{font-family:var(--display);font-weight:600;font-size:15px;text-decoration:none;display:inline-flex;gap:8px;align-items:center;border-bottom:1.5px solid var(--accent);padding-bottom:2px}
+.link:hover{color:var(--accent)}
 
-<header class="site">
-  <div class="container mast">
-    <div class="brand">
-      <div class="logo">₹</div>
-      <div class="name"><b>ASSET RAMA</b><span>by Ram Lembe</span></div>
+/* Utility bar */
+.util{background:var(--band);color:var(--band-muted);font-size:13px}
+.util .wrap{display:flex;justify-content:space-between;align-items:center;min-height:36px;gap:16px;flex-wrap:wrap}
+.util a{text-decoration:none;color:var(--band-ink)}
+.util .r{display:flex;gap:20px}
+
+/* Nav */
+header.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--paper);border-bottom:1px solid var(--rule)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;min-height:74px;gap:24px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.mark{width:36px;height:36px;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:18px}
+.brand b{font-family:var(--display);font-weight:800;font-size:21px;letter-spacing:-.02em;display:block;line-height:1}
+.brand small{font-size:12px;color:var(--muted);letter-spacing:.02em}
+.menu{display:flex;gap:30px;align-items:center}
+.menu a{text-decoration:none;font-family:var(--display);font-weight:600;font-size:15px;color:var(--ink-2);padding:6px 0;border-bottom:2px solid transparent}
+.menu a:hover{color:var(--ink);border-bottom-color:var(--accent)}
+.menu .btn{padding:10px 18px;font-size:14.5px;color:var(--accent-ink)}
+.burger{display:none;background:none;border:1.5px solid var(--rule);width:44px;height:44px;cursor:pointer;color:var(--ink)}
+@media (max-width:900px){
+  .burger{display:grid;place-items:center}
+  .menu{display:none;position:absolute;left:0;right:0;top:100%;background:var(--paper);flex-direction:column;align-items:stretch;gap:0;border-bottom:1px solid var(--rule);padding:8px clamp(16px,4vw,40px) 20px}
+  .menu.open{display:flex}
+  .menu a{padding:14px 0;border-bottom:1px solid var(--rule)}
+  .menu .btn{margin-top:14px;justify-content:center;border-bottom:1.5px solid var(--accent)}
+  .util .l{display:none}
+}
+
+/* Hero */
+.hero{padding-block:clamp(48px,7vw,96px) clamp(48px,6vw,80px);border-bottom:1px solid var(--rule)}
+.hero .wrap{display:grid;grid-template-columns:1.25fr 1fr;gap:clamp(32px,5vw,72px);align-items:end}
+.hero h1{font-size:clamp(40px,6.2vw,80px);line-height:1.02;font-weight:800;margin-block:18px 24px}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero p.lede{font-size:clamp(18px,1.6vw,21px);color:var(--ink-2);max-width:56ch;margin:0 0 32px}
+.ctas{display:flex;gap:12px;flex-wrap:wrap}
+.feature{border:1px solid var(--rule);background:var(--mist);padding:28px}
+.feature .top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:6px}
+.feature h3{font-size:22px;line-height:1.25;margin-bottom:4px}
+.feature .sub{color:var(--muted);font-size:14.5px;margin:0 0 18px}
+.fig{display:flex;gap:28px;flex-wrap:wrap;margin-bottom:14px}
+.fig div span{display:block;font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.fig div strong{font-family:var(--display);font-size:28px;font-weight:700;font-variant-numeric:tabular-nums}
+.fig div strong.g{color:var(--accent)}
+#heroChart{width:100%;height:auto;display:block}
+.legend{display:flex;gap:18px;font-size:13px;color:var(--muted);margin-top:8px}
+.legend i{display:inline-block;width:10px;height:10px;margin-right:6px;vertical-align:-1px}
+
+/* Stats */
+.stats{border-bottom:1px solid var(--rule)}
+.stats .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.stat{padding:30px 24px 30px 0;border-right:1px solid var(--rule)}
+.stat + .stat{padding-left:24px}
+.stat:last-child{border-right:0}
+.stat strong{font-family:var(--display);font-size:clamp(28px,3vw,40px);font-weight:800;display:block;line-height:1.1}
+.stat span{color:var(--muted);font-size:15px}
+@media (max-width:760px){.stats .wrap{grid-template-columns:1fr 1fr}.stat{padding:22px 16px 22px 0}.stat + .stat{padding-left:16px}.stat:nth-child(2){border-right:0}.stat:nth-child(3){padding-left:0}.stat:nth-child(-n+2){border-bottom:1px solid var(--rule)}}
+
+/* Sections */
+section.block{padding-block:clamp(64px,8vw,112px)}
+.sec-head{display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap;margin-bottom:44px}
+.sec-head h2{font-size:clamp(30px,3.6vw,46px);line-height:1.08;font-weight:800;margin-top:12px;max-width:22ch}
+.sec-head p{color:var(--ink-2);max-width:48ch;margin:0}
+
+/* Topics grid */
+.topics{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--ink)}
+.topic{padding:32px 28px 36px 0;border-right:1px solid var(--rule);display:flex;flex-direction:column;gap:14px;text-decoration:none;transition:background .2s}
+.topic + .topic{padding-left:28px}
+.topic:last-child{border-right:0}
+.topic .code{font-family:var(--mono);font-size:12px;color:var(--muted);letter-spacing:.08em}
+.topic h3{font-size:23px;line-height:1.2}
+.topic p{margin:0;color:var(--ink-2);font-size:16px;flex:1}
+.topic .go{font-family:var(--display);font-weight:600;font-size:14.5px;color:var(--accent)}
+.topic:hover h3{color:var(--accent)}
+@media (max-width:980px){.topics{grid-template-columns:1fr 1fr}.topic:nth-child(2){border-right:0}.topic:nth-child(3){padding-left:0}.topic:nth-child(-n+2){border-bottom:1px solid var(--rule)}}
+@media (max-width:560px){.topics{grid-template-columns:1fr}.topic,.topic + .topic{padding:26px 0;border-right:0;border-bottom:1px solid var(--rule)}}
+
+/* Insights */
+.insights-bg{background:var(--mist);border-block:1px solid var(--rule)}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:28px}
+.chip{font-family:var(--display);font-weight:600;font-size:14px;padding:8px 16px;border:1.5px solid var(--rule);background:var(--paper);color:var(--ink-2);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.card{background:var(--paper);border:1px solid var(--rule);display:flex;flex-direction:column;text-decoration:none;transition:border-color .2s,transform .2s}
+.card:hover{border-color:var(--ink);transform:translateY(-3px)}
+.card .art{aspect-ratio:16/9;max-width:100%;background:var(--band);position:relative;overflow:hidden}
+.card .art svg{position:absolute;inset:0;width:100%;height:100%}
+.card .body{padding:24px 24px 28px;display:flex;flex-direction:column;gap:12px;flex:1}
+.meta{display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.meta .t{color:var(--accent)}
+.card h3{font-size:21px;line-height:1.28}
+.card p{margin:0;color:var(--ink-2);font-size:15.5px;flex:1}
+.card .go{font-family:var(--display);font-weight:600;font-size:14.5px}
+.card:hover .go{color:var(--accent)}
+.all{margin-top:36px}
+@media (max-width:980px){.cards{grid-template-columns:1fr 1fr}}
+@media (max-width:620px){.cards{grid-template-columns:1fr}}
+
+/* Calculator */
+.calc{display:grid;grid-template-columns:1fr 1.15fr;gap:clamp(28px,5vw,72px);align-items:start}
+.calc-intro h2{font-size:clamp(30px,3.6vw,46px);line-height:1.08;font-weight:800;margin-block:12px 18px}
+.calc-intro p{color:var(--ink-2);max-width:46ch}
+.panel{border:1px solid var(--rule);padding:clamp(20px,3vw,34px)}
+.field{margin-bottom:22px}
+.field .row{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px;gap:12px}
+.field label{font-family:var(--display);font-weight:600;font-size:15px}
+.field output{font-family:var(--mono);font-size:15px;font-variant-numeric:tabular-nums;color:var(--accent);font-weight:500}
+input[type=range]{width:100%;accent-color:var(--accent);height:24px}
+.results{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ink);margin-top:8px}
+.results div{padding:18px 12px 4px 0}
+.results div + div{padding-left:14px;border-left:1px solid var(--rule)}
+.results span{display:block;font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.results strong{font-family:var(--display);font-size:clamp(20px,2.2vw,28px);font-weight:700;font-variant-numeric:tabular-nums;display:block;margin-top:4px}
+.results strong.g{color:var(--accent)}
+.bar{display:flex;height:10px;margin-top:22px;background:var(--mist)}
+.bar i{display:block;height:100%}
+.note{font-size:13px;color:var(--muted);margin:14px 0 0}
+@media (max-width:900px){.calc{grid-template-columns:1fr}}
+@media (max-width:460px){.results{grid-template-columns:1fr}.results div + div{padding-left:0;border-left:0;border-top:1px solid var(--rule)}}
+
+/* About */
+.about-band{background:var(--band);color:var(--band-ink)}
+.about{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(32px,6vw,88px);align-items:start}
+.portrait{border:1px solid var(--band-rule);padding:32px;display:flex;flex-direction:column;gap:22px}
+.mono-av{width:96px;height:96px;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:36px}
+.portrait h3{font-size:26px}
+.portrait .role{color:var(--band-muted);font-size:15px;margin-top:2px}
+.portrait dl{margin:0;display:grid;gap:14px;border-top:1px solid var(--band-rule);padding-top:20px}
+.portrait dt{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--band-muted)}
+.portrait dd{margin:2px 0 0;font-size:15.5px}
+.about .eyebrow{color:var(--accent)}
+.about h2{font-size:clamp(28px,3.4vw,44px);line-height:1.12;font-weight:700;margin-block:14px 22px}
+.about p{color:var(--band-muted);font-size:18px;max-width:60ch}
+.principles{list-style:none;padding:0;margin:32px 0 36px;display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--band-rule)}
+.principles li{padding:20px 20px 20px 0;border-bottom:1px solid var(--band-rule)}
+.principles li:nth-child(even){padding-left:20px;border-left:1px solid var(--band-rule)}
+.principles b{font-family:var(--display);display:block;font-size:17px;margin-bottom:4px;color:var(--band-ink)}
+.principles span{color:var(--band-muted);font-size:15px}
+.about-band .btn{border-color:var(--band-ink);color:var(--band-ink)}
+.about-band .btn:hover{background:var(--band-ink);color:var(--band)}
+.about-band .btn.primary{border-color:var(--accent);color:var(--accent-ink)}
+@media (max-width:900px){.about{grid-template-columns:1fr}}
+@media (max-width:560px){.principles{grid-template-columns:1fr}.principles li:nth-child(even){padding-left:0;border-left:0}}
+
+/* Contact */
+.contact{display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(28px,5vw,72px);align-items:start}
+.contact h2{font-size:clamp(32px,4vw,52px);line-height:1.05;font-weight:800;margin-block:12px 18px}
+.contact p{color:var(--ink-2);max-width:50ch}
+.channels{border-top:1px solid var(--ink)}
+.ch{display:grid;grid-template-columns:1fr auto;gap:6px 16px;align-items:center;padding:22px 0;border-bottom:1px solid var(--rule)}
+.ch span{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);grid-column:1/-1}
+.ch strong{font-family:var(--display);font-size:clamp(18px,2vw,22px);font-weight:700;user-select:all;word-break:break-word}
+.ch .acts{display:flex;gap:8px}
+.mini{font-family:var(--display);font-weight:600;font-size:13.5px;padding:8px 14px;border:1.5px solid var(--rule);background:var(--paper);color:var(--ink);text-decoration:none;cursor:pointer;white-space:nowrap}
+.mini:hover{border-color:var(--ink)}
+.mini.acc{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+@media (max-width:900px){.contact{grid-template-columns:1fr}}
+
+/* Footer */
+footer{background:var(--band);color:var(--band-muted);font-size:14.5px}
+.foot{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px;padding-block:64px 44px}
+footer h4{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--band-ink);font-weight:500;margin-bottom:16px}
+footer ul{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+footer a{text-decoration:none;color:var(--band-muted)}
+footer a:hover{color:var(--band-ink)}
+footer .brand b{color:var(--band-ink)}
+footer .brand .mark{background:var(--band-ink);color:var(--band)}
+footer .tag{margin-top:18px;max-width:34ch}
+.legal{border-top:1px solid var(--band-rule);padding-block:26px 34px;font-size:13px;line-height:1.65;display:grid;gap:12px}
+.legal .row{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+@media (max-width:860px){.foot{grid-template-columns:1fr 1fr}.foot > div:first-child{grid-column:1/-1}}
+</style>
+
+<div class="util">
+  <div class="wrap">
+    <span class="l">Financial education for Indian investors · New lesson every day</span>
+    <div class="r">
+      <a href="https://lemberam15.github.io/assetrama/lessons.html" target="_blank" rel="noopener">Lesson library</a>
+      <a href="#contact">Ask a question</a>
     </div>
-    <nav class="main">
-      <a class="navlink" href="lessons.html">Lessons</a>
-      <a class="navlink" href="#topics">Topics</a>
-      <a class="navlink" href="#about">About</a>
-      <a class="navlink" href="#contact">Contact</a>
-      <a class="btn-wa" href="https://wa.me/919049547427?text=Hi%20Ram%2C%20I%20visited%20Asset%20Rama%20and%20want%20to%20ask%20a%20finance%20question." target="_blank" rel="noopener">WhatsApp Ram</a>
+  </div>
+</div>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Asset Rama home">
+      <span class="mark" aria-hidden="true">₹</span>
+      <span><b>Asset Rama</b><small>by Ram Lembe</small></span>
+    </a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+      <svg width="20" height="14" viewBox="0 0 20 14" fill="none" aria-hidden="true"><path d="M0 1h20M0 7h20M0 13h20" stroke="currentColor" stroke-width="2"/></svg>
+    </button>
+    <nav class="menu" id="menu">
+      <a href="#topics">Topics</a>
+      <a href="#insights">Insights</a>
+      <a href="#calculator">SIP Calculator</a>
+      <a href="#about">About</a>
+      <a class="btn primary" href="https://wa.me/919049547427?text=Hi%20Ram%2C%20I%20visited%20Asset%20Rama%20and%20want%20to%20ask%20a%20finance%20question." target="_blank" rel="noopener">Ask Ram — free</a>
     </nav>
   </div>
 </header>
 
-<section class="hero">
-  <div class="container inner">
-    <div class="chip"><span class="dot"></span>New lesson every day</div>
-    <h1>Money made simple.<br><span class="grad">Invest with confidence.</span></h1>
-    <p class="sub">SIPs, mutual funds, the stock market, tax and insurance — explained in plain English for Indian investors. No jargon. No hype. Just lessons you can actually use.</p>
-    <div class="cta-row">
-      <a class="btn primary" href="#lessons">Start Learning</a>
-      <a class="btn gold" href="https://wa.me/919049547427?text=Hi%20Ram%2C%20I%20have%20a%20finance%20question%20for%20you." target="_blank" rel="noopener">Ask a Question — Free</a>
-      <a class="btn ghost" href="lessons.html">All Lessons</a>
-    </div>
-    <div class="stats-strip">
-      <div class="stat"><b>12×</b><span>new lessons weekly</span></div>
-      <div class="stat"><b>100%</b><span>free, always</span></div>
-      <div class="stat"><b>Plain</b><span>simple English</span></div>
-      <div class="stat"><b>India</b><span>₹ examples, IST timing</span></div>
-    </div>
-  </div>
-</section>
-
-<section id="topics">
-  <div class="container">
-    <div class="sec-head reveal">
-      <div class="sec-kicker">What you'll learn</div>
-      <h2>Everything money, topic by topic</h2>
-      <p>Every lesson is written for busy people — short, honest and practical, with Indian examples in rupees.</p>
-    </div>
-    <div class="grid">
-      <div class="card reveal">
-        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M14 7h7v7"/></svg></div>
-        <h3>Mutual Funds & SIPs</h3>
-        <p>How SIPs work, how to compare funds honestly, what NAV really means, and why time in the market beats timing the market.</p>
-        <a class="more" href="lessons.html">Browse lessons →</a>
-      </div>
-      <div class="card reveal">
-        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg></div>
-        <h3>Stock Market Basics</h3>
-        <p>Indices, valuations, dividends and market news — what they actually mean for your money, not traders' jargon.</p>
-        <a class="more" href="lessons.html">Browse lessons →</a>
-      </div>
-      <div class="card reveal">
-        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></div>
-        <h3>Insurance & Protection</h3>
-        <p>Term vs endowment, how much cover you actually need, and the common policies that quietly destroy wealth.</p>
-        <a class="more" href="lessons.html">Browse lessons →</a>
-      </div>
-      <div class="card reveal">
-        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2v20l16-8L4 2z" transform="rotate(90 12 12)"/><path d="M14 3l7 7-7 7" transform="translate(-4 -2)"/></svg></div>
-        <h3>Tax & Money Planning</h3>
-        <p>Old vs new regime, 80C basics, emergency funds and goal planning — keep more of what you earn.</p>
-        <a class="more" href="lessons.html">Browse lessons →</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="lessons">
-  <div class="container">
-    <div class="sec-head center reveal">
-      <div class="sec-kicker">The library</div>
-      <h2>Start with these lessons</h2>
-      <p>The same lessons thousands follow daily on LinkedIn — now searchable, free and always open.</p>
-    </div>
-    <div class="lesson-grid">
-      <div class="lesson reveal">
-        <div class="top"><span class="tag">Mutual Funds</span><span class="read">4 min read</span></div>
-        <h3><a href="articles/what-is-sip.html">What is a SIP? The ₹5,000-a-month habit that builds real wealth</a></h3>
-        <p>How a Systematic Investment Plan actually works, what a market fall does to your units, and why starting matters more than the amount.</p>
-        <a class="go" href="articles/what-is-sip.html">Read the lesson →</a>
-      </div>
-      <div class="lesson reveal">
-        <div class="top"><span class="tag">Basics</span><span class="read">3 min read</span></div>
-        <h3><a href="articles/what-is-cagr.html">What is CAGR? The only honest way to compare two investments</a></h3>
-        <p>"This fund doubled in 5 years" sounds great — until you check the CAGR. Learn the one number that makes every comparison fair.</p>
-        <a class="go" href="articles/what-is-cagr.html">Read the lesson →</a>
-      </div>
-      <div class="lesson reveal">
-        <div class="top"><span class="tag gold">Market Moves</span><span class="read">3 min read</span></div>
-        <h3><a href="articles/market-falls-sip.html">Why market falls are actually good news for SIP investors</a></h3>
-        <p>Every fall in Indian markets looked like a crisis at the time — and every one of them recovered. Here's what history teaches.</p>
-        <a class="go" href="articles/market-falls-sip.html">Read the lesson →</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="about">
-  <div class="container about-split">
-    <div class="avatar-wrap reveal">
-      <div class="avatar">RL</div>
-      <div class="nm">Ram Lembe</div>
-      <div class="rl">Finance educator · India</div>
-    </div>
-    <div class="reveal">
-      <div class="sec-kicker">About</div>
-      <h2 style="font-family:var(--font-display);font-weight:600;font-size:clamp(26px,4vw,38px);line-height:1.16;margin-bottom:16px;">I explain money the way a friend would — over chai, not a spreadsheet.</h2>
-      <p style="color:var(--muted);">I started Asset Rama because most finance content in India is either too complicated or too salesy. Here you get the opposite: short daily lessons in plain English, honest numbers, and zero pressure. When a headline confuses you or a policy salesman overwhelms you, this site — and I — are on your side.</p>
-      <ul class="about-points">
-        <li>Daily lessons on the markets, mutual funds, tax and insurance</li>
-        <li>Every number verified before it's published — no recycled claims</li>
-        <li>Educational only — no selling, no tips, no hidden agenda</li>
-        <li>Your questions answered free on WhatsApp</li>
-      </ul>
-      <a class="btn gold" href="https://wa.me/919049547427?text=Hi%20Ram%2C%20I%20have%20a%20finance%20question." target="_blank" rel="noopener">Message Ram on WhatsApp</a>
-    </div>
-  </div>
-</section>
-
-<section id="contact">
-  <div class="container">
-    <div class="lead-box reveal">
-      <div class="sec-kicker">Free · No obligation</div>
-      <h2>Have a finance question? Ask Ram.</h2>
-      <p>Stuck on a fund, a policy, or a market headline you don't understand? Message on WhatsApp or call directly — questions on any topic covered on this site are answered free.</p>
-      <div class="cta-row">
-        <a class="btn gold" href="https://wa.me/919049547427?text=Hi%20Ram%2C%20I%20have%20a%20finance%20question." target="_blank" rel="noopener">Message on WhatsApp</a>
-        <a class="btn primary" href="tel:+919049547427">Call 90495 47427</a>
-        <a class="btn ghost" href="mailto:lemberam15@gmail.com">Email Ram</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<footer class="site">
-  <div class="container">
-    <div class="cols">
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
       <div>
-        <h4>Asset Rama</h4>
-        <a href="index.html">Home</a>
-        <a href="lessons.html">All Lessons</a>
-        <a href="index.html#topics">Topics</a>
-        <a href="index.html#about">About Ram</a>
+        <div class="eyebrow">Personal finance · India</div>
+        <h1>Money, made simple. <em>Invest with clarity.</em></h1>
+        <p class="lede">SIPs, mutual funds, the stock market, tax and insurance — explained in plain English for Indian investors. No jargon, no hype, no selling. Just lessons you can act on.</p>
+        <div class="ctas">
+          <a class="btn primary" href="#insights">Start learning <span class="arr">→</span></a>
+          <a class="btn" href="https://lemberam15.github.io/assetrama/lessons.html" target="_blank" rel="noopener">Browse all lessons</a>
+        </div>
+      </div>
+      <aside class="feature" aria-label="Featured insight">
+        <div class="top"><span class="eyebrow">Featured insight</span><span class="meta"><span>4 min read</span></span></div>
+        <h3>What ₹5,000 a month becomes in 20 years</h3>
+        <p class="sub">Monthly SIP at an illustrative 12% p.a. return</p>
+        <div class="fig">
+          <div><span>You invest</span><strong>₹12.00 L</strong></div>
+          <div><span>Value after 20 yrs</span><strong class="g">₹49.96 L</strong></div>
+        </div>
+        <svg id="heroChart" viewBox="0 0 400 170" role="img" aria-label="Bar chart: amount invested versus portfolio value, year 1 to year 20"></svg>
+        <div class="legend"><span><i style="background:var(--rule)"></i>Invested</span><span><i style="background:var(--accent)"></i>Portfolio value</span></div>
+        <p style="margin:18px 0 0"><a class="link" href="https://lemberam15.github.io/assetrama/articles/what-is-sip.html" target="_blank" rel="noopener">Read: What is a SIP? →</a></p>
+      </aside>
+    </div>
+  </section>
+
+  <div class="stats">
+    <div class="wrap">
+      <div class="stat"><strong>12×</strong><span>new lessons every week</span></div>
+      <div class="stat"><strong>100%</strong><span>free, always</span></div>
+      <div class="stat"><strong>Plain</strong><span>English, zero jargon</span></div>
+      <div class="stat"><strong>₹ · IST</strong><span>Indian examples &amp; timing</span></div>
+    </div>
+  </div>
+
+  <section class="block" id="topics">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <div class="eyebrow">What you'll learn</div>
+          <h2>Everything money, organised by topic.</h2>
+        </div>
+        <p>Every lesson is written for busy people — short, honest and practical, with Indian examples in rupees.</p>
+      </div>
+      <div class="topics">
+        <a class="topic" href="https://lemberam15.github.io/assetrama/lessons.html" target="_blank" rel="noopener">
+          <span class="code">MF · SIP</span>
+          <h3>Mutual Funds &amp; SIPs</h3>
+          <p>How SIPs work, how to compare funds honestly, what NAV really means, and why time in the market beats timing the market.</p>
+          <span class="go">Explore lessons →</span>
+        </a>
+        <a class="topic" href="https://lemberam15.github.io/assetrama/lessons.html" target="_blank" rel="noopener">
+          <span class="code">NIFTY · SENSEX</span>
+          <h3>Stock Market Basics</h3>
+          <p>Indices, valuations, dividends and market news — what they actually mean for your money, not traders' jargon.</p>
+          <span class="go">Explore lessons →</span>
+        </a>
+        <a class="topic" href="https://lemberam15.github.io/assetrama/lessons.html" target="_blank" rel="noopener">
+          <span class="code">TERM · HEALTH</span>
+          <h3>Insurance &amp; Protection</h3>
+          <p>Term vs endowment, how much cover you actually need, and the common policies that quietly destroy wealth.</p>
+          <span class="go">Explore lessons →</span>
+        </a>
+        <a class="topic" href="https://lemberam15.github.io/assetrama/lessons.html" target="_blank" rel="noopener">
+          <span class="code">80C · REGIME</span>
+          <h3>Tax &amp; Money Planning</h3>
+          <p>Old vs new regime, 80C basics, emergency funds and goal planning — keep more of what you earn.</p>
+          <span class="go">Explore lessons →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="block insights-bg" id="insights">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <div class="eyebrow">Latest insights</div>
+          <h2>Start with these lessons.</h2>
+        </div>
+        <p>The same lessons thousands follow daily on LinkedIn — now searchable, free and always open.</p>
+      </div>
+      <div class="filters" role="group" aria-label="Filter lessons by topic">
+        <button class="chip" id="f-all" data-f="all" aria-pressed="true">All</button>
+        <button class="chip" id="f-mf" data-f="mf" aria-pressed="false">Mutual Funds</button>
+        <button class="chip" id="f-basics" data-f="basics" aria-pressed="false">Basics</button>
+        <button class="chip" id="f-market" data-f="market" aria-pressed="false">Market Moves</button>
+      </div>
+      <div class="cards">
+        <a class="card" data-cat="mf" href="https://lemberam15.github.io/assetrama/articles/what-is-sip.html" target="_blank" rel="noopener">
+          <div class="art" aria-hidden="true">
+            <svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice"><g fill="#3CC99A"><rect x="30" y="140" width="18" height="20"/><rect x="58" y="132" width="18" height="28"/><rect x="86" y="122" width="18" height="38"/><rect x="114" y="110" width="18" height="50"/><rect x="142" y="96" width="18" height="64"/><rect x="170" y="80" width="18" height="80"/><rect x="198" y="62" width="18" height="98"/><rect x="226" y="42" width="18" height="118"/><rect x="254" y="20" width="18" height="140"/></g><text x="30" y="40" fill="#E8EEEC" font-family="IBM Plex Mono,monospace" font-size="13" letter-spacing="1">₹5,000 / MONTH</text></svg>
+          </div>
+          <div class="body">
+            <div class="meta"><span class="t">Mutual Funds</span><span>4 min read</span></div>
+            <h3>What is a SIP? The ₹5,000-a-month habit that builds real wealth</h3>
+            <p>How a Systematic Investment Plan actually works, what a market fall does to your units, and why starting matters more than the amount.</p>
+            <span class="go">Read the lesson →</span>
+          </div>
+        </a>
+        <a class="card" data-cat="basics" href="https://lemberam15.github.io/assetrama/articles/what-is-cagr.html" target="_blank" rel="noopener">
+          <div class="art" aria-hidden="true">
+            <svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice"><path d="M20 150 C 110 140, 190 110, 300 30" stroke="#3CC99A" stroke-width="3" fill="none"/><path d="M20 150 L 300 30" stroke="#5E6B69" stroke-width="1.5" stroke-dasharray="5 6" fill="none"/><circle cx="300" cy="30" r="6" fill="#3CC99A"/><text x="24" y="40" fill="#E8EEEC" font-family="IBM Plex Mono,monospace" font-size="13" letter-spacing="1">(END/START)^(1/N) − 1</text></svg>
+          </div>
+          <div class="body">
+            <div class="meta"><span class="t">Basics</span><span>3 min read</span></div>
+            <h3>What is CAGR? The only honest way to compare two investments</h3>
+            <p>"This fund doubled in 5 years" sounds great — until you check the CAGR. Learn the one number that makes every comparison fair.</p>
+            <span class="go">Read the lesson →</span>
+          </div>
+        </a>
+        <a class="card" data-cat="market" href="https://lemberam15.github.io/assetrama/articles/market-falls-sip.html" target="_blank" rel="noopener">
+          <div class="art" aria-hidden="true">
+            <svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice"><polyline points="20,120 60,100 95,110 125,70 150,135 180,95 215,80 245,120 270,60 300,40" stroke="#3CC99A" stroke-width="3" fill="none" stroke-linejoin="round"/><circle cx="150" cy="135" r="6" fill="#E8EEEC"/><circle cx="245" cy="120" r="6" fill="#E8EEEC"/><text x="24" y="40" fill="#E8EEEC" font-family="IBM Plex Mono,monospace" font-size="13" letter-spacing="1">FALLS = MORE UNITS</text></svg>
+          </div>
+          <div class="body">
+            <div class="meta"><span class="t">Market Moves</span><span>3 min read</span></div>
+            <h3>Why market falls are actually good news for SIP investors</h3>
+            <p>Every fall in Indian markets looked like a crisis at the time — and every one of them recovered. Here's what history teaches.</p>
+            <span class="go">Read the lesson →</span>
+          </div>
+        </a>
+      </div>
+      <div class="all"><a class="btn" href="https://lemberam15.github.io/assetrama/lessons.html" target="_blank" rel="noopener">View the full lesson library <span class="arr">→</span></a></div>
+    </div>
+  </section>
+
+  <section class="block" id="calculator">
+    <div class="wrap calc">
+      <div class="calc-intro">
+        <div class="eyebrow">Tool · SIP calculator</div>
+        <h2>See what your monthly SIP could grow into.</h2>
+        <p>Move the sliders to see how the amount, the return and — above all — the time you stay invested change the outcome. Notice how much of the final value is growth, not your own money.</p>
+        <p style="margin-top:24px"><a class="link" href="https://lemberam15.github.io/assetrama/articles/what-is-cagr.html" target="_blank" rel="noopener">Why the return rate matters: read about CAGR →</a></p>
+      </div>
+      <div class="panel">
+        <div class="field">
+          <div class="row"><label for="amt">Monthly investment</label><output id="amtOut" for="amt">₹5,000</output></div>
+          <input type="range" id="amt" min="500" max="100000" step="500" value="5000">
+        </div>
+        <div class="field">
+          <div class="row"><label for="rate">Expected return (p.a.)</label><output id="rateOut" for="rate">12%</output></div>
+          <input type="range" id="rate" min="4" max="18" step="0.5" value="12">
+        </div>
+        <div class="field">
+          <div class="row"><label for="yrs">Time period</label><output id="yrsOut" for="yrs">20 years</output></div>
+          <input type="range" id="yrs" min="1" max="40" step="1" value="20">
+        </div>
+        <div class="results" aria-live="polite">
+          <div><span>Invested</span><strong id="rInv">₹12.00 L</strong></div>
+          <div><span>Est. growth</span><strong id="rGain">₹37.96 L</strong></div>
+          <div><span>Total value</span><strong class="g" id="rTot">₹49.96 L</strong></div>
+        </div>
+        <div class="bar" aria-hidden="true"><i id="bInv" style="background:var(--ink-2);width:24%"></i><i id="bGain" style="background:var(--accent);width:76%"></i></div>
+        <p class="note">Illustration only. Assumes a constant return compounded monthly; real market returns vary year to year and are not guaranteed.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="block about-band" id="about">
+    <div class="wrap about">
+      <div class="portrait">
+        <div class="mono-av" aria-hidden="true">RL</div>
+        <div>
+          <h3>Ram Lembe</h3>
+          <div class="role">Finance educator · India</div>
+        </div>
+        <dl>
+          <div><dt>Covers</dt><dd>Mutual funds, SIPs, markets, tax, insurance</dd></div>
+          <div><dt>Publishes</dt><dd>A new lesson every day</dd></div>
+          <div><dt>Questions</dt><dd>Answered free on WhatsApp</dd></div>
+        </dl>
+      </div>
+      <div>
+        <div class="eyebrow">About Asset Rama</div>
+        <h2>I explain money the way a friend would — over chai, not a spreadsheet.</h2>
+        <p>I started Asset Rama because most finance content in India is either too complicated or too salesy. Here you get the opposite: short daily lessons in plain English, honest numbers and zero pressure. When a headline confuses you or a policy salesman overwhelms you, this site — and I — are on your side.</p>
+        <ul class="principles">
+          <li><b>Daily lessons</b><span>Markets, mutual funds, tax and insurance — one lesson a day.</span></li>
+          <li><b>Verified numbers</b><span>Every figure checked before it's published. No recycled claims.</span></li>
+          <li><b>Education only</b><span>No selling, no tips, no hidden agenda.</span></li>
+          <li><b>Free answers</b><span>Your questions answered personally on WhatsApp.</span></li>
+        </ul>
+        <div class="ctas">
+          <a class="btn primary" href="https://wa.me/919049547427?text=Hi%20Ram%2C%20I%20have%20a%20finance%20question." target="_blank" rel="noopener">Message Ram on WhatsApp <span class="arr">→</span></a>
+          <a class="btn" href="https://lemberam15.github.io/assetrama/lessons.html" target="_blank" rel="noopener">Read the lessons</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="contact">
+    <div class="wrap contact">
+      <div>
+        <div class="eyebrow">Free · No obligation</div>
+        <h2>Have a finance question? Ask Ram.</h2>
+        <p>Stuck on a fund, a policy, or a market headline you don't understand? Message on WhatsApp or call directly — questions on any topic covered on this site are answered free.</p>
+      </div>
+      <div class="channels">
+        <div class="ch">
+          <span>WhatsApp</span>
+          <strong>+91 90495 47427</strong>
+          <div class="acts"><a class="mini acc" href="https://wa.me/919049547427?text=Hi%20Ram%2C%20I%20have%20a%20finance%20question." target="_blank" rel="noopener">Open chat</a></div>
+        </div>
+        <div class="ch">
+          <span>Phone</span>
+          <strong>90495 47427</strong>
+          <div class="acts"><button class="mini" data-copy="+919049547427" id="copyPhone">Copy</button><a class="mini" href="tel:+919049547427">Call</a></div>
+        </div>
+        <div class="ch">
+          <span>Email</span>
+          <strong>lemberam15@gmail.com</strong>
+          <div class="acts"><button class="mini" data-copy="lemberam15@gmail.com" id="copyEmail">Copy</button><a class="mini" href="mailto:lemberam15@gmail.com">Email</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a class="brand" href="#top"><span class="mark" aria-hidden="true">₹</span><span><b>Asset Rama</b></span></a>
+        <p class="tag">Plain-English personal finance for Indian investors. A new lesson every day.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="https://lemberam15.github.io/assetrama/lessons.html" target="_blank" rel="noopener">All lessons</a></li>
+          <li><a href="#topics">Topics</a></li>
+          <li><a href="#calculator">SIP calculator</a></li>
+          <li><a href="#about">About Ram</a></li>
+        </ul>
       </div>
       <div>
         <h4>Popular lessons</h4>
-        <a href="articles/what-is-sip.html">What is a SIP?</a>
-        <a href="articles/what-is-cagr.html">What is CAGR?</a>
-        <a href="articles/market-falls-sip.html">Market falls & SIPs</a>
+        <ul>
+          <li><a href="https://lemberam15.github.io/assetrama/articles/what-is-sip.html" target="_blank" rel="noopener">What is a SIP?</a></li>
+          <li><a href="https://lemberam15.github.io/assetrama/articles/what-is-cagr.html" target="_blank" rel="noopener">What is CAGR?</a></li>
+          <li><a href="https://lemberam15.github.io/assetrama/articles/market-falls-sip.html" target="_blank" rel="noopener">Market falls &amp; SIPs</a></li>
+        </ul>
       </div>
       <div>
         <h4>Contact</h4>
-        <a href="https://wa.me/919049547427" target="_blank" rel="noopener">WhatsApp</a>
-        <a href="tel:+919049547427">90495 47427</a>
-        <a href="mailto:lemberam15@gmail.com">lemberam15@gmail.com</a>
+        <ul>
+          <li><a href="https://wa.me/919049547427" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li>90495 47427</li>
+          <li>lemberam15@gmail.com</li>
+        </ul>
       </div>
     </div>
-    <p class="disclaimer">Asset Rama is an educational website. Views are personal and do not represent any employer. Educational only — not investment advice. Investments carry risk; read all scheme-related documents carefully before investing. Mutual fund investments are subject to market risks.</p>
+    <div class="legal">
+      <p style="margin:0">Asset Rama is an educational website. Views are personal and do not represent any employer. Educational only — not investment advice. Investments carry risk; read all scheme-related documents carefully before investing. Mutual fund investments are subject to market risks.</p>
+      <div class="row"><span>© <span id="yr">2026</span> Asset Rama · Ram Lembe</span><span>Made in India</span></div>
+    </div>
   </div>
 </footer>
 
 <script>
-(function () {
-  var els = document.querySelectorAll('.reveal');
-  if (!('IntersectionObserver' in window)) { els.forEach(function (e) { e.classList.add('in'); }); return; }
-  var io = new IntersectionObserver(function (entries) {
-    entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
-  }, { threshold: 0.12 });
-  els.forEach(function (e) { io.observe(e); });
+(function(){
+  // Mobile menu
+  var b=document.getElementById('burger'),m=document.getElementById('menu');
+  b.addEventListener('click',function(){var o=m.classList.toggle('open');b.setAttribute('aria-expanded',o)});
+  m.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){m.classList.remove('open');b.setAttribute('aria-expanded','false')})});
+  document.getElementById('yr').textContent=new Date().getFullYear();
+
+  // Formatting in lakh / crore
+  function inr(v){
+    if(v>=1e7) return '₹'+(v/1e7).toFixed(2)+' Cr';
+    if(v>=1e5) return '₹'+(v/1e5).toFixed(2)+' L';
+    return '₹'+Math.round(v).toLocaleString('en-IN');
+  }
+  function fv(p,r,y){var i=r/1200,n=y*12;return p*((Math.pow(1+i,n)-1)/i)*(1+i)}
+
+  // Hero chart: invested vs value, years 1..20
+  var svg=document.getElementById('heroChart'),NS='http://www.w3.org/2000/svg';
+  var W=400,H=170,pl=4,pb=18,pt=6,max=fv(5000,12,20),bw=(W-pl*2)/20;
+  function el(t,a){var e=document.createElementNS(NS,t);for(var k in a)e.setAttribute(k,a[k]);return e}
+  for(var y=1;y<=20;y++){
+    var inv=5000*12*y,val=fv(5000,12,y),x=pl+(y-1)*bw;
+    var hv=(val/max)*(H-pb-pt),hi=(inv/max)*(H-pb-pt);
+    svg.appendChild(el('rect',{x:x+2,y:H-pb-hv,width:bw-4,height:hv,fill:'var(--accent)'}));
+    svg.appendChild(el('rect',{x:x+2,y:H-pb-hi,width:bw-4,height:hi,fill:'var(--rule)'}));
+    if(y===1||y===10||y===20){
+      var t=el('text',{x:x+bw/2,y:H-4,'text-anchor':'middle','font-size':'10','font-family':'IBM Plex Mono,monospace',fill:'var(--muted)'});
+      t.textContent='Yr '+y;svg.appendChild(t);
+    }
+  }
+
+  // Calculator
+  var A=document.getElementById('amt'),R=document.getElementById('rate'),Y=document.getElementById('yrs');
+  function calc(){
+    var p=+A.value,r=+R.value,y=+Y.value,tot=fv(p,r,y),inv=p*12*y,g=tot-inv;
+    document.getElementById('amtOut').textContent='₹'+p.toLocaleString('en-IN');
+    document.getElementById('rateOut').textContent=r+'%';
+    document.getElementById('yrsOut').textContent=y+(y===1?' year':' years');
+    document.getElementById('rInv').textContent=inr(inv);
+    document.getElementById('rGain').textContent=inr(g);
+    document.getElementById('rTot').textContent=inr(tot);
+    var pi=inv/tot*100;
+    document.getElementById('bInv').style.width=pi+'%';
+    document.getElementById('bGain').style.width=(100-pi)+'%';
+  }
+  [A,R,Y].forEach(function(e){e.addEventListener('input',calc)});calc();
+
+  // Lesson filters
+  var chips=document.querySelectorAll('.chip'),cards=document.querySelectorAll('.card');
+  chips.forEach(function(c){c.addEventListener('click',function(){
+    chips.forEach(function(x){x.setAttribute('aria-pressed',x===c)});
+    var f=c.dataset.f;cards.forEach(function(k){k.hidden=!(f==='all'||k.dataset.cat===f)});
+  })});
+
+  // Copy buttons
+  document.querySelectorAll('[data-copy]').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var v=btn.dataset.copy,old=btn.textContent;
+      function done(){btn.textContent='Copied';setTimeout(function(){btn.textContent=old},1600)}
+      if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(v).then(done,function(){sel(btn)})}else sel(btn);
+    });
+  });
+  function sel(btn){var s=btn.closest('.ch').querySelector('strong'),r=document.createRange();r.selectNodeContents(s);var w=getSelection();w.removeAllRanges();w.addRange(r)}
 })();
 </script>
-
-</body>
-</html>
