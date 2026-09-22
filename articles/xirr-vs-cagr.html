@@ -3,25 +3,27 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Asset Rama — SIP, Mutual Funds &amp; Investing Explained Simply for Indians</title>
-<meta name="description" content="Learn personal finance in plain English — SIPs, mutual funds, stock market basics, tax and insurance made simple for Indian investors. Free SIP calculator and a new lesson every day by Ram Lembe.">
+<title>XIRR vs CAGR: Which Return Number to Trust | Asset Rama</title>
+<meta name="description" content="XIRR vs CAGR explained in plain English: why SIP returns need XIRR, how it works, and the honest way to compare two investments.">
 <meta name="robots" content="index, follow, max-image-preview:large">
-<link rel="canonical" href="https://lemberam15.github.io/assetrama/">
+<link rel="canonical" href="https://lemberam15.github.io/assetrama/articles/xirr-vs-cagr.html">
 <meta name="author" content="Ram Lembe">
 <meta name="theme-color" content="#0A1114">
 <meta property="og:site_name" content="Asset Rama">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Asset Rama — SIP, Mutual Funds &amp; Investing Explained Simply for Indians">
-<meta property="og:description" content="Learn personal finance in plain English — SIPs, mutual funds, stock market basics, tax and insurance made simple for Indian investors. Free SIP calculator and a new lesson every day by Ram Lembe.">
-<meta property="og:url" content="https://lemberam15.github.io/assetrama/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="XIRR vs CAGR: Which Return Number to Trust | Asset Rama">
+<meta property="og:description" content="XIRR vs CAGR explained in plain English: why SIP returns need XIRR, how it works, and the honest way to compare two investments.">
+<meta property="og:url" content="https://lemberam15.github.io/assetrama/articles/xirr-vs-cagr.html">
 <meta property="og:image" content="https://lemberam15.github.io/assetrama/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Asset Rama — SIP, Mutual Funds &amp; Investing Explained Simply for Indians">
-<meta name="twitter:description" content="Learn personal finance in plain English — SIPs, mutual funds, stock market basics, tax and insurance made simple for Indian investors. Free SIP calculator and a new lesson every day by Ram Lembe.">
+<meta name="twitter:title" content="XIRR vs CAGR: Which Return Number to Trust | Asset Rama">
+<meta name="twitter:description" content="XIRR vs CAGR explained in plain English: why SIP returns need XIRR, how it works, and the honest way to compare two investments.">
 <meta name="twitter:image" content="https://lemberam15.github.io/assetrama/og-image.png">
+<meta property="article:published_time" content="2026-09-22">
+<meta property="article:section" content="Mutual Funds">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%233CC99A'/%3E%3Ctext x='32' y='46' font-size='40' text-anchor='middle' font-family='Arial' font-weight='bold' fill='%2304120D'%3E%E2%82%B9%3C/text%3E%3C/svg%3E">
 <link rel="apple-touch-icon" href="https://lemberam15.github.io/assetrama/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -216,7 +218,7 @@ svg .g-stop{stop-color:var(--c-line)}
 @media (max-width:640px){.insights,.cards{grid-template-columns:minmax(0,1fr)}}
 
 /* topics */
-.topics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.topics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
 .topic{display:flex;flex-direction:column;gap:14px;padding:30px 26px 28px;border:1px solid var(--rule);background:var(--paper);text-decoration:none;color:var(--ink);transition:background .25s,color .25s,border-color .25s}
 .topic .ico{width:44px;height:44px;color:var(--accent);transition:color .25s}
 .topic .code{font-family:var(--mono);font-size:12px;letter-spacing:.08em;color:var(--muted);transition:color .25s}
@@ -424,158 +426,78 @@ footer.site .tag{margin-top:16px;max-width:36ch;line-height:1.6}
 .legal .row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px}
 @media (max-width:860px){.foot{grid-template-columns:repeat(2,minmax(0,1fr))}.foot>div:first-child{grid-column:1/-1}}
 </style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://lemberam15.github.io/assetrama/#site", "name": "Asset Rama", "url": "https://lemberam15.github.io/assetrama/", "inLanguage": "en-IN", "publisher": {"@id": "https://lemberam15.github.io/assetrama/#org"}, "description": "Plain-English lessons on SIPs, mutual funds, the stock market, tax and insurance for Indian investors."}, {"@type": "Organization", "@id": "https://lemberam15.github.io/assetrama/#org", "name": "Asset Rama", "url": "https://lemberam15.github.io/assetrama/", "logo": {"@type": "ImageObject", "url": "https://lemberam15.github.io/assetrama/logo.png", "width": 512, "height": 512}, "email": "lemberam15@gmail.com", "telephone": "+91-90495-47427"}, {"@type": "Person", "@id": "https://lemberam15.github.io/assetrama/about.html#ram", "name": "Ram Lembe", "url": "https://lemberam15.github.io/assetrama/about.html", "jobTitle": "Finance educator", "worksFor": {"@id": "https://lemberam15.github.io/assetrama/#org"}, "knowsAbout": ["SIP", "Mutual funds", "Stock market", "Personal finance", "Income tax", "Insurance"]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "XIRR vs CAGR: one number per job", "description": "XIRR vs CAGR explained in plain English: why SIP returns need XIRR, how it works, and the honest way to compare two investments.", "image": "https://lemberam15.github.io/assetrama/og-image.png", "datePublished": "2026-09-23", "dateModified": "2026-09-23", "inLanguage": "en-IN", "mainEntityOfPage": "https://lemberam15.github.io/assetrama/articles/xirr-vs-cagr.html", "articleSection": "Mutual Funds", "author": {"@type": "Person", "name": "Ram Lembe", "url": "https://lemberam15.github.io/assetrama/about.html"}, "publisher": {"@type": "Organization", "name": "Asset Rama", "url": "https://lemberam15.github.io/assetrama/", "logo": {"@type": "ImageObject", "url": "https://lemberam15.github.io/assetrama/logo.png"}}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://lemberam15.github.io/assetrama/"}, {"@type": "ListItem", "position": 2, "name": "Lessons", "item": "https://lemberam15.github.io/assetrama/lessons.html"}, {"@type": "ListItem", "position": 3, "name": "XIRR vs CAGR: one number per job", "item": "https://lemberam15.github.io/assetrama/articles/xirr-vs-cagr.html"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is XIRR in simple words?", "acceptedAnswer": {"@type": "Answer", "text": "XIRR is the yearly growth rate that makes a series of dated cash flows - like monthly SIP instalments plus today's value - mathematically add up. It is the correct return figure for SIPs, top-ups and withdrawals."}}, {"@type": "Question", "name": "Why can't I use CAGR for a SIP?", "acceptedAnswer": {"@type": "Answer", "text": "CAGR assumes one investment held the whole period. In a SIP, each instalment has been invested for a different length of time, so a single two-point calculation misprices most of the money."}}, {"@type": "Question", "name": "Which is higher, XIRR or CAGR?", "acceptedAnswer": {"@type": "Answer", "text": "Neither leads by definition - XIRR accounts for the timing of every rupee while CAGR uses only endpoints. On the same money they can differ meaningfully in either direction."}}, {"@type": "Question", "name": "Where do I find my SIP's XIRR?", "acceptedAnswer": {"@type": "Answer", "text": "Most broker and fund-house apps show it as the investment's return. In a spreadsheet, use the XIRR() function with dates, amounts (instalments negative) and the current value as the final positive entry."}}]}</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
+<div class="progress" id="pbar"></div>
 <div class="util"><div class="wrap">
   <span class="l">Financial education for Indian investors · New lesson every day</span>
-  <div class="r"><a href="lessons.html">Lesson library</a><a href="news.html">Market news</a><a href="sip-calculator.html">SIP calculator</a></div>
+  <div class="r"><a href="../lessons.html">Lesson library</a><a href="../news.html">Market news</a><a href="../sip-calculator.html">SIP calculator</a></div>
 </div></div>
 <header class="nav"><div class="wrap">
-  <a class="brand" href="index.html" aria-label="Asset Rama home"><span class="mark" aria-hidden="true">₹</span><span><b>Asset Rama</b><small>by Ram Lembe</small></span></a>
+  <a class="brand" href="../index.html" aria-label="Asset Rama home"><span class="mark" aria-hidden="true">₹</span><span><b>Asset Rama</b><small>by Ram Lembe</small></span></a>
   <button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><svg width="20" height="14" viewBox="0 0 20 14" fill="none" aria-hidden="true"><path d="M0 1h20M0 7h20M0 13h20" stroke="currentColor" stroke-width="2"/></svg></button>
   <nav class="menu" id="menu" aria-label="Main">
-    <a href="lessons.html">Lessons</a><a href="news.html">Market News</a>
-    <a href="sip-calculator.html">SIP Calculator</a><a href="search.html">Search</a>
-    <a href="about.html">About</a>
-    <a href="index.html#contact">Contact</a>
+    <a href="../lessons.html" aria-current="page">Lessons</a>
+    <a href="../sip-calculator.html">SIP Calculator</a><a href="../search.html">Search</a>
+    <a href="../about.html">About</a>
+    <a href="../index.html#contact">Contact</a>
     <a class="btn primary" href="https://wa.me/919049547427?text=Hi%20Ram%2C%20I%20visited%20Asset%20Rama%20and%20want%20to%20ask%20a%20finance%20question." target="_blank" rel="noopener">Ask Ram — free</a>
   </nav>
 </div></header>
 <main id="main">
-<section class="hero on-dark pattern"><div class="wrap">
-  <div class="hero-grid">
-    <div>
-      <div class="eyebrow">Personal finance for Indian investors</div>
-      <h1>Money, made simple. <em>Invest with clarity.</em></h1>
-      <p class="lede">SIPs, mutual funds, the stock market, tax and insurance — explained in plain English for Indian investors. No jargon, no hype, no selling. Just lessons you can act on.</p>
-      <div class="ctas"><a class="btn primary" href="lessons.html">Start learning <span class="arr">→</span></a><a class="btn light" href="sip-calculator.html">Try the SIP calculator</a></div>
-    </div>
-    <figure class="hero-art">
-      <div class="art-head"><h2>What ₹5,000 a month can become</h2><span class="tagm">SIP · 12% p.a.</span></div>
-      <div class="kpis"><div><span>You put in over 30 yrs</span><strong>₹18 L</strong></div><div><span>Could grow to</span><strong class="g">₹1.76 Cr</strong></div></div>
-      <svg class="wide" viewBox="0 0 480 300" role="img" aria-label="Line chart: a ₹5,000 monthly SIP at 12% a year grows to about ₹11.6 lakh after 10 years, ₹50 lakh after 20 years and ₹1.76 crore after 30 years, while the money put in is ₹18 lakh."><defs><linearGradient id="fill-hero" x1="0" y1="0" x2="0" y2="1"><stop offset="0" class="g-stop" stop-opacity=".34"/><stop offset="1" class="g-stop" stop-opacity="0"/></linearGradient></defs><line class="g-grid" x1="80" x2="454" y1="266.0" y2="266.0"/><text class="g-axis" x="70" y="270.0" text-anchor="end">₹0</text><line class="g-grid" x1="80" x2="454" y1="204.5" y2="204.5"/><text class="g-axis" x="70" y="208.5" text-anchor="end">₹50 L</text><line class="g-grid" x1="80" x2="454" y1="143.0" y2="143.0"/><text class="g-axis" x="70" y="147.0" text-anchor="end">₹1 Cr</text><line class="g-grid" x1="80" x2="454" y1="81.5" y2="81.5"/><text class="g-axis" x="70" y="85.5" text-anchor="end">₹1.5 Cr</text><line class="g-grid" x1="80" x2="454" y1="20.0" y2="20.0"/><text class="g-axis" x="70" y="24.0" text-anchor="end">₹2 Cr</text><text class="g-axis" x="80.0" y="290" text-anchor="middle">Start</text><text class="g-axis" x="142.3" y="290" text-anchor="middle">Yr 5</text><text class="g-axis" x="204.7" y="290" text-anchor="middle">Yr 10</text><text class="g-axis" x="267.0" y="290" text-anchor="middle">Yr 15</text><text class="g-axis" x="329.3" y="290" text-anchor="middle">Yr 20</text><text class="g-axis" x="391.7" y="290" text-anchor="middle">Yr 25</text><text class="g-axis" x="454.0" y="290" text-anchor="middle">Yr 30</text><path d="M80.0,266.0 L92.5,265.2 L104.9,264.3 L117.4,263.3 L129.9,262.2 L142.3,260.9 L154.8,259.5 L167.3,257.9 L179.7,256.1 L192.2,254.0 L204.7,251.7 L217.1,249.1 L229.6,246.2 L242.1,242.9 L254.5,239.2 L267.0,235.0 L279.5,230.2 L291.9,224.9 L304.4,218.9 L316.9,212.2 L329.3,204.6 L341.8,196.0 L354.3,186.3 L366.7,175.4 L379.2,163.1 L391.7,149.3 L404.1,133.7 L416.6,116.1 L429.1,96.3 L441.5,74.0 L454.0,48.9 L454.0,266.0 L80.0,266.0 Z" fill="url(#fill-hero)"/><path class="g-inv" d="M80.0,266.0 L92.5,265.3 L104.9,264.5 L117.4,263.8 L129.9,263.0 L142.3,262.3 L154.8,261.6 L167.3,260.8 L179.7,260.1 L192.2,259.4 L204.7,258.6 L217.1,257.9 L229.6,257.1 L242.1,256.4 L254.5,255.7 L267.0,254.9 L279.5,254.2 L291.9,253.5 L304.4,252.7 L316.9,252.0 L329.3,251.2 L341.8,250.5 L354.3,249.8 L366.7,249.0 L379.2,248.3 L391.7,247.6 L404.1,246.8 L416.6,246.1 L429.1,245.3 L441.5,244.6 L454.0,243.9"/><path class="g-line" d="M80.0,266.0 L92.5,265.2 L104.9,264.3 L117.4,263.3 L129.9,262.2 L142.3,260.9 L154.8,259.5 L167.3,257.9 L179.7,256.1 L192.2,254.0 L204.7,251.7 L217.1,249.1 L229.6,246.2 L242.1,242.9 L254.5,239.2 L267.0,235.0 L279.5,230.2 L291.9,224.9 L304.4,218.9 L316.9,212.2 L329.3,204.6 L341.8,196.0 L354.3,186.3 L366.7,175.4 L379.2,163.1 L391.7,149.3 L404.1,133.7 L416.6,116.1 L429.1,96.3 L441.5,74.0 L454.0,48.9"/><circle class="g-halo" cx="204.7" cy="251.7" r="6"/><text class="g-lab" x="204.7" y="235.7" text-anchor="middle">₹11.6 L</text><circle class="g-halo" cx="329.3" cy="204.6" r="6"/><text class="g-lab" x="325.3" y="186.6" text-anchor="end">₹50.0 L</text><circle class="g-halo" cx="454.0" cy="48.9" r="6"/><text class="g-lab" x="440.0" y="54.9" text-anchor="end">₹1.76 Cr</text><text class="g-sub" x="450.0" y="233.9" text-anchor="end">₹18 L PUT IN</text><circle class="g-dot" r="4"><animateMotion dur="9s" repeatCount="indefinite" path="M80.0,266.0 L92.5,265.2 L104.9,264.3 L117.4,263.3 L129.9,262.2 L142.3,260.9 L154.8,259.5 L167.3,257.9 L179.7,256.1 L192.2,254.0 L204.7,251.7 L217.1,249.1 L229.6,246.2 L242.1,242.9 L254.5,239.2 L267.0,235.0 L279.5,230.2 L291.9,224.9 L304.4,218.9 L316.9,212.2 L329.3,204.6 L341.8,196.0 L354.3,186.3 L366.7,175.4 L379.2,163.1 L391.7,149.3 L404.1,133.7 L416.6,116.1 L429.1,96.3 L441.5,74.0 L454.0,48.9"/></circle></svg>
-      <div class="legend"><span><i class="solid"></i>Portfolio value</span><span><i class="dash"></i>Money you put in</span><span>Illustration, not a promise</span></div>
-    </figure>
-  </div>
-  <div class="paths">
-    <a class="path" href="articles/what-is-sip.html"><small>New to investing</small><b>Start with: What is a SIP? <span class="arr">→</span></b></a>
-    <a class="path" href="sip-calculator.html"><small>Planning a goal</small><b>Run the SIP calculator <span class="arr">→</span></b></a>
-    <a class="path" href="https://wa.me/919049547427?text=Hi%20Ram%2C%20I%27m%20stuck%20on%20a%20money%20decision%20and%20have%20a%20question." target="_blank" rel="noopener"><small>Stuck on a decision</small><b>Ask Ram on WhatsApp — free <span class="arr">→</span></b></a>
+<section class="page-head article on-dark pattern"><div class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a><span aria-hidden="true">/</span><a href="../lessons.html">Lessons</a><a href="../news.html">Market News</a><span aria-hidden="true">/</span><span>XIRR vs CAGR: one number per job</span></nav>
+  <div class="eyebrow">Mutual Funds</div>
+  <h1>XIRR vs CAGR: one number per job</h1>
+  <p class="dek">CAGR for money that went in once. XIRR for money that went in pieces.</p>
+  <div class="art-meta">
+    <a class="author-chip" href="../about.html"><span class="mono-av" aria-hidden="true">RL</span><span><b>Ram Lembe</b><small>Finance educator · India</small></span></a>
+    <span>Published <time datetime="2026-09-23">23 Sep 2026</time></span><span>3 min read</span>
   </div>
 </div></section>
-
-<div class="stats"><div class="wrap">
-  <div class="stat"><strong>12×</strong><span>new lessons every week</span></div>
-  <div class="stat"><strong>100%</strong><span>free, always</span></div>
-  <div class="stat"><strong>Plain</strong><span>English, zero jargon</span></div>
-  <div class="stat"><strong>₹ · IST</strong><span>Indian examples &amp; timing</span></div>
-</div></div>
-
-<section class="block" id="insights"><div class="wrap">
-  <div class="sec-head">
-    <div><div class="eyebrow">Latest insights</div><h2>Start with these lessons.</h2></div>
-    <p>The same lessons thousands follow daily on LinkedIn — now searchable, free and always open.</p>
-  </div>
-  <div class="insights">
-    <a class="card feat" data-cat="mf" href="articles/what-is-sip.html">
-  <div class="art" aria-hidden="true"><svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice"><defs><radialGradient id="rg-c-what-is-sip" cx="78%" cy="18%" r="75%"><stop offset="0" stop-color="#3CC99A" stop-opacity=".30"/><stop offset="1" stop-color="#3CC99A" stop-opacity="0"/></radialGradient><linearGradient id="lg-c-what-is-sip" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3CC99A" stop-opacity=".45"/><stop offset="1" stop-color="#3CC99A" stop-opacity="0"/></linearGradient></defs><rect width="320" height="180" fill="#0A1114"/><rect width="320" height="180" fill="url(#rg-c-what-is-sip)"/><g stroke="#1B2A2F" stroke-width="1"><line x1="0" y1="30" x2="320" y2="30"/><line x1="0" y1="60" x2="320" y2="60"/><line x1="0" y1="90" x2="320" y2="90"/><line x1="0" y1="120" x2="320" y2="120"/><line x1="0" y1="150" x2="320" y2="150"/><line x1="40" y1="0" x2="40" y2="180"/><line x1="80" y1="0" x2="80" y2="180"/><line x1="120" y1="0" x2="120" y2="180"/><line x1="160" y1="0" x2="160" y2="180"/><line x1="200" y1="0" x2="200" y2="180"/><line x1="240" y1="0" x2="240" y2="180"/><line x1="280" y1="0" x2="280" y2="180"/></g><rect x="28" y="137.5" width="17" height="22.5" fill="#3CC99A" opacity="0.35"/><rect x="55" y="134.8" width="17" height="25.2" fill="#3CC99A" opacity="0.41"/><rect x="82" y="131.3" width="17" height="28.7" fill="#3CC99A" opacity="0.48"/><rect x="109" y="127.0" width="17" height="33.0" fill="#3CC99A" opacity="0.54"/><rect x="136" y="121.5" width="17" height="38.5" fill="#3CC99A" opacity="0.61"/><rect x="163" y="114.7" width="17" height="45.3" fill="#3CC99A" opacity="0.68"/><rect x="190" y="106.0" width="17" height="54.0" fill="#3CC99A" opacity="0.74"/><rect x="217" y="95.1" width="17" height="64.9" fill="#3CC99A" opacity="0.80"/><rect x="244" y="81.3" width="17" height="78.7" fill="#3CC99A" opacity="0.87"/><rect x="271" y="64.0" width="17" height="96.0" fill="#3CC99A" opacity="0.93"/><polyline points="36.5,127.5 63.5,124.8 90.5,121.3 117.5,117.0 144.5,111.5 171.5,104.7 198.5,96.0 225.5,85.1 252.5,71.3 279.5,54.0" fill="none" stroke="#E8EEEC" stroke-width="2" stroke-linejoin="round"/><circle cx="279.5" cy="54.0" r="4.5" fill="#E8EEEC"/><text x="24" y="30" fill="#E8EEEC" font-family="IBM Plex Mono,monospace" font-size="11" letter-spacing="1.2">₹5,000 / MONTH</text><text x="24" y="47" fill="#8E9C99" font-family="IBM Plex Mono,monospace" font-size="10" letter-spacing="1">20 YRS → ₹49.96 L</text></svg></div>
-  <div class="body">
-    <div class="meta"><span class="t">Mutual Funds</span><span>4 min read</span></div>
-    <h3>What is a SIP? The ₹5,000-a-month habit that builds real wealth</h3>
-    <p>How a Systematic Investment Plan actually works, what a market fall does to your units, and why starting matters more than the amount.</p>
-    <span class="go">Read the lesson <span class="arr">→</span></span>
-  </div>
-</a>
-    <a class="card " data-cat="basics" href="articles/what-is-cagr.html">
-  <div class="art" aria-hidden="true"><svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice"><defs><radialGradient id="rg-c-what-is-cagr" cx="78%" cy="18%" r="75%"><stop offset="0" stop-color="#3CC99A" stop-opacity=".30"/><stop offset="1" stop-color="#3CC99A" stop-opacity="0"/></radialGradient><linearGradient id="lg-c-what-is-cagr" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3CC99A" stop-opacity=".45"/><stop offset="1" stop-color="#3CC99A" stop-opacity="0"/></linearGradient></defs><rect width="320" height="180" fill="#0A1114"/><rect width="320" height="180" fill="url(#rg-c-what-is-cagr)"/><g stroke="#1B2A2F" stroke-width="1"><line x1="0" y1="30" x2="320" y2="30"/><line x1="0" y1="60" x2="320" y2="60"/><line x1="0" y1="90" x2="320" y2="90"/><line x1="0" y1="120" x2="320" y2="120"/><line x1="0" y1="150" x2="320" y2="150"/><line x1="40" y1="0" x2="40" y2="180"/><line x1="80" y1="0" x2="80" y2="180"/><line x1="120" y1="0" x2="120" y2="180"/><line x1="160" y1="0" x2="160" y2="180"/><line x1="200" y1="0" x2="200" y2="180"/><line x1="240" y1="0" x2="240" y2="180"/><line x1="280" y1="0" x2="280" y2="180"/></g><path d="M24,150 C44,120 56,140 76,112 S104,128 122,92 S150,120 168,84 S196,70 212,92 S246,48 262,56 S284,36 296,30 L296,160 L24,160 Z" fill="url(#lg-c-what-is-cagr)" opacity=".55"/><path d="M24,150 C44,120 56,140 76,112 S104,128 122,92 S150,120 168,84 S196,70 212,92 S246,48 262,56 S284,36 296,30" fill="none" stroke="#6B7C78" stroke-width="2"/><path d="M24,150 C120,132 210,86 296,30" fill="none" stroke="#3CC99A" stroke-width="3"/><circle cx="24" cy="150" r="4.5" fill="#E8EEEC"/><circle cx="296" cy="30" r="5.5" fill="#3CC99A"/><text x="24" y="30" fill="#E8EEEC" font-family="IBM Plex Mono,monospace" font-size="11" letter-spacing="1.2">(END ÷ START)^(1/N) − 1</text><text x="24" y="47" fill="#8E9C99" font-family="IBM Plex Mono,monospace" font-size="10" letter-spacing="1">ONE STEADY RATE</text></svg></div>
-  <div class="body">
-    <div class="meta"><span class="t">Basics</span><span>3 min read</span></div>
-    <h3>What is CAGR? The only honest way to compare two investments</h3>
-    <p>“This fund doubled in 5 years” sounds great — until you check the CAGR. Learn the one number that makes every comparison fair.</p>
-    <span class="go">Read the lesson <span class="arr">→</span></span>
-  </div>
-</a><a class="card " data-cat="market" href="articles/market-falls-sip.html">
-  <div class="art" aria-hidden="true"><svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice"><defs><radialGradient id="rg-c-market-falls-sip" cx="78%" cy="18%" r="75%"><stop offset="0" stop-color="#3CC99A" stop-opacity=".30"/><stop offset="1" stop-color="#3CC99A" stop-opacity="0"/></radialGradient><linearGradient id="lg-c-market-falls-sip" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3CC99A" stop-opacity=".45"/><stop offset="1" stop-color="#3CC99A" stop-opacity="0"/></linearGradient></defs><rect width="320" height="180" fill="#0A1114"/><rect width="320" height="180" fill="url(#rg-c-market-falls-sip)"/><g stroke="#1B2A2F" stroke-width="1"><line x1="0" y1="30" x2="320" y2="30"/><line x1="0" y1="60" x2="320" y2="60"/><line x1="0" y1="90" x2="320" y2="90"/><line x1="0" y1="120" x2="320" y2="120"/><line x1="0" y1="150" x2="320" y2="150"/><line x1="40" y1="0" x2="40" y2="180"/><line x1="80" y1="0" x2="80" y2="180"/><line x1="120" y1="0" x2="120" y2="180"/><line x1="160" y1="0" x2="160" y2="180"/><line x1="200" y1="0" x2="200" y2="180"/><line x1="240" y1="0" x2="240" y2="180"/><line x1="280" y1="0" x2="280" y2="180"/></g><rect x="17" y="133.5" width="14" height="34.5" fill="#3CC99A" opacity="0.45"/><rect x="53" y="139.0" width="14" height="29.0" fill="#3CC99A" opacity="0.45"/><rect x="89" y="130.2" width="14" height="37.8" fill="#3CC99A" opacity="0.45"/><rect x="121" y="111.5" width="14" height="56.5" fill="#3CC99A" opacity="1"/><rect x="153" y="119.2" width="14" height="48.8" fill="#3CC99A" opacity="1"/><rect x="189" y="129.1" width="14" height="38.9" fill="#3CC99A" opacity="0.45"/><rect x="225" y="137.9" width="14" height="30.1" fill="#3CC99A" opacity="0.45"/><rect x="261" y="144.5" width="14" height="23.5" fill="#3CC99A" opacity="0.45"/><rect x="289" y="148.9" width="14" height="19.1" fill="#3CC99A" opacity="0.45"/><polyline points="24,70 60,60 96,76 128,110 160,96 196,78 232,62 268,50 296,42" fill="none" stroke="#E8EEEC" stroke-width="2.5" stroke-linejoin="round"/><circle cx="128" cy="110" r="5" fill="#0A1114" stroke="#E8EEEC" stroke-width="2"/><text x="24" y="30" fill="#E8EEEC" font-family="IBM Plex Mono,monospace" font-size="11" letter-spacing="1.2">FALL = MORE UNITS</text><text x="24" y="47" fill="#3CC99A" font-family="IBM Plex Mono,monospace" font-size="10" letter-spacing="1">+11% UNITS AT THE DIP</text></svg></div>
-  <div class="body">
-    <div class="meta"><span class="t">Market Moves</span><span>3 min read</span></div>
-    <h3>Why market falls are actually good news for SIP investors</h3>
-    <p>Every fall in Indian markets looked like a crisis at the time — and every one of them recovered. Here’s what history teaches.</p>
-    <span class="go">Read the lesson <span class="arr">→</span></span>
-  </div>
-</a>
-  </div>
-  <div class="all"><a class="btn" href="lessons.html">View the full lesson library <span class="arr">→</span></a></div>
-</div></section>
-
-<section class="block mist" id="topics"><div class="wrap">
-  <div class="sec-head">
-    <div><div class="eyebrow">What you'll learn</div><h2>Everything money, organised by topic.</h2></div>
-    <p>Every lesson is written for busy people — short, honest and practical, with Indian examples in rupees.</p>
-  </div>
-  <div class="topics">
-    <a class="topic" href="lessons.html#mf"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="6" rx="7" ry="2.5"/><path d="M5 6v4c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5V6"/><path d="M5 10v4c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5v-4"/><path d="M5 14v4c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5v-4"/></svg><span class="code">MF · SIP · NAV</span><h3>Mutual Funds &amp; SIPs</h3><p>How SIPs work, how to compare funds honestly, what NAV really means, and why time in the market beats timing the market.</p><span class="go">Explore lessons <span class="arr">→</span></span></a>
-    <a class="topic" href="lessons.html#market"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3v18M12 2.5v19M18 5v14"/><rect x="4" y="8" width="4" height="7"/><rect x="10" y="6" width="4" height="10"/><rect x="16" y="9" width="4" height="5"/></svg><span class="code">NIFTY · SENSEX</span><h3>Stock Market Basics</h3><p>Indices, valuations, dividends and market news — what they actually mean for your money, not traders' jargon.</p><span class="go">Explore lessons <span class="arr">→</span></span></a>
-    <a class="topic" href="lessons.html#ask"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v6c0 4.4-3 7.6-7 9-4-1.4-7-4.6-7-9V6z"/><path d="M8.5 12.2l2.4 2.4 4.6-4.8"/></svg><span class="code">TERM · HEALTH</span><h3>Insurance &amp; Protection</h3><p>Term vs endowment, how much cover you actually need, and the common policies that quietly destroy wealth.</p><span class="go">Ask about this <span class="arr">→</span></span></a>
-    <a class="topic" href="lessons.html#ask"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h9l4 4v14H6z"/><path d="M15 3v4h4"/><path d="M9.5 16.5l5-6"/><circle cx="10" cy="11" r="1.1"/><circle cx="14" cy="16" r="1.1"/></svg><span class="code">80C · REGIME</span><h3>Tax &amp; Money Planning</h3><p>Old vs new regime, 80C basics, emergency funds and goal planning — keep more of what you earn.</p><span class="go">Ask about this <span class="arr">→</span></span></a><a class="topic" href="lessons.html#commodity"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8.5" cy="9.5" r="5.5"/><circle cx="15.5" cy="14.5" r="5.5"/></svg><span class="code">GOLD · SILVER · MCX</span><h3>Commodities, Gold & Silver</h3><p>What really moves gold prices, the five honest ways to buy it, silver&rsquo;s double life, and how commodity markets work.</p><span class="go">Explore lessons <span class="arr">→</span></span></a> <a class="topic" href="news.html"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 010 18M12 3a14 14 0 000 18"/></svg><span class="code">INDIA · GLOBAL · DAILY</span><h3>Market News</h3><p>Today&rsquo;s Indian and global markets, commodities, gold and silver &mdash; in plain English, updated every trading evening.</p><span class="go">Read today&rsquo;s markets <span class="arr">→</span></span></a>
-  </div>
-</div></section>
-
-<section class="block" id="calculator"><div class="wrap calc">
-  <div class="calc-intro">
-    <div class="eyebrow">Tool · SIP calculator</div>
-    <h2>See what your monthly SIP could grow into.</h2>
-    <p>Move the sliders to see how the amount, the return and — above all — the time you stay invested change the outcome. Notice how much of the final value is growth, not your own money.</p>
-    <a class="link" href="sip-calculator.html">Open the full calculator — step-up SIP, lump sum and a year-by-year table →</a>
-  </div>
-  <div class="panel">
-  
-  <div class="field"><div class="row"><label for="amt" id="amtLabel">Monthly investment</label><output id="amtOut" for="amt">₹5,000</output></div><input type="range" id="amt" min="500" max="100000" step="500" value="5000"></div>
-  
-  <div class="field"><div class="row"><label for="rate">Expected return (p.a.)</label><output id="rateOut" for="rate">12%</output></div><input type="range" id="rate" min="4" max="18" step="0.5" value="12"></div>
-  <div class="field"><div class="row"><label for="yrs">Time period</label><output id="yrsOut" for="yrs">20 years</output></div><input type="range" id="yrs" min="1" max="40" step="1" value="20"></div>
-  <div class="results" aria-live="polite">
-    <div><span>Invested</span><strong id="rInv">₹12.00 L</strong></div>
-    <div><span>Est. growth</span><strong id="rGain">₹37.96 L</strong></div>
-    <div><span>Total value</span><strong class="g" id="rTot">₹49.96 L</strong></div>
-  </div>
-  <div class="bar" aria-hidden="true"><i class="b-inv" id="bInv" style="width:24%"></i><i class="b-gain" id="bGain" style="width:76%"></i></div>
-  <p class="note">Illustration only. Assumes a constant return compounded monthly; real market returns vary year to year and are not guaranteed.</p>
-  
-  
+<div class="wrap article-grid">
+  <article class="prose">
+    <p class="lead">Both numbers answer the same question — &ldquo;what yearly rate did my money grow at?&rdquo; — but they fit different money-shapes. <strong>CAGR</strong> handles one amount that goes in once and comes out once. <strong>XIRR</strong> handles everything with multiple flows: monthly SIPs, top-ups, partial withdrawals. Use the wrong one and the answer quietly lies.</p>
+<h2 id="cagr">CAGR: the two-point measure</h2>
+<p>CAGR needs exactly three facts: start value, end value, years. It assumes a single investment, held the whole time, nothing added, nothing removed. That makes it perfect for a lump-sum fund purchase, a plot of land, gold bought on one day — and useless for a SIP, where the money inside has been invested for very different lengths of time. <a href="what-is-cagr.html">Read the full CAGR lesson.</a></p>
+<h2 id="xirr">XIRR: the measure for many dates</h2>
+<p>XIRR — extended internal rate of return — takes every cash flow with its date (outflows negative, inflows positive) and finds the single yearly rate that makes the whole history add up to today's value. Your last SIP instalment has barely had time to grow; your first has years of compounding. XIRR weighs each one correctly.</p>
+<div class="keyfact"><span class="eyebrow">Key fact</span>Your broker app's &ldquo;SIP return&rdquo; is XIRR. When a friend quotes &ldquo;my SIP did 18%&rdquo;, that is XIRR doing the talking — a different number from CAGR on the same fund.</div>
+<p>Excel and Google Sheets ship it as <code>XIRR()</code>: a column of dates, a column of amounts, the current value as the final inflow — and the answer appears.</p>
+<h2 id="rules">The honest rules of thumb</h2>
+<p>One deposit in, one amount out: CAGR. Anything with instalments, top-ups or withdrawals: XIRR. Comparing a SIP against a lump sum: convert both to their own number first — never compare a fund's CAGR to your SIP's XIRR, because they measure different things.</p>
+<p>And whichever number you use, ask what it <em>isn't</em> saying: neither shows volatility along the way, fees are already inside, and past versions of either are not promises.</p>
+    <div class="callout"><h3>Have a question about this?</h3><p>Ask on WhatsApp — questions on any topic covered on this site are answered free.</p><a class="btn primary" href="https://wa.me/919049547427?text=Hi%20Ram%2C%20I%20read%20your%20lesson%20on%20xirr%20vs%20cagr%20and%20have%20a%20question." target="_blank" rel="noopener">Message Ram on WhatsApp <span class="arr">→</span></a></div>
+    <div class="recap"><h2 id="recap">Quick recap</h2><ol><li>CAGR fits single lump-sum investments measured between two dates.</li><li>XIRR fits anything with multiple flows — SIPs, top-ups, SWPs.</li><li>Never compare a fund's CAGR against your SIP's XIRR.</li><li>Both are backward-looking; neither predicts the next decade.</li></ol></div>
+    <h2 id="faq">Frequently asked questions</h2><div class="faq"><details><summary>What is XIRR in simple words?</summary><p>XIRR is the yearly growth rate that makes a series of dated cash flows - like monthly SIP instalments plus today's value - mathematically add up. It is the correct return figure for SIPs, top-ups and withdrawals.</p></details><details><summary>Why can't I use CAGR for a SIP?</summary><p>CAGR assumes one investment held the whole period. In a SIP, each instalment has been invested for a different length of time, so a single two-point calculation misprices most of the money.</p></details><details><summary>Which is higher, XIRR or CAGR?</summary><p>Neither leads by definition - XIRR accounts for the timing of every rupee while CAGR uses only endpoints. On the same money they can differ meaningfully in either direction.</p></details><details><summary>Where do I find my SIP's XIRR?</summary><p>Most broker and fund-house apps show it as the investment's return. In a spreadsheet, use the XIRR() function with dates, amounts (instalments negative) and the current value as the final positive entry.</p></details></div>
+  </article>
+  <aside class="side">
+    <div class="side-box toc-box"><h4>In this lesson</h4><ol class="toc"><li><a href="#cagr">CAGR: the two-point measure</a></li><li><a href="#xirr">XIRR: the measure for many dates</a></li><li><a href="#rules">The honest rules of thumb</a></li><li><a href="#faq">FAQs</a></li></ol></div>
+    <div class="side-box"><h4>Share this lesson</h4><div class="share">
+      <a class="sbtn" href="https://wa.me/?text=XIRR%20vs%20CAGR%3A%20one%20number%20per%20job%20%E2%80%94%20https%3A%2F%2Flemberam15.github.io%2Fassetrama%2Farticles%2Fxirr-vs-cagr.html" target="_blank" rel="noopener"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 5h15v10.5H10l-4.5 4v-4h-1z"/><path d="M9 10.3h.01M12 10.3h.01M15 10.3h.01" stroke-width="2.4"/></svg><span>WhatsApp</span></a>
+      <a class="sbtn" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Flemberam15.github.io%2Fassetrama%2Farticles%2Fxirr-vs-cagr.html" target="_blank" rel="noopener"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7.5 7.5L12 3l4.5 4.5"/><path d="M5 12v8h14v-8"/></svg><span>LinkedIn</span></a>
+      <button class="sbtn" type="button" data-copy="https://lemberam15.github.io/assetrama/articles/xirr-vs-cagr.html"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg><span>Copy link</span></button></div></div>
+    <div class="side-box"><h4>Written by</h4>
+      <div class="author"><span class="mono-av" aria-hidden="true">RL</span><div><b>Ram Lembe</b><span>Finance educator · India</span></div></div>
+      <p>Plain-English finance lessons for Indian investors. Education only — no selling, no tips.</p><a class="btn" href="../about.html">About Ram</a></div>
+    <div class="side-box side-dark"><h4>Try it yourself</h4><p>Check any lump sum's honest yearly rate — that's CAGR's job.</p><a class="btn primary" href="../cagr-calculator.html">Open CAGR calculator</a></div>
+  </aside>
 </div>
-</div></section>
-
-<section class="block on-dark pattern" id="about"><div class="wrap why">
-  <div class="portrait">
-  <div class="mono-av" aria-hidden="true">RL</div>
-  <div><h3 style="margin:0">Ram Lembe</h3><div class="role">Finance educator · India</div></div>
-  <dl>
-    <div><dt>Covers</dt><dd>Mutual funds, SIPs, markets, tax, insurance</dd></div>
-    <div><dt>Publishes</dt><dd>A new lesson every day</dd></div>
-    <div><dt>Questions</dt><dd>Answered free on WhatsApp</dd></div>
-  </dl>
-</div>
-  <div>
-    <div class="eyebrow">About Asset Rama</div>
-    <p class="quote">I explain money the way a friend would — <em>over chai, not a spreadsheet.</em></p>
-    <p class="story">I started Asset Rama because most finance content in India is either too complicated or too salesy. Here you get the opposite: short daily lessons in plain English, honest numbers and zero pressure. When a headline confuses you or a policy salesman overwhelms you, this site — and I — are on your side.</p>
-    <ul class="principles"><li><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="5" width="16" height="15"/><path d="M4 9.5h16M9 3v4M15 3v4"/><path d="M8.5 14l2 2 4-4"/></svg><b>Daily lessons</b><span>Markets, mutual funds, tax and insurance — one lesson a day.</span></li><li><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M8.3 12.3l2.5 2.5 5-5.2"/></svg><b>Verified numbers</b><span>Every figure checked before it's published. No recycled claims.</span></li><li><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 5.5C6 4.3 9.5 4.3 12 6c2.5-1.7 6-1.7 8.5-.5v13c-2.5-1.2-6-1.2-8.5.5-2.5-1.7-6-1.7-8.5-.5z"/><path d="M12 6v13"/></svg><b>Education only</b><span>No selling, no tips, no hidden agenda.</span></li><li><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 5h15v10.5H10l-4.5 4v-4h-1z"/><path d="M9 10.3h.01M12 10.3h.01M15 10.3h.01" stroke-width="2.4"/></svg><b>Free answers</b><span>Your questions answered personally on WhatsApp.</span></li></ul>
-    <div class="ctas"><a class="btn primary" href="https://wa.me/919049547427?text=Hi%20Ram%2C%20I%20have%20a%20finance%20question." target="_blank" rel="noopener">Message Ram on WhatsApp <span class="arr">→</span></a><a class="btn light" href="about.html">More about Ram</a></div>
+<section class="block tight mist"><div class="wrap">
+  <div class="sec-head"><div><div class="eyebrow">Keep reading</div><h2>More lessons</h2></div><a class="link" href="../lessons.html">All lessons →</a></div>
+  <div class="cards"><a class="card " data-cat="mf" href="what-is-nav.html">
+  <div class="art" aria-hidden="true"><svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice"><defs><radialGradient id="rg-c-what-is-nav" cx="78%" cy="18%" r="75%"><stop offset="0" stop-color="#3CC99A" stop-opacity=".30"/><stop offset="1" stop-color="#3CC99A" stop-opacity="0"/></radialGradient><linearGradient id="lg-c-what-is-nav" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3CC99A" stop-opacity=".45"/><stop offset="1" stop-color="#3CC99A" stop-opacity="0"/></linearGradient></defs><rect width="320" height="180" fill="#0A1114"/><rect width="320" height="180" fill="url(#rg-c-what-is-nav)"/><g stroke="#1B2A2F" stroke-width="1"><line x1="0" y1="30" x2="320" y2="30"/><line x1="0" y1="60" x2="320" y2="60"/><line x1="0" y1="90" x2="320" y2="90"/><line x1="0" y1="120" x2="320" y2="120"/><line x1="0" y1="150" x2="320" y2="150"/><line x1="40" y1="0" x2="40" y2="180"/><line x1="80" y1="0" x2="80" y2="180"/><line x1="120" y1="0" x2="120" y2="180"/><line x1="160" y1="0" x2="160" y2="180"/><line x1="200" y1="0" x2="200" y2="180"/><line x1="240" y1="0" x2="240" y2="180"/><line x1="280" y1="0" x2="280" y2="180"/></g><polyline points="40,138 82,122 123,145 165,106 207,93 248,116 290,60" fill="none" stroke="#3CC99A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="40" cy="138" r="3.5" fill="#0A1114" stroke="#3CC99A" stroke-width="2"/><circle cx="82" cy="122" r="3.5" fill="#0A1114" stroke="#3CC99A" stroke-width="2"/><circle cx="123" cy="145" r="3.5" fill="#0A1114" stroke="#3CC99A" stroke-width="2"/><circle cx="165" cy="106" r="3.5" fill="#0A1114" stroke="#3CC99A" stroke-width="2"/><circle cx="207" cy="93" r="3.5" fill="#0A1114" stroke="#3CC99A" stroke-width="2"/><circle cx="248" cy="116" r="3.5" fill="#0A1114" stroke="#3CC99A" stroke-width="2"/><circle cx="290" cy="60" r="3.5" fill="#0A1114" stroke="#3CC99A" stroke-width="2"/><text x="278" y="52" fill="#3CC99A" font-family="IBM Plex Mono,monospace" font-size="9" letter-spacing="1" text-anchor="end">₹10</text><text x="278" y="64" fill="#8E9C99" font-family="IBM Plex Mono,monospace" font-size="9" letter-spacing="1" text-anchor="end">₹12.4</text><text x="24" y="30" fill="#E8EEEC" font-family="IBM Plex Mono,monospace" font-size="11" letter-spacing="1.2">NAV = PRICE</text><text x="24" y="47" fill="#8E9C99" font-family="IBM Plex Mono,monospace" font-size="10" letter-spacing="1">PER UNIT · DAILY</text></svg></div>
+  <div class="body">
+    <div class="meta"><span class="t">Mutual Funds</span><span>3 min read</span></div>
+    <h3>What is NAV? The price tag on one fund unit</h3>
+    <p>Why a ₹10 NAV is not cheaper than ₹500 — and the one trap every new investor falls into.</p>
+    <span class="go">Read the lesson <span class="arr">→</span></span>
   </div>
-</div></section>
-<section class="block cta-band" id="contact"><div class="wrap contact">
-  <div>
-    <div class="eyebrow">Free · No obligation</div>
-    <h2>Have a finance question? Ask Ram.</h2>
-    <p>Stuck on a fund, a policy, or a market headline you don't understand? Message on WhatsApp or call directly — questions on any topic covered on this site are answered free.</p>
-  </div>
-  <div class="channels">
-    <div class="ch"><span>WhatsApp</span><strong>+91 90495 47427</strong><div class="acts"><a class="mini acc" href="https://wa.me/919049547427?text=Hi%20Ram%2C%20I%20have%20a%20finance%20question." target="_blank" rel="noopener">Open chat</a></div></div>
-    <div class="ch"><span>Phone</span><strong>90495 47427</strong><div class="acts"><button class="mini" type="button" data-copy="+919049547427">Copy</button><a class="mini" href="tel:+919049547427">Call</a></div></div>
-    <div class="ch"><span>Email</span><strong>lemberam15@gmail.com</strong><div class="acts"><button class="mini" type="button" data-copy="lemberam15@gmail.com">Copy</button><a class="mini" href="mailto:lemberam15@gmail.com">Email</a></div></div>
-  </div>
+</a></div>
 </div></section>
 </main>
 <footer class="site"><div class="wrap">
@@ -585,19 +507,19 @@ footer.site .tag{margin-top:16px;max-width:36ch;line-height:1.6}
   </div>
   <div class="foot">
     <div>
-      <a class="brand" href="index.html"><span class="mark" aria-hidden="true">₹</span><span><b>Asset Rama</b><small>by Ram Lembe</small></span></a>
+      <a class="brand" href="../index.html"><span class="mark" aria-hidden="true">₹</span><span><b>Asset Rama</b><small>by Ram Lembe</small></span></a>
       <p class="tag">Plain-English personal finance for Indian investors — SIPs, mutual funds, the stock market, tax and insurance. A new lesson every day.</p>
     </div>
     <div><h4>Explore</h4><ul>
-      <li><a href="lessons.html">All lessons</a></li><li><a href="news.html">Market news</a></li><li><a href="sip-calculator.html">SIP calculator</a></li><li><a href="cagr-calculator.html">CAGR calculator</a></li><li><a href="swp-calculator.html">SWP calculator</a></li><li><a href="lumpsum-calculator.html">Lumpsum calculator</a></li><li><a href="search.html">Search</a></li>
-      <li><a href="about.html">About Ram</a></li><li><a href="index.html#contact">Contact</a></li></ul></div>
-    <div><h4>Popular lessons</h4><ul><li><a href="articles/what-is-sip.html">What is a SIP?</a></li><li><a href="articles/what-is-cagr.html">What is CAGR?</a></li><li><a href="articles/market-falls-sip.html">Market falls &amp; SIPs</a></li></ul></div>
+      <li><a href="../lessons.html">All lessons</a></li><li><a href="../news.html">Market news</a></li><li><a href="../sip-calculator.html">SIP calculator</a></li><li><a href="../cagr-calculator.html">CAGR calculator</a></li><li><a href="../swp-calculator.html">SWP calculator</a></li><li><a href="../lumpsum-calculator.html">Lumpsum calculator</a></li><li><a href="../search.html">Search</a></li>
+      <li><a href="../about.html">About Ram</a></li><li><a href="../index.html#contact">Contact</a></li></ul></div>
+    <div><h4>Popular lessons</h4><ul><li><a href="../articles/what-is-sip.html">What is a SIP?</a></li><li><a href="../articles/what-is-cagr.html">What is CAGR?</a></li><li><a href="../articles/market-falls-sip.html">Market falls &amp; SIPs</a></li></ul></div>
     <div><h4>Contact</h4><ul>
       <li><a href="https://wa.me/919049547427" target="_blank" rel="noopener">WhatsApp</a></li>
       <li><a href="tel:+919049547427">90495 47427</a></li><li><a href="mailto:lemberam15@gmail.com">lemberam15@gmail.com</a></li></ul></div>
   </div>
   <div class="legal">
-    <p>Asset Rama is an educational website. Views are personal and do not represent any employer. Educational only — not investment advice. Investments carry risk; read all scheme-related documents carefully before investing. Mutual fund investments are subject to market risks.</p>
+    <p>Asset Rama is an educational website. Views are personal and do not represent any employer. Educational only — not investment advice. Investments carry risk; read all scheme-related documents carefully before investing. Mutual fund investments are subject to market risks. Figures shown are illustrations at an assumed return, not predictions.</p>
     <div class="row"><span>© <span id="yr">2026</span> Asset Rama · Ram Lembe</span><span>Made in India</span></div>
   </div>
 </div></footer>
