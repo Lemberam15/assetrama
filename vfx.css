@@ -1,0 +1,94 @@
+/* ============================================================
+   ASSET RAMA — premium motion layer (vfx.css)
+   Pure CSS. No libraries, no images, no render-blocking fonts.
+   Zero SEO impact: all text stays in the HTML; every effect is
+   cosmetic layering. All motion respects prefers-reduced-motion.
+   ============================================================ */
+
+/* 1 — Hero entrance: content rises in, staggered */
+@keyframes vfxRise{
+  from{opacity:0;transform:translateY(18px)}
+  to{opacity:1;transform:none}
+}
+.hero .eyebrow{animation:vfxRise .55s .05s cubic-bezier(.16,.84,.44,1) both}
+.hero h1{animation:vfxRise .65s .14s cubic-bezier(.16,.84,.44,1) both}
+.hero .lede{animation:vfxRise .65s .26s cubic-bezier(.16,.84,.44,1) both}
+.hero .ctas{animation:vfxRise .65s .37s cubic-bezier(.16,.84,.44,1) both}
+.hero .hero-art{animation:vfxRise .85s .30s cubic-bezier(.16,.84,.44,1) both}
+.hero .path{animation:vfxRise .6s .5s cubic-bezier(.16,.84,.44,1) both}
+.hero .path:nth-of-type(2){animation-delay:.6s}
+.hero .path:nth-of-type(3){animation-delay:.7s}
+
+/* 2 — Shimmer on the hero accent words (guarded: only where
+       background-clip:text is fully supported) */
+@supports ((-webkit-background-clip:text) or (background-clip:text)){
+  @keyframes vfxShimmer{
+    0%{background-position:0% 50%}
+    100%{background-position:200% 50%}
+  }
+  .vfx-shimmer{
+    background:linear-gradient(90deg,
+      var(--glow,#3CC99A) 0%,#C6F2E2 22%,
+      var(--glow,#3CC99A) 50%,#C6F2E2 78%,
+      var(--glow,#3CC99A) 100%);
+    background-size:200% auto;
+    -webkit-background-clip:text;background-clip:text;
+    -webkit-text-fill-color:transparent;
+    animation:vfxShimmer 6s linear infinite;
+  }
+}
+
+/* 3 — Soft glow pulse on the primary CTA */
+@keyframes vfxPulse{
+  0%{box-shadow:0 0 0 0 rgba(60,201,154,.42)}
+  70%{box-shadow:0 0 0 14px rgba(60,201,154,0)}
+  100%{box-shadow:0 0 0 0 rgba(60,201,154,0)}
+}
+.vfx-pulse{animation:vfxPulse 2.8s ease-out infinite}
+
+/* 4 — Light sheen sweep across buttons on hover */
+.btn{position:relative;overflow:hidden}
+.btn::before{
+  content:"";position:absolute;top:0;left:-80%;width:45%;height:100%;
+  background:linear-gradient(105deg,transparent,rgba(255,255,255,.26),transparent);
+  transform:skewX(-18deg);
+  transition:left .55s ease;pointer-events:none;
+}
+.btn:hover::before{left:135%}
+
+/* 5 — Breathing glow behind the dark pattern sections */
+@keyframes vfxBreathe{
+  0%,100%{opacity:1;transform:scale(1)}
+  50%{opacity:.55;transform:scale(1.14)}
+}
+.pattern::after{animation:vfxBreathe 9s ease-in-out infinite}
+
+/* 6 — Scroll reveal. The hiding class (.vfx-reveal) is added
+       ONLY by vfx.js, never in HTML — if the script never loads,
+       every element stays fully visible. Classes are removed
+       again after the reveal so normal hover transitions
+       continue to work at full speed. */
+.vfx-reveal{
+  opacity:0;transform:translateY(16px);
+  transition:opacity .55s cubic-bezier(.16,.84,.44,1),
+             transform .55s cubic-bezier(.16,.84,.44,1);
+}
+.vfx-reveal.vfx-in{opacity:1;transform:none}
+
+/* 7 — Richer card hover: green edge glow on top of the lift */
+.card:hover{
+  box-shadow:0 18px 36px -24px rgba(10,17,20,.55),
+             0 0 0 1px rgba(11,122,92,.30),
+             0 12px 44px -20px rgba(11,122,92,.32);
+}
+
+/* 8 — Keyboard focus polish */
+.btn:focus-visible,.card:focus-visible{
+  outline:2px solid var(--glow,#3CC99A);outline-offset:2px;
+}
+
+/* Accessibility — users who prefer no motion get the static site */
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .vfx-reveal{opacity:1!important;transform:none!important}
+}
