@@ -395,6 +395,28 @@ figure.chart figcaption{font-size:13px;line-height:1.5;color:var(--muted);margin
 .chip{font:600 14px/1 var(--display);padding:10px 16px;border:1.5px solid var(--rule);background:var(--paper);color:var(--ink-2);cursor:pointer;text-decoration:none}
 .chip:hover{border-color:var(--ink)}
 .chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+/* category colour coding */
+.chip[data-f="markets"]{border-color:#0E7490;color:#0E7490}
+.chip[data-f="markets"][aria-pressed="true"]{background:#0E7490;border-color:#0E7490;color:#FFFFFF}
+.card[data-cat="markets"] .t{color:#0E7490}
+.chip[data-f="business"]{border-color:#B0366C;color:#B0366C}
+.chip[data-f="business"][aria-pressed="true"]{background:#B0366C;border-color:#B0366C;color:#FFFFFF}
+.card[data-cat="business"] .t{color:#B0366C}
+.chip[data-f="results"]{border-color:#B45309;color:#B45309}
+.chip[data-f="results"][aria-pressed="true"]{background:#B45309;border-color:#B45309;color:#FFFFFF}
+.card[data-cat="results"] .t{color:#B45309}
+.chip[data-f="global"]{border-color:#3E6B96;color:#3E6B96}
+.chip[data-f="global"][aria-pressed="true"]{background:#3E6B96;border-color:#3E6B96;color:#FFFFFF}
+.card[data-cat="global"] .t{color:#3E6B96}
+.chip[data-f="commodity"]{border-color:#C2711D;color:#C2711D}
+.chip[data-f="commodity"][aria-pressed="true"]{background:#C2711D;border-color:#C2711D;color:#FFFFFF}
+.card[data-cat="commodity"] .t{color:#C2711D}
+.chip[data-f="economy"]{border-color:#6D5BB8;color:#6D5BB8}
+.chip[data-f="economy"][aria-pressed="true"]{background:#6D5BB8;border-color:#6D5BB8;color:#FFFFFF}
+.card[data-cat="economy"] .t{color:#6D5BB8}
+.chip[data-f="mf"]{border-color:#0B7A5C;color:#0B7A5C}
+.chip[data-f="mf"][aria-pressed="true"]{background:#0B7A5C;border-color:#0B7A5C;color:#FFFFFF}
+.card[data-cat="mf"] .t{color:#0B7A5C}
 .count{font-family:var(--mono);font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:22px}
 .empty{padding:32px 0;color:var(--muted)}
 .ask{margin-top:clamp(40px,5vw,64px);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:24px 48px;align-items:center;padding:clamp(24px,3.5vw,40px);border:1px solid var(--rule);background:var(--paper)}
@@ -453,7 +475,7 @@ footer.site .tag{margin-top:16px;max-width:36ch;line-height:1.6}
 <section class="block tight mist"><div class="wrap">
   <h2 style="margin:0 0 10px">Where things closed on 22 September 2026</h2>
   <div class="tbl"><table class="data"><thead><tr><th scope="col">Market</th><th scope="col" class="num">Level</th><th scope="col" class="num">Day change</th></tr></thead>
-<tbody><tr><td>Sensex (BSE 30)</td><td class="num">74,529</td><td class="num">−0.44%</td></tr><tr><td>Nifty 50 (NSE)</td><td class="num">23,329</td><td class="num">−0.36%</td></tr><tr><td>Nasdaq (US, overnight)</td><td class="num">27,244</td><td class="num up">+0.45% — new record close</td></tr><tr><td>Gold 24K (10g)</td><td class="num">₹1,53,160</td><td class="num">−0.4%</td></tr><tr><td>Silver (1kg)</td><td class="num">₹2,38,750</td><td class="num">−0.3%</td></tr><tr><td>Brent crude</td><td class="num">$99.2 / barrel</td><td class="num">−1.1%</td></tr><tr><td>USD / INR</td><td class="num">₹95.59</td><td class="num up">rupee +22 paise</td></tr></tbody></table></div>
+<tbody><tr><td>Sensex (BSE 30)</td><td class="num">74,529</td><td class="num down">−0.44%</td></tr><tr><td>Nifty 50 (NSE)</td><td class="num">23,329</td><td class="num down">−0.36%</td></tr><tr><td>Nasdaq (US, overnight)</td><td class="num">27,244</td><td class="num up">+0.45% — new record close</td></tr><tr><td>Gold 24K (10g)</td><td class="num">₹1,53,160</td><td class="num down">−0.4%</td></tr><tr><td>Silver (1kg)</td><td class="num">₹2,38,750</td><td class="num down">−0.3%</td></tr><tr><td>Brent crude</td><td class="num">$99.2 / barrel</td><td class="num down">−1.1%</td></tr><tr><td>USD / INR</td><td class="num">₹95.59</td><td class="num up">rupee +22 paise</td></tr></tbody></table></div>
   <p class="tbl-note">Close of 22 Sep 2026 (bullion 21:30 IST) · Page updated pre-open on 23 Sep 2026, 09:00 IST · Sources: BSE/NSE closing data via Business Standard & Livemint, US close via AP, bullion via India Bullions, crude & rupee close via Economic Times. This snapshot refreshes automatically every hour — the "as of" date always shows the latest verified session.</p>
 
   <div class="toolbar">
