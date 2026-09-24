@@ -1,0 +1,8 @@
+/* Asset Rama — cinematic market background layering (24/09/2026).
+   The canvas sits behind the hero content; the scrim keeps text readable. */
+.hero{position:relative;overflow:hidden}
+#market-bg{position:absolute;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
+.hero .wrap{position:relative;z-index:1}
+.hero::after{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
+  background:linear-gradient(90deg,rgba(10,17,20,.58) 0%,rgba(10,17,20,.18) 42%,rgba(10,17,20,0) 62%),
+  linear-gradient(180deg,rgba(10,17,20,.38) 0%,rgba(10,17,20,.05) 30%,rgba(10,17,20,.12) 60%,rgba(10,17,20,.74) 100%)}
