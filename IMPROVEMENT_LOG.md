@@ -9,3 +9,4 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [23/09/2026] lessons.html: unused 'tools' category chip/card CSS exists but no tools cards or chip button in the UI — either add a tools section or prune the unused styles
 - [24/09/2026] news: snapshot gold/silver rows depend on IBJA rates that stop publishing around 21:30 — consider adding MCX closing futures as a fresher bullion reference
 - [24/09/2026] news: mf category rarely fills beyond 2 cards — consider a standing card slot for AMFI monthly SIP/AUM data (released ~10th of each month) so the Mutual Funds filter always has something fresh
+- [24/09/2026] search.html: lessons.html has no card on the search page while every other major page does — add a lessons card and bump the "35 pages" count text
