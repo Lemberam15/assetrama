@@ -11,3 +11,4 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [24/09/2026] news: mf category rarely fills beyond 2 cards — consider a standing card slot for AMFI monthly SIP/AUM data (released ~10th of each month) so the Mutual Funds filter always has something fresh
 - [24/09/2026] search.html: lessons.html has no card on the search page while every other major page does — add a lessons card and bump the "35 pages" count text
 - [24/09/2026] search.html: og/twitter meta descriptions hard-code the lesson count (said "20 lessons" with 26 live) — reword to a count-free description so it doesn't go stale with every new lesson
+- [24/09/2026] articles: capital-gains-tax-mutual-funds.html title still says 'Post-Budget 2024' — refresh title and tax figures to the current financial year so the page doesn't read stale (18:00 audit run: tags, links, meta all PASS)
