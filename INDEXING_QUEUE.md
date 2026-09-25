@@ -30,6 +30,14 @@
 - [24/09/2026] https://lemberam15.github.io/assetrama/articles/how-to-buy-gold.html
 - [24/09/2026] https://lemberam15.github.io/assetrama/articles/sovereign-gold-bonds.html
 - [24/09/2026] https://lemberam15.github.io/assetrama/articles/why-gold-prices-move.html
+- [25/09/2026] https://lemberam15.github.io/assetrama/articles/capital-gains-tax-mutual-funds.html
+- [25/09/2026] https://lemberam15.github.io/assetrama/articles/elss-tax-saving.html
+- [25/09/2026] https://lemberam15.github.io/assetrama/articles/how-to-read-stock-quote.html
+- [25/09/2026] https://lemberam15.github.io/assetrama/articles/market-cap-explained.html
+- [25/09/2026] https://lemberam15.github.io/assetrama/articles/market-falls-sip.html
+- [25/09/2026] https://lemberam15.github.io/assetrama/articles/old-vs-new-tax-regime.html
+- [25/09/2026] https://lemberam15.github.io/assetrama/articles/ppf-vs-elss.html
+- [25/09/2026] https://lemberam15.github.io/assetrama/articles/silver-investment-guide.html
 
 ## Done
 
