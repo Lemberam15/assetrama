@@ -18,3 +18,4 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [25/09/2026] articles: first 8 (alphabetical, capital-gains → market-cap) audited — tag balance, internal links, meta title/description, JS all PASS; no fixes needed this run (18:00 IST quality cycle)
 - [25/09/2026] articles: remaining 18 (market-falls-sip -> xirr-vs-cagr) audited — tag balance, internal links, meta title/description, JSON-LD all PASS; no fixes needed this run (19:00 IST quality cycle)
 - [25/09/2026] news: economy category persistently runs 5-6 cards vs the ~3-per-category guideline while results/markets sit at 1-2 — consider balancing the category mix when cards retire (e.g. prefer dropping the oldest over-stocked category when at the 20-card cap)
+- [25/09/2026] index.html: 21:00 quality-cycle audit PASS (tag balance, all internal links resolve, JSON-LD @graph valid, meta tags present, calculator embed + nav links intact, JS syntax OK) — no fixes needed this run
