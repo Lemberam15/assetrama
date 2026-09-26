@@ -20,6 +20,20 @@ hashtags, CTA table, tone colors, red-for-negative charts. Never ship unverified
   (guards against 🏢/📓/📈 substitutions on the website line).
 - 26/09/2026 — Music now follows CONTENT, not just series (Ram's rule):
   mood chosen per post, no two consecutive posts with the same mood.
+- 26/09/2026 — ENGAGEMENT SYSTEM (Ram's directive: impressions but no
+  comments/reactions):
+  (1) Caption Engagement Engine — opinion line + 1-5-word answerable
+      questions (this-or-that / yes-no / number / fill-in-the-blank /
+      comment-keyword) in all 6 posting agents.
+  (2) Follow-boost: TOMORROW TEASER before the Follow line (concrete
+      reason to follow now).
+  (3) In-video engagement (v9, Ram approved after sample review):
+      engagement question strip rendered above the CTA (accent arrow),
+      "+ FOLLOW" chip under RAM LEMBE, and all CTAs re-framed to start
+      with FOLLOW (e.g. FOLLOW TO LEARN A TERM DAILY) — because video
+      viewers rarely read captions. render_slide.py v9 published to the
+      skill; all 6 posting agent prompts updated. Samples:
+      v9_Design_Sample_A / v9_Design_Sample_B (delivered 26/09/2026).
 
 ## Ideas backlog (candidates for future weeks — do not repeat shipped items)
 
