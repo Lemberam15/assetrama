@@ -18,6 +18,8 @@ hashtags, CTA table, tone colors, red-for-negative charts. Never ship unverified
   worst-case contrast ≥ 6:1), dark glass chips, exact optical alignment.
 - 25/09/2026 — Emoji mechanical check added to caption pre-flight
   (guards against 🏢/📓/📈 substitutions on the website line).
+- 26/09/2026 — Music now follows CONTENT, not just series (Ram's rule):
+  mood chosen per post, no two consecutive posts with the same mood.
 
 ## Ideas backlog (candidates for future weeks — do not repeat shipped items)
 
@@ -33,8 +35,19 @@ hashtags, CTA table, tone colors, red-for-negative charts. Never ship unverified
    performed better; lab keeps a running scoreboard in this file.
 10. Marathi/Hindi bilingual festival posts (Ram's audience includes Marathi speakers).
 
+## Earning roadmap milestones (the ladder to income)
+
+- NOW (1,562 followers, 26/09/2026) -> 10,000: pure trust-building. Free everything. Grow.
+- 10,000 -> 50,000: newsletter sponsorships, brand collaborations, affiliate partnerships.
+- 50,000+: own products — workshops, course, corporate financial-literacy training, speaking.
+
+LinkedIn pays nothing for posts — the audience pays for trust, tools and teaching.
+The funnel: LinkedIn posts -> Asset Rama free calculators -> trust -> products.
+Never violate: educational only (SEBI lane), no stock tips, no undisclosed paid
+promotions, no employer mention. Trust IS the product.
+
 ## Metrics (Ram reports from the LinkedIn app each Saturday; lab records here)
 
 | Date | Followers | Avg views last week | Best post | Notes |
 |------|-----------|--------------------|-----------|-------|
-| 26/09/2026 | — | — | — | baseline week, lab starts 03/10 |
+| 26/09/2026 | 1,562 | — | — | baseline (public profile count); lab starts 03/10 |
