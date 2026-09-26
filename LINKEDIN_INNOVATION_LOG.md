@@ -34,6 +34,10 @@ hashtags, CTA table, tone colors, red-for-negative charts. Never ship unverified
       viewers rarely read captions. render_slide.py v9 published to the
       skill; all 6 posting agent prompts updated. Samples:
       v9_Design_Sample_A / v9_Design_Sample_B (delivered 26/09/2026).
+- 26/09/2026 (evening) — Creative slide v3: text block now VERTICALLY
+  CENTERED in the free zone (Ram's review of Swati's short festival
+  sample: content sank to the bottom, top half empty). Fix published to
+  the live skill and to Swati's v15 upgrade document.
 
 ## Ideas backlog (candidates for future weeks — do not repeat shipped items)
 
