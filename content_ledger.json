@@ -1,6 +1,15 @@
 {
   "purpose": "48-hour no-repeat ledger. Every posting/monitor agent APPENDS its published topic here. Every agent CHECKS the last 48 hours before writing. Keep newest 50 entries.",
   "entries": [
-    {"date": "27/09/2026", "series": "finance101", "topic": "The Rule of 72 - how fast money doubles (12% = 6 years, 8% = 9 years)"}
+    {
+      "date": "27/09/2026",
+      "series": "geopolitics",
+      "topic": "Oil near $104 - India crude basket up 28% in Sep, OMCs absorb Rs 530 crore/day, petrol frozen at Rs 102.12/L"
+    },
+    {
+      "date": "27/09/2026",
+      "series": "finance101",
+      "topic": "The Rule of 72 - how fast money doubles (12% = 6 years, 8% = 9 years)"
+    }
   ]
 }
