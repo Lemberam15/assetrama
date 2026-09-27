@@ -69,3 +69,4 @@ promotions, no employer mention. Trust IS the product.
 | Date | Followers | Avg views last week | Best post | Notes |
 |------|-----------|--------------------|-----------|-------|
 | 26/09/2026 | 1,562 | — | — | baseline (public profile count); lab starts 03/10 |
+| 27/09/2026 | Instagram automation LIVE: _assetrama (471 followers) connected via Instagram API (REELS, 60-day token). Test post published: instagram.com/reel/DdyQ8dIjuu1. All 6 posting agents Instagram-enabled (cross-post after LinkedIn, videos hosted in /videos on the website, 3-day cleanup); weekly Sunday 6 AM token-refresh cron added. 6 monitor agents: Instagram step pending (next task). Instagram goal: top finance voice on IG alongside LinkedIn. |
