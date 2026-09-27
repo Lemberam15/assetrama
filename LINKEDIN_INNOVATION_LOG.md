@@ -70,3 +70,16 @@ promotions, no employer mention. Trust IS the product.
 |------|-----------|--------------------|-----------|-------|
 | 26/09/2026 | 1,562 | — | — | baseline (public profile count); lab starts 03/10 |
 | 27/09/2026 | Instagram automation LIVE: _assetrama (471 followers) connected via Instagram API (REELS, 60-day token). Test post published: instagram.com/reel/DdyQ8dIjuu1. ALL 12 agents Instagram-enabled (6 posting agents cross-post after every LinkedIn post; 6 monitors cross-post whenever they publish an event/festival post); videos hosted in /videos on the website with 3-day cleanup; weekly Sunday 6 AM token-refresh cron added. Instagram goal: top finance voice on IG alongside LinkedIn. |
+
+
+## 27/09/2026 (evening) — MISSION UPGRADE: #1 finance Instagram channel in 2 years
+
+Ram set the new north-star ambition: Asset Rama becomes India's #1 finance Instagram channel within 2 years (alongside the existing LinkedIn top-100-in-12-months goal), with a standing rule that improvements happen autonomously across ALL parameters — no hand-holding.
+
+Shipped today to support it:
+- **Instagram Growth Tracker cron (Saturdays 5 PM IST)**: pulls followers + per-post likes/comments directly from the Instagram API (no more asking Ram for IG numbers), computes weekly deltas, reports honestly with top/bottom posts. Baseline: 471 followers, 27/09/2026.
+- **Innovation Lab upgraded**: now starts every weekly run by pulling real Instagram + LinkedIn numbers, and picks the weekly improvement based on the WEAKEST metric (data-driven, not taste-driven). Research scope expanded to Instagram/Reels creators worldwide.
+- Same-day quality upgrades: v4 static slides (zoom removed after it cropped text), ASSET RAMA brand name on all slides, color system v7.1 (cyan-steel geopolitics, orange-amber caution — verified distinguishable + all contrast >= 6.9:1).
+- Both platforms verified live end-to-end today with a Rule of 72 test post (LinkedIn post 7509920446734245888, IG reel DdyY76FFdYt).
+
+Backlog candidates: native 9:16 Instagram Reels render (pillarboxing today); YouTube Shorts automation (Google audit hurdle); Instagram hashtag strategy tuned for Reels discovery.
