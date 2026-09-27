@@ -83,3 +83,14 @@ Shipped today to support it:
 - Both platforms verified live end-to-end today with a Rule of 72 test post (LinkedIn post 7509920446734245888, IG reel DdyY76FFdYt).
 
 Backlog candidates: native 9:16 Instagram Reels render (pillarboxing today); YouTube Shorts automation (Google audit hurdle); Instagram hashtag strategy tuned for Reels discovery.
+
+
+## 27/09/2026 (night) — LINEUP CHANGE: Wrap + FII/DII clubbed into one 8:30 PM post
+
+Ram approved clubbing the two most overlapping market posts. Data-timing check first: NSE publishes provisional FII/DII cash figures ~5-6 PM IST, finalized by 7-8 PM — so a 5 PM merged post was ruled out and the merged post took the proven 8:30 PM slot.
+
+- **New cron**: "LinkedIn 8:30PM — Market Wrap + FII/DII (merged)" — one complete end-of-day recap: Sensex/Nifty close + FII/DII net flows (chart panel with both flow bars) + one combined takeaway. Same quality bar: triple QC, engagement engine, 48h ledger, trends note, Instagram cross-post, ASSET RAMA branding, static v4 slide.
+- **Deleted**: old 4:15 PM Post-Market Wrap cron and old 8:30 PM FII/DII cron.
+- **Trading-day lineup now 5 posts**: 7:30 AM term, 8:45 AM pre-market, 12:30 PM story, 6 PM geopolitics, 8:30 PM wrap + flows. Non-trading days unchanged (3 posts).
+- **SKILL.md updated**: series table and tomorrow-teaser slot list now reflect the merged slot.
+- Cron count: 17 (12 posting/monitor agents minus one, plus radar + tracker + 3 website + token refresh).
