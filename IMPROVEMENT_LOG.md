@@ -25,3 +25,4 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [28/09/2026] a11y: several pages carry aria-current="page" on links to other pages (e.g. the SIP Calculator menu link on every calculator page) — audit and fix in a quiet week
 - [28/09/2026] lessons: ItemList JSON-LD has no top-level "name" — consider adding "All Finance Lessons" (and possibly numberOfItems) for richer snippets; structure otherwise valid, all 27 item URLs resolve
 - [28/09/2026] news: Results filter has zero live cards outside earnings season (Q2 FY27 season starts mid-Oct) — consider seeding with verified results-preview stories from authorised outlets when fresh results news is scarce
+- [29/09/2026] news cron: placeholder-overwrite hit AGAIN at 29 Sep 03:04 IST (commit 3d4b017, restored within ~1 min by 6bb8a8f) — reinforces the 28/09 pre-commit payload-size + "Market snapshot" guard suggestion
