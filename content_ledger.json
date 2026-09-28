@@ -3,6 +3,11 @@
   "entries": [
     {
       "date": "28/09/2026",
+      "series": "finance101",
+      "topic": "MARKET WRAP: Sensex 72,771.72 (-1.52%), Nifty 22,780.25 (-1.56%) lowest close since April; FII sold Rs 5,353 cr vs DII bought Rs 5,189 cr; Rs 7.5 lakh cr mcap wiped out"
+    },
+    {
+      "date": "28/09/2026",
       "series": "geopolitics",
       "topic": "GOLD/SLIVER SELLOFF: MCX gold -2.4% to Rs 1.48 L/10g, silver -3.5% below Rs 2.28 L/kg on US 10-yr yield 5.13% (highest since 2007), ~66% odds of Fed Oct hike"
     },
