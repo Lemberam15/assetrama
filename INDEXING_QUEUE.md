@@ -42,3 +42,5 @@
 ## Done
 
 (none confirmed indexed yet)
+- [28/09/2026] https://lemberam15.github.io/assetrama/compound-interest-calculator.html
+- [28/09/2026] https://lemberam15.github.io/assetrama/articles/what-is-health-insurance.html
