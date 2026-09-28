@@ -2,6 +2,11 @@
   "purpose": "48-hour no-repeat ledger. Every posting/monitor agent APPENDS its published topic here. Every agent CHECKS the last 48 hours before writing. Keep newest 50 entries.",
   "entries": [
     {
+      "date": "28/09/2026",
+      "series": "finance101",
+      "topic": "F&O Expiry - Sep contracts end Tue 29/09/2026; cash vs physical settlement, 93% SEBI loss stat"
+    },
+    {
       "date": "27/09/2026",
       "series": "geopolitics",
       "topic": "US-China $30 Bn truce (10/01/2027) vs Graham Act - India exposed to up to 100% US tariff over Russian crude; $104 Bn exports"
