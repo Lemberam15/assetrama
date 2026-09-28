@@ -1,0 +1,233 @@
+{
+ "purpose": "Carousel topic ledger - Ram's rules 28/09/2026: (1) NO topic repeats for 6 MONTHS after posting, (2) subjects cover SIP, mutual funds, stocks, investing basics, (3) the FIRST carousel of each month uses a month-start theme (new month, salary day, fresh SIP), the LAST carousel of each month uses a month-end theme (review, checklist, SIP due verification).",
+ "rules": {
+  "no_repeat_days": 182,
+  "slot": "Monday/Wednesday/Friday 07:30 IST (finance101 carousel)",
+  "month_start": "first carousel slot of the month - theme: new month / salary day / SIP reset",
+  "month_end": "last carousel slot of the month - theme: month-end review / SIP verification / tax dates",
+  "bank_low_rule": "when fewer than 5 unused bank topics remain, extend the bank with new SIP/mutual-fund/stock/investing topics before the next run",
+  "caption_rule": "carousel captions include a Save line (e.g. 'Save this before your next salary.') placed just before the engagement question; all other caption rules unchanged"
+ },
+ "posted": [
+  {
+   "topic": "The 50-30-20 Rule",
+   "category": "budgeting",
+   "date": "28/09/2026",
+   "locked_until": "29/03/2027",
+   "note": "first carousel, posted live on approval day"
+  }
+ ],
+ "bank": [
+  {
+   "topic": "The Emergency Fund Rule (3-6-12 months)",
+   "category": "safety",
+   "slot_hint": "month_start",
+   "used": false,
+   "note": "already built + audited 28/09 (Carousel_EF_*)"
+  },
+  {
+   "topic": "Salary Day Checklist - first 48 hours",
+   "category": "money habits",
+   "slot_hint": "month_start",
+   "used": false
+  },
+  {
+   "topic": "New Month, Fresh SIP - the reset ritual",
+   "category": "SIP",
+   "slot_hint": "month_start",
+   "used": false
+  },
+  {
+   "topic": "Month-End Portfolio Review in 10 minutes",
+   "category": "review",
+   "slot_hint": "month_end",
+   "used": false
+  },
+  {
+   "topic": "Did Your SIP Actually Go Through? - month-end verification",
+   "category": "SIP",
+   "slot_hint": "month_end",
+   "used": false
+  },
+  {
+   "topic": "What is a SIP, really?",
+   "category": "SIP",
+   "used": false
+  },
+  {
+   "topic": "SIP vs Lumpsum - which one when",
+   "category": "SIP",
+   "used": false
+  },
+  {
+   "topic": "Step-up SIP - the 10% annual raise trick",
+   "category": "SIP",
+   "used": false
+  },
+  {
+   "topic": "Rupee cost averaging - why SIPs love crashes",
+   "category": "SIP",
+   "used": false
+  },
+  {
+   "topic": "Missing one SIP - what actually happens",
+   "category": "SIP",
+   "used": false
+  },
+  {
+   "topic": "How many SIPs is too many?",
+   "category": "SIP",
+   "used": false
+  },
+  {
+   "topic": "SIP vs RD - the honest comparison",
+   "category": "SIP",
+   "used": false
+  },
+  {
+   "topic": "NAV explained in one minute",
+   "category": "mutual funds",
+   "used": false
+  },
+  {
+   "topic": "Direct vs Regular plans - the 1% trap",
+   "category": "mutual funds",
+   "used": false
+  },
+  {
+   "topic": "Expense ratio - the silent tax on your fund",
+   "category": "mutual funds",
+   "used": false
+  },
+  {
+   "topic": "Exit load - the fine print that bites",
+   "category": "mutual funds",
+   "used": false
+  },
+  {
+   "topic": "Large vs Mid vs Small cap - the risk ladder",
+   "category": "mutual funds",
+   "used": false
+  },
+  {
+   "topic": "Index funds - boring winners",
+   "category": "mutual funds",
+   "used": false
+  },
+  {
+   "topic": "Active vs Passive - who wins after fees",
+   "category": "mutual funds",
+   "used": false
+  },
+  {
+   "topic": "Growth vs IDCW - which to pick",
+   "category": "mutual funds",
+   "used": false
+  },
+  {
+   "topic": "How to read a fund factsheet",
+   "category": "mutual funds",
+   "used": false
+  },
+  {
+   "topic": "Portfolio overlap - owning the same stocks 5 times",
+   "category": "mutual funds",
+   "used": false
+  },
+  {
+   "topic": "Sector funds - why they burn retail investors",
+   "category": "mutual funds",
+   "used": false
+  },
+  {
+   "topic": "P/E ratio - the price tag of a stock",
+   "category": "stocks",
+   "used": false
+  },
+  {
+   "topic": "Market cap - big, mid, small companies",
+   "category": "stocks",
+   "used": false
+  },
+  {
+   "topic": "Dividend yield - free money or trap?",
+   "category": "stocks",
+   "used": false
+  },
+  {
+   "topic": "Bonus share vs stock split - same or different?",
+   "category": "stocks",
+   "used": false
+  },
+  {
+   "topic": "52-week high - signal or trap?",
+   "category": "stocks",
+   "used": false
+  },
+  {
+   "topic": "ROE and ROCE - how companies get graded",
+   "category": "stocks",
+   "used": false
+  },
+  {
+   "topic": "Debt-to-equity - the danger meter",
+   "category": "stocks",
+   "used": false
+  },
+  {
+   "topic": "Promoter pledging - the hidden red flag",
+   "category": "stocks",
+   "used": false
+  },
+  {
+   "topic": "Compounding - the 8th wonder",
+   "category": "investing basics",
+   "used": false
+  },
+  {
+   "topic": "Inflation - the silent thief",
+   "category": "investing basics",
+   "used": false
+  },
+  {
+   "topic": "Risk vs return - the seesaw",
+   "category": "investing basics",
+   "used": false
+  },
+  {
+   "topic": "Asset allocation - your only free lunch",
+   "category": "investing basics",
+   "used": false
+  },
+  {
+   "topic": "Rebalancing - selling winners, buying losers",
+   "category": "investing basics",
+   "used": false
+  },
+  {
+   "topic": "Averaging down - smart or catching knives?",
+   "category": "behavior",
+   "used": false
+  },
+  {
+   "topic": "FOMO buying - the entry-level mistake",
+   "category": "behavior",
+   "used": false
+  },
+  {
+   "topic": "Panic selling - the costliest reflex",
+   "category": "behavior",
+   "used": false
+  },
+  {
+   "topic": "Goal-based investing - name your money",
+   "category": "investing basics",
+   "used": false
+  },
+  {
+   "topic": "Power of starting at 25 vs 35",
+   "category": "investing basics",
+   "used": false
+  }
+ ]
+}
