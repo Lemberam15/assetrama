@@ -3,6 +3,11 @@
   "entries": [
     {
       "date": "29/09/2026",
+      "series": "finance101",
+      "topic": "MARKET WRAP: Sensex 72,529.07 (-0.33%), Nifty 22,716.20 (-0.28%) expiry-day recovery after 1% intraday fall; FII sold Rs 9,980 cr vs DII bought Rs 6,953 cr - biggest FII outflow in weeks, absorbed by DIIs"
+    },
+    {
+      "date": "29/09/2026",
       "series": "geopolitics",
       "topic": "GEOPOLITICS: US 10-yr Treasury yield 5.24% - highest since 2007, biggest monthly rise since 2022; chain: FIIs sold Rs 5,353 cr Monday, Nifty 6-month low, rupee past 96/$, gold -4% to 7-week low"
     },
