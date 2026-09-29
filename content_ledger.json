@@ -2,6 +2,11 @@
   "purpose": "48-hour no-repeat ledger. Every posting/monitor agent APPENDS its published topic here. Every agent CHECKS the last 48 hours before writing. Keep newest 50 entries.",
   "entries": [
     {
+      "date": "29/09/2026",
+      "series": "finance101",
+      "topic": "INDIA VIX: the fear gauge - closed 13.63 on 28/09 (+12% day, 14.14 intraday high, ~36% up in 3 sessions, highest close in 2 months); Nifty 22,780 (-1.56%)"
+    },
+    {
       "date": "28/09/2026",
       "series": "finance101",
       "topic": "MARKET WRAP: Sensex 72,771.72 (-1.52%), Nifty 22,780.25 (-1.56%) lowest close since April; FII sold Rs 5,353 cr vs DII bought Rs 5,189 cr; Rs 7.5 lakh cr mcap wiped out"
