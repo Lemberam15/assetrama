@@ -12,6 +12,11 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [28/09/2026] DONE search.html: og/twitter meta descriptions reworded to be count-free so they stop going stale; "35 pages" count text updated to 37 with the two new cards (suggested 24/09)
 - [28/09/2026] DONE news.html: footer "Market falls & SIPs" now uses the & entity, and 2+ blank-line runs left by card rotation collapsed (suggested 27/09); same bare-& fixed in every other page footer
 
+## DONE — hourly quality cycle 29/09/2026 (22:00 IST)
+
+- [29/09/2026] DONE news: gold-rate card now links to Mint's English gold/silver rate story (was ET Now Hindi — not an authorised source); card content unchanged
+- [29/09/2026] DONE news: deduped the two 29 Sep cards sharing the BusinessLine liveblog URL — the Nifty-rejig card now links to the Economic Times Nifty-rejig article, so all 20 cards carry unique source links
+
 ## Open suggestions (for future weekly reviews)
 
 - [23/09/2026] index: consider a small "As featured / popular this week" strip once traffic data exists in Search Console
@@ -34,6 +39,3 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [29/09/2026] news: mf filter dropped to 0 cards after the 24 Sep SIP card crossed the 72h window — no fresh AMFI/outlet story available this hour; reinforces the 24/09 standing-AMFI-slot suggestion
 - [29/09/2026] news cron: placeholder-overwrite hit AGAIN at 15:04 IST (commit d0d40c0b wrote a literal placeholder token; full 20-card page restored within ~1 min by 76016861, verified by re-fetch: 114,296 bytes, 20 cards, snapshot + rejig card intact) — the committing code path MUST read news.html from disk and assert size >100 KB + 'Market snapshot' present before pushing
 - [29/09/2026] news cron: placeholder-overwrite hit AGAIN at 29 Sep 16:05 IST (commit 8cb2d150 sent a literal placeholder token instead of file bytes; full 20-card page restored within ~1 min by 67897f77, verified via GitHub API: 114,430 bytes, 20 cards, 29 Sep close snapshot intact) — same fix needed: assert size >100 KB + 'Market snapshot' present before pushing
-- [29/09/2026] news: gold-rate card links to hindi.etnownews.com (ET Now Hindi) — not on the authorised-source list and a Hindi page for an English site; consider switching the bullion card source to Mint/IBJA English rate pages on the next card refresh
-- [29/09/2026] news: two cards currently link to the same BusinessLine liveblog URL (article71520150 - "second day lower" and "Nifty changeover") - consider pointing each card at a distinct source article so the 20 cards carry 20 unique read links
-- [29/09/2026] news: two 29 Sep cards (Sensex close, BSE–Wipro Nifty rejig) point to the same BusinessLine liveblog URL — consider a distinct source article for the rejig card so every card has a unique source link
