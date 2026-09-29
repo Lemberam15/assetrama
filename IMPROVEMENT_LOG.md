@@ -28,3 +28,4 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [29/09/2026] news cron: placeholder-overwrite hit AGAIN at 29 Sep 03:04 IST (commit 3d4b017, restored within ~1 min by 6bb8a8f) — reinforces the 28/09 pre-commit payload-size + "Market snapshot" guard suggestion
 - [29/09/2026] news cron: placeholder-overwrite hit AGAIN at ~07:35 IST (commit c13ca7f, full 20-card page restored within ~2 min by 8eb6d6d) — the commit call sent a literal placeholder string instead of the file bytes; reinforces the 28/09 pre-commit size + "Market snapshot" guard suggestion
 - [29/09/2026] news: results category has had 0 cards for several runs; consider a quarterly-results story slice each run to balance all 7 categories
+- [29/09/2026] news: consider adding a Bank Nifty row to the market snapshot table — figures appear in every daily wrap (28 Sep close 54,472, -1,109 pts per CNBC-TV18), so data is easy to verify hourly
