@@ -2,6 +2,16 @@
   "purpose": "48-hour no-repeat ledger. Every posting/monitor agent APPENDS its published topic here. Every agent CHECKS the last 48 hours before writing. Keep newest 50 entries.",
   "entries": [
     {
+      "date": "30/09/2026",
+      "series": "finance101",
+      "topic": "FINANCE 101: 200-week moving average - Nifty tested ~22,600 on 29/09 (low 22,569, close 22,716) first time since the Covid crash; 6 tests in 22 years with 4 rebounds; a decisive break risks 22,400"
+    },
+    {
+      "date": "30/09/2026",
+      "series": "finance101",
+      "topic": "IG CAROUSEL: Did Your SIP actually go through? - month-end verification (bank bounce Rs 100-750 + GST, 3-strike SEBI auto-cancel since 01/04/2024, zero AMC penalty)"
+    },
+    {
       "date": "29/09/2026",
       "series": "finance101",
       "topic": "MARKET WRAP: Sensex 72,529.07 (-0.33%), Nifty 22,716.20 (-0.28%) expiry-day recovery after 1% intraday fall; FII sold Rs 9,980 cr vs DII bought Rs 6,953 cr - biggest FII outflow in weeks, absorbed by DIIs"
