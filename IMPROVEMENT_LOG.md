@@ -17,6 +17,10 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [29/09/2026] DONE news: gold-rate card now links to Mint's English gold/silver rate story (was ET Now Hindi — not an authorised source); card content unchanged
 - [29/09/2026] DONE news: deduped the two 29 Sep cards sharing the BusinessLine liveblog URL — the Nifty-rejig card now links to the Economic Times Nifty-rejig article, so all 20 cards carry unique source links
 
+## DONE — hourly quality cycle 30/09/2026 (07:01 IST)
+
+- [30/09/2026] DONE a11y: aria-current="page" moved to the correct nav link on news.html (Market News) and search.html (Search); removed from the SIP Calculator link on emi/fd/ppf calculator pages (those pages have no nav entry of their own); search.html's duplicated "Search" menu link dropped — was suggested 28/09. index.html audit (area 0): PASS — tag balance, JSON-LD, meta, calculator links all clean
+
 ## Open suggestions (for future weekly reviews)
 
 - [23/09/2026] index: consider a small "As featured / popular this week" strip once traffic data exists in Search Console
