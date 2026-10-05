@@ -17,3 +17,4 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [30/09/2026] news: snapshot bullion rows switched benchmarks across hours (IBJA retail earlier, MCX futures at 11:02) — pick one benchmark per day so hour-over-hour changes compare like with like
 - [05/10/2026] index: the homepage SIP-calculator embed has no growth chart or year-by-year table although the shared calculator JS already supports both (dormant no-ops on this page) — consider surfacing the chart in the embed
 - [05/10/2026] calculators: EMIs and lumpsum calculators still cross-link only to SIP/CAGR lessons — build "What is an EMI?" and "Lumpsum vs SIP" lessons so each calculator links to its own topic (same pattern as the FD/SWP fix this week)
+- [05/10/2026] sitemap: news.html lastmod drifts behind its hourly updates (refreshed manually this run) — weekly task could automate lastmod for news.html, or drop it, since the page changes every hour
