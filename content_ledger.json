@@ -90,6 +90,11 @@
       "date": "04/10/2026",
       "series": "geopolitics",
       "topic": "GEOPOLITICS: G7 agrees 100-million-barrel IEA oil+diesel release (2 Oct) - Brent still ~$102, diesel front-loaded in first 20 days; India imports >85% crude, pump prices unchanged since May, OMCs losing ~Rs 530 cr/day"
+    },
+    {
+      "date": "05/10/2026",
+      "series": "finance101",
+      "topic": "FINANCE 101: Nifty's first weekly close below its 200-week moving average since the 2020 Covid crash - closed 22,421.95 (-3.11%), 8th straight weekly loss (longest in 25 years); India VIX 14.46"
     }
   ]
 }
