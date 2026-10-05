@@ -19,7 +19,7 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [28/09/2026] a11y: several pages carry aria-current="page" on links to other pages (e.g. the SIP Calculator menu link on every calculator page) — audit and fix in a quiet week
 - [28/09/2026] news: Results filter has zero live cards outside earnings season — seed with verified results-preview stories from authorised outlets when fresh results news is scarce
 - [29/09/2026] news: consider adding a Bank Nifty row to the market snapshot table — figures appear in every daily wrap, so data is easy to verify hourly
-- [30/09/2026] news: the tbl-note paragraph under the snapshot table carries every hourly run's 'Page updated' note appended end-to-end and has grown very long — rewrite it each run to hold only the current session's summary, not a running history
+- [05/10/2026] DONE — [30/09/2026] news: the tbl-note paragraph under the snapshot table used to carry every hourly run's 'Page updated' note appended end-to-end; the hourly run now rewrites it each run to hold only the current session's summary (verified 5 Oct).
 - [30/09/2026] news: snapshot bullion rows switched benchmarks across hours (IBJA retail earlier, MCX futures at 11:02) — pick one benchmark per day so hour-over-hour changes compare like with like
 - [05/10/2026] index: the homepage SIP-calculator embed has no growth chart or year-by-year table although the shared calculator JS already supports both (dormant no-ops on this page) — consider surfacing the chart in the embed
 - [05/10/2026] calculators: EMIs and lumpsum calculators still cross-link only to SIP/CAGR lessons — build "What is an EMI?" and "Lumpsum vs SIP" lessons so each calculator links to its own topic (same pattern as the FD/SWP fix this week)
