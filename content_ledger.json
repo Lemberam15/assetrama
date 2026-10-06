@@ -1,5 +1,4 @@
 {
-  "purpose": "48-hour no-repeat ledger. Every posting/monitor agent APPENDS its published topic here. Every agent CHECKS the last 48 hours before writing. Keep newest 50 entries.",
   "entries": [
     {
       "date": "30/09/2026",
@@ -125,6 +124,11 @@
       "date": "06/10/2026",
       "series": "finance101",
       "topic": "PRE-MARKET: overnight global cues - US close higher (Dow +0.18%, S&P +0.66%, Nasdaq +1.05% record); Asia up, Gift Nifty 22,630 (+0.25%) hints a gap-up open; Nifty 22,555.75, support 22,400, resistance 22,600-22,800; RBI rate decision tomorrow, Brent ~$100, rupee 96.30/$"
+    },
+    {
+      "date": "06/10/2026",
+      "series": "moneystory",
+      "topic": "MONEY STORY: Jio Platforms IPO - India's biggest ever at Rs 37,700 cr; beats Hyundai's Rs 27,859 cr; opens 21 Oct, lists 28 Oct, 27 cr fresh shares repay up to Rs 27,500 cr debt"
     }
   ]
 }
