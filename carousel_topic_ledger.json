@@ -22,6 +22,13 @@
    "date": "30/09/2026",
    "locked_until": "31/03/2027",
    "note": "month-end carousel slot (last of September)"
+  },
+  {
+   "topic": "P/E ratio - the price tag of a stock",
+   "category": "stocks",
+   "date": "07/10/2026",
+   "locked_until": "07/04/2027",
+   "note": "mid-month carousel slot"
   }
  ],
  "bank": [
@@ -153,7 +160,9 @@
   {
    "topic": "P/E ratio - the price tag of a stock",
    "category": "stocks",
-   "used": false
+   "used": true,
+   "posted": "07/10/2026",
+   "locked_until": "07/04/2027"
   },
   {
    "topic": "Market cap - big, mid, small companies",
