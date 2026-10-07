@@ -125,7 +125,7 @@ LINK_SVG = '<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="
 
 def topbar(tag):
     return f'''<div class="topbar">
-      <div class="brand"><img src="file:///scratch/work/logo-mark.png"><span>ASSET&nbsp;RAMA</span></div>
+      <div class="brand"><img src="file://%%LOGO%%"><span>ASSET&nbsp;RAMA</span></div>
       <div class="tag">{tag}</div></div>'''
 
 def steps(n, on):
