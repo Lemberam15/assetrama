@@ -20,4 +20,4 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [05/10/2026] sitemap: news.html lastmod drifts behind its hourly updates (refreshed manually this run) — weekly task could automate lastmod for news.html, or drop it, since the page changes every hour
 - [06/10/2026] news: same-day cards can share a lead subject (e.g. an index-move card and a company-results card both naming Trent) and risk reading as near-duplicates — a one-line "lead subject" tag per card would make a pre-publish duplicate check mechanical
 - [06/10/2026] video posts: numeric figures inside the 3 slide points now render bold + in the tone accent colour (render_slide.py v11) — number-led hooks lift CTR ~51% and figures pop on dark slides
-- [07/10/2026] news: the snapshot header still reads "6 October 2026 close" while the Brent row is now a 7 Oct intraday figure — add a per-row "as of" label so mixed-date snapshots read cleanly
+- [07/10/2026] news: add a per-row "as of" label so mixed-date snapshots read cleanly — DONE 07/10/2026 (snapshot header and every row now date-stamped)
