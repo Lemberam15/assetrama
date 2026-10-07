@@ -149,6 +149,11 @@
    "date": "07/10/2026",
    "series": "finance101",
    "topic": "PRE-MARKET: RBI decision day - soft open likely; Gift Nifty ~22,700 vs Tue close 22,776; support 22,600/22,400, resistance 22,800; US at records (Dow 51,521, S&P 7,819, Nasdaq 27,600); Brent $101.5, rupee 96.4; 25 bps hike to 5.50% expected"
+  },
+  {
+   "date": "07/10/2026",
+   "series": "event",
+   "topic": "EVENT/MARKET ALERT: RBI MPC hikes repo rate 25 bps to 5.50% - first hike since Feb 2023 (unanimous); stance changed to 'calibrated tightening' (4:2); Governor says cuts off the table near-term; FY27 GDP forecast raised to 7.1%"
   }
  ]
 }
