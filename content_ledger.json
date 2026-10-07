@@ -154,6 +154,11 @@
    "date": "07/10/2026",
    "series": "event",
    "topic": "EVENT/MARKET ALERT: RBI MPC hikes repo rate 25 bps to 5.50% - first hike since Feb 2023 (unanimous); stance changed to 'calibrated tightening' (4:2); Governor says cuts off the table near-term; FY27 GDP forecast raised to 7.1%"
+  },
+  {
+   "date": "07/10/2026",
+   "series": "moneystory",
+   "topic": "MONEY STORY: RBI MPC hikes repo rate 25 bps to 5.50% - first hike since Feb 2023; stance shifted to calibrated tightening, rate cuts off the table; FY27 GDP raised to 7.1%, CPI to 5.2%; Sensex slipped to 72,991, Nifty to 22,705 after the move"
   }
  ]
 }
