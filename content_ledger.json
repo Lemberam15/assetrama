@@ -187,6 +187,16 @@
   },
   {
    "date": "08/10/2026",
+   "series": "finance101",
+   "topic": "FINANCE 101: Dividend yield - the yearly dividend per share divided by the share price; TCS yields ~5.29% and paid Rs 111/share in the last year; TCS board meets 08/10/2026 to consider a second interim dividend (record date 14/10/2026)"
+  },
+  {
+   "date": "08/10/2026",
+   "series": "finance101",
+   "topic": "PRE-MARKET: global overnight cues - US slipped from records (Dow -0.66%, S&P 500 -0.22%, Nasdaq -0.22%) as 10-yr yield hit 5.35% (highest since 2002); Asia weak (Nikkei -1%, Hang Seng -0.4%); Gift Nifty ~22,600 flat; Brent ~$100, rupee 96.78 near record low; Nifty 22,603, Sensex 72,639, support 22,500; TCS Q2 results + GST Council today"
+  },
+  {
+   "date": "08/10/2026",
    "series": "geopolitics",
    "topic": "GEOPOLITICS: Copper near a record - LME 3-month ~$14,600/t (+0.96%, highest in ~2 weeks) on Chile Centinela & Escondida mine strikes + China post-holiday restocking; copper ~57% costlier YoY; India imports ~85% of its copper, so AC/wire/EV makers are passing costs to buyers"
   }
