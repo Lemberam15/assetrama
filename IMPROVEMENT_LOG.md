@@ -21,3 +21,5 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [06/10/2026] news: same-day cards can share a lead subject (e.g. an index-move card and a company-results card both naming Trent) and risk reading as near-duplicates — a one-line "lead subject" tag per card would make a pre-publish duplicate check mechanical
 - [06/10/2026] video posts: numeric figures inside the 3 slide points now render bold + in the tone accent colour (render_slide.py v11) — number-led hooks lift CTR ~51% and figures pop on dark slides
 - [07/10/2026] video posts: data-chart value figures now render larger and the key bar's figure takes its bar colour (render_slide.py v12) — number emphasis makes the headline figure the hook (CTR ~51%)
+- [08/10/2026] lessons.html: 29 lessons across 7 chips — show a per-category count on each chip (e.g. "Mutual Funds (9)") so library depth is visible; small JS change, no restyle
+- [08/10/2026] news: reconcile the rupee figure — the snapshot/note show ₹96.78 but a 7 Oct card says the rupee hit a two-month low of 96.53; pin one verified closing value per source
