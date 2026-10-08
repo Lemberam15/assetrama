@@ -2,6 +2,11 @@
  "entries": [
   {
    "date": "08/10/2026",
+   "series": "event",
+   "topic": "EVENT/MARKET ALERT: Sensex crashes 1,045 pts (-1.44%) to 71,593; Nifty -371 pts (-1.64%) to 22,231, a fresh 52-week low and lowest close since Apr 2025; Rs 11.37 lakh crore wiped out; every sector red on RBI's repo hike to 5.50%, Brent above $104 and US 10-yr yields at 5.35%"
+  },
+  {
+   "date": "08/10/2026",
    "series": "moneystory",
    "topic": "MONEY STORY: FIIs sold Indian stocks for a 9th straight session - Rs 6,121 cr net sold on 07/10; Rs 33,414 cr out over 5 sessions vs DII buying Rs 36,181 cr; Sensex fell ~400 pts, Nifty below 22,500 on 08/10"
   },
