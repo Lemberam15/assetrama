@@ -7,6 +7,16 @@
   },
   {
    "date": "08/10/2026",
+   "series": "finance101",
+   "topic": "FINANCE 101: Dividend yield - the yearly dividend per share divided by the share price; TCS yields ~5.29% and paid Rs 111/share in the last year; TCS board meets 08/10/2026 to consider a second interim dividend (record date 14/10/2026)"
+  },
+  {
+   "date": "08/10/2026",
+   "series": "finance101",
+   "topic": "PRE-MARKET: global overnight cues - US slipped from records (Dow -0.66%, S&P 500 -0.22%, Nasdaq -0.22%) as 10-yr yield hit 5.35% (highest since 2002); Asia weak (Nikkei -1%, Hang Seng -0.4%); Gift Nifty ~22,600 flat; Brent ~$100, rupee 96.78 near record low; Nifty 22,603, Sensex 72,639, support 22,500; TCS Q2 results + GST Council today"
+  },
+  {
+   "date": "08/10/2026",
    "series": "event",
    "topic": "EVENT/MARKET ALERT: Sensex crashes 1,045 pts (-1.44%) to 71,593; Nifty -371 pts (-1.64%) to 22,231, a fresh 52-week low and lowest close since Apr 2025; Rs 11.37 lakh crore wiped out; every sector red on RBI's repo hike to 5.50%, Brent above $104 and US 10-yr yields at 5.35%"
   },
@@ -184,16 +194,6 @@
    "date": "07/10/2026",
    "series": "geopolitics",
    "topic": "GEOPOLITICS: Crude oil's $100 tug-of-war - Brent dipped below $98 Tue then back above $101 Wed (G7 100m-barrel emergency release vs Houthi attacks + US storm); Delhi petrol still Rs 102.12/L, diesel Rs 95.20/L, unchanged since June; ICRA flags negative OMC fuel margins"
-  },
-  {
-   "date": "08/10/2026",
-   "series": "finance101",
-   "topic": "FINANCE 101: Dividend yield - the yearly dividend per share divided by the share price; TCS yields ~5.29% and paid Rs 111/share in the last year; TCS board meets 08/10/2026 to consider a second interim dividend (record date 14/10/2026)"
-  },
-  {
-   "date": "08/10/2026",
-   "series": "finance101",
-   "topic": "PRE-MARKET: global overnight cues - US slipped from records (Dow -0.66%, S&P 500 -0.22%, Nasdaq -0.22%) as 10-yr yield hit 5.35% (highest since 2002); Asia weak (Nikkei -1%, Hang Seng -0.4%); Gift Nifty ~22,600 flat; Brent ~$100, rupee 96.78 near record low; Nifty 22,603, Sensex 72,639, support 22,500; TCS Q2 results + GST Council today"
   },
   {
    "date": "08/10/2026",
