@@ -2,6 +2,11 @@
  "entries": [
   {
    "date": "09/10/2026",
+   "series": "geopolitics",
+   "topic": "GEOPOLITICS: gold rebounds before festive season - MCX gold +1% to ~Rs 1.51 lakh/10g and silver +1.5% to ~Rs 2.24 lakh/kg, after global gold bounced off a 2-month low on easing US 10-yr yields (~5.23%) and a softer dollar; weak rupee ~96.8/$ keeps Indian gold rates near their highs"
+  },
+  {
+   "date": "09/10/2026",
    "series": "finance101",
    "topic": "FINANCE 101: TCV (Total Contract Value) - total value of deals an IT firm signs in a quarter; TCS reported TCV of $9.6 bn for Q2 FY27 (announced 08/10/2026) with revenue +11.2% YoY to Rs 73,188 cr and AI revenue $3.1 bn"
   },
@@ -216,5 +221,5 @@
    "topic": "MONEY STORY: D-Street rebounds led by IT stocks - Sensex up ~800-850 pts (~72,450), Nifty up ~285 to ~22,515 after Thursday's Rs 10 lakh cr rout; TCS +~5% on Q2 (PAT Rs 13,884 cr, +15% YoY; annual AI revenue $3.1bn crossing 10% of revenue); oil eases to ~$103 as Trump pauses Iran strikes; ~Rs 3 lakh cr market cap added"
   }
  ],
- "count": 43
+ "count": 44
 }
