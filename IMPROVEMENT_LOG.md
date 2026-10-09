@@ -24,3 +24,4 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [08/10/2026] lessons.html: 29 lessons across 7 chips — show a per-category count on each chip (e.g. "Mutual Funds (9)") so library depth is visible; small JS change, no restyle
 - [08/10/2026] site: nav/footer links are hard-coded absolute https://lemberam15.github.io/assetrama/ URLs across pages (seen on 404.html) — a one-time sweep will be needed when a custom domain is added
 - [08/10/2026] video posts: numeric figures inside the 3 slide points now render LARGER (hero figures, 1.20x) and baseline-aligned, on top of the existing bold + accent (render_slide.py v13) - a stronger number hierarchy makes the key figure the slide focal point
+- [09/10/2026] video posts: numeric figures in the HEADLINE now render in the tone/series accent colour (render_slide.py v14) - the key figure in the headline pops as the strongest hook; colour-only, so wrapping/layout are unchanged
