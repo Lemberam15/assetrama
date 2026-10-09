@@ -2,6 +2,11 @@
  "entries": [
   {
    "date": "09/10/2026",
+   "series": "finance101",
+   "topic": "MARKET WRAP: Sensex 72,472.33 (+1.23%), Nifty 22,520.45 (+1.30%) snapped an 8-week losing streak; FII net sold Rs 3,569 cr vs DII net bought Rs 4,743 cr - DIIs more than absorbed it, index still closed green"
+  },
+  {
+   "date": "09/10/2026",
    "series": "geopolitics",
    "topic": "GEOPOLITICS: gold rebounds before festive season - MCX gold +1% to ~Rs 1.51 lakh/10g and silver +1.5% to ~Rs 2.24 lakh/kg, after global gold bounced off a 2-month low on easing US 10-yr yields (~5.23%) and a softer dollar; weak rupee ~96.8/$ keeps Indian gold rates near their highs"
   },
@@ -221,5 +226,5 @@
    "topic": "MONEY STORY: D-Street rebounds led by IT stocks - Sensex up ~800-850 pts (~72,450), Nifty up ~285 to ~22,515 after Thursday's Rs 10 lakh cr rout; TCS +~5% on Q2 (PAT Rs 13,884 cr, +15% YoY; annual AI revenue $3.1bn crossing 10% of revenue); oil eases to ~$103 as Trump pauses Iran strikes; ~Rs 3 lakh cr market cap added"
   }
  ],
- "count": 44
+ "count": 45
 }
