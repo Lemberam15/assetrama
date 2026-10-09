@@ -29,6 +29,13 @@
    "date": "07/10/2026",
    "locked_until": "07/04/2027",
    "note": "mid-month carousel slot"
+  },
+  {
+   "topic": "Power of starting at 25 vs 35",
+   "category": "investing basics",
+   "date": "09/10/2026",
+   "locked_until": "09/04/2027",
+   "note": "Friday carousel slot (finance101)"
   }
  ],
  "bank": [
@@ -247,7 +254,9 @@
   {
    "topic": "Power of starting at 25 vs 35",
    "category": "investing basics",
-   "used": false
+   "used": true,
+   "posted": "09/10/2026",
+   "locked_until": "09/04/2027"
   }
  ]
 }
