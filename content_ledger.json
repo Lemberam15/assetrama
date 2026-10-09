@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "date": "09/10/2026",
+   "series": "finance101",
+   "topic": "FINANCE 101: TCV (Total Contract Value) - total value of deals an IT firm signs in a quarter; TCS reported TCV of $9.6 bn for Q2 FY27 (announced 08/10/2026) with revenue +11.2% YoY to Rs 73,188 cr and AI revenue $3.1 bn"
+  },
+  {
    "date": "08/10/2026",
    "series": "finance101",
    "topic": "MARKET WRAP: Sensex 71,593.24 (-1.44%), Nifty 22,231.80 (-1.64%) fresh 52-week low; FII net sold Rs 12,944 cr vs DII net bought Rs 10,703 cr - DIIs absorbed most of the selling but the index still fell"
@@ -200,5 +205,6 @@
    "series": "geopolitics",
    "topic": "GEOPOLITICS: Copper near a record - LME 3-month ~$14,600/t (+0.96%, highest in ~2 weeks) on Chile Centinela & Escondida mine strikes + China post-holiday restocking; copper ~57% costlier YoY; India imports ~85% of its copper, so AC/wire/EV makers are passing costs to buyers"
   }
- ]
+ ],
+ "count": 41
 }
