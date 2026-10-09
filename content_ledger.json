@@ -209,7 +209,12 @@
    "date": "09/10/2026",
    "series": "finance101",
    "topic": "PRE-MARKET: mixed overnight cues after Nifty's 21-month low - Nifty closed 22,231.80 (-1.64%, 21-month low), Sensex 71,593.24 (-1.44%); Gift Nifty ~22,370 (+115 pts) hints a gap-up open; US mixed (Dow +0.10%, S&P -0.47%, Nasdaq -1.25% on OpenAI revenue report); Brent ~$104 on Hormuz tanker attacks; rupee ~96.8; support 22,180, resistance 22,350"
+  },
+  {
+   "date": "09/10/2026",
+   "series": "moneystory",
+   "topic": "MONEY STORY: D-Street rebounds led by IT stocks - Sensex up ~800-850 pts (~72,450), Nifty up ~285 to ~22,515 after Thursday's Rs 10 lakh cr rout; TCS +~5% on Q2 (PAT Rs 13,884 cr, +15% YoY; annual AI revenue $3.1bn crossing 10% of revenue); oil eases to ~$103 as Trump pauses Iran strikes; ~Rs 3 lakh cr market cap added"
   }
  ],
- "count": 42
+ "count": 43
 }
