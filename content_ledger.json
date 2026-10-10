@@ -2,6 +2,11 @@
  "entries": [
   {
    "date": "10/10/2026",
+   "series": "moneystory",
+   "topic": "MONEY STORY: why falling markets are a SIP's best friend - the Nifty's 8-week losing streak (longest in 25 years, -8.7%) snapped on Friday 09/10/2026 (Sensex +879.09 pts/+1.23% to 72,472.33, Nifty +288.65/+1.30% to 22,520.45); rupee-cost averaging and time in the market"
+  },
+  {
+   "date": "10/10/2026",
    "series": "event",
    "topic": "EVENT/MARKET ALERT: RBI announced measures to defend the rupee near its record low - a special window to sell dollars directly to IOCL/HPCL/BPCL from 12/10/2026, plus forex derivative curbs (no rebooking cancelled rupee contracts, no-underlying limit cut from $100 mn to $5 mn, 20% Foreign Exchange Risk Reserve above $2 mn); rupee closed at 96.73, near its all-time low of 96.96 hit in May 2026"
   },
@@ -236,5 +241,5 @@
    "topic": "MONEY STORY: D-Street rebounds led by IT stocks - Sensex up ~800-850 pts (~72,450), Nifty up ~285 to ~22,515 after Thursday's Rs 10 lakh cr rout; TCS +~5% on Q2 (PAT Rs 13,884 cr, +15% YoY; annual AI revenue $3.1bn crossing 10% of revenue); oil eases to ~$103 as Trump pauses Iran strikes; ~Rs 3 lakh cr market cap added"
   }
  ],
- "count": 46
+ "count": 48
 }
