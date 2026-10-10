@@ -2,6 +2,11 @@
  "entries": [
   {
    "date": "10/10/2026",
+   "series": "event",
+   "topic": "EVENT/MARKET ALERT: RBI announced measures to defend the rupee near its record low - a special window to sell dollars directly to IOCL/HPCL/BPCL from 12/10/2026, plus forex derivative curbs (no rebooking cancelled rupee contracts, no-underlying limit cut from $100 mn to $5 mn, 20% Foreign Exchange Risk Reserve above $2 mn); rupee closed at 96.73, near its all-time low of 96.96 hit in May 2026"
+  },
+  {
+   "date": "10/10/2026",
    "series": "finance101",
    "topic": "FINANCE 101: CRR (Cash Reserve Ratio) - share of deposits banks must keep with RBI, interest-free; RBI raised the minimum daily CRR maintenance from 90% to 99% effective the fortnight beginning 16/10/2026, though the CRR ratio stays at 3%"
   },
