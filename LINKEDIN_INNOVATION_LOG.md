@@ -94,3 +94,67 @@ Ram approved clubbing the two most overlapping market posts. Data-timing check f
 - **Trading-day lineup now 5 posts**: 7:30 AM term, 8:45 AM pre-market, 12:30 PM story, 6 PM geopolitics, 8:30 PM wrap + flows. Non-trading days unchanged (3 posts).
 - **SKILL.md updated**: series table and tomorrow-teaser slot list now reflect the merged slot.
 - Cron count: 17 (12 posting/monitor agents minus one, plus radar + tracker + 3 website + token refresh).
+
+## 10/10/2026 — v15: BEAT-CUT MOTION (kill the single static hold) + music v4
+
+**Growth data (pulled from the APIs):**
+- Instagram: **469 followers** (baseline 471 on 27/09/2026 → net **-2**, flat-to-down).
+  Last 30 media: likes 0-4, **comments 0 on every post**. The weakest number is
+  **comments/engagement**; follower growth is flat. Platform that needs it most =
+  Instagram (the 2-year north-star channel).
+- LinkedIn: baseline 1,562 (26/09/2026); no new number reported in chat this week —
+  update when Ram reports it.
+
+**What changed (this week's one improvement):** the 20-second post was a SINGLE
+static shot held the whole time — the biggest documented retention leak in 2026
+short-form ("a static frame in a moving feed reads as a pause"; motion in frame 1
+beats a static open by ~23% on 3-second retention; "visual variety carries the
+middle; each change resets attention"). v15 cuts every video into **2-3 beats with
+hard cuts** — full slide → a new **big-number beat card** → full slide — plus a soft
+**light sweep** at each beat start.
+- New spec field `"beat": {kicker, value, label}` (OPTIONAL). render_slide.py then
+  also writes `<slide>_beat.png` (brand-matched 1080x1350 big-number card).
+- make_video.py takes an optional 6th arg (the card) and renders the hard-cut edit.
+- First frame is STILL the full slide at full brightness (thumbnail safe; hook text
+  at frame 0.0, zero fade-in — the 2026 hook rule).
+- **Backwards compatible:** no `"beat"` and no 6th arg → the old static video is
+  byte-for-byte unchanged.
+- The beat card doubles as the long-planned "big-number post" (backlog #6).
+- v15.1 fix: render_slide.py now prints `points rendered N/3` and a WARNING when
+  auto-fit silently DROPS a point (found while building these samples — Sample A's
+  first render dropped a point). Agents must shorten copy and re-render.
+
+**Music v4 (rotation):** built on v3 (warm, mono-safe, no saturation). Adds a warm
+sub-bass root per chord, a soft low "heartbeat" pulse for driving moods
+(urgent/tense/event/solemn) and a very quiet high shimmer for bright moods
+(uplifting/festival/finance101/moneystory). Loudness target unchanged (~ -12 dBFS
+RMS). QC'd by encoding samples: 20.00 s, mean ~ -13.7 dBFS, peak ~ -0.6 dB — normal.
+
+**Post types affected:** ALL 12 daily slots + creative festival/event posts (any post
+whose spec adds a `"beat"`). LinkedIn and Instagram reels both use the beat edit;
+stories are unchanged.
+
+**Samples (delivered as downloads):** sampleA_marketwrap.png / _beat.png / .mp4
+(verified 09/10/2026 FII/DII flows: FII -Rs 3,569 cr, DII +Rs 4,743 cr, Sensex
+72,472 +879, Nifty 22,520 +289); sampleB_sip.png / _beat.png / .mp4 (clearly
+ILLUSTRATIVE SIP: Rs 5,000/month, 20 years, assumed 12% → about Rs 50 lakh).
+Pixel QC: contrast ~17.7:1 (>=3 required), zero edge clipping, 20.00 s, no overlap;
+beats verified by frame diff (t=4 slide, t=8 card, t=14 slide).
+
+**New backlog ideas (added this week):**
+1. Kinetic typography — headline words punching in sequence in the FIRST beat
+   (kept frame-0-safe so the hook text is present at 0.0 s).
+2. Second beat-card variant: a 2-bar mini-chart card (FII vs DII) as the mid cut.
+3. SEND TRIGGER line in the final 5 s + a "send this to…" caption line (2026 data:
+   sends are weighted ~3-5x likes and are now a top signal).
+4. First-comment-with-a-question on LinkedIn (a "second distribution event" that
+   drove the highest comment counts in a 2026 study of high-performing posts).
+5. Native 9:16 Instagram reel render (still pillarboxed today) — the biggest
+   remaining Instagram reach lever.
+
+**Monetization note (suggestion only):** at 469 IG / ~1.5k LinkedIn, the
+highest-value next action is the FREE one — start collecting WhatsApp numbers. Ram
+already shows the "EDUCATIONAL QUERIES 9049547427" box on every slide; add a
+one-line caption ask ("Save my number for market updates") plus a pinned comment,
+so the list is building well before the 10k sponsor stage. No spend, no brand
+contact — pure list-building.
