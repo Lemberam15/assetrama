@@ -29,3 +29,4 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [11/10/2026] news: snapshot Brent row ($102.90, ET) disagrees with Hindu BusinessLine ($104.70), Upstox ($104.42) and Goodreturns ($104.73) for the 9 Oct close — settle on one Brent benchmark and reconcile the row so it matches the cards.
 - [11/10/2026] news: the Mutual Funds filter holds only the August AMFI card; September AMFI data (due ~10 Oct) was not yet published by this run — swap in the September release as soon as it lands so mf stays fresh.
 - [11/10/2026] news: three IPO-themed cards now run together (Zetwerk IPO, Jio Platforms IPO, next-week IPO calendar) — consider capping IPO cards so the feed does not read as single-topic.
+- [11/10/2026] search.html: the "39 pages" count text is hard-coded while the page renders exactly 39 cards — generate the count from the card list (or a data attribute) so it cannot drift as items are added or removed.
