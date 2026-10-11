@@ -2,6 +2,11 @@
  "entries": [
   {
    "date": "11/10/2026",
+   "series": "moneystory",
+   "topic": "MONEY STORY: gold ETFs drew $496.2 mn in September 2026, nearly double August's $256.20 mn (3.12 t added; 2026 inflows $4.71 bn) as the Nifty fell 8.34% over 9 weeks - a diversification lesson"
+  },
+  {
+   "date": "11/10/2026",
    "series": "finance101",
    "topic": "FINANCE 101: Put-Call Ratio (PCR) - Nifty's PCR closed at 1.27 on 09/10/2026 (nearest expiry), up from 0.62 a day earlier; PCR = total put open interest / total call open interest, above 1 means puts outweigh calls (often read as defensive or support-building)"
   },
@@ -244,11 +249,6 @@
    "date": "08/10/2026",
    "series": "geopolitics",
    "topic": "GEOPOLITICS: Copper near a record - LME 3-month ~$14,600/t (+0.96%, highest in ~2 weeks) on Chile Centinela & Escondida mine strikes + China post-holiday restocking; copper ~57% costlier YoY; India imports ~85% of its copper, so AC/wire/EV makers are passing costs to buyers"
-  },
-  {
-   "date": "09/10/2026",
-   "series": "finance101",
-   "topic": "PRE-MARKET: mixed overnight cues after Nifty's 21-month low - Nifty closed 22,231.80 (-1.64%, 21-month low), Sensex 71,593.24 (-1.44%); Gift Nifty ~22,370 (+115 pts) hints a gap-up open; US mixed (Dow +0.10%, S&P -0.47%, Nasdaq -1.25% on OpenAI revenue report); Brent ~$104 on Hormuz tanker attacks; rupee ~96.8; support 22,180, resistance 22,350"
   }
  ],
  "count": 50
