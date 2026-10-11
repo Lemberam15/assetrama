@@ -2,6 +2,11 @@
  "entries": [
   {
    "date": "11/10/2026",
+   "series": "event",
+   "topic": "EVENT/MARKET ALERT: West Asia escalation - Houthi missile strike on Riyadh's King Khalid Intl Airport (10/10/2026) killed 12, injured 309, deadliest on Saudi soil in a decade; Saudi coalition vows retaliation; US disabled a cargo ship running the Iran blockade in the Gulf of Oman and Iran says a supertanker exploded on a mine in the Strait of Hormuz; Brent settled $104.72 on 09/10/2026 - India imports >85% of its crude"
+  },
+  {
+   "date": "11/10/2026",
    "series": "moneystory",
    "topic": "MONEY STORY: gold ETFs drew $496.2 mn in September 2026, nearly double August's $256.20 mn (3.12 t added; 2026 inflows $4.71 bn) as the Nifty fell 8.34% over 9 weeks - a diversification lesson"
   },
@@ -244,11 +249,6 @@
    "date": "07/10/2026",
    "series": "geopolitics",
    "topic": "GEOPOLITICS: Crude oil's $100 tug-of-war - Brent dipped below $98 Tue then back above $101 Wed (G7 100m-barrel emergency release vs Houthi attacks + US storm); Delhi petrol still Rs 102.12/L, diesel Rs 95.20/L, unchanged since June; ICRA flags negative OMC fuel margins"
-  },
-  {
-   "date": "08/10/2026",
-   "series": "geopolitics",
-   "topic": "GEOPOLITICS: Copper near a record - LME 3-month ~$14,600/t (+0.96%, highest in ~2 weeks) on Chile Centinela & Escondida mine strikes + China post-holiday restocking; copper ~57% costlier YoY; India imports ~85% of its copper, so AC/wire/EV makers are passing costs to buyers"
   }
  ],
  "count": 50
