@@ -39,6 +39,11 @@
 - [25/09/2026] https://lemberam15.github.io/assetrama/articles/ppf-vs-elss.html
 - [25/09/2026] https://lemberam15.github.io/assetrama/articles/silver-investment-guide.html
 
+## Requested (this week)
+
+- [12/10/2026] https://lemberam15.github.io/assetrama/articles/what-is-emi.html
+- [12/10/2026] https://lemberam15.github.io/assetrama/articles/lumpsum-vs-sip.html
+
 ## Done
 
 (none confirmed indexed yet)
