@@ -33,6 +33,8 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [12/10/2026] sitemap: lastmod lags real changes — 37 of 44 URLs list a date older than the file's latest commit (e.g. search.html and lessons.html both changed 12/10 but show 28/09). Reconcile every lastmod against its last significant content change in the weekly pass.
 - [12/10/2026] news: snapshot Brent row was pinned to a morning quote ($103.35, shown as down) that the day's close reversed ($105.80, up) — tie the Brent row to a single end-of-day benchmark to stop intraday drift (see also the 9 Oct Brent reconcile note).
 
+- [13/10/2026] news: the US-market card kept a pre-close headline ("US stocks start the week mixed") and an "at open" source link after the US session had closed, so the hourly run had to repoint it by hand — consider a rule that swaps the US card to the session-close article once the US market closes.
+
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
 - [12/10/2026] Proposed count-up (animated) hero number on the beat card — sample delivered for Ram's approval; the live 4:5 static pipeline is unchanged. Why: count-up is the top researched number+motion pattern and motion holds viewers.
