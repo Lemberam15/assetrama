@@ -2,6 +2,11 @@
  "entries": [
   {
    "date": "12/10/2026",
+   "series": "finance101",
+   "topic": "MARKET WRAP: Sensex 71,924.68 (-0.76%), Nifty 22,363.35 (-0.70%) erased early gains; FII net sold Rs 1,708 cr vs DII net bought Rs 3,045 cr - combined net +Rs 1,337 cr yet the index still closed red (DIIs absorbed the selling but could not hold the market up)"
+  },
+  {
+   "date": "12/10/2026",
    "series": "geopolitics",
    "topic": "GEOPOLITICS: silver up about 30% in a year to near $61/oz as India's festive buying opens; MCX silver near Rs 2.25 lakh/kg, gold above $4,200/oz; India imports 80-90% of its silver; IBJA sees festive silver buying up 17-18%"
   },
@@ -244,11 +249,6 @@
    "date": "06/10/2026",
    "series": "finance101",
    "topic": "MARKET WRAP: Sensex 73,067.81 (+0.95%), Nifty 22,776.10 (+0.98%), 2nd straight green close; FII net sold Rs 2,961 cr (8th day) while DII net bought Rs 5,089 cr - DIIs absorbed the FII selling, index still closed green"
-  },
-  {
-   "date": "07/10/2026",
-   "series": "finance101",
-   "topic": "FINANCE 101: EPS (Earnings Per Share) - what it is and why it moves a stock on results day; Q2 FY27 earnings season opens 08/10/2026 with TCS"
   }
  ],
  "count": 50
