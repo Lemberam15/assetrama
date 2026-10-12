@@ -32,3 +32,7 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [12/10/2026] news: the snapshot heading and "as of" note hard-code the date and session state (e.g. "12 October 2026, intraday") that the hourly run edits by hand each time — consider driving both from one variable so they cannot drift apart.
 - [12/10/2026] sitemap: lastmod lags real changes — 37 of 44 URLs list a date older than the file's latest commit (e.g. search.html and lessons.html both changed 12/10 but show 28/09). Reconcile every lastmod against its last significant content change in the weekly pass.
 - [12/10/2026] news: snapshot Brent row was pinned to a morning quote ($103.35, shown as down) that the day's close reversed ($105.80, up) — tie the Brent row to a single end-of-day benchmark to stop intraday drift (see also the 9 Oct Brent reconcile note).
+
+## Content pipeline (LinkedIn / Instagram) — daily improvement
+
+- [12/10/2026] Proposed count-up (animated) hero number on the beat card — sample delivered for Ram's approval; the live 4:5 static pipeline is unchanged. Why: count-up is the top researched number+motion pattern and motion holds viewers.
