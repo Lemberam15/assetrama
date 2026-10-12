@@ -2,6 +2,11 @@
  "entries": [
   {
    "date": "12/10/2026",
+   "series": "geopolitics",
+   "topic": "GEOPOLITICS: silver up about 30% in a year to near $61/oz as India's festive buying opens; MCX silver near Rs 2.25 lakh/kg, gold above $4,200/oz; India imports 80-90% of its silver; IBJA sees festive silver buying up 17-18%"
+  },
+  {
+   "date": "12/10/2026",
    "series": "moneystory",
    "topic": "MONEY STORY: FPI outflows - FPIs pulled Rs 44,166 crore from Indian stocks in October's first 6 sessions; 2026 outflows crossed Rs 3.04 lakh crore (vs Rs 1.66 lakh crore in all of 2025); Nifty down 13.87% YTD as US 10-yr yields top 5.2%"
   },
@@ -244,11 +249,6 @@
    "date": "07/10/2026",
    "series": "finance101",
    "topic": "FINANCE 101: EPS (Earnings Per Share) - what it is and why it moves a stock on results day; Q2 FY27 earnings season opens 08/10/2026 with TCS"
-  },
-  {
-   "date": "07/10/2026",
-   "series": "finance101",
-   "topic": "PRE-MARKET: RBI decision day - soft open likely; Gift Nifty ~22,700 vs Tue close 22,776; support 22,600/22,400, resistance 22,800; US at records (Dow 51,521, S&P 7,819, Nasdaq 27,600); Brent $101.5, rupee 96.4; 25 bps hike to 5.50% expected"
   }
  ],
  "count": 50
