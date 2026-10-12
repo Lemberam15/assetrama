@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "date": "12/10/2026",
+   "series": "event",
+   "topic": "EVENT/MARKET ALERT: Middle East escalation - Houthi strikes hit Saudi Aramco gas facilities and Riyadh airport over the weekend, pushing Brent above $105/bbl (up over 70% this year); the IMO counted 11 tanker attacks in a week, the most since the war began; India imports over 85% of its crude, so higher oil feeds into the import bill and inflation"
+  },
+  {
    "date": "11/10/2026",
    "series": "moneystory",
    "topic": "MONEY STORY: gold ETFs drew $496.2 mn in September 2026, nearly double August's $256.20 mn (3.12 t added; 2026 inflows $4.71 bn) as the Nifty fell 8.34% over 9 weeks - a diversification lesson"
@@ -244,11 +249,6 @@
    "date": "07/10/2026",
    "series": "geopolitics",
    "topic": "GEOPOLITICS: Crude oil's $100 tug-of-war - Brent dipped below $98 Tue then back above $101 Wed (G7 100m-barrel emergency release vs Houthi attacks + US storm); Delhi petrol still Rs 102.12/L, diesel Rs 95.20/L, unchanged since June; ICRA flags negative OMC fuel margins"
-  },
-  {
-   "date": "11/10/2026",
-   "series": "geopolitics",
-   "topic": "GEOPOLITICS: India's gold ETFs drew $496.2M in September 2026 (nearly double August's $256.2M), adding 3.12 tonnes, as the Nifty fell 8.34% over nine weeks; 24K gold ~Rs 1.5 lakh per 10g, up ~21% YoY; India 3rd globally in gold ETF inflows (WGC)"
   }
  ],
  "count": 50
