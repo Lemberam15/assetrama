@@ -3,6 +3,11 @@
   {
    "date": "12/10/2026",
    "series": "finance101",
+   "topic": "PRE-MARKET: overnight global cues - US closed higher Fri (Dow +0.83%, S&P +0.59%, Nasdaq +0.64%); Nifty 22,520.45 (+1.30%) ended an 8-week losing streak; GIFT Nifty flat ~22,624; support 22,400, resistance 22,600-22,800; Brent ~$103.5, rupee 96.73; Sept CPI due today"
+  },
+  {
+   "date": "12/10/2026",
+   "series": "finance101",
    "topic": "FINANCE 101: CPI vs WPI - retail vs wholesale inflation; Aug CPI 4.82% vs WPI 9.92% (gap ~5 pts); Sept CPI released today 4 PM IST, expected ~5.4%"
   },
   {
@@ -244,11 +249,6 @@
    "date": "07/10/2026",
    "series": "event",
    "topic": "EVENT/MARKET ALERT: RBI MPC hikes repo rate 25 bps to 5.50% - first hike since Feb 2023 (unanimous); stance changed to 'calibrated tightening' (4:2); Governor says cuts off the table near-term; FY27 GDP forecast raised to 7.1%"
-  },
-  {
-   "date": "07/10/2026",
-   "series": "moneystory",
-   "topic": "MONEY STORY: RBI MPC hikes repo rate 25 bps to 5.50% - first hike since Feb 2023; stance shifted to calibrated tightening, rate cuts off the table; FY27 GDP raised to 7.1%, CPI to 5.2%; Sensex slipped to 72,991, Nifty to 22,705 after the move"
   }
  ],
  "count": 50
