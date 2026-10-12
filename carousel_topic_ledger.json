@@ -36,6 +36,13 @@
    "date": "09/10/2026",
    "locked_until": "09/04/2027",
    "note": "Friday carousel slot (finance101)"
+  },
+  {
+   "topic": "Large vs Mid vs Small cap - the risk ladder",
+   "category": "mutual funds",
+   "date": "12/10/2026",
+   "locked_until": "12/04/2027",
+   "note": "Monday finance101 carousel slot"
   }
  ],
  "bank": [
@@ -132,7 +139,9 @@
   {
    "topic": "Large vs Mid vs Small cap - the risk ladder",
    "category": "mutual funds",
-   "used": false
+   "used": true,
+   "posted": "12/10/2026",
+   "locked_until": "12/04/2027"
   },
   {
    "topic": "Index funds - boring winners",
