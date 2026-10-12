@@ -29,3 +29,4 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [11/10/2026] news: snapshot Brent row disagrees with other outlets for the 9 Oct close — settle on one Brent benchmark and reconcile the row
 - [11/10/2026] news: swap in the September AMFI release for the Mutual Funds filter as soon as it lands
 - [11/10/2026] news: three IPO-themed cards ran together — consider capping IPO cards so the feed does not read as single-topic
+- [12/10/2026] news: All India Bullion posts a 03:00 IST daily fix and a live intraday rate that can differ by ~₹400/10g on the same day — pin the snapshot bullion rows to the 03:00 fix so the value is reproducible hour to hour
