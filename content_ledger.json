@@ -2,6 +2,11 @@
   "entries": [
     {
       "date": "13/10/2026",
+      "series": "finance101",
+      "topic": "MARKET WRAP: Sensex 73,033.78 (+1.54%), Nifty 22,721.95 (+1.60%) - best day in 4 months; FII net sold Rs 1,305 cr vs DII net bought Rs 2,439 cr - DIIs absorbed it, index still closed green"
+    },
+    {
+      "date": "13/10/2026",
       "series": "geopolitics",
       "topic": "GEOPOLITICS: US-Russia diesel deal - the US licensed Russian diesel imports (GL 135) till 07/04/2027 while its Graham Act allows up to 100% tariffs on India over Russian oil; India imports ~90% of its crude, Russia was 45% in Aug 2026; India's US goods exports $42.79 bn in Apr-Aug 2026"
     },
@@ -244,11 +249,6 @@
       "date": "28/09/2026",
       "series": "finance101",
       "topic": "F&O Expiry - Sep contracts end Tue 29/09/2026; cash vs physical settlement, 93% SEBI loss stat"
-    },
-    {
-      "date": "27/09/2026",
-      "series": "geopolitics",
-      "topic": "US-China $30 Bn truce (10/01/2027) vs Graham Act - India exposed to up to 100% US tariff over Russian crude; $104 Bn exports"
     }
   ],
   "count": 50
