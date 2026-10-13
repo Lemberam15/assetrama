@@ -34,6 +34,7 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [12/10/2026] news: snapshot Brent row was pinned to a morning quote ($103.35, shown as down) that the day's close reversed ($105.80, up) — tie the Brent row to a single end-of-day benchmark to stop intraday drift (see also the 9 Oct Brent reconcile note).
 
 - [13/10/2026] news: the US-market card kept a pre-close headline ("US stocks start the week mixed") and an "at open" source link after the US session had closed, so the hourly run had to repoint it by hand — consider a rule that swaps the US card to the session-close article once the US market closes.
+- [13/10/2026] news: the snapshot USD/INR row showed a ~2-rupee spread across outlets on 13 Oct (₹94.06–₹95.98 intraday) — pin the rupee row to one named source and timestamp (e.g. the RBI reference rate or a single wire) so hour-over-hour moves compare like with like.
 
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
