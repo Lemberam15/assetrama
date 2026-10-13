@@ -35,6 +35,7 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 
 - [13/10/2026] news: the US-market card kept a pre-close headline ("US stocks start the week mixed") and an "at open" source link after the US session had closed, so the hourly run had to repoint it by hand — consider a rule that swaps the US card to the session-close article once the US market closes.
 - [13/10/2026] news: the snapshot USD/INR row showed a ~2-rupee spread across outlets on 13 Oct (₹94.06–₹95.98 intraday) — pin the rupee row to one named source and timestamp (e.g. the RBI reference rate or a single wire) so hour-over-hour moves compare like with like.
+- [14/10/2026] news: intraday-written cards can keep a figure the close later superseded (e.g. the 13 Oct “Nifty IT index jumps 3%” card vs the index’s 5.2% close) — consider refreshing a card’s headline figure to the session close once the market shuts.
 
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
