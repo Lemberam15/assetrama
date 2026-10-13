@@ -17,7 +17,7 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [24/09/2026] news: consider a standing card slot for AMFI monthly SIP/AUM data (released ~10th of each month) so the Mutual Funds filter always has something fresh
 - [25/09/2026] lessons.html: dead CSS rule .card[data-cat="tools"] with no chip/card using it — safe to delete in the next style cleanup (hourly run must not touch CSS)
 - [25/09/2026] news: economy category often runs over-stocked vs results/markets — rebalance the category mix when cards retire at the 20-card cap
-- [27/09/2026] calculators: the non-SIP calculator pages carry ~1KB of dead search/filter boilerplate JS per page ($('q')/$('empty')/$('count'), .chip[data-f]) — strip it in a quiet week
+- [27/09/2026] calculators: the calculator pages carry ~1KB of dead search/filter boilerplate JS per page ($('q')/$('empty')/$('count'), .chip[data-f]) — strip it in a quiet week (scope corrected 13/10: present on sip-calculator.html and cagr-calculator.html too, not just the non-SIP pages)
 - [28/09/2026] news cron: add a pre-commit guard verifying payload size (~100 KB) and presence of "Market snapshot" before pushing
 - [28/09/2026] a11y: several pages carry aria-current="page" on links to other pages — audit and fix in a quiet week
 - [28/09/2026] news: Results filter has zero live cards outside earnings season — seed with verified results-preview stories
