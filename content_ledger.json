@@ -1,6 +1,26 @@
 {
   "entries": [
     {
+      "date": "13/10/2026",
+      "series": "finance101",
+      "topic": "FINANCE 101: Real Return (inflation-adjusted return) - Sept 2026 CPI 5.54% (23-month high, released 12/10/2026) vs SBI 1-yr FD 6.25% = ~0.7% real return; turns negative in the 20%/30% tax slabs"
+    },
+    {
+      "date": "13/10/2026",
+      "series": "finance101",
+      "topic": "PRE-MARKET: overnight global cues - US mixed (Dow +0.38%, S&P -0.06%, Nasdaq -0.44%); Asia risk-off on chip selloff (Nikkei -2.6%, Kospi -6%, Hang Seng -0.4%) + Brent near $106 Mideast tension; Gift Nifty flat ~22,420; Nifty 22,363.35 (-0.70%), support 22,300, resistance 22,650; rupee 95.77"
+    },
+    {
+      "date": "13/10/2026",
+      "series": "moneystory",
+      "topic": "MONEY STORY: IT stocks led Tuesday's rebound after HCLTech's Q2 beat - net profit Rs 5,132 cr (+21.2% YoY), revenue Rs 35,620 cr (+11.5%), AI revenue +78% YoY, record deals $3.3 bn, FY27 CC guidance raised to 2.5-4%; Sensex +0.7% to 72,416, Nifty +0.7% to 22,520, Nifty IT +3.3% (TCS +5%, HCLTech +5%), smallcaps -1%"
+    },
+    {
+      "date": "13/10/2026",
+      "series": "event",
+      "topic": "EVENT/MARKET ALERT: Rupee's sharpest two-day comeback since 2013 - rupee jumped 82 paise to Rs 94.96 on Tuesday, up Rs 1.77 (1.8%) in two sessions from Friday's Rs 96.73, becoming Asia's top gainer; RBI widened the 20% forex risk reserve to banks' own hedges and restricted rupee NDF contracts to hedging only - the strongest rupee-defence since the 2013 taper tantrum; analysts warn gains may be temporary amid Brent ~$105 and record FII outflows"
+    },
+    {
       "date": "12/10/2026",
       "series": "finance101",
       "topic": "PRE-MARKET: overnight global cues - US closed higher Fri (Dow +0.83%, S&P +0.59%, Nasdaq +0.64%); Nifty 22,520.45 (+1.30%) ended an 8-week losing streak; GIFT Nifty flat ~22,624; support 22,400, resistance 22,600-22,800; Brent ~$103.5, rupee 96.73; Sept CPI due today"
@@ -96,6 +116,61 @@
       "topic": "MARKET WRAP: Sensex 72,638.70 (-0.59%), Nifty 22,603.05 (-0.76%) after RBI's first repo hike in ~4 yrs (25 bps to 5.50%, stance shifted to 'calibrated tightening'); FII sold Rs 6,121 cr vs DII bought Rs 4,597 cr - domestic funds absorbed the selling"
     },
     {
+      "date": "06/10/2026",
+      "series": "finance101",
+      "topic": "FINANCE 101: RBI MPC Oct 5-7 - repo rate primer; most economists expect a 25 bps hike to 5.50% (first since Feb 2023), Aug CPI 4.82%; 25 bps adds ~Rs 800/month on a Rs 50 lakh 20-yr home loan"
+    },
+    {
+      "date": "06/10/2026",
+      "series": "finance101",
+      "topic": "PRE-MARKET: overnight global cues - US close higher (Dow +0.18%, S&P +0.66%, Nasdaq +1.05% record); Asia up, Gift Nifty 22,630 (+0.25%) hints a gap-up open; Nifty 22,555.75, support 22,400, resistance 22,600-22,800; RBI rate decision tomorrow, Brent ~$100, rupee 96.30/$"
+    },
+    {
+      "date": "06/10/2026",
+      "series": "moneystory",
+      "topic": "MONEY STORY: Jio Platforms IPO - India's biggest ever at Rs 37,700 cr; beats Hyundai's Rs 27,859 cr; opens 21 Oct, lists 28 Oct, 27 cr fresh shares repay up to Rs 27,500 cr debt"
+    },
+    {
+      "date": "06/10/2026",
+      "series": "geopolitics",
+      "topic": "GEOPOLITICS: Rupee closed 96.43/$ (Tue 6 Oct) - weakest in 2 months; India imports >85% crude, weak rupee + $100 Brent = costlier imports; exporters (IT) gain; RBI 25 bps hike expected Wed 7 Oct"
+    },
+    {
+      "date": "06/10/2026",
+      "series": "finance101",
+      "topic": "MARKET WRAP: Sensex 73,067.81 (+0.95%), Nifty 22,776.10 (+0.98%), 2nd straight green close; FII net sold Rs 2,961 cr (8th day) while DII net bought Rs 5,089 cr - DIIs absorbed the FII selling, index still closed green"
+    },
+    {
+      "date": "05/10/2026",
+      "series": "finance101",
+      "topic": "FINANCE 101: Nifty's first weekly close below its 200-week moving average since the 2020 Covid crash - closed 22,421.95 (-3.11%), 8th straight weekly loss (longest in 25 years); India VIX 14.46"
+    },
+    {
+      "date": "05/10/2026",
+      "series": "finance101",
+      "topic": "PRE-MARKET: overnight global cues - US close higher (Dow +0.49%, S&P +0.73%, Nasdaq +1.19%) on soft Sept jobs (+29k vs 90k, unemployment 4.2%); Gift Nifty +0.7% hints gap-up open; Nifty 22,421.95, support 22,200, resistance 22,600; Brent ~$102, rupee 96.32; RBI MPC meets 5-7 Oct"
+    },
+    {
+      "date": "05/10/2026",
+      "series": "moneystory",
+      "topic": "MONEY STORY: HDFC Bank - new CEO Anup Bagchi (first outsider CEO, RBI-approved, takes charge 27/10) + Q2FY27 business update (deposits +18.8% to Rs 33.27 lakh crore, advances +16.3% YoY, $11.5 bn / Rs 1.10 lakh crore mobilised via RBI FCNR(B) swap window); stock up ~2% in early trade, banks led Monday's rebound"
+    },
+    {
+      "date": "05/10/2026",
+      "series": "geopolitics",
+      "topic": "GOLD/SILVER DIVERGENCE: MCX gold -1% below Rs 1.49 L/10g while silver +0.5% to Rs 2.27 L/kg; Oct Fed hike odds fell to 22% from 64%; Brent ~$101, rupee 96.22"
+    },
+    {
+      "date": "05/10/2026",
+      "series": "finance101",
+      "topic": "MARKET WRAP: Sensex 72,382.47 (+0.66%), Nifty 22,555.75 (+0.60%) snapped a 4-day losing streak; FII net sold Rs 4,699 cr (7th straight day) while DII net bought Rs 5,182 cr - DIIs outbought FIIs, index still closed green"
+    },
+    {
+      "date": "04/10/2026",
+      "series": "geopolitics",
+      "topic": "GEOPOLITICS: G7 agrees 100-million-barrel IEA oil+diesel release (2 Oct) - Brent still ~$102, diesel front-loaded in first 20 days; India imports >85% crude, pump prices unchanged since May, OMCs losing ~Rs 530 cr/day"
+    },
+    {
       "date": "30/09/2026",
       "series": "moneystory",
       "topic": "MONEY STORY: Tata Trusts' plan to dodge the Tata Sons IPO - merge TESS+TCE in (Rs 1.05 L cr operating revenue vs Rs 40,072 cr financial income, 64% operating) to exit NBFC/CIC rules; needs RBI no-objection + 75% shareholder votes after RBI's 11/09 rejection of CIC deregistration"
@@ -174,81 +249,6 @@
       "date": "27/09/2026",
       "series": "geopolitics",
       "topic": "Oil near $104 - India crude basket up 28% in Sep, OMCs absorb Rs 530 crore/day, petrol frozen at Rs 102.12/L"
-    },
-    {
-      "date": "27/09/2026",
-      "series": "finance101",
-      "topic": "The Rule of 72 - how fast money doubles (12% = 6 years, 8% = 9 years)"
-    },
-    {
-      "date": "04/10/2026",
-      "series": "geopolitics",
-      "topic": "GEOPOLITICS: G7 agrees 100-million-barrel IEA oil+diesel release (2 Oct) - Brent still ~$102, diesel front-loaded in first 20 days; India imports >85% crude, pump prices unchanged since May, OMCs losing ~Rs 530 cr/day"
-    },
-    {
-      "date": "05/10/2026",
-      "series": "finance101",
-      "topic": "FINANCE 101: Nifty's first weekly close below its 200-week moving average since the 2020 Covid crash - closed 22,421.95 (-3.11%), 8th straight weekly loss (longest in 25 years); India VIX 14.46"
-    },
-    {
-      "date": "05/10/2026",
-      "series": "finance101",
-      "topic": "PRE-MARKET: overnight global cues - US close higher (Dow +0.49%, S&P +0.73%, Nasdaq +1.19%) on soft Sept jobs (+29k vs 90k, unemployment 4.2%); Gift Nifty +0.7% hints gap-up open; Nifty 22,421.95, support 22,200, resistance 22,600; Brent ~$102, rupee 96.32; RBI MPC meets 5-7 Oct"
-    },
-    {
-      "date": "05/10/2026",
-      "series": "moneystory",
-      "topic": "MONEY STORY: HDFC Bank - new CEO Anup Bagchi (first outsider CEO, RBI-approved, takes charge 27/10) + Q2FY27 business update (deposits +18.8% to Rs 33.27 lakh crore, advances +16.3% YoY, $11.5 bn / Rs 1.10 lakh crore mobilised via RBI FCNR(B) swap window); stock up ~2% in early trade, banks led Monday's rebound"
-    },
-    {
-      "date": "05/10/2026",
-      "series": "geopolitics",
-      "topic": "GOLD/SILVER DIVERGENCE: MCX gold -1% below Rs 1.49 L/10g while silver +0.5% to Rs 2.27 L/kg; Oct Fed hike odds fell to 22% from 64%; Brent ~$101, rupee 96.22"
-    },
-    {
-      "date": "05/10/2026",
-      "series": "finance101",
-      "topic": "MARKET WRAP: Sensex 72,382.47 (+0.66%), Nifty 22,555.75 (+0.60%) snapped a 4-day losing streak; FII net sold Rs 4,699 cr (7th straight day) while DII net bought Rs 5,182 cr - DIIs outbought FIIs, index still closed green"
-    },
-    {
-      "date": "06/10/2026",
-      "series": "finance101",
-      "topic": "FINANCE 101: RBI MPC Oct 5-7 - repo rate primer; most economists expect a 25 bps hike to 5.50% (first since Feb 2023), Aug CPI 4.82%; 25 bps adds ~Rs 800/month on a Rs 50 lakh 20-yr home loan"
-    },
-    {
-      "date": "06/10/2026",
-      "series": "finance101",
-      "topic": "PRE-MARKET: overnight global cues - US close higher (Dow +0.18%, S&P +0.66%, Nasdaq +1.05% record); Asia up, Gift Nifty 22,630 (+0.25%) hints a gap-up open; Nifty 22,555.75, support 22,400, resistance 22,600-22,800; RBI rate decision tomorrow, Brent ~$100, rupee 96.30/$"
-    },
-    {
-      "date": "06/10/2026",
-      "series": "moneystory",
-      "topic": "MONEY STORY: Jio Platforms IPO - India's biggest ever at Rs 37,700 cr; beats Hyundai's Rs 27,859 cr; opens 21 Oct, lists 28 Oct, 27 cr fresh shares repay up to Rs 27,500 cr debt"
-    },
-    {
-      "date": "06/10/2026",
-      "series": "geopolitics",
-      "topic": "GEOPOLITICS: Rupee closed 96.43/$ (Tue 6 Oct) - weakest in 2 months; India imports >85% crude, weak rupee + $100 Brent = costlier imports; exporters (IT) gain; RBI 25 bps hike expected Wed 7 Oct"
-    },
-    {
-      "date": "06/10/2026",
-      "series": "finance101",
-      "topic": "MARKET WRAP: Sensex 73,067.81 (+0.95%), Nifty 22,776.10 (+0.98%), 2nd straight green close; FII net sold Rs 2,961 cr (8th day) while DII net bought Rs 5,089 cr - DIIs absorbed the FII selling, index still closed green"
-    },
-    {
-      "date": "13/10/2026",
-      "series": "finance101",
-      "topic": "FINANCE 101: Real Return (inflation-adjusted return) - Sept 2026 CPI 5.54% (23-month high, released 12/10/2026) vs SBI 1-yr FD 6.25% = ~0.7% real return; turns negative in the 20%/30% tax slabs"
-    },
-    {
-      "date": "13/10/2026",
-      "series": "finance101",
-      "topic": "PRE-MARKET: overnight global cues - US mixed (Dow +0.38%, S&P -0.06%, Nasdaq -0.44%); Asia risk-off on chip selloff (Nikkei -2.6%, Kospi -6%, Hang Seng -0.4%) + Brent near $106 Mideast tension; Gift Nifty flat ~22,420; Nifty 22,363.35 (-0.70%), support 22,300, resistance 22,650; rupee 95.77"
-    },
-    {
-      "date": "13/10/2026",
-      "series": "moneystory",
-      "topic": "MONEY STORY: IT stocks led Tuesday's rebound after HCLTech's Q2 beat - net profit Rs 5,132 cr (+21.2% YoY), revenue Rs 35,620 cr (+11.5%), AI revenue +78% YoY, record deals $3.3 bn, FY27 CC guidance raised to 2.5-4%; Sensex +0.7% to 72,416, Nifty +0.7% to 22,520, Nifty IT +3.3% (TCS +5%, HCLTech +5%), smallcaps -1%"
     }
   ],
   "count": 50
