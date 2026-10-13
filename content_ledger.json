@@ -2,11 +2,6 @@
  "entries": [
   {
    "date": "12/10/2026",
-   "series": "geopolitics",
-   "topic": "GEOPOLITICS: silver up about 30% in a year to near $61/oz as India's festive buying opens; MCX silver near Rs 2.25 lakh/kg, gold above $4,200/oz; India imports 80-90% of its silver; IBJA sees festive silver buying up 17-18%"
-  },
-  {
-   "date": "12/10/2026",
    "series": "moneystory",
    "topic": "MONEY STORY: FPI outflows - FPIs pulled Rs 44,166 crore from Indian stocks in October's first 6 sessions; 2026 outflows crossed Rs 3.04 lakh crore (vs Rs 1.66 lakh crore in all of 2025); Nifty down 13.87% YTD as US 10-yr yields top 5.2%"
   },
@@ -249,6 +244,11 @@
    "date": "13/10/2026",
    "series": "finance101",
    "topic": "FINANCE 101: Real Return (inflation-adjusted return) - Sept 2026 CPI 5.54% (23-month high, released 12/10/2026) vs SBI 1-yr FD 6.25% = ~0.7% real return; turns negative in the 20%/30% tax slabs"
+  },
+  {
+   "date": "13/10/2026",
+   "series": "finance101",
+   "topic": "PRE-MARKET: overnight global cues - US mixed (Dow +0.38%, S&P -0.06%, Nasdaq -0.44%); Asia risk-off on chip selloff (Nikkei -2.6%, Kospi -6%, Hang Seng -0.4%) + Brent near $106 Mideast tension; Gift Nifty flat ~22,420; Nifty 22,363.35 (-0.70%), support 22,300, resistance 22,650; rupee 95.77"
   }
  ],
  "count": 50
