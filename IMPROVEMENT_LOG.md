@@ -39,3 +39,4 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
 - [12/10/2026] Proposed count-up (animated) hero number on the beat card — sample delivered for Ram's approval; the live 4:5 static pipeline is unchanged. Why: count-up is the top researched number+motion pattern and motion holds viewers.
+- [13/10/2026] render_slide.py v18: numeric figures in the SUB-HEADLINE now take the accent colour (colour-only, same font size) — completes the number hierarchy (headline, points and chart figures already pop). Verified: py_compile + test render clean, 3/3 points, accent applied when a number is present and unchanged when not.
