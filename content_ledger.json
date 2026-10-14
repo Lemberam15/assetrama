@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "14/10/2026",
+      "series": "finance101",
+      "topic": "FINANCE 101: Core Inflation - inflation minus food & fuel; Sept CPI 5.54% (highest since Oct 2024) vs core ~4.3%; food inflation 7.74%, onions +108%"
+    },
+    {
       "date": "13/10/2026",
       "series": "finance101",
       "topic": "MARKET WRAP: Sensex 73,033.78 (+1.54%), Nifty 22,721.95 (+1.60%) - best day in 4 months; FII net sold Rs 1,305 cr vs DII net bought Rs 2,439 cr - DIIs absorbed it, index still closed green"
@@ -244,11 +249,6 @@
       "date": "28/09/2026",
       "series": "finance101",
       "topic": "PRE-MARKET: Nifty 23,000 make-or-break level; Brent back above $106 after Trump rejected Iran Hormuz truce; US Friday close up; Sep F&O expiry 29/09"
-    },
-    {
-      "date": "28/09/2026",
-      "series": "finance101",
-      "topic": "F&O Expiry - Sep contracts end Tue 29/09/2026; cash vs physical settlement, 93% SEBI loss stat"
     }
   ],
   "count": 50
