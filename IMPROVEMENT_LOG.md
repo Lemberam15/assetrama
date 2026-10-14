@@ -39,6 +39,9 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [14/10/2026] lessons: the "Ask AR" quick-topic chips offer "Term insurance", but no term-insurance lesson exists in articles/ — consider adding one so the topic has a matching lesson.
 - [14/10/2026] news: no authorised source carried an exact mid-session Sensex/Nifty level at the noon run, so the snapshot index rows had to show a rounded level (~73,000 / ~22,700) — consider allowing an NSE/BSE official intraday value or one named wire quote as the pinned noon source so the row always carries an exact figure.
 
+- [14/10/2026] search.html: the 41-card search index is hard-coded into the page — a shared JSON/JS data file would keep the index in sync with lessons, calculators and articles automatically.
+- [14/10/2026] sitemap: news.html lastmod is stamped by hand (refreshed to 2026-10-14 in this run); a small build step could derive each lastmod from the file's last commit so it cannot lag.
+
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
 - [12/10/2026] Proposed count-up (animated) hero number on the beat card — sample delivered for Ram's approval; the live 4:5 static pipeline is unchanged. Why: count-up is the top researched number+motion pattern and motion holds viewers.
