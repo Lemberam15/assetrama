@@ -2,6 +2,11 @@
   "entries": [
     {
       "date": "14/10/2026",
+      "series": "geopolitics",
+      "topic": "GEOPOLITICS: copper near record - LME copper ~$14,755/tonne, just below September's record, on Chile mine strike threats; India imports >50% of its copper so world prices lift local costs (wires, motors, EVs)"
+    },
+    {
+      "date": "14/10/2026",
       "series": "moneystory",
       "topic": "MONEY STORY: Sept WPI inflation spiked to 11.39% (highest in the new series) from 9.92% in August - fuel & power 25.85%, food index 8.66%, beat the 10.18% forecast; keeps a December RBI rate hike live"
     },
@@ -244,11 +249,6 @@
       "date": "28/09/2026",
       "series": "finance101",
       "topic": "MARKET WRAP: Sensex 72,771.72 (-1.52%), Nifty 22,780.25 (-1.56%) lowest close since April; FII sold Rs 5,353 cr vs DII bought Rs 5,189 cr; Rs 7.5 lakh cr mcap wiped out"
-    },
-    {
-      "date": "28/09/2026",
-      "series": "geopolitics",
-      "topic": "GOLD/SLIVER SELLOFF: MCX gold -2.4% to Rs 1.48 L/10g, silver -3.5% below Rs 2.28 L/kg on US 10-yr yield 5.13% (highest since 2007), ~66% odds of Fed Oct hike"
     }
   ],
   "count": 50
