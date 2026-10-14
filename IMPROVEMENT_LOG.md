@@ -37,6 +37,7 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [13/10/2026] news: the snapshot USD/INR row showed a ~2-rupee spread across outlets on 13 Oct (₹94.06–₹95.98 intraday) — pin the rupee row to one named source and timestamp (e.g. the RBI reference rate or a single wire) so hour-over-hour moves compare like with like.
 - [14/10/2026] news: intraday-written cards can keep a figure the close later superseded (e.g. the 13 Oct “Nifty IT index jumps 3%” card vs the index’s 5.2% close) — consider refreshing a card’s headline figure to the session close once the market shuts.
 - [14/10/2026] lessons: the "Ask AR" quick-topic chips offer "Term insurance", but no term-insurance lesson exists in articles/ — consider adding one so the topic has a matching lesson.
+- [14/10/2026] news: no authorised source carried an exact mid-session Sensex/Nifty level at the noon run, so the snapshot index rows had to show a rounded level (~73,000 / ~22,700) — consider allowing an NSE/BSE official intraday value or one named wire quote as the pinned noon source so the row always carries an exact figure.
 
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
