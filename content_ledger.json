@@ -3,6 +3,11 @@
   {
    "date": "15/10/2026",
    "series": "finance101",
+   "topic": "PRE-MARKET: soft-open setup - Asia risk-off (Nikkei -3.3%, Kospi -6% sidecar), US lower (Nasdaq -1.9%, S&P -1.1%, Dow -0.1%) after hot Sept CPI; Nifty prev close 22,622.70, support 22,550 / resistance 22,750-22,800, Gift Nifty ~22,600 flat; Brent ~$104, rupee 95.17"
+  },
+  {
+   "date": "15/10/2026",
+   "series": "finance101",
    "topic": "FINANCE 101: IPO price band - Jio Platforms set Rs 1,065-1,119/share for its Rs 30,213 cr fresh issue, India's biggest IPO ever (beats Hyundai Rs 27,870 cr 2024 and LIC Rs 20,557 cr 2022); SEBI caps the band at 20% over the floor and the final cut-off price is set by demand; opens 21/10, closes 23/10/2026"
   },
   {
@@ -244,11 +249,6 @@
    "date": "29/09/2026",
    "series": "finance101",
    "topic": "MARKET WRAP: Sensex 72,529.07 (-0.33%), Nifty 22,716.20 (-0.28%) expiry-day recovery after 1% intraday fall; FII sold Rs 9,980 cr vs DII bought Rs 6,953 cr - biggest FII outflow in weeks, absorbed by DIIs"
-  },
-  {
-   "date": "29/09/2026",
-   "series": "geopolitics",
-   "topic": "GEOPOLITICS: US 10-yr Treasury yield 5.24% - highest since 2007, biggest monthly rise since 2022; chain: FIIs sold Rs 5,353 cr Monday, Nifty 6-month low, rupee past 96/$, gold -4% to 7-week low"
   }
  ],
  "count": 50
