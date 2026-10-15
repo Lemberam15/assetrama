@@ -2,23 +2,18 @@
  "entries": [
   {
    "date": "15/10/2026",
+   "series": "event",
+   "topic": "EVENT/MARKET ALERT: Yes Bank crashed up to 20% after the Supreme Court upheld the Bombay High Court ruling quashing its Rs 8,415 crore AT1 bond write-off from the 2020 rescue; the bank must now repay Rs 8,415 crore plus interest at 9.5% and 9% coupons - a liability bigger than its FY26 net profit of Rs 3,476 crore; stock closed ~14% lower, PSU banks slipped on ~Rs 1 lakh crore AT1 bond market worries"
+  },
+  {
+   "date": "15/10/2026",
    "series": "geopolitics",
    "topic": "GEOPOLITICS: Rupee rebounds 31 paise to 94.86/$ (Thu 15/10) - RBI's special dollar window for IOC/BPCL/HPCL (live 12/10) plus softer Brent ($104.30) and a weaker dollar index (101.99) lifted it; catch: reserves fell ~$50 bn in a month, refiners lose Rs 530 cr/day"
   },
   {
    "date": "15/10/2026",
-   "series": "event",
-   "topic": "EVENT/MARKET ALERT: Sensex soars 1,383 pts to 74,165 and Nifty reclaims 23,000 (first since 25/09) as IT, telecom and bank heavyweights rally; Reliance +3% after Jio Platforms set India's largest-ever IPO at Rs 30,213 crore (band Rs 1,065-1,119, opens 21/10); rally came despite Kospi crashing 7.7%"
-  },
-  {
-   "date": "15/10/2026",
    "series": "moneystory",
    "topic": "MONEY STORY: IT stocks power a ~1,100-point Sensex rally as the 'reverse AI trade' lifts India's IT - Nifty IT up ~9% in three sessions; FIIs sold Indian shares for 14 straight sessions and may now reverse"
-  },
-  {
-   "date": "15/10/2026",
-   "series": "event",
-   "topic": "EVENT/MARKET ALERT: KOSPI crashed 8% on 15/10/2026 - Level-1 circuit breakers halted KOSPI & KOSDAQ after hot US Sept CPI (3.7%) revived Fed rate-hike bets and deepened the AI/chip selloff; Nikkei fell ~4.8%; India opened higher but FIIs sold 14 straight sessions, record $32.7 bn out in 2026"
   },
   {
    "date": "15/10/2026",
@@ -29,11 +24,6 @@
    "date": "15/10/2026",
    "series": "finance101",
    "topic": "FINANCE 101: IPO price band - Jio Platforms set Rs 1,065-1,119/share for its Rs 30,213 cr fresh issue, India's biggest IPO ever (beats Hyundai Rs 27,870 cr 2024 and LIC Rs 20,557 cr 2022); SEBI caps the band at 20% over the floor and the final cut-off price is set by demand; opens 21/10, closes 23/10/2026"
-  },
-  {
-   "date": "15/10/2026",
-   "series": "event",
-   "topic": "EVENT/MARKET ALERT: hot US Sept CPI (3.7% YoY vs 3.6% est; core 2.6% vs 2.5%) jolted global markets - Nasdaq -1.9% (worst since July), S&P -1.1%, dollar at a 1-year high, gold -2%/silver -6%; Asian markets sold off with Korean circuit breakers; rupee and FII pressure for India"
   },
   {
    "date": "14/10/2026",
