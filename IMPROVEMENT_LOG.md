@@ -43,6 +43,7 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [14/10/2026] sitemap: news.html lastmod is stamped by hand (refreshed to 2026-10-14 in this run); a small build step could derive each lastmod from the file's last commit so it cannot lag.
 
 - [15/10/2026] news: the "20 stories" count text is hand-edited on every run and only refreshes once a filter chip or the search box is used (the JS apply() is not called on plain load) — call apply() once on load so the count is derived from the card list, as search.html and lessons.html already do.
+- [16/10/2026] news: during late-night runs (~22:00–06:00 IST) the US market is open or only just closed, so the snapshot’s US rows carry the prior session’s close for several hours — consider a small label such as "prior close (session in progress)" on the US row during those hours so the lag is explicit rather than implied.
 
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
