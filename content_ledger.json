@@ -2,6 +2,11 @@
  "entries": [
   {
    "date": "15/10/2026",
+   "series": "event",
+   "topic": "EVENT/MARKET ALERT: KOSPI crashed 8% on 15/10/2026 - Level-1 circuit breakers halted KOSPI & KOSDAQ after hot US Sept CPI (3.7%) revived Fed rate-hike bets and deepened the AI/chip selloff; Nikkei fell ~4.8%; India opened higher but FIIs sold 14 straight sessions, record $32.7 bn out in 2026"
+  },
+  {
+   "date": "15/10/2026",
    "series": "finance101",
    "topic": "PRE-MARKET: soft-open setup - Asia risk-off (Nikkei -3.3%, Kospi -6% sidecar), US lower (Nasdaq -1.9%, S&P -1.1%, Dow -0.1%) after hot Sept CPI; Nifty prev close 22,622.70, support 22,550 / resistance 22,750-22,800, Gift Nifty ~22,600 flat; Brent ~$104, rupee 95.17"
   },
@@ -244,12 +249,6 @@
    "date": "30/09/2026",
    "series": "finance101",
    "topic": "IG CAROUSEL: Did Your SIP actually go through? - month-end verification (bank bounce Rs 100-750 + GST, 3-strike SEBI auto-cancel since 01/04/2024, zero AMC penalty)"
-  },
-  {
-   "date": "29/09/2026",
-   "series": "finance101",
-   "topic": "MARKET WRAP: Sensex 72,529.07 (-0.33%), Nifty 22,716.20 (-0.28%) expiry-day recovery after 1% intraday fall; FII sold Rs 9,980 cr vs DII bought Rs 6,953 cr - biggest FII outflow in weeks, absorbed by DIIs"
   }
- ],
- "count": 50
+ ]
 }
