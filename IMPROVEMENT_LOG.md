@@ -42,6 +42,8 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [14/10/2026] search.html: the 41-card search index is hard-coded into the page — a shared JSON/JS data file would keep the index in sync with lessons, calculators and articles automatically.
 - [14/10/2026] sitemap: news.html lastmod is stamped by hand (refreshed to 2026-10-14 in this run); a small build step could derive each lastmod from the file's last commit so it cannot lag.
 
+- [15/10/2026] news: the "20 stories" count text is hand-edited on every run and only refreshes once a filter chip or the search box is used (the JS apply() is not called on plain load) — call apply() once on load so the count is derived from the card list, as search.html and lessons.html already do.
+
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
 - [12/10/2026] Proposed count-up (animated) hero number on the beat card — sample delivered for Ram's approval; the live 4:5 static pipeline is unchanged. Why: count-up is the top researched number+motion pattern and motion holds viewers.
