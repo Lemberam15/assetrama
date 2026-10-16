@@ -1,5 +1,10 @@
 [
   {
+    "date": "17/10/2026",
+    "series": "event",
+    "topic": "EVENT/MARKET ALERT: Brent crude hit $110 (settled $109.86, +3.7%, highest since 19/05/2026) and WTI topped $100 ($101.41) as Strait of Hormuz attacks escalated over 10 days and a missile aimed at Saudi's Yanbu port was intercepted; India imports >85% crude, so costlier oil pressures the rupee, CAD and inflation"
+  },
+  {
     "date": "16/10/2026",
     "series": "finance101",
     "topic": "MARKET WRAP: Sensex 74,729.27 (+0.56%), Nifty 23,146.15 (+0.65%) - 2nd straight green day; FIIs net BOUGHT Rs 1,166 cr (first buying after 15 straight selling sessions) vs DIIs net sold Rs 3,661 cr - index rose even as DIIs sold"
@@ -243,10 +248,5 @@
     "date": "05/10/2026",
     "series": "finance101",
     "topic": "FINANCE 101: Nifty's first weekly close below its 200-week moving average since the 2020 Covid crash - closed 22,421.95 (-3.11%), 8th straight weekly loss (longest in 25 years); India VIX 14.46"
-  },
-  {
-    "date": "05/10/2026",
-    "series": "finance101",
-    "topic": "PRE-MARKET: overnight global cues - US close higher (Dow +0.49%, S&P +0.73%, Nasdaq +1.19%) on soft Sept jobs (+29k vs 90k, unemployment 4.2%); Gift Nifty +0.7% hints gap-up open; Nifty 22,421.95, support 22,200, resistance 22,600; Brent ~$102, rupee 96.32; RBI MPC meets 5-7 Oct"
   }
 ]
