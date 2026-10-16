@@ -47,6 +47,8 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 
 - [16/10/2026] news: the 16 Oct run could not trace the previous card set's market levels (Sensex ~74,300, Nifty ~22,997, gold ₹1,48,677/10g, silver ₹2,16,309/kg, rupee ₹95.06, Brent ~$106, Nasdaq 26,713) to any authorised source checked in that run, so the cards were rebuilt from figures verified this run — consider a pre-publish provenance guard that flags any card figure not backed by a named source captured in the same run (extends the 28/09 payload/snapshot guard).
 
+- [16/10/2026] news: the 72-hour cleanup keys off each card's hand-typed meta date, so a card whose source article is much older (e.g. a results-date preview) still reads as same-day and survives the rule — consider recording the source article's publish date on the card and running the cleanup against that instead.
+
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
 - [12/10/2026] Proposed count-up (animated) hero number on the beat card — sample delivered for Ram's approval; the live 4:5 static pipeline is unchanged. Why: count-up is the top researched number+motion pattern and motion holds viewers.
