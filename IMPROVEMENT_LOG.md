@@ -45,6 +45,8 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [15/10/2026] news: the "20 stories" count text is hand-edited on every run and only refreshes once a filter chip or the search box is used (the JS apply() is not called on plain load) — call apply() once on load so the count is derived from the card list, as search.html and lessons.html already do.
 - [16/10/2026] news: during late-night runs (~22:00–06:00 IST) the US market is open or only just closed, so the snapshot’s US rows carry the prior session’s close for several hours — consider a small label such as "prior close (session in progress)" on the US row during those hours so the lag is explicit rather than implied.
 
+- [16/10/2026] news: the 16 Oct run could not trace the previous card set's market levels (Sensex ~74,300, Nifty ~22,997, gold ₹1,48,677/10g, silver ₹2,16,309/kg, rupee ₹95.06, Brent ~$106, Nasdaq 26,713) to any authorised source checked in that run, so the cards were rebuilt from figures verified this run — consider a pre-publish provenance guard that flags any card figure not backed by a named source captured in the same run (extends the 28/09 payload/snapshot guard).
+
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
 - [12/10/2026] Proposed count-up (animated) hero number on the beat card — sample delivered for Ram's approval; the live 4:5 static pipeline is unchanged. Why: count-up is the top researched number+motion pattern and motion holds viewers.
