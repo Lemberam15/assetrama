@@ -50,6 +50,7 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [16/10/2026] news: the 72-hour cleanup keys off each card's hand-typed meta date, so a card whose source article is much older (e.g. a results-date preview) still reads as same-day and survives the rule — consider recording the source article's publish date on the card and running the cleanup against that instead.
 
 - [17/10/2026] calculators: the SIP and CAGR calculators have no shareable state — inputs reset to defaults on reload, so a user cannot send someone the exact scenario they modelled. Consider encoding the slider values in the URL query string (e.g. ?amt=5000&rate=12&yrs=20) and reading them on load. Feature change, for the weekly pass.
+- [18/10/2026] index: the homepage carries the same dead search/filter boilerplate JS as the calculator pages ($('q')/$('empty')/$('count'), .chip[data-f], data-f chips) — none of those elements exist on index.html — extend the 27/09 cleanup to index.html.
 
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
