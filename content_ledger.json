@@ -1,8 +1,13 @@
 [
  {
   "date": "17/10/2026",
+  "series": "event",
+  "topic": "EVENT/MARKET ALERT (2:30 PM monitor): Trump waived the sanctions, restrictions and duties under the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026 (executive order 16/10/2026) - the law would have added up to 100% tariffs on Indian goods over Russian-oil purchases; the waiver removes the immediate tariff threat to India's exports to its largest trading partner and eases India-US trade-deal talks, but other existing US tariffs remain and the waiver can be reversed"
+ },
+ {
+  "date": "17/10/2026",
   "series": "moneystory",
-  "topic": "MONEY STORY: The Rule of 72 - divide 72 by your yearly return to get the years money needs to double; at 8% a year money doubles in about 9 years, at 12% in about 6; ₹1 lakh at 12% grows to roughly ₹4 lakh in 12 years (weekend timeless lesson)"
+  "topic": "MONEY STORY: The Rule of 72 - divide 72 by your yearly return to get the years money needs to double; at 8% a year money doubles in about 9 years, at 12% in about 6; \u20b91 lakh at 12% grows to roughly \u20b94 lakh in 12 years (weekend timeless lesson)"
  },
  {
   "date": "17/10/2026",
@@ -243,10 +248,5 @@
   "date": "06/10/2026",
   "series": "finance101",
   "topic": "PRE-MARKET: overnight global cues - US close higher (Dow +0.18%, S&P +0.66%, Nasdaq +1.05% record); Asia up, Gift Nifty 22,630 (+0.25%) hints a gap-up open; Nifty 22,555.75, support 22,400, resistance 22,600-22,800; RBI rate decision tomorrow, Brent ~$100, rupee 96.30/$"
- },
- {
-  "date": "06/10/2026",
-  "series": "moneystory",
-  "topic": "MONEY STORY: Jio Platforms IPO - India's biggest ever at Rs 37,700 cr; beats Hyundai's Rs 27,859 cr; opens 21 Oct, lists 28 Oct, 27 cr fresh shares repay up to Rs 27,500 cr debt"
  }
 ]
