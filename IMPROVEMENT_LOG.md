@@ -49,6 +49,8 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 
 - [16/10/2026] news: the 72-hour cleanup keys off each card's hand-typed meta date, so a card whose source article is much older (e.g. a results-date preview) still reads as same-day and survives the rule — consider recording the source article's publish date on the card and running the cleanup against that instead.
 
+- [17/10/2026] calculators: the SIP and CAGR calculators have no shareable state — inputs reset to defaults on reload, so a user cannot send someone the exact scenario they modelled. Consider encoding the slider values in the URL query string (e.g. ?amt=5000&rate=12&yrs=20) and reading them on load. Feature change, for the weekly pass.
+
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
 - [12/10/2026] Proposed count-up (animated) hero number on the beat card — sample delivered for Ram's approval; the live 4:5 static pipeline is unchanged. Why: count-up is the top researched number+motion pattern and motion holds viewers.
