@@ -1,6 +1,11 @@
 [
   {
     "date": "17/10/2026",
+    "series": "finance101",
+    "topic": "FINANCE 101: Net Interest Margin (NIM) = (interest earned - interest paid) / average earning assets; HDFC Bank NIM 3.40% and ICICI 4.36% in Q1 FY27; analysts expect NIMs at large private banks to slip 8-20 bps in Q2 FY27 on FCNR(B) deposit inflows; HDFC Bank, ICICI, Axis and Yes Bank report Q2 on 17/10/2026"
+  },
+  {
+    "date": "17/10/2026",
     "series": "event",
     "topic": "EVENT/MARKET ALERT: Brent crude hit $110 (settled $109.86, +3.7%, highest since 19/05/2026) and WTI topped $100 ($101.41) as Strait of Hormuz attacks escalated over 10 days and a missile aimed at Saudi's Yanbu port was intercepted; India imports >85% crude, so costlier oil pressures the rupee, CAD and inflation"
   },
@@ -243,10 +248,5 @@
     "date": "06/10/2026",
     "series": "finance101",
     "topic": "MARKET WRAP: Sensex 73,067.81 (+0.95%), Nifty 22,776.10 (+0.98%), 2nd straight green close; FII net sold Rs 2,961 cr (8th day) while DII net bought Rs 5,089 cr - DIIs absorbed the FII selling, index still closed green"
-  },
-  {
-    "date": "05/10/2026",
-    "series": "finance101",
-    "topic": "FINANCE 101: Nifty's first weekly close below its 200-week moving average since the 2020 Covid crash - closed 22,421.95 (-3.11%), 8th straight weekly loss (longest in 25 years); India VIX 14.46"
   }
 ]
