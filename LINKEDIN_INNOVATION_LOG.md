@@ -158,3 +158,60 @@ already shows the "EDUCATIONAL QUERIES 9049547427" box on every slide; add a
 one-line caption ask ("Save my number for market updates") plus a pinned comment,
 so the list is building well before the 10k sponsor stage. No spend, no brand
 contact — pure list-building.
+
+## 17/10/2026 — v22: NATIVE 9:16 INSTAGRAM REEL RENDER (stop shipping 4:5 reels)
+
+**Growth data (pulled from the APIs):**
+- Instagram: **469 followers** (baseline 471 on 27/09/2026 → net **-2**; flat-to-down).
+  Last 30 media: likes 0-4, **comments 0 on every post**. Weakest number =
+  **engagement (comments) + flat follower growth**; the platform that needs it most is
+  Instagram (the 2-year north-star channel).
+- LinkedIn: baseline 1,562 (26/09/2026); no new number reported in chat this week —
+  update when Ram reports it.
+
+**What changed (this week's one improvement):** Instagram REELS now ship as a native
+1080x1920 full-bleed frame instead of the 4:5 (1080x1350) file. A 4:5 reel is
+pillarboxed by Instagram with an unbranded blurred fill and is downranked; 2026 Reels
+research is consistent that native 9:16 full-bleed earns materially more reach
+(~30-40% of reach) and native vertical beats padded ratios by up to ~3x on completion.
+With IG follower growth flat-to-down, reach is the root cause — so the north-star
+channel now gets a native-ratio reel.
+- New script `scripts/reel_916_slide.py` — reframes the ALREADY-RENDERED 4:5 slide
+  (and its 4:5 beat card) into a 1080x1920 frame; nothing cropped; the top/bottom bars
+  are built seamlessly from the slide's own edge colours and carry the logo +
+  ASSET RAMA + "+ FOLLOW" chip and the website line.
+- New script `scripts/reel_916_encode.py` — the fast 9:16 encoder (make_video.py is
+  too slow at 1080x1920, and a single concat FILTER graph over three 1080x1920 inputs
+  OOMs the ~2 GB pod, so segments are encoded singly and joined with the concat
+  demuxer). Keeps the v15 beat-cut edit when the beat card is passed.
+- **Backwards compatible:** render_slide.py, make_video.py, the 4:5 LinkedIn video, the
+  captions and every immutable rule are unchanged. Stories unchanged.
+
+**Post types affected:** Instagram REEL slots (finance101 Tue/Thu/Sat/Sun, the 8:30 PM
+market wrap, and any event/monitor reel) — see the cadence table. LinkedIn and
+story-only slots unchanged.
+
+**Samples (delivered as downloads):** sampleA_cagr_916.png / _beat.png / .mp4
+(finance101, clearly-ILLUSTRATIVE CAGR: Rs 1 lakh -> Rs 1.61 lakh in 5 yrs = 10%);
+sampleB_early_916.png / .mp4 (moneystory, clearly-ILLUSTRATIVE SIP: Rs 5,000/month at
+12% -> about Rs 50 L in 20 yrs vs Rs 12 L in 10 yrs). Pixel QC: 1080x1920, contrast
+15.0:1 / 15.0:1 / 12.1:1 (>=3 required), zero edge clipping; videos 20.00 s, 1080x1920,
+mean ~-13.7 dBFS, beat cut verified by frame diff (slide vs card 17.4, slide vs slide 0.0).
+
+**New backlog ideas (added this week):**
+1. Native 9:16 CONTENT layout — the 9:16 frame currently centres the 4:5 slide; reflowing
+   the text for the taller frame is the next reach step.
+2. Chart "note" overlap fix in render_slide.py — found while building sample B: with 3+
+   bars the chart note line collides with the last bar row.
+3. Kinetic typography — headline words punching in sequence in the FIRST beat (kept
+   frame-0-safe so the hook text is present at 0.0 s).
+4. SEND TRIGGER line in the final 5 s + a "send this to…" caption line (2026 data: sends
+   are weighted ~3-5x likes and are now a top signal).
+5. Optional trending-audio bed for reels (Reels discovery favours trending sounds; keep
+   the generated music as the mute-safe base).
+
+**Monetization note (suggestion only):** at 469 IG / ~1.5k LinkedIn, the highest-value
+next action is still the FREE one — start collecting WhatsApp numbers. Ram already shows
+the "EDUCATIONAL QUERIES 9049547427" box on every slide; add a one-line caption ask
+("Save my number for market updates") plus a pinned comment, so the list is building well
+before the 10k sponsor stage. No spend, no brand contact — pure list-building.
