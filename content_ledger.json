@@ -1,6 +1,11 @@
 [
  {
   "date": "17/10/2026",
+  "series": "moneystory",
+  "topic": "MONEY STORY: The Rule of 72 - divide 72 by your yearly return to get the years money needs to double; at 8% a year money doubles in about 9 years, at 12% in about 6; ₹1 lakh at 12% grows to roughly ₹4 lakh in 12 years (weekend timeless lesson)"
+ },
+ {
+  "date": "17/10/2026",
   "series": "event",
   "topic": "EVENT/MARKET ALERT (10:30 AM monitor): Brent crude crossed $110/bbl - first time since May, +3.7% - on Middle East war and Russian supply risks; India's crude basket averaged $122.01 in October vs $116.09 in September; India imports ~85% of its crude so costlier oil lifts the import bill, inflation and the rupee"
  },
@@ -243,10 +248,5 @@
   "date": "06/10/2026",
   "series": "moneystory",
   "topic": "MONEY STORY: Jio Platforms IPO - India's biggest ever at Rs 37,700 cr; beats Hyundai's Rs 27,859 cr; opens 21 Oct, lists 28 Oct, 27 cr fresh shares repay up to Rs 27,500 cr debt"
- },
- {
-  "date": "06/10/2026",
-  "series": "geopolitics",
-  "topic": "GEOPOLITICS: Rupee closed 96.43/$ (Tue 6 Oct) - weakest in 2 months; India imports >85% crude, weak rupee + $100 Brent = costlier imports; exporters (IT) gain; RBI 25 bps hike expected Wed 7 Oct"
  }
 ]
