@@ -1,5 +1,10 @@
 [
   {
+    "date": "18/10/2026",
+    "series": "finance101",
+    "topic": "FINANCE 101: AUM (Assets Under Management) - the total market value of all the money a fund manages; India's mutual fund AUM Rs 82.64 lakh crore on 30/09/2026, up 9.3% YoY; monthly SIP contributions at a record Rs 32,490 crore"
+  },
+  {
     "date": "17/10/2026",
     "series": "geopolitics",
     "topic": "GEOPOLITICS: gold fell ~3% (Rs 4,500/10g) and silver ~6% (Rs 13,500/kg) in the week to 16/10/2026 as a stronger rupee (~94.95/$) and US rate-hike talk pulled both down; from 16/10 about 17 fund houses paused fresh gold FoF subscriptions - new lump-sum/new SIPs stopped, existing SIPs and redemptions continue"
@@ -243,10 +248,5 @@
     "date": "07/10/2026",
     "series": "finance101",
     "topic": "MARKET WRAP: Sensex 72,638.70 (-0.59%), Nifty 22,603.05 (-0.76%) after RBI's first repo hike in ~4 yrs (25 bps to 5.50%, stance shifted to 'calibrated tightening'); FII sold Rs 6,121 cr vs DII bought Rs 4,597 cr - domestic funds absorbed the selling"
-  },
-  {
-    "date": "06/10/2026",
-    "series": "finance101",
-    "topic": "FINANCE 101: RBI MPC Oct 5-7 - repo rate primer; most economists expect a 25 bps hike to 5.50% (first since Feb 2023), Aug CPI 4.82%; 25 bps adds ~Rs 800/month on a Rs 50 lakh 20-yr home loan"
   }
 ]
