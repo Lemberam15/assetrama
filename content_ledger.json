@@ -1,6 +1,11 @@
 [
   {
     "date": "18/10/2026",
+    "series": "geopolitics",
+    "topic": "GEOPOLITICS: the rupee's best week in 7 months - up ~2% to 94.96/$ on 16/10/2026, its first close below 95 in 38 days; RBI's dollar window for oil firms + FX-derivative curbs and a softer US dollar drove it; FX reserves fell to $726 bn by 09/10 from a $785.7 bn peak (04/09); a stronger rupee cuts import costs but oil near $110 and FII selling are the risks (HSBC sees 96 by Dec 2026)"
+  },
+  {
+    "date": "18/10/2026",
     "series": "moneystory",
     "topic": "MONEY STORY: the 3-6-9 emergency-fund rule - keep 3 months of essential expenses if single with a steady income, 6-12 months with dependents or an irregular income; size it on essentials, not salary (Rs 50,000/month -> Rs 1.5 lakh for 3 months, Rs 3 lakh for 6) (weekend timeless lesson)"
   },
@@ -243,10 +248,5 @@
     "date": "08/10/2026",
     "series": "event",
     "topic": "EVENT/MARKET ALERT: Sensex crashes 1,045 pts (-1.44%) to 71,593; Nifty -371 pts (-1.64%) to 22,231, a fresh 52-week low and lowest close since Apr 2025; Rs 11.37 lakh crore wiped out; every sector red on RBI's repo hike to 5.50%, Brent above $104 and US 10-yr yields at 5.35%"
-  },
-  {
-    "date": "08/10/2026",
-    "series": "moneystory",
-    "topic": "MONEY STORY: FIIs sold Indian stocks for a 9th straight session - Rs 6,121 cr net sold on 07/10; Rs 33,414 cr out over 5 sessions vs DII buying Rs 36,181 cr; Sensex fell ~400 pts, Nifty below 22,500 on 08/10"
   }
 ]
