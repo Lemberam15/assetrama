@@ -1,49 +1,49 @@
 # TRENDS — daily radar notes for all Asset Rama posting agents
 Updated every morning ~6:45 AM IST by the Daily Innovation Radar. Posting agents: read today's section before writing content; use a trend only where it fits the mandatory caption/design rules. Never repeat a topic from the last 48 hours (check content_ledger.json).
 
+## Sunday 18/10/2026
+- Formats winning today: POV + counter-intuitive/mistake openers still lead, with the opening line shown as ON-SCREEN TEXT (lifts views ~1.79x) — silent-scroll-proof. Low-fi/raw continues to beat polished (the AI content flood is making "proof of humanity" the differentiator; Lo-Fi is now the baseline). LinkedIn: creator/partner-led one-question explainers and narrative case-studies out-perform corporate-page posts; carousels still win on saves.
+- Audio: "Shyam Nagina Ban Jate" (Ankit Pandey) is STILL #1 (+13.2K reels/24h, day 5). Fastest climbers by %: "Training Season" (Dua Lipa, +1.3%) then "God's Favorite" (Jordan Sandhu, +2.3%). Seasonal and business-cleared: "Hello October" and "Autumn Colors". Business accounts: original audio/voiceover stays safest (63-78% of top finance reels).
+- Today's news angles (Sun 18 Oct — markets CLOSED; week-ahead + Q2 setup): Nifty closed 23,146.15 for a 2nd straight weekly gain (+2.8%) after an 8-week losing streak; Nifty IT was the week's top sector at +11.7% (Tech Mahindra +17%, TCS +14%, Infosys +12.5%). FIIs sold ₹15,440 cr for the week vs DIIs buying ₹14,792 cr. Rupee was the best-performing EM currency, +2% on the week. Brent stayed ~$110. Market CLOSED Tue 20 Oct (Dussehra) — a holiday-truncated week.
+- Week ahead: Jio Platforms IPO opens 21 Oct (₹30,213 cr fresh issue, band ₹1,065-1,119, India's largest ever; GMP running hot) + Paras Healthcare; six mainboard listings. Q2 -> Bajaj Finance + UltraTech Cement + Hindustan Zinc + Union Bank (Mon 19), Eternal (Wed 21), Swiggy (Thu 22), Infosys + Tata Motors + Dr Reddy's (Fri 23).
+- Series suggestions: Finance Term -> "CASA ratio" or "AUM (Assets Under Management)" (Bajaj Finance AUM running +26.5% YoY makes AUM the natural pick; NIM is inside 48h). Pre-Market (Mon) -> the Dussehra-shortened week map + the week's FII/DII tally + Bajaj Finance & UltraTech results + the Jio IPO opening 21 Oct. Money Story -> "FIIs sold ₹15,440 cr this week — so who bought? DIIs" or a Jio IPO explainer. Wrap -> the 2nd straight green week + IT's +11.7% week. FII/DII -> week to 17/10: FII -₹15,440 cr vs DII +₹14,792 cr. Geopolitics -> Brent ~$110 + the rupee as the week's best EM currency.
+- Ledger note: 16/10 and 17/10 items are INSIDE 48h — do NOT repeat (gold/silver fall, Brent-$110 alert, Graham Act waiver, Rule of 72, NIM, SEBI F&O settlement, bonus-vs-dividend, Pre-Market, Durga Puja). Cleared today (18/10, now >48h): Yes Bank AT1 ruling, the rupee 94.86 comeback, the IT "reverse-AI" rally, the Jio price band. Still queued once clear: gold ETFs' Sept surge, Fairfax-IDBI reaction, the Diwali-rally thesis. Never override the 48h rule.
+
 ## Saturday 17/10/2026
-- Formats winning today: POV is the single best opener — outliers 28.5% of the time vs 17.7% for how-to (Virlo, 1.9M hooks); an opening line shown as ON-SCREEN TEXT lifts views ~1.79x (Postdom, 1,272 clips), a quick recap close lifts ~1.52x, while "let me know below" drags to 0.61x. Brand-new low-lift trend "Money can't buy happiness but…" (Later, 16 Oct) is a natural finance fit — one clip, ~7s, text overlay, original audio; swap in "…it can buy you one extra year of retirement / a ₹X SIP". "It's October again" (original audio) works for a year-on-year money comparison. LinkedIn unchanged: narrative case-study > contrarian+data > framework carousel; plain PDF posts stay dead.
-- Audio: "Shyam Nagina Ban Jate" (Ankit Pandey) is STILL the #1 riser at +17.6K reels/24h — day 4, late but alive; fastest-climbing for its size is "Training Season" (Dua Lipa, +1.6%/24h), then "God's Favorite" (Jordan Sandhu, +2.1%). Best niche pick for finance/money: lo-fi "Coffee & Vinyl" (Emi Izumi, ContentScout). Business accounts: original audio/voiceover stays safest and is used by 63-78% of top finance reels.
-- Today's news angles (Sat 17 Oct — markets closed; a Q2 + week-ahead day): FOUR heavyweight banks report TODAY — HDFC Bank (PAT seen ~₹19,510 cr, +4.7% YoY), ICICI Bank (~₹14,138 cr, +14.4%), Axis Bank (~₹6,766 cr, +32.9%) and Yes Bank (AT1-clouded); earnings calls ~4 pm IST. Friday closed a 2nd straight green day: Sensex 74,729.27 (+0.56%), Nifty 23,146.15 (+0.65%), Nifty IT 31,924.10 (+3.92%); FIIs net BOUGHT ₹1,166 cr — FIRST buying after 15 straight selling sessions — while DIIs sold ₹3,661 cr. Brent settled $109.86 (+3.7%, highest since 19/05) as Hormuz attacks escalated; US stocks fell sharply on AI jitters; rupee rose 1.9% on the week, closing below 95/$.
-- Week ahead: market CLOSED Tue 20 Oct (Dussehra). Q2 -> Bajaj Finance (Mon 19), Eternal (Wed 21), Swiggy (Thu 22), Infosys + Tata Motors + Dr Reddy's (Fri 23). China Q3 GDP + Sept IP/retail sales Mon 19. Jio Platforms IPO opens 21 Oct (GMP running hot).
-- Series suggestions: Finance Term -> "Net Interest Margin (NIM)" (every bank result turns on it) or "CASA ratio". Pre-Market (Mon) -> the Dussehra-shortened week map + FII's first buy after 15 sells + the banks' Q2 verdict + Brent $110 vs the rupee. Money Story -> "FIIs finally bought — is the tide turning?" or the four-bank Q2 scorecard. Wrap -> the Friday green close + what HDFC/ICICI/Axis numbers actually said. FII/DII -> 16/10: FII +₹1,166 cr (streak snapped) vs DII -₹3,661 cr. Geopolitics -> Brent $110 / Hormuz escalation + the AI-jitters selloff in US tech.
-- Ledger note: 16/10 items (Wrap, crude-geopolitics, SEBI F&O settlement, Pre-Market, bonus-vs-dividend, Durga Puja) are INSIDE 48h — do NOT repeat. Cleared today (17/10): Yes Bank AT1 (and Yes Bank reports today — strong follow-up), rupee comeback, IT reverse-AI rally, Jio price band. Still queued once clear: gold ETFs' Sept surge, Fairfax-IDBI second-day reaction, Diwali-rally thesis. Never override the 48h rule.
+- POV/on-screen-text openers; "Shyam Nagina" #1 audio; 4 banks' Q2 (HDFC/ICICI/Axis/Yes) + Brent $109.86 + FII's first buy (₹1,166 cr) after 15 sells (full note in git history).
 
 ## Friday 16/10/2026
-- Formats (specific-outcome/POV/contrarian hooks; LinkedIn case-study + carousel); Sensex 74,729.27 (+0.56%), Nifty 23,146.15 (+0.65%) 2nd green day, Nifty IT +3.92%; FII first buy (₹1,166 cr) after 15 sells vs DII -₹3,661 cr; SEBI F&O settlement rule; Tech Mahindra div + bonus; Brent $105+ (full note in git history).
+- Specific-outcome/POV/contrarian hooks; Sensex 74,729.27 (+0.56%), Nifty 23,146.15 (+0.65%) 2nd green day, Nifty IT +3.92%; SEBI F&O settlement rule; Tech Mahindra div + 1:1 bonus (full note in git history).
 
 ## Thursday 15/10/2026
-- Formats (number/mistake + realization/confession hooks), 0x100x dark-neon; Sensex 74,315.61 (+2.11%) / Nifty 22,997.35 (+1.66%) best day in 4 months; Yes Bank -14.53% on AT1 ruling; Jio IPO price band Rs 1,065-1,119; rupee 94.86 (full note in git history).
+- Number/mistake + realization/confession hooks, 0x100x dark-neon; Sensex 74,315.61 (+2.11%) best day in 4 months; Yes Bank -14.53% on AT1 ruling; Jio IPO band ₹1,065-1,119; rupee 94.86 (full note in git history).
 
 ## Wednesday 14/10/2026
-- Formats (number/mistake + realization/confession hooks), 0x100x dark-neon; Sept WPI 11.39% (highest in new series); Fairfax–IDBI Rs 52,878 cr; copper near record; core inflation (full note in git history).
+- Number/mistake hooks; Sept WPI 11.39% (highest in new series); Fairfax-IDBI ₹52,878 cr; copper near record; core inflation (full note in git history).
 
 ## Tuesday 13/10/2026
-- Formats (number/mistake hooks, free-hack + confession openers), 0x100x dark-neon; India Sept CPI 5.54% (23-month high), HCLTech Q2, Tuesday +1.6% IT-led rally, rupee's 2-day comeback, Jio IPO 21 Oct (full note in git history).
+- Number/mistake hooks, free-hack + confession openers; India Sept CPI 5.54% (23-month high); HCLTech Q2; +1.6% IT-led rally; rupee's 2-day comeback (full note in git history).
 
 ## Monday 12/10/2026
-- Formats (number/mistake hooks, raw>polished, confession opener), 0x100x dark-neon; weekend news: Friday relief rally (Sensex 72,472.33, Nifty 22,520.45), FII/DII offset, RBI OMO + CRR daily-maintenance to 99% from 16 Oct, next-week preview (CPI, HCLTech, Jio IPO) (full note in git history).
+- Number/mistake hooks, raw>polished, confession opener; Friday relief rally; RBI OMO + CRR daily-maintenance to 99% from 16 Oct; next-week preview (full note in git history).
 
 ## Sunday 11/10/2026
-- Sensex 72,472.33 (+1.23%), Nifty 22,520.45 (+1.30%) snapped an 8-week losing streak; gold ETFs $496M Sept, PCR 1.27, Navratri greeting (full note in git history).
+- Sensex 72,472.33 (+1.23%) snapped an 8-week losing streak; gold ETFs $496M Sept; PCR 1.27; Navratri greeting (full note in git history).
 
 ## Saturday 10/10/2026
-- Oil's war premium cools (Brent ~$103); SIP-in-a-falling-market lesson; RBI rupee-defence (forex window + derivative curbs); CRR daily maintenance 99% from 16 Oct (full note in git history).
+- Oil's war premium cools (Brent ~$103); SIP-in-a-falling-market lesson; RBI rupee-defence; CRR daily maintenance 99% from 16 Oct (full note in git history).
 
 ## Friday 09/10/2026
-- Nifty 22,231.80 (-1.64%) fresh 52-week low, Sensex 71,593.24 (-1.44%); RBI hike aftermath; TCS opened Q2 season; GST Council; copper near record (full note in git history).
+- Nifty 22,231.80 (-1.64%) fresh 52-week low; RBI hike aftermath; TCS opened Q2 season; GST Council; copper near record (full note in git history).
 
 ## Thursday 08/10/2026
-- RBI hiked repo 25 bps to 5.50% (first since Feb 2023), stance to "calibrated tightening"; Sensex 72,638.70 (-0.59%), Nifty 22,603.05 (-0.76%); number/mistake + compliance-safe hooks (full note in git history).
+- RBI hiked repo 25 bps to 5.50% (first since Feb 2023); Sensex 72,638.70 (-0.59%), Nifty 22,603.05 (-0.76%); number/mistake + compliance-safe hooks (full note in git history).
 
 ## Wednesday 07/10/2026
-- RBI hike primer + Jio Platforms IPO (Rs 37,700 cr, India's biggest ever) + green close 73,067/22,776 (full note in git history).
+- RBI hike primer + Jio Platforms IPO (₹37,700 cr) + green close 73,067/22,776 (full note in git history).
 
 ## Tuesday 06/10/2026
-- Number/mistake hooks + "Mr. Kumar / season premiere" launch trend; LinkedIn carousels > video; Nifty's first weekly close below the 200-week MA since Covid (full note in git history).
+- Number/mistake hooks + "Mr. Kumar" launch trend; LinkedIn carousels > video; Nifty's first weekly close below the 200-week MA since Covid (full note in git history).
 
 ## Monday 05/10/2026
-- G7 100-million-barrel IEA oil release; Brent ~$102; India imports >85% crude, OMCs losing ~Rs 530 cr/day (full note in git history).
-
-## Sunday 04/10/2026
-- Number/mistake hooks, skits, collabs; 0x100x dark-neon; 200-week MA test + October series day 1 + Tata Sons (full note in git history).
+- G7 100-million-barrel IEA oil release; Brent ~$102; India imports >85% crude, OMCs losing ~₹530 cr/day (full note in git history).
