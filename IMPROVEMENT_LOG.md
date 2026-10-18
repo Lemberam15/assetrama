@@ -2,14 +2,6 @@
 
 Suggestions accumulate here from the hourly quality cycle. The weekly Monday review implements the best ones, then marks them DONE and prunes. Hourly "audit PASS, no fixes needed" lines are dropped at each prune — only actionable items are kept.
 
-## Done (weekly review, 12/10/2026)
-
-- [05/10/2026] calculators: built "What is an EMI?" and "Lumpsum vs SIP" lessons so the EMI and lumpsum calculators each link to their own topic (EMI calculator → what-is-emi; lumpsum calculator → lumpsum-vs-sip).
-- [08/10/2026] lessons.html: each filter chip now shows its per-category count (e.g. "Mutual Funds (11)"), computed in JS on load — no restyle.
-- [11/10/2026] search.html: the "39 pages" count text is now generated from the card list on load, so it cannot drift as pages are added or removed.
-- [05/10/2026] sitemap: news.html lastmod refreshed to 2026-10-12; two new lesson URLs added; sitemap now lists every page.
-- [05/10/2026] lessons.html: ItemList JSON-LD extended to 31 items (the two new lessons added).
-
 ## Open suggestions (for future weekly reviews)
 
 - [23/09/2026] index: consider a small "As featured / popular this week" strip once traffic data exists in Search Console
@@ -51,6 +43,8 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 
 - [17/10/2026] calculators: the SIP and CAGR calculators have no shareable state — inputs reset to defaults on reload, so a user cannot send someone the exact scenario they modelled. Consider encoding the slider values in the URL query string (e.g. ?amt=5000&rate=12&yrs=20) and reading them on load. Feature change, for the weekly pass.
 - [18/10/2026] index: the homepage carries the same dead search/filter boilerplate JS as the calculator pages ($('q')/$('empty')/$('count'), .chip[data-f], data-f chips) — none of those elements exist on index.html — extend the 27/09 cleanup to index.html.
+
+- [18/10/2026] news: the 20-card cap forces retiring a within-72h card whenever a fresh story is added (this run retired the Solara results card to fit the Yes Bank AT-1 story) — consider raising the cap to ~24 or setting explicit per-category caps (results ran at 2 vs 3 elsewhere) so the oldest same-day card is not dropped arbitrarily.
 
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
