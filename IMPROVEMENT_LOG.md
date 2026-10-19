@@ -47,6 +47,8 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [19/10/2026] news: each new card needs a globally unique SVG gradient id (rg-c-n-<slug>); a clash silently breaks a card’s art fill — consider a build-time assertion that every gradient id on the page is unique before commit.
 - [19/10/2026] news: multi-company results round-up cards currently link to rolling publisher live blogs (the URL is stable but the article text rotates through the day) — prefer a fixed per-company article link so the card’s headline figures stay checkable at the source.
 
+- [20/10/2026] news: on NSE/BSE trading holidays (e.g. 20 Oct, Dussehra) the snapshot's index rows and the "as of" line cannot change all day — consider labelling the snapshot "previous session (market holiday today)" so visitors know why nothing moved.
+
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
 - [12/10/2026] Proposed count-up (animated) hero number on the beat card — sample delivered for Ram's approval; the live 4:5 static pipeline is unchanged. Why: count-up is the top researched number+motion pattern and motion holds viewers.
