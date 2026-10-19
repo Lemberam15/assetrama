@@ -48,6 +48,7 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [19/10/2026] news: multi-company results round-up cards currently link to rolling publisher live blogs (the URL is stable but the article text rotates through the day) — prefer a fixed per-company article link so the card’s headline figures stay checkable at the source.
 
 - [20/10/2026] news: on NSE/BSE trading holidays (e.g. 20 Oct, Dussehra) the snapshot's index rows and the "as of" line cannot change all day — consider labelling the snapshot "previous session (market holiday today)" so visitors know why nothing moved.
+- [20/10/2026] news: a live card's headline/summary did not match its source link (the 18 Oct Strait-of-Hormuz oil card pointed at a Hindu BusinessLine gold article) — this run retired the card; consider a build-time check that each card's outlet and headline topic match its href so mismatched source links are caught before publish.
 
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
