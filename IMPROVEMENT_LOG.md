@@ -2,13 +2,6 @@
 
 Suggestions accumulate here from the hourly quality cycle. The weekly Monday review implements the best ones, then marks them DONE and prunes. Hourly "audit PASS, no fixes needed" lines are dropped at each prune — only actionable items are kept.
 
-## Implemented (weekly review — 19/10/2026)
-
-- [14/10/2026] DONE: added **articles/what-is-term-insurance.html** — the "Term insurance" Ask-AR chip now has a matching lesson. Wired into lessons.html, search.html and sitemap.xml.
-- [25/09/2026] DONE: removed the dead `.card[data-cat="tools"]` and the two dead `.chip[data-f="tools"]` CSS rules from **lessons.html**. Left them in place in search.html, where a Tools chip and tools cards genuinely exist.
-- [12/10/2026] DONE: reconciled every sitemap `lastmod` against each file's latest commit (lessons.html and search.html refreshed to 19/10; news.html 18/10; calculators and articles set to their real last-commit dates).
-- [19/10/2026] NEW: added **articles/what-is-dividend.html** — fills the "dividends" gap promised in the Stock Market topic block. Wired in and indexed. Site is now 46 URLs / 33 lessons.
-
 ## Open suggestions (for future weekly reviews)
 
 - [23/09/2026] index: consider a small "As featured / popular this week" strip once traffic data exists in Search Console
@@ -49,6 +42,9 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [18/10/2026] index: the homepage carries the same dead search/filter boilerplate JS as the calculator pages ($('q')/$('empty')/$('count'), .chip[data-f], data-f chips) — none of those elements exist on index.html — extend the 27/09 cleanup to index.html.
 
 - [18/10/2026] news: the 20-card cap forces retiring a within-72h card whenever a fresh story is added (this run retired the Solara results card to fit the Yes Bank AT-1 story) — consider raising the cap to ~24 or setting explicit per-category caps (results ran at 2 vs 3 elsewhere) so the oldest same-day card is not dropped arbitrarily.
+
+- [19/10/2026] news: the 72-hour cleanup can empty an entire category in one pass (this run removed both Mutual Funds cards together, leaving the “Mutual Funds” chip with zero cards until a fresh card was added) — consider a post-cleanup check that tops up any category left at zero cards before publishing.
+- [19/10/2026] news: each new card needs a globally unique SVG gradient id (rg-c-n-<slug>); a clash silently breaks a card’s art fill — consider a build-time assertion that every gradient id on the page is unique before commit.
 
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
