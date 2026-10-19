@@ -1,5 +1,10 @@
 [
   {
+    "date": "19/10/2026",
+    "series": "finance101",
+    "topic": "FINANCE 101: NIM (Net Interest Margin) - a bank's interest earned on loans minus the interest it pays on deposits, as a share of earning assets; HDFC Bank's NIM fell to 3.16% in Q2 FY27 (results 17/10/2026), its lowest on record, down from 3.26%, even as net profit rose 4.7% to Rs 19,510 crore and gross NPA improved to 1.11%"
+  },
+  {
     "date": "18/10/2026",
     "series": "geopolitics",
     "topic": "GEOPOLITICS: the rupee's best week in 7 months - up ~2% to 94.96/$ on 16/10/2026, its first close below 95 in 38 days; RBI's dollar window for oil firms + FX-derivative curbs and a softer US dollar drove it; FX reserves fell to $726 bn by 09/10 from a $785.7 bn peak (04/09); a stronger rupee cuts import costs but oil near $110 and FII selling are the risks (HSBC sees 96 by Dec 2026)"
@@ -243,10 +248,5 @@
     "date": "08/10/2026",
     "series": "finance101",
     "topic": "PRE-MARKET: global overnight cues - US slipped from records (Dow -0.66%, S&P 500 -0.22%, Nasdaq -0.22%) as 10-yr yield hit 5.35% (highest since 2002); Asia weak (Nikkei -1%, Hang Seng -0.4%); Gift Nifty ~22,600 flat; Brent ~$100, rupee 96.78 near record low; Nifty 22,603, Sensex 72,639, support 22,500; TCS Q2 results + GST Council today"
-  },
-  {
-    "date": "08/10/2026",
-    "series": "event",
-    "topic": "EVENT/MARKET ALERT: Sensex crashes 1,045 pts (-1.44%) to 71,593; Nifty -371 pts (-1.64%) to 22,231, a fresh 52-week low and lowest close since Apr 2025; Rs 11.37 lakh crore wiped out; every sector red on RBI's repo hike to 5.50%, Brent above $104 and US 10-yr yields at 5.35%"
   }
 ]
