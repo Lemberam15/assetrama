@@ -45,6 +45,7 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 
 - [19/10/2026] news: the 72-hour cleanup can empty an entire category in one pass (this run removed both Mutual Funds cards together, leaving the “Mutual Funds” chip with zero cards until a fresh card was added) — consider a post-cleanup check that tops up any category left at zero cards before publishing.
 - [19/10/2026] news: each new card needs a globally unique SVG gradient id (rg-c-n-<slug>); a clash silently breaks a card’s art fill — consider a build-time assertion that every gradient id on the page is unique before commit.
+- [19/10/2026] news: multi-company results round-up cards currently link to rolling publisher live blogs (the URL is stable but the article text rotates through the day) — prefer a fixed per-company article link so the card’s headline figures stay checkable at the source.
 
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
