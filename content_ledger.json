@@ -1,6 +1,11 @@
 [
   {
     "date": "20/10/2026",
+    "series": "moneystory",
+    "topic": "MONEY STORY: the 50-30-20 budgeting rule - split take-home pay into 50% needs, 30% wants and 20% savings; on a Rs 50,000 monthly take-home that is Rs 25,000 / Rs 15,000 / Rs 10,000 (timeless lesson; NSE/BSE closed for Dussehra on 20/10/2026)"
+  },
+  {
+    "date": "20/10/2026",
     "series": "finance101",
     "topic": "FINANCE 101: Anchor Investor - big institutions are allotted shares a day before an IPO opens; Jio Platforms' Rs 8,110 crore anchor book drew over Rs 2.5 lakh crore in bids (30x+), ahead of India's biggest-ever Rs 30,213 crore IPO opening 21/10/2026"
   },
@@ -52,7 +57,7 @@
   {
     "date": "17/10/2026",
     "series": "moneystory",
-    "topic": "MONEY STORY: The Rule of 72 - divide 72 by your yearly return to get the years money needs to double; at 8% a year money doubles in about 9 years, at 12% in about 6; \u20b91 lakh at 12% grows to roughly \u20b94 lakh in 12 years (weekend timeless lesson)"
+    "topic": "MONEY STORY: The Rule of 72 - divide 72 by your yearly return to get the years money needs to double; at 8% a year money doubles in about 9 years, at 12% in about 6; ₹1 lakh at 12% grows to roughly ₹4 lakh in 12 years (weekend timeless lesson)"
   },
   {
     "date": "17/10/2026",
@@ -243,10 +248,5 @@
     "date": "09/10/2026",
     "series": "finance101",
     "topic": "MARKET WRAP: Sensex 72,472.33 (+1.23%), Nifty 22,520.45 (+1.30%) snapped an 8-week losing streak; FII net sold Rs 3,569 cr vs DII net bought Rs 4,743 cr - DIIs more than absorbed it, index still closed green"
-  },
-  {
-    "date": "09/10/2026",
-    "series": "geopolitics",
-    "topic": "GEOPOLITICS: gold rebounds before festive season - MCX gold +1% to ~Rs 1.51 lakh/10g and silver +1.5% to ~Rs 2.24 lakh/kg, after global gold bounced off a 2-month low on easing US 10-yr yields (~5.23%) and a softer dollar; weak rupee ~96.8/$ keeps Indian gold rates near their highs"
   }
 ]
