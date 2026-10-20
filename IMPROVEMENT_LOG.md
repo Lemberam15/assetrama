@@ -49,6 +49,7 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 
 - [20/10/2026] news: on NSE/BSE trading holidays (e.g. 20 Oct, Dussehra) the snapshot's index rows and the "as of" line cannot change all day — consider labelling the snapshot "previous session (market holiday today)" so visitors know why nothing moved.
 - [20/10/2026] news: a live card's headline/summary did not match its source link (the 18 Oct Strait-of-Hormuz oil card pointed at a Hindu BusinessLine gold article) — this run retired the card; consider a build-time check that each card's outlet and headline topic match its href so mismatched source links are caught before publish.
+- [20/10/2026] news: the snapshot gold/silver rows are labelled "India Bullions" but the 24K/999 values did not match India Bullions' own published rate on 20 Oct (page showed Rs 1,48,755 / Rs 2,12,924 vs India Bullions Rs 1,47,600 / Rs 2,10,260) — pin the row to one named, timestamped bullion source (see 24/09, 30/09 and 12/10 notes) so the label and the figure cannot disagree.
 
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
