@@ -1,6 +1,11 @@
 [
   {
     "date": "20/10/2026",
+    "series": "geopolitics",
+    "topic": "GEOPOLITICS: India-US trade deal nears completion - Trump's 16/10 waiver lifted the threat of 100% tariffs on Indian goods over Russian oil; Rubio in Mumbai (20/10) said the deal is 'very close'; India's US-bound goods exports rose 21.8% in August to $8.32 bn"
+  },
+  {
+    "date": "20/10/2026",
     "series": "moneystory",
     "topic": "MONEY STORY: the 50-30-20 budgeting rule - split take-home pay into 50% needs, 30% wants and 20% savings; on a Rs 50,000 monthly take-home that is Rs 25,000 / Rs 15,000 / Rs 10,000 (timeless lesson; NSE/BSE closed for Dussehra on 20/10/2026)"
   },
@@ -57,7 +62,7 @@
   {
     "date": "17/10/2026",
     "series": "moneystory",
-    "topic": "MONEY STORY: The Rule of 72 - divide 72 by your yearly return to get the years money needs to double; at 8% a year money doubles in about 9 years, at 12% in about 6; ₹1 lakh at 12% grows to roughly ₹4 lakh in 12 years (weekend timeless lesson)"
+    "topic": "MONEY STORY: The Rule of 72 - divide 72 by your yearly return to get the years money needs to double; at 8% a year money doubles in about 9 years, at 12% in about 6; \u20b91 lakh at 12% grows to roughly \u20b94 lakh in 12 years (weekend timeless lesson)"
   },
   {
     "date": "17/10/2026",
@@ -243,10 +248,5 @@
     "date": "10/10/2026",
     "series": "finance101",
     "topic": "FINANCE 101: CRR (Cash Reserve Ratio) - share of deposits banks must keep with RBI, interest-free; RBI raised the minimum daily CRR maintenance from 90% to 99% effective the fortnight beginning 16/10/2026, though the CRR ratio stays at 3%"
-  },
-  {
-    "date": "09/10/2026",
-    "series": "finance101",
-    "topic": "MARKET WRAP: Sensex 72,472.33 (+1.23%), Nifty 22,520.45 (+1.30%) snapped an 8-week losing streak; FII net sold Rs 3,569 cr vs DII net bought Rs 4,743 cr - DIIs more than absorbed it, index still closed green"
   }
 ]
