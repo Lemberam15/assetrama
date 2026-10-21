@@ -1,6 +1,11 @@
 [
  {
   "date": "21/10/2026",
+  "series": "finance101",
+  "topic": "MARKET WRAP: Sensex 73,709.69 (-0.19%), Nifty 22,811.35 (-0.34%) - a second straight down day, yet FIIs turned net buyers (+Rs 1,022.32 cr) and DIIs bought (+Rs 1,614.32 cr); 6 stocks fell for every 1 that rose"
+ },
+ {
+  "date": "21/10/2026",
   "series": "geopolitics",
   "topic": "GEOPOLITICS: Brent crude back above $110/bbl (5-month high) as US-Iran peace talks stalled and 18 tanker attacks hit in two weeks; India imports ~88% of its crude, and every $10/bbl rise adds ~$13-14 bn to the import bill and feeds inflation and the rupee"
  },
@@ -243,10 +248,5 @@
   "date": "11/10/2026",
   "series": "moneystory",
   "topic": "MONEY STORY: gold ETFs drew $496.2 mn in September 2026, nearly double August's $256.20 mn (3.12 t added; 2026 inflows $4.71 bn) as the Nifty fell 8.34% over 9 weeks - a diversification lesson"
- },
- {
-  "date": "11/10/2026",
-  "series": "finance101",
-  "topic": "FINANCE 101: Put-Call Ratio (PCR) - Nifty's PCR closed at 1.27 on 09/10/2026 (nearest expiry), up from 0.62 a day earlier; PCR = total put open interest / total call open interest, above 1 means puts outweigh calls (often read as defensive or support-building)"
  }
 ]
