@@ -1,6 +1,11 @@
 [
  {
   "date": "21/10/2026",
+  "series": "moneystory",
+  "topic": "MONEY STORY: the market opened +800 points (Sensex ~74,600) then gave it ALL back and slipped red by noon - Sensex -124 (-0.17%) to 73,728, Nifty -68 (-0.30%) to 22,820, breadth 3,056 falls vs 768 rises; Brent near $110 + FII selling drowned an IT-led bounce (Nifty IT +2%, LTTS +15%)"
+ },
+ {
+  "date": "21/10/2026",
   "series": "finance101",
   "topic": "PRE-MARKET: overnight global cues - US mixed (Dow +1.02% to 52,496, S&P +0.28%, Nasdaq flat at 26,425); Asia mostly up (Nikkei +1.17%, Hang Seng -0.09%, KOSPI +3.93%); GIFT Nifty flat ~23,010; Nifty closed 22,889 / Sensex 73,853, resistance 23,000, support 22,700; Brent ~$110, rupee 94.78"
  },
@@ -243,10 +248,5 @@
   "date": "11/10/2026",
   "series": "festival",
   "topic": "FESTIVAL GREETING: Shubh Navratri - Ghatasthapana on 11/10/2026 opens India's festive season; festive demand traditionally lifts autos, consumer durables and jewellery"
- },
- {
-  "date": "10/10/2026",
-  "series": "geopolitics",
-  "topic": "GEOPOLITICS: oil's war premium cools - Brent ~$103 after Trump ruled out an Iran strike before the 3 Nov US midterms and struck a Russia diesel deal (300,000 tonnes first); India imports >85% of its crude, the Sep basket averaged $116.1/bbl vs $82 in Jul, and every $10 on crude adds 0.3-0.5% to inflation"
  }
 ]
