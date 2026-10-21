@@ -1,6 +1,11 @@
 [
  {
   "date": "21/10/2026",
+  "series": "geopolitics",
+  "topic": "GEOPOLITICS: Brent crude back above $110/bbl (5-month high) as US-Iran peace talks stalled and 18 tanker attacks hit in two weeks; India imports ~88% of its crude, and every $10/bbl rise adds ~$13-14 bn to the import bill and feeds inflation and the rupee"
+ },
+ {
+  "date": "21/10/2026",
   "series": "moneystory",
   "topic": "MONEY STORY: the market opened +800 points (Sensex ~74,600) then gave it ALL back and slipped red by noon - Sensex -124 (-0.17%) to 73,728, Nifty -68 (-0.30%) to 22,820, breadth 3,056 falls vs 768 rises; Brent near $110 + FII selling drowned an IT-led bounce (Nifty IT +2%, LTTS +15%)"
  },
@@ -243,10 +248,5 @@
   "date": "11/10/2026",
   "series": "finance101",
   "topic": "FINANCE 101: Put-Call Ratio (PCR) - Nifty's PCR closed at 1.27 on 09/10/2026 (nearest expiry), up from 0.62 a day earlier; PCR = total put open interest / total call open interest, above 1 means puts outweigh calls (often read as defensive or support-building)"
- },
- {
-  "date": "11/10/2026",
-  "series": "festival",
-  "topic": "FESTIVAL GREETING: Shubh Navratri - Ghatasthapana on 11/10/2026 opens India's festive season; festive demand traditionally lifts autos, consumer durables and jewellery"
  }
 ]
