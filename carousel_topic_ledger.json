@@ -10,6 +10,13 @@
  },
  "posted": [
   {
+   "topic": "Rupee cost averaging - why SIPs love crashes",
+   "category": "SIP",
+   "date": "21/10/2026",
+   "locked_until": "21/04/2027",
+   "note": "Wednesday finance101 carousel slot"
+  },
+  {
    "topic": "The 50-30-20 Rule",
    "category": "budgeting",
    "date": "28/09/2026",
@@ -99,7 +106,9 @@
   {
    "topic": "Rupee cost averaging - why SIPs love crashes",
    "category": "SIP",
-   "used": false
+   "used": true,
+   "posted": "21/10/2026",
+   "locked_until": "21/04/2027"
   },
   {
    "topic": "Missing one SIP - what actually happens",
