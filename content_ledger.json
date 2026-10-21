@@ -2,6 +2,11 @@
  {
   "date": "21/10/2026",
   "series": "finance101",
+  "topic": "PRE-MARKET: overnight global cues - US mixed (Dow +1.02% to 52,496, S&P +0.28%, Nasdaq flat at 26,425); Asia mostly up (Nikkei +1.17%, Hang Seng -0.09%, KOSPI +3.93%); GIFT Nifty flat ~23,010; Nifty closed 22,889 / Sensex 73,853, resistance 23,000, support 22,700; Brent ~$110, rupee 94.78"
+ },
+ {
+  "date": "21/10/2026",
+  "series": "finance101",
   "topic": "FINANCE 101: Grey Market Premium (GMP) - the unofficial premium IPO shares fetch before listing; set by dealers not NSE/BSE/SEBI, experts rate it ~70-80% accurate; Jio Platforms IPO opened 21/10/2026 with GMP ~22%"
  },
  {
@@ -72,7 +77,7 @@
  {
   "date": "17/10/2026",
   "series": "moneystory",
-  "topic": "MONEY STORY: The Rule of 72 - divide 72 by your yearly return to get the years money needs to double; at 8% a year money doubles in about 9 years, at 12% in about 6; ₹1 lakh at 12% grows to roughly ₹4 lakh in 12 years (weekend timeless lesson)"
+  "topic": "MONEY STORY: The Rule of 72 - divide 72 by your yearly return to get the years money needs to double; at 8% a year money doubles in about 9 years, at 12% in about 6; \u20b91 lakh at 12% grows to roughly \u20b94 lakh in 12 years (weekend timeless lesson)"
  },
  {
   "date": "17/10/2026",
@@ -243,10 +248,5 @@
   "date": "10/10/2026",
   "series": "geopolitics",
   "topic": "GEOPOLITICS: oil's war premium cools - Brent ~$103 after Trump ruled out an Iran strike before the 3 Nov US midterms and struck a Russia diesel deal (300,000 tonnes first); India imports >85% of its crude, the Sep basket averaged $116.1/bbl vs $82 in Jul, and every $10 on crude adds 0.3-0.5% to inflation"
- },
- {
-  "date": "10/10/2026",
-  "series": "moneystory",
-  "topic": "MONEY STORY: why falling markets are a SIP's best friend - the Nifty's 8-week losing streak (longest in 25 years, -8.7%) snapped on Friday 09/10/2026 (Sensex +879.09 pts/+1.23% to 72,472.33, Nifty +288.65/+1.30% to 22,520.45); rupee-cost averaging and time in the market"
  }
 ]
