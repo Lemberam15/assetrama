@@ -15,6 +15,16 @@
   "topic": "MONEY STORY: Brent crude crossed $110 a barrel (up ~1.7%) on fresh Houthi attacks on Saudi oil sites; India imports ~85% of its crude, its Apr-Sep oil import bill jumped 46% to $90.6 bn, and every $1/barrel adds ~$2 bn; Sensex and Nifty fell on the oil spike and Asian selloff (bearish)"
  },
  {
+  "date": "22/10/2026",
+  "series": "finance101",
+  "topic": "PRE-MARKET: US up, Asia down - Nifty set to gap lower; Nifty 22,811.35 (-0.34%) and Sensex 73,709.69 (-0.19%) closed 21/10; GIFT Nifty ~22,650 signals a gap-down open; US closed higher (Dow +0.69%, S&P +0.58%, Nasdaq +1.05%); Asia weak (Hang Seng -2.2%, Nikkei -1%); Brent above $110 on Red Sea risk; rupee 94.46; FII +Rs 1,022 cr, DII +Rs 1,614 cr"
+ },
+ {
+  "date": "22/10/2026",
+  "series": "finance101",
+  "topic": "FINANCE 101: Bond Yield - India's 10-year G-Sec yield hit 7.44% on 21/10/2026, a 3.5-year high, up ~85 bps since 01/01/2026, as Brent crude >$110, FII selling and a rejected Rs 23,000 cr T-bill auction stoked December rate-hike bets"
+ },
+ {
   "date": "21/10/2026",
   "series": "finance101",
   "topic": "MARKET WRAP: Sensex 73,709.69 (-0.19%), Nifty 22,811.35 (-0.34%) - a second straight down day, yet FIIs turned net buyers (+Rs 1,022.32 cr) and DIIs bought (+Rs 1,614.32 cr); 6 stocks fell for every 1 that rose"
@@ -238,10 +248,5 @@
   "date": "13/10/2026",
   "series": "moneystory",
   "topic": "MONEY STORY: IT stocks led Tuesday's rebound after HCLTech's Q2 beat - net profit Rs 5,132 cr (+21.2% YoY), revenue Rs 35,620 cr (+11.5%), AI revenue +78% YoY, record deals $3.3 bn, FY27 CC guidance raised to 2.5-4%; Sensex +0.7% to 72,416, Nifty +0.7% to 22,520, Nifty IT +3.3% (TCS +5%, HCLTech +5%), smallcaps -1%"
- },
- {
-  "date": "13/10/2026",
-  "series": "event",
-  "topic": "EVENT/MARKET ALERT: Rupee's sharpest two-day comeback since 2013 - rupee jumped 82 paise to Rs 94.96 on Tuesday, up Rs 1.77 (1.8%) in two sessions from Friday's Rs 96.73, becoming Asia's top gainer; RBI widened the 20% forex risk reserve to banks' own hedges and restricted rupee NDF contracts to hedging only - the strongest rupee-defence since the 2013 taper tantrum; analysts warn gains may be temporary amid Brent ~$105 and record FII outflows"
  }
 ]
