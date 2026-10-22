@@ -1,5 +1,10 @@
 [
  {
+  "date": "22/10/2026",
+  "series": "finance101",
+  "topic": "FINANCE 101: Bond Yield - India's 10-year G-Sec yield hit 7.44% on 21/10/2026, a 3.5-year high, up ~85 bps since 01/01/2026, as Brent crude >$110, FII selling and a rejected Rs 23,000 cr T-bill auction stoked December rate-hike bets"
+ },
+ {
   "date": "21/10/2026",
   "series": "finance101",
   "topic": "MARKET WRAP: Sensex 73,709.69 (-0.19%), Nifty 22,811.35 (-0.34%) - a second straight down day, yet FIIs turned net buyers (+Rs 1,022.32 cr) and DIIs bought (+Rs 1,614.32 cr); 6 stocks fell for every 1 that rose"
@@ -92,7 +97,7 @@
  {
   "date": "17/10/2026",
   "series": "moneystory",
-  "topic": "MONEY STORY: The Rule of 72 - divide 72 by your yearly return to get the years money needs to double; at 8% a year money doubles in about 9 years, at 12% in about 6; \u20b91 lakh at 12% grows to roughly \u20b94 lakh in 12 years (weekend timeless lesson)"
+  "topic": "MONEY STORY: The Rule of 72 - divide 72 by your yearly return to get the years money needs to double; at 8% a year money doubles in about 9 years, at 12% in about 6; ₹1 lakh at 12% grows to roughly ₹4 lakh in 12 years (weekend timeless lesson)"
  },
  {
   "date": "17/10/2026",
@@ -243,10 +248,5 @@
   "date": "12/10/2026",
   "series": "event",
   "topic": "EVENT/MARKET ALERT: Middle East escalation - Houthi strikes hit Saudi Aramco gas facilities and Riyadh airport over the weekend, pushing Brent above $105/bbl (up over 70% this year); the IMO counted 11 tanker attacks in a week, the most since the war began; India imports over 85% of its crude, so higher oil feeds into the import bill and inflation"
- },
- {
-  "date": "11/10/2026",
-  "series": "moneystory",
-  "topic": "MONEY STORY: gold ETFs drew $496.2 mn in September 2026, nearly double August's $256.20 mn (3.12 t added; 2026 inflows $4.71 bn) as the Nifty fell 8.34% over 9 weeks - a diversification lesson"
  }
 ]
