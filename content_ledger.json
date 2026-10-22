@@ -2,6 +2,11 @@
  {
   "date": "22/10/2026",
   "series": "finance101",
+  "topic": "PRE-MARKET: US up, Asia down - Nifty set to gap lower; Nifty 22,811.35 (-0.34%) and Sensex 73,709.69 (-0.19%) closed 21/10; GIFT Nifty ~22,650 signals a gap-down open; US closed higher (Dow +0.69%, S&P +0.58%, Nasdaq +1.05%); Asia weak (Hang Seng -2.2%, Nikkei -1%); Brent above $110 on Red Sea risk; rupee 94.46; FII +Rs 1,022 cr, DII +Rs 1,614 cr"
+ },
+ {
+  "date": "22/10/2026",
+  "series": "finance101",
   "topic": "FINANCE 101: Bond Yield - India's 10-year G-Sec yield hit 7.44% on 21/10/2026, a 3.5-year high, up ~85 bps since 01/01/2026, as Brent crude >$110, FII selling and a rejected Rs 23,000 cr T-bill auction stoked December rate-hike bets"
  },
  {
@@ -243,10 +248,5 @@
   "date": "12/10/2026",
   "series": "finance101",
   "topic": "FINANCE 101: CPI vs WPI - retail vs wholesale inflation; Aug CPI 4.82% vs WPI 9.92% (gap ~5 pts); Sept CPI released today 4 PM IST, expected ~5.4%"
- },
- {
-  "date": "12/10/2026",
-  "series": "event",
-  "topic": "EVENT/MARKET ALERT: Middle East escalation - Houthi strikes hit Saudi Aramco gas facilities and Riyadh airport over the weekend, pushing Brent above $105/bbl (up over 70% this year); the IMO counted 11 tanker attacks in a week, the most since the war began; India imports over 85% of its crude, so higher oil feeds into the import bill and inflation"
  }
 ]
