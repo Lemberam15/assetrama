@@ -53,6 +53,9 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 
 - [21/10/2026] index: the homepage hero "What ₹5,000 a month can become" illustration is a hand-baked static SVG (fixed ₹5,000/12%/30-yr figures with hard-coded path data) — it will silently drift from the SIP calculator defaults and cannot be re-derived; consider generating it from the shared SIP math at build time so the hero and the calculator never disagree.
 
+- [22/10/2026] news: the no-duplicate rule keys off headlines, not source links — this run found two US-market cards sharing a single article URL; consider a build-time assertion that every card href on the page is unique.
+- [22/10/2026] search: the search index covers 43 of the 46 public pages and omits the lessons hub (lessons.html); consider indexing it so a search for "lessons" surfaces the hub.
+
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
 - [12/10/2026] Proposed count-up (animated) hero number on the beat card — sample delivered for Ram's approval; the live 4:5 static pipeline is unchanged. Why: count-up is the top researched number+motion pattern and motion holds viewers.
