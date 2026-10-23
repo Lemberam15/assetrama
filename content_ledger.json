@@ -1,6 +1,11 @@
 [
  {
   "date": "23/10/2026",
+  "series": "geopolitics",
+  "topic": "GEOPOLITICS: India-US trade deal nears finish - India's goods exports to the US rose 11.1% to $50.81 bn in Apr-Sep 2026 even with tariffs; US duty on India fell from 50% (Aug 2025) to 10% now but up to 100% is still threatened over Russian oil; India seeks a rate better than peers so its textile, footwear and gems exporters win orders (caution)"
+ },
+ {
+  "date": "23/10/2026",
   "series": "moneystory",
   "topic": "MONEY STORY: markets fell a 4th straight session - Sensex -544 pts (-0.74%) to 72,706, Nifty below 22,500 (-1%); nearly Rs 9.7 lakh crore wiped off BSE market cap as Brent near $114 and FII selling kept buyers away (bearish)"
  },
@@ -243,10 +248,5 @@
   "date": "13/10/2026",
   "series": "finance101",
   "topic": "MARKET WRAP: Sensex 73,033.78 (+1.54%), Nifty 22,721.95 (+1.60%) - best day in 4 months; FII net sold Rs 1,305 cr vs DII net bought Rs 2,439 cr - DIIs absorbed it, index still closed green"
- },
- {
-  "date": "13/10/2026",
-  "series": "geopolitics",
-  "topic": "GEOPOLITICS: US-Russia diesel deal - the US licensed Russian diesel imports (GL 135) till 07/04/2027 while its Graham Act allows up to 100% tariffs on India over Russian oil; India imports ~90% of its crude, Russia was 45% in Aug 2026; India's US goods exports $42.79 bn in Apr-Aug 2026"
  }
 ]
