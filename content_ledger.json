@@ -1,6 +1,11 @@
 [
  {
   "date": "23/10/2026",
+  "series": "moneystory",
+  "topic": "MONEY STORY: markets fell a 4th straight session - Sensex -544 pts (-0.74%) to 72,706, Nifty below 22,500 (-1%); nearly Rs 9.7 lakh crore wiped off BSE market cap as Brent near $114 and FII selling kept buyers away (bearish)"
+ },
+ {
+  "date": "23/10/2026",
   "series": "finance101",
   "topic": "PRE-MARKET: Nasdaq -2.6% (worst since June) but India eyes a gap-up - GIFT Nifty ~22,837 (+100 pts); Brent $113, rupee 94.82; Nifty 22,687.65, support 22,554, resistance 22,800; Jio IPO closes + Q2 results rush"
  },
@@ -127,7 +132,7 @@
  {
   "date": "17/10/2026",
   "series": "moneystory",
-  "topic": "MONEY STORY: The Rule of 72 - divide 72 by your yearly return to get the years money needs to double; at 8% a year money doubles in about 9 years, at 12% in about 6; \u20b91 lakh at 12% grows to roughly \u20b94 lakh in 12 years (weekend timeless lesson)"
+  "topic": "MONEY STORY: The Rule of 72 - divide 72 by your yearly return to get the years money needs to double; at 8% a year money doubles in about 9 years, at 12% in about 6; ₹1 lakh at 12% grows to roughly ₹4 lakh in 12 years (weekend timeless lesson)"
  },
  {
   "date": "17/10/2026",
@@ -243,10 +248,5 @@
   "date": "13/10/2026",
   "series": "geopolitics",
   "topic": "GEOPOLITICS: US-Russia diesel deal - the US licensed Russian diesel imports (GL 135) till 07/04/2027 while its Graham Act allows up to 100% tariffs on India over Russian oil; India imports ~90% of its crude, Russia was 45% in Aug 2026; India's US goods exports $42.79 bn in Apr-Aug 2026"
- },
- {
-  "date": "13/10/2026",
-  "series": "finance101",
-  "topic": "FINANCE 101: Real Return (inflation-adjusted return) - Sept 2026 CPI 5.54% (23-month high, released 12/10/2026) vs SBI 1-yr FD 6.25% = ~0.7% real return; turns negative in the 20%/30% tax slabs"
  }
 ]
