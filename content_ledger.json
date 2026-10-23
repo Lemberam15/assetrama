@@ -1,5 +1,10 @@
 [
  {
+  "date": "23/10/2026",
+  "series": "finance101",
+  "topic": "FINANCE 101: Market Breadth - only 1 in 4 NSE stocks rose on 22/10 while the Nifty fell just 2% this week; midcaps -3.5%, smallcaps -4.5% (worst since January)"
+ },
+ {
   "date": "22/10/2026",
   "series": "finance101",
   "topic": "MARKET WRAP: Sensex 73,249.39 (-0.62%), Nifty 22,687.65 (-0.54%) - third straight day down as Brent topped $112; FII net sold Rs 3,459 cr vs DII net bought Rs 2,891 cr (DIIs absorbed ~84% of the selling)"
@@ -243,10 +248,5 @@
   "date": "13/10/2026",
   "series": "finance101",
   "topic": "PRE-MARKET: overnight global cues - US mixed (Dow +0.38%, S&P -0.06%, Nasdaq -0.44%); Asia risk-off on chip selloff (Nikkei -2.6%, Kospi -6%, Hang Seng -0.4%) + Brent near $106 Mideast tension; Gift Nifty flat ~22,420; Nifty 22,363.35 (-0.70%), support 22,300, resistance 22,650; rupee 95.77"
- },
- {
-  "date": "13/10/2026",
-  "series": "moneystory",
-  "topic": "MONEY STORY: IT stocks led Tuesday's rebound after HCLTech's Q2 beat - net profit Rs 5,132 cr (+21.2% YoY), revenue Rs 35,620 cr (+11.5%), AI revenue +78% YoY, record deals $3.3 bn, FY27 CC guidance raised to 2.5-4%; Sensex +0.7% to 72,416, Nifty +0.7% to 22,520, Nifty IT +3.3% (TCS +5%, HCLTech +5%), smallcaps -1%"
  }
 ]
