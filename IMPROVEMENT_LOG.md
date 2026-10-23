@@ -56,6 +56,8 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [22/10/2026] news: the no-duplicate rule keys off headlines, not source links — this run found two US-market cards sharing a single article URL; consider a build-time assertion that every card href on the page is unique.
 - [22/10/2026] search: the search index covers 43 of the 46 public pages and omits the lessons hub (lessons.html); consider indexing it so a search for "lessons" surfaces the hub.
 - [23/10/2026] news: time-boxed "Day 1 / Day 2" cards for multi-day events (e.g. the Jio Platforms IPO) age within hours and get retired the next run — prefer a single event card refreshed in place, or a dated status card, so the 20-card budget is not spent on a figure that goes stale in a day.
+- [23/10/2026] news: the 20/10 headline-vs-href mismatch recurred — the Swiggy card’s "Read the source" link pointed at an unrelated market-opening article; fixed by hand this run. The build-time outlet/topic-vs-href check suggested on 20/10 would have caught it, so prioritise that guard.
+- [23/10/2026] sitemap: news.html’s <lastmod> lags a day unless bumped by hand (set to 2026-10-23 this run) — have the hourly news commit update the sitemap lastmod for news.html automatically.
 
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
