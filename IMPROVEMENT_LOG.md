@@ -55,6 +55,7 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 
 - [22/10/2026] news: the no-duplicate rule keys off headlines, not source links — this run found two US-market cards sharing a single article URL; consider a build-time assertion that every card href on the page is unique.
 - [22/10/2026] search: the search index covers 43 of the 46 public pages and omits the lessons hub (lessons.html); consider indexing it so a search for "lessons" surfaces the hub.
+- [23/10/2026] news: time-boxed "Day 1 / Day 2" cards for multi-day events (e.g. the Jio Platforms IPO) age within hours and get retired the next run — prefer a single event card refreshed in place, or a dated status card, so the 20-card budget is not spent on a figure that goes stale in a day.
 
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
