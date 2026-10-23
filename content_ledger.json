@@ -2,6 +2,11 @@
  {
   "date": "23/10/2026",
   "series": "finance101",
+  "topic": "PRE-MARKET: Nasdaq -2.6% (worst since June) but India eyes a gap-up - GIFT Nifty ~22,837 (+100 pts); Brent $113, rupee 94.82; Nifty 22,687.65, support 22,554, resistance 22,800; Jio IPO closes + Q2 results rush"
+ },
+ {
+  "date": "23/10/2026",
+  "series": "finance101",
   "topic": "FINANCE 101: Market Breadth - only 1 in 4 NSE stocks rose on 22/10 while the Nifty fell just 2% this week; midcaps -3.5%, smallcaps -4.5% (worst since January)"
  },
  {
@@ -122,7 +127,7 @@
  {
   "date": "17/10/2026",
   "series": "moneystory",
-  "topic": "MONEY STORY: The Rule of 72 - divide 72 by your yearly return to get the years money needs to double; at 8% a year money doubles in about 9 years, at 12% in about 6; ₹1 lakh at 12% grows to roughly ₹4 lakh in 12 years (weekend timeless lesson)"
+  "topic": "MONEY STORY: The Rule of 72 - divide 72 by your yearly return to get the years money needs to double; at 8% a year money doubles in about 9 years, at 12% in about 6; \u20b91 lakh at 12% grows to roughly \u20b94 lakh in 12 years (weekend timeless lesson)"
  },
  {
   "date": "17/10/2026",
@@ -243,10 +248,5 @@
   "date": "13/10/2026",
   "series": "finance101",
   "topic": "FINANCE 101: Real Return (inflation-adjusted return) - Sept 2026 CPI 5.54% (23-month high, released 12/10/2026) vs SBI 1-yr FD 6.25% = ~0.7% real return; turns negative in the 20%/30% tax slabs"
- },
- {
-  "date": "13/10/2026",
-  "series": "finance101",
-  "topic": "PRE-MARKET: overnight global cues - US mixed (Dow +0.38%, S&P -0.06%, Nasdaq -0.44%); Asia risk-off on chip selloff (Nikkei -2.6%, Kospi -6%, Hang Seng -0.4%) + Brent near $106 Mideast tension; Gift Nifty flat ~22,420; Nifty 22,363.35 (-0.70%), support 22,300, resistance 22,650; rupee 95.77"
  }
 ]
