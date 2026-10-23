@@ -58,6 +58,8 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [23/10/2026] news: time-boxed "Day 1 / Day 2" cards for multi-day events (e.g. the Jio Platforms IPO) age within hours and get retired the next run — prefer a single event card refreshed in place, or a dated status card, so the 20-card budget is not spent on a figure that goes stale in a day.
 - [23/10/2026] news: the 20/10 headline-vs-href mismatch recurred — the Swiggy card’s "Read the source" link pointed at an unrelated market-opening article; fixed by hand this run. The build-time outlet/topic-vs-href check suggested on 20/10 would have caught it, so prioritise that guard.
 - [23/10/2026] sitemap: news.html’s <lastmod> lags a day unless bumped by hand (set to 2026-10-23 this run) — have the hourly news commit update the sitemap lastmod for news.html automatically.
+- [24/10/2026] news: event cards can hold an intraday figure the session close supersedes — this run refreshed the Jio Platforms IPO card from a mid-day 5.5x to the final 22.19x (₹4.90 lakh crore); refreshing event cards in place once the event closes would stop stale figures surviving to the next run (extends the 23/10 IPO note).
+- [24/10/2026] news: within one page the Brent card/summary (“near $114” at the close) and the snapshot row ($117.18 after the late surge) can disagree — pin one end-of-day Brent benchmark and use it in both the card and the row (extends the 11/10 and 12/10 Brent notes).
 
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
