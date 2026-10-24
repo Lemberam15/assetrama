@@ -61,6 +61,9 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [24/10/2026] news: event cards can hold an intraday figure the session close supersedes — this run refreshed the Jio Platforms IPO card from a mid-day 5.5x to the final 22.19x (₹4.90 lakh crore); refreshing event cards in place once the event closes would stop stale figures surviving to the next run (extends the 23/10 IPO note).
 - [24/10/2026] news: within one page the Brent card/summary (“near $114” at the close) and the snapshot row ($117.18 after the late surge) can disagree — pin one end-of-day Brent benchmark and use it in both the card and the row (extends the 11/10 and 12/10 Brent notes).
 
+- [24/10/2026] news: the 20-card cap now forces retiring same-day cards on most runs — this run retired five 23 Oct cards to fit four new ones, so ~20% of the page turns over on a quiet Saturday. Consider raising the cap to ~24 or setting per-category caps so the oldest same-day card is not dropped arbitrarily (extends 18/10 and 23/10).
+- [24/10/2026] news: the snapshot Gold 24K row (Livemint ₹1,42,750/10g) and the new gold-week card (MCX ₹1,42,150/10g) cite different bullion benchmarks for the same day on the same page — pin the snapshot bullion rows and any bullion card to one named, timestamped source (extends 24/09, 12/10 and 20/10).
+
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
 - [12/10/2026] Proposed count-up (animated) hero number on the beat card — sample delivered for Ram's approval; the live 4:5 static pipeline is unchanged. Why: count-up is the top researched number+motion pattern and motion holds viewers.
