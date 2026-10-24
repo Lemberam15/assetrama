@@ -66,6 +66,8 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 
 - [24/10/2026] search: 4 of the 43 search cards carry data-cat="tax" but there is no "Tax" filter chip (chips are All, Mutual Funds, Basics, Market Moves, Commodities, Gold & Silver, Tools), so those tax cards are visible only under "All" and are unreachable by any topic chip — add a "Tax" chip or retag the four cards.
 
+- [25/10/2026] news: two cards (Global and Commodity) carry the meta outlet "Reuters" while their href points to investing.com — a build-time outlet-name-vs-link-domain check would catch this class of label/link mismatch (extends the 23/10 href-vs-topic guard).
+
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
 - [12/10/2026] Proposed count-up (animated) hero number on the beat card — sample delivered for Ram's approval; the live 4:5 static pipeline is unchanged. Why: count-up is the top researched number+motion pattern and motion holds viewers.
