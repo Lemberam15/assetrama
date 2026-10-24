@@ -64,6 +64,8 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [24/10/2026] news: the 20-card cap now forces retiring same-day cards on most runs — this run retired five 23 Oct cards to fit four new ones, so ~20% of the page turns over on a quiet Saturday. Consider raising the cap to ~24 or setting per-category caps so the oldest same-day card is not dropped arbitrarily (extends 18/10 and 23/10).
 - [24/10/2026] news: the snapshot Gold 24K row (Livemint ₹1,42,750/10g) and the new gold-week card (MCX ₹1,42,150/10g) cite different bullion benchmarks for the same day on the same page — pin the snapshot bullion rows and any bullion card to one named, timestamped source (extends 24/09, 12/10 and 20/10).
 
+- [24/10/2026] search: 4 of the 43 search cards carry data-cat="tax" but there is no "Tax" filter chip (chips are All, Mutual Funds, Basics, Market Moves, Commodities, Gold & Silver, Tools), so those tax cards are visible only under "All" and are unreachable by any topic chip — add a "Tax" chip or retag the four cards.
+
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
 - [12/10/2026] Proposed count-up (animated) hero number on the beat card — sample delivered for Ram's approval; the live 4:5 static pipeline is unchanged. Why: count-up is the top researched number+motion pattern and motion holds viewers.
