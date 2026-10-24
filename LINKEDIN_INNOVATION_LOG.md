@@ -215,3 +215,73 @@ next action is still the FREE one — start collecting WhatsApp numbers. Ram alr
 the "EDUCATIONAL QUERIES 9049547427" box on every slide; add a one-line caption ask
 ("Save my number for market updates") plus a pinned comment, so the list is building well
 before the 10k sponsor stage. No spend, no brand contact — pure list-building.
+
+## 24/10/2026 — v30: ANIMATED CHART BEAT (the chart BUILDS on screen) + music v5
+
+**Growth data (pulled from the APIs):**
+- Instagram: **472 followers** (baseline 471 on 27/09/2026 -> net **+1**; **+3** vs 469
+  last week). Last 30 media: likes 0-4, **comments 0 on almost every post**. The weakest
+  number is still **engagement (comments)** and follower growth is near-flat; the platform
+  that needs it most is Instagram (the 2-year north-star channel).
+- LinkedIn: baseline 1,562 (26/09/2026); no new number reported in chat this week —
+  update when Ram reports it.
+
+**What changed (this week's one improvement):** the mid-video beat was a SINGLE static
+card (v15). 2026 Reels ranking is **completion > share > save > comment > like**, and the
+strongest documented lever for faceless finance short-form is the DATA-BUILD ("race")
+chart — a public set of finance chart-reels with NO face, NO voice and NO script (just
+real prices building on screen) drew **5.3M views and 2,721 followers**, and the reels
+past 50k views held **87% of the video vs 66%** for the rest, because "the answer is not
+available until the line stops moving, so leaving early costs the viewer the thing they
+came for." So the middle beat is now an **ANIMATED CHART that BUILDS bar by bar**, each
+bar's figure revealed only once that bar finishes.
+- New script `scripts/chart_anim_card.py` — writes a branded 1080x1350 chart-card
+  SEQUENCE (bars grow from zero; label column | bar track | value column so a revealed
+  value never sits on its own bar). Brand furniture matches the beat card.
+- New optional spec field: `"chart": {..., "animate": true}`. render_slide.py is UNCHANGED.
+- make_video.py's 6th arg (and reel_916_encode.py's 5th arg) may now be a **DIRECTORY** of
+  card frames — the middle beat PLAYS the sequence. reel_916_slide.py also accepts a
+  directory (reframes the animated cards to 9:16). A plain PNG path is byte-for-byte the
+  old single-card behaviour.
+- **Backwards compatible:** no change to render_slide.py, the 4:5 slide, the captions, the
+  CTA table, the tone colours or any immutable rule.
+
+**Music v5 (rotation — v4 was 10/10/2026):** built on v4. Adds (1) side-chain "breathing"
+— the mix gently ducks at each chord change and swells back; (2) a slow-swelling
+cinematic low drone for the driving/serious moods; (3) a soft pluck arpeggio for the
+bright moods; (4) a smooth soft-knee limiter replacing the old hard clip. Three distinct
+mood characters: driving {urgent,tense,event,solemn}, serious {geopolitics,calm}, bright
+{uplifting,festival,festive,finance101,moneystory}. QC'd by synthesising every mood: all
+20.00 s, mean ~ -14 dBFS RMS, peak ~ -2.8 dB, warm spectral centroid 260-480 Hz, <1.1% of
+energy above 4 kHz (not harsh).
+
+**Post types affected:** every slot that shows a chart (SIP/gold growth, FII/DII flows,
+value over time) on BOTH LinkedIn (4:5) and Instagram (native 9:16 reel). All other posts
+and story-only slots are unchanged.
+
+**Samples (delivered as downloads):** sampleA_sip.png / _chart_start.png / _chart_built.png
+/ .mp4 / _reel_916.mp4 (finance101, clearly-ILLUSTRATIVE SIP: Rs 5,000/month at an assumed
+12% -> Rs 4.1 L / 11.6 L / 50.0 L at 5/10/20 yrs); sampleB_inflation.png / _chart_built.png
+/ .mp4 / _reel_916.mp4 (moneystory, caution, clearly-ILLUSTRATIVE: Rs 1 lakh at an assumed
+6% inflation -> Rs 1.00 L / 0.42 L / 0.17 L today/15/30 yrs). Pixel QC: contrast 8.1-16.6:1
+(>=3 required), zero edge clipping; a visual defect check on every PNG was clean. Videos:
+4:5 1080x1350 and 9:16 1080x1920, both 20.00 s, mean ~ -14 dBFS, first frame
+full-brightness (not black); the beat cuts confirmed by frame diff (slide vs chart 33.6 on
+the 4:5 and 15.2 on the 9:16).
+
+**New backlog ideas (added this week):**
+1. Animated LINE-race chart (the full chartrace format: two lines racing to the finish) —
+   the bar-build is step one; a line race is the highest-completion version.
+2. A count-up "reveal" on the beat-card big number (digits ticking to the final value).
+3. Hook-formula pass on headlines (2026 data: "Specific Outcome" hooks + numbers convert
+   best; keep a running A/B scoreboard of headline patterns).
+4. SAVE/SEND prompt in the final beat + a "send this to…" caption line (Reels ranks share
+   and save ABOVE comment and like).
+5. Kinetic typography — headline words punching in sequence in the FIRST beat (kept
+   frame-0-safe so the hook text is present at 0.0 s).
+
+**Monetization note (suggestion only):** at 472 IG / ~1.5k LinkedIn, the highest-value
+next action is still the FREE one — start collecting WhatsApp numbers. Ram already shows
+the "EDUCATIONAL QUERIES 9049547427" box on every slide; add a one-line caption ask
+("Save my number for market updates") plus a pinned comment, so the list is building well
+before the 10k sponsor stage. No spend, no brand contact — pure list-building.
