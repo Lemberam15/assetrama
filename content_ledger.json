@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "date": "24/10/2026",
+   "series": "event",
+   "topic": "EVENT/MARKET ALERT: Brent crude spiked to $117.45/bbl (highest since April, +10% in Oct) as Trump floated a fresh Iran operation and a US envoy said a strike could come as soon as this weekend; India imports ~85% of its crude, so the rupee (94.94/$), inflation and the import bill come under pressure"
+  },
+  {
    "date": "23/10/2026",
    "series": "finance101",
    "topic": "MARKET WRAP: Sensex 73,123.83 (-0.17%), Nifty 22,600 (-0.39%) - 4th straight fall as crude spiked; FII net bought Rs 888 cr and DII net bought Rs 3,235 cr - both institutions bought yet the index closed red"
@@ -143,7 +148,7 @@
   {
    "date": "17/10/2026",
    "series": "moneystory",
-   "topic": "MONEY STORY: The Rule of 72 - divide 72 by your yearly return to get the years money needs to double; at 8% a year money doubles in about 9 years, at 12% in about 6; ₹1 lakh at 12% grows to roughly ₹4 lakh in 12 years (weekend timeless lesson)"
+   "topic": "MONEY STORY: The Rule of 72 - divide 72 by your yearly return to get the years money needs to double; at 8% a year money doubles in about 9 years, at 12% in about 6; \u20b91 lakh at 12% grows to roughly \u20b94 lakh in 12 years (weekend timeless lesson)"
   },
   {
    "date": "17/10/2026",
@@ -244,11 +249,6 @@
    "date": "14/10/2026",
    "series": "finance101",
    "topic": "PRE-MARKET: Tuesday's 1,109-pt Sensex rally faces its first test - GIFT Nifty -0.37% hints a soft open ~22,640; US mixed (Dow -0.35%, Nasdaq -0.15%); Nifty 22,721.95, support 22,600/22,500, resistance 22,800; Brent ~$107, rupee 95.28 (3rd straight up day)"
-  },
-  {
-   "date": "14/10/2026",
-   "series": "finance101",
-   "topic": "FINANCE 101: Core Inflation - inflation minus food & fuel; Sept CPI 5.54% (highest since Oct 2024) vs core ~4.3%; food inflation 7.74%, onions +108%"
   }
  ]
 }
