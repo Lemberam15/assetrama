@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "25/10/2026",
+      "series": "finance101",
+      "topic": "FINANCE 101: Short Covering - a short seller borrows shares, sells them now and hopes to buy back cheaper; if the price rises instead they rush to buy back and that buying itself spikes the price (a short squeeze) - explains the sharp bounces inside this week's volatile, falling market (caution)"
+    },
+    {
       "date": "24/10/2026",
       "series": "geopolitics",
       "topic": "GEOPOLITICS: gold and silver hit multi-month lows just before Diwali - spot gold fell below $4,000/oz (down ~4%, worst week since June), MCX gold ~Rs 1.42 lakh/10g and silver below Rs 2 lakh/kg, as Brent near $117 revived inflation and December Fed rate-hike bets; Sept gold imports fell to $1.8 bn from $9.61 bn a year ago (bearish)"
@@ -244,11 +249,6 @@
       "date": "14/10/2026",
       "series": "finance101",
       "topic": "MARKET WRAP: Sensex 72,781.89 (-0.34%), Nifty 22,622.70 (-0.44%); FII net sold Rs 1,857 cr (14th straight session) vs DII net bought Rs 2,670 cr - DIIs absorbed the selling but the index still slipped as crude neared $107"
-    },
-    {
-      "date": "14/10/2026",
-      "series": "event",
-      "topic": "EVENT/MARKET ALERT: Cabinet approves Fairfax's Rs 52,878 cr bid for 60.72% of IDBI Bank - the largest FDI ever in India's financial sector; GoI sells 30.48%, LIC 30.24% (together keep 34%), Fairfax pays Rs 81/share and must merge/exit CSB in 2 yrs; IDBI shares closed ~9% higher at Rs 90.39 (NSE)"
     }
   ]
 }
