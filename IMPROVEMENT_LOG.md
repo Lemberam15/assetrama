@@ -67,6 +67,7 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [24/10/2026] search: 4 of the 43 search cards carry data-cat="tax" but there is no "Tax" filter chip (chips are All, Mutual Funds, Basics, Market Moves, Commodities, Gold & Silver, Tools), so those tax cards are visible only under "All" and are unreachable by any topic chip — add a "Tax" chip or retag the four cards.
 
 - [25/10/2026] news: two cards (Global and Commodity) carry the meta outlet "Reuters" while their href points to investing.com — a build-time outlet-name-vs-link-domain check would catch this class of label/link mismatch (extends the 23/10 href-vs-topic guard).
+- [25/10/2026] news: the "Page updated ... IST" sentence inside the tbl-note has grown into a multi-line per-run changelog (it now lists every card added/retired each hour) — keep the visible note to the timestamp + session state and move the add/retire changelog out of the rendered page (a commit message or an HTML comment).
 
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
