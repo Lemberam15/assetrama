@@ -2,6 +2,11 @@
   "entries": [
     {
       "date": "25/10/2026",
+      "series": "moneystory",
+      "topic": "MONEY STORY: Rs 20.78 lakh crore wiped off BSE-listed value in the week to 23/10/2026 - Nifty -2.4%, Sensex -2.1%, smallcaps -7.3% (worst since Feb 2025); a fall on paper is not a loss until you sell"
+    },
+    {
+      "date": "25/10/2026",
       "series": "finance101",
       "topic": "FINANCE 101: Short Covering - a short seller borrows shares, sells them now and hopes to buy back cheaper; if the price rises instead they rush to buy back and that buying itself spikes the price (a short squeeze) - explains the sharp bounces inside this week's volatile, falling market (caution)"
     },
@@ -168,7 +173,7 @@
     {
       "date": "17/10/2026",
       "series": "moneystory",
-      "topic": "MONEY STORY: The Rule of 72 - divide 72 by your yearly return to get the years money needs to double; at 8% a year money doubles in about 9 years, at 12% in about 6; ₹1 lakh at 12% grows to roughly ₹4 lakh in 12 years (weekend timeless lesson)"
+      "topic": "MONEY STORY: The Rule of 72 - divide 72 by your yearly return to get the years money needs to double; at 8% a year money doubles in about 9 years, at 12% in about 6; \u20b91 lakh at 12% grows to roughly \u20b94 lakh in 12 years (weekend timeless lesson)"
     },
     {
       "date": "17/10/2026",
@@ -244,11 +249,6 @@
       "date": "15/10/2026",
       "series": "finance101",
       "topic": "FINANCE 101: IPO price band - Jio Platforms set Rs 1,065-1,119/share for its Rs 30,213 cr fresh issue, India's biggest IPO ever (beats Hyundai Rs 27,870 cr 2024 and LIC Rs 20,557 cr 2022); SEBI caps the band at 20% over the floor and the final cut-off price is set by demand; opens 21/10, closes 23/10/2026"
-    },
-    {
-      "date": "14/10/2026",
-      "series": "finance101",
-      "topic": "MARKET WRAP: Sensex 72,781.89 (-0.34%), Nifty 22,622.70 (-0.44%); FII net sold Rs 1,857 cr (14th straight session) vs DII net bought Rs 2,670 cr - DIIs absorbed the selling but the index still slipped as crude neared $107"
     }
   ]
 }
