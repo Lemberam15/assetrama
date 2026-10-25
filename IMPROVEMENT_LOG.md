@@ -64,14 +64,14 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [24/10/2026] news: the 20-card cap now forces retiring same-day cards on most runs — this run retired five 23 Oct cards to fit four new ones, so ~20% of the page turns over on a quiet Saturday. Consider raising the cap to ~24 or setting per-category caps so the oldest same-day card is not dropped arbitrarily (extends 18/10 and 23/10).
 - [24/10/2026] news: the snapshot Gold 24K row (Livemint ₹1,42,750/10g) and the new gold-week card (MCX ₹1,42,150/10g) cite different bullion benchmarks for the same day on the same page — pin the snapshot bullion rows and any bullion card to one named, timestamped source (extends 24/09, 12/10 and 20/10).
 
-- [24/10/2026] search: 4 of the 43 search cards carry data-cat="tax" but there is no "Tax" filter chip (chips are All, Mutual Funds, Basics, Market Moves, Commodities, Gold & Silver, Tools), so those tax cards are visible only under "All" and are unreachable by any topic chip — add a "Tax" chip or retag the four cards.
 
-- [25/10/2026] news: two cards (Global and Commodity) carry the meta outlet "Reuters" while their href points to investing.com — a build-time outlet-name-vs-link-domain check would catch this class of label/link mismatch (extends the 23/10 href-vs-topic guard).
 - [25/10/2026] news: the "Page updated ... IST" sentence inside the tbl-note has grown into a multi-line per-run changelog (it now lists every card added/retired each hour) — keep the visible note to the timestamp + session state and move the add/retire changelog out of the rendered page (a commit message or an HTML comment).
 
 - [25/10/2026] search: the 43-card index omits index.html and lessons.html entirely (43 cards = 1 about + 8 calculators + news + all 33 articles) — decide whether the homepage and the lesson library should be searchable, and if so add them and bump the "43 pages" count; if not, note the exclusion in the page copy.
 - [25/10/2026] search: 4 of the 43 search cards carry data-cat="tax" but there is no "Tax" filter chip (chips are All, Mutual Funds, Basics, Market Moves, Commodities, Gold & Silver, Tools), so those tax cards are visible only under "All" — add a "Tax" chip or retag the four cards. (Repeat of 24/10 — still open.)
 - [25/10/2026] news: two cards still carry the meta outlet "Reuters" while their href points to investing.com, which is outside the authorised-source list — a build-time outlet-name-vs-link-domain check would catch both the label mismatch and the source-policy breach in one pass. (Repeat of 25/10 earlier run — still open.)
+
+- [26/10/2026] news: the snapshot gold/silver rows cannot be re-verified when MCX is shut (weekends, holidays) — the 25 Oct bullion rows had to keep the previous run's prices because authorised 25 Oct retail quotes differed by a few hundred rupees and pointed the other way. On non-trading days, show the weekly move (computable from the MCX Friday close) instead of a day change.
 
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
