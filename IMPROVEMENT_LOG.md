@@ -69,6 +69,10 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [25/10/2026] news: two cards (Global and Commodity) carry the meta outlet "Reuters" while their href points to investing.com — a build-time outlet-name-vs-link-domain check would catch this class of label/link mismatch (extends the 23/10 href-vs-topic guard).
 - [25/10/2026] news: the "Page updated ... IST" sentence inside the tbl-note has grown into a multi-line per-run changelog (it now lists every card added/retired each hour) — keep the visible note to the timestamp + session state and move the add/retire changelog out of the rendered page (a commit message or an HTML comment).
 
+- [25/10/2026] search: the 43-card index omits index.html and lessons.html entirely (43 cards = 1 about + 8 calculators + news + all 33 articles) — decide whether the homepage and the lesson library should be searchable, and if so add them and bump the "43 pages" count; if not, note the exclusion in the page copy.
+- [25/10/2026] search: 4 of the 43 search cards carry data-cat="tax" but there is no "Tax" filter chip (chips are All, Mutual Funds, Basics, Market Moves, Commodities, Gold & Silver, Tools), so those tax cards are visible only under "All" — add a "Tax" chip or retag the four cards. (Repeat of 24/10 — still open.)
+- [25/10/2026] news: two cards still carry the meta outlet "Reuters" while their href points to investing.com, which is outside the authorised-source list — a build-time outlet-name-vs-link-domain check would catch both the label mismatch and the source-policy breach in one pass. (Repeat of 25/10 earlier run — still open.)
+
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
 - [12/10/2026] Proposed count-up (animated) hero number on the beat card — sample delivered for Ram's approval; the live 4:5 static pipeline is unchanged. Why: count-up is the top researched number+motion pattern and motion holds viewers.
