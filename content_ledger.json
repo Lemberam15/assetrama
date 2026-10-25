@@ -2,6 +2,11 @@
   "entries": [
     {
       "date": "25/10/2026",
+      "series": "geopolitics",
+      "topic": "GEOPOLITICS: China will require an export licence for tunnel boring machines from 18/11/2026 - China makes ~70% of world TBMs; India's TBM imports from China fell from $18 mn (FY23) to $0.8 mn (FY26) as clearances slowed; India-China trade gap $69 bn in Apr-Sep FY27 (+27% YoY); late metros and rail cost more in public money"
+    },
+    {
+      "date": "25/10/2026",
       "series": "moneystory",
       "topic": "MONEY STORY: Rs 20.78 lakh crore wiped off BSE-listed value in the week to 23/10/2026 - Nifty -2.4%, Sensex -2.1%, smallcaps -7.3% (worst since Feb 2025); a fall on paper is not a loss until you sell"
     },
@@ -173,7 +178,7 @@
     {
       "date": "17/10/2026",
       "series": "moneystory",
-      "topic": "MONEY STORY: The Rule of 72 - divide 72 by your yearly return to get the years money needs to double; at 8% a year money doubles in about 9 years, at 12% in about 6; \u20b91 lakh at 12% grows to roughly \u20b94 lakh in 12 years (weekend timeless lesson)"
+      "topic": "MONEY STORY: The Rule of 72 - divide 72 by your yearly return to get the years money needs to double; at 8% a year money doubles in about 9 years, at 12% in about 6; ₹1 lakh at 12% grows to roughly ₹4 lakh in 12 years (weekend timeless lesson)"
     },
     {
       "date": "17/10/2026",
@@ -244,11 +249,6 @@
       "date": "15/10/2026",
       "series": "finance101",
       "topic": "PRE-MARKET: soft-open setup - Asia risk-off (Nikkei -3.3%, Kospi -6% sidecar), US lower (Nasdaq -1.9%, S&P -1.1%, Dow -0.1%) after hot Sept CPI; Nifty prev close 22,622.70, support 22,550 / resistance 22,750-22,800, Gift Nifty ~22,600 flat; Brent ~$104, rupee 95.17"
-    },
-    {
-      "date": "15/10/2026",
-      "series": "finance101",
-      "topic": "FINANCE 101: IPO price band - Jio Platforms set Rs 1,065-1,119/share for its Rs 30,213 cr fresh issue, India's biggest IPO ever (beats Hyundai Rs 27,870 cr 2024 and LIC Rs 20,557 cr 2022); SEBI caps the band at 20% over the floor and the final cut-off price is set by demand; opens 21/10, closes 23/10/2026"
     }
   ]
 }
