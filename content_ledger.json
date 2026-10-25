@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "26/10/2026",
+      "series": "event",
+      "topic": "EVENT/MARKET ALERT (2:30 AM monitor): India's crude oil import basket averaged ~$120/bbl in October so far - highest since March 2012 (a 14-year high); WPI inflation already 11.4% in September and RBI has raised its CPI forecast to 5.2%; markets reopen on 26/10 after 4 straight falls (Nifty 22,600, rupee 94.94/$ on Friday); Brent settled $116.72 on Friday (bearish)"
+    },
+    {
       "date": "25/10/2026",
       "series": "event",
       "topic": "EVENT/MARKET ALERT (6:30 PM monitor): Egypt halted trading for 30 min on Sun 25/10/2026 after EGX100 fell 10% (EGX30 closed -3.56%, EGX70 -11.07%); Saudi main index -3% and Aramco -1.1% after Houthi missiles were fired at Riyadh and 10 ballistic missiles at southern Saudi were intercepted; Brent settled $116.72 on Fri, highest in ~6 months; Indian markets reopen Mon 26/10 after 4 straight falling sessions (bearish)"
@@ -244,11 +249,6 @@
       "date": "15/10/2026",
       "series": "geopolitics",
       "topic": "GEOPOLITICS: Rupee rebounds 31 paise to 94.86/$ (Thu 15/10) - RBI's special dollar window for IOC/BPCL/HPCL (live 12/10) plus softer Brent ($104.30) and a weaker dollar index (101.99) lifted it; catch: reserves fell ~$50 bn in a month, refiners lose Rs 530 cr/day"
-    },
-    {
-      "date": "15/10/2026",
-      "series": "moneystory",
-      "topic": "MONEY STORY: IT stocks power a ~1,100-point Sensex rally as the 'reverse AI trade' lifts India's IT - Nifty IT up ~9% in three sessions; FIIs sold Indian shares for 14 straight sessions and may now reverse"
     }
   ]
 }
