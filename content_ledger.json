@@ -2,6 +2,11 @@
   "entries": [
     {
       "date": "25/10/2026",
+      "series": "event",
+      "topic": "EVENT/MARKET ALERT (6:30 PM monitor): Egypt halted trading for 30 min on Sun 25/10/2026 after EGX100 fell 10% (EGX30 closed -3.56%, EGX70 -11.07%); Saudi main index -3% and Aramco -1.1% after Houthi missiles were fired at Riyadh and 10 ballistic missiles at southern Saudi were intercepted; Brent settled $116.72 on Fri, highest in ~6 months; Indian markets reopen Mon 26/10 after 4 straight falling sessions (bearish)"
+    },
+    {
+      "date": "25/10/2026",
       "series": "geopolitics",
       "topic": "GEOPOLITICS: China will require an export licence for tunnel boring machines from 18/11/2026 - China makes ~70% of world TBMs; India's TBM imports from China fell from $18 mn (FY23) to $0.8 mn (FY26) as clearances slowed; India-China trade gap $69 bn in Apr-Sep FY27 (+27% YoY); late metros and rail cost more in public money"
     },
@@ -244,11 +249,6 @@
       "date": "15/10/2026",
       "series": "moneystory",
       "topic": "MONEY STORY: IT stocks power a ~1,100-point Sensex rally as the 'reverse AI trade' lifts India's IT - Nifty IT up ~9% in three sessions; FIIs sold Indian shares for 14 straight sessions and may now reverse"
-    },
-    {
-      "date": "15/10/2026",
-      "series": "finance101",
-      "topic": "PRE-MARKET: soft-open setup - Asia risk-off (Nikkei -3.3%, Kospi -6% sidecar), US lower (Nasdaq -1.9%, S&P -1.1%, Dow -0.1%) after hot Sept CPI; Nifty prev close 22,622.70, support 22,550 / resistance 22,750-22,800, Gift Nifty ~22,600 flat; Brent ~$104, rupee 95.17"
     }
   ]
 }
