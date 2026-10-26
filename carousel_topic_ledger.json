@@ -10,6 +10,13 @@
  },
  "posted": [
   {
+   "topic": "Panic selling - the costliest reflex",
+   "category": "behavior",
+   "date": "26/10/2026",
+   "locked_until": "26/04/2027",
+   "note": "Monday finance101 carousel slot"
+  },
+  {
    "topic": "Rupee cost averaging - why SIPs love crashes",
    "category": "SIP",
    "date": "21/10/2026",
@@ -262,7 +269,9 @@
   {
    "topic": "Panic selling - the costliest reflex",
    "category": "behavior",
-   "used": false
+   "used": true,
+   "posted": "26/10/2026",
+   "locked_until": "26/04/2027"
   },
   {
    "topic": "Goal-based investing - name your money",
