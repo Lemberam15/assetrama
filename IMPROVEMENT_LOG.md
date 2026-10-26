@@ -36,6 +36,7 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [26/10/2026] sitemap: coverage is correct today (48 URLs; only 404.html and the Google verification file are outside it), but nothing enforces it — add a build check that every .html file except 404.html and google*.html appears in sitemap.xml, alongside the existing lastmod item (14/10, 23/10).
 
 - [26/10/2026] news: a card written from an intraday wire goes factually wrong once the 15:30 close lands — today's page still carried "the relief rally runs out of steam" and a "Nifty faces a 22,200 test, crude above $116" card from the 12:05 run after the index had closed at 22,753 on falling crude. Re-verify intraday-sourced cards against the closing numbers on the same day's later run and replace them, rather than waiting for the 72-hour cleanup; a card whose summary is contradicted by the close is worse than no card.
+- [26/10/2026] search: site search indexes 45 pages but two real pages are not in it — index.html (the home page) and lessons.html (the lesson library) have no search card, so someone searching "lessons" or "home" gets article results only. Confirm this is deliberate or add the two cards (and keep the "45 pages" text in step); the count itself is correct today (45 cards = 45 pages, all links resolve).
 
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
