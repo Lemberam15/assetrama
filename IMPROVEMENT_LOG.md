@@ -35,6 +35,8 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [26/10/2026] search: the "45 pages" count and the 45 hand-written cards are still maintained by hand, so a new article can be live and sitemapped yet invisible to site search — generate both from the file tree at build time (extends the 14/10 search-index and 26/10 ItemList items).
 - [26/10/2026] sitemap: coverage is correct today (48 URLs; only 404.html and the Google verification file are outside it), but nothing enforces it — add a build check that every .html file except 404.html and google*.html appears in sitemap.xml, alongside the existing lastmod item (14/10, 23/10).
 
+- [26/10/2026] news: a card written from an intraday wire goes factually wrong once the 15:30 close lands — today's page still carried "the relief rally runs out of steam" and a "Nifty faces a 22,200 test, crude above $116" card from the 12:05 run after the index had closed at 22,753 on falling crude. Re-verify intraday-sourced cards against the closing numbers on the same day's later run and replace them, rather than waiting for the 72-hour cleanup; a card whose summary is contradicted by the close is worse than no card.
+
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
 - [12/10/2026] Proposed count-up (animated) hero number on the beat card — sample delivered for Ram's approval; the live 4:5 static pipeline is unchanged. Why: count-up is the top researched number+motion pattern and motion holds viewers.
