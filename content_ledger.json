@@ -2,6 +2,11 @@
   "entries": [
     {
       "date": "26/10/2026",
+      "series": "moneystory",
+      "topic": "MONEY STORY: Kotak Mahindra Bank Q2FY27 standalone profit +29.5% to Rs 4,212 crore (from Rs 3,253 crore) but NIM slipped to 4.31% from 4.54% on Rs 55,344 crore of FCNR(B) deposits; GNPA 1.04% from 1.18%; stock rose 4% to Rs 446 on 26/10/2026 with Jefferies/Goldman/Nuvama on Buy (targets Rs 520-550)"
+    },
+    {
+      "date": "26/10/2026",
       "series": "finance101",
       "topic": "PRE-MARKET: four straight falls, Nifty 22,600 - GIFT Nifty flat near 22,580; US closed lower (Dow -1.23%, S&P -0.52%, Nasdaq -0.21%); support 22,372/22,200, resistance 22,800; Brent ~$115 off Friday's $116.72, rupee 94.93; Oct F&O expiry 27/10, Fed decision 28/10"
     },
@@ -244,11 +249,6 @@
       "date": "16/10/2026",
       "series": "festival",
       "topic": "FESTIVAL GREETING: Shubh Durga Puja - Maha Shashthi on 16/10/2026 opens Durga Puja; India's biggest festive consumption window, festive retail demand powers consumer/auto/retail"
-    },
-    {
-      "date": "15/10/2026",
-      "series": "finance101",
-      "topic": "MARKET WRAP: Sensex 74,315.61 (+2.11%), Nifty 22,997.35 (+1.66%) - broad rally led by IT & private banks; FII net sold Rs 5,285 cr (15th straight selling session) vs DII net bought Rs 3,319 cr - DIIs absorbed it and the index still closed green"
     }
   ]
 }
