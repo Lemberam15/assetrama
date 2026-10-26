@@ -32,6 +32,8 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [14/10/2026 + 23/10/2026] sitemap: derive each lastmod from the file's last commit (and have the hourly news commit bump news.html's) instead of stamping by hand.
 - [08/10/2026] site: nav/footer links are hard-coded absolute URLs — one-time sweep when a custom domain is added.
 - [23/09/2026] index: an "As featured / popular this week" strip, once Search Console traffic data exists.
+- [26/10/2026] search: the "45 pages" count and the 45 hand-written cards are still maintained by hand, so a new article can be live and sitemapped yet invisible to site search — generate both from the file tree at build time (extends the 14/10 search-index and 26/10 ItemList items).
+- [26/10/2026] sitemap: coverage is correct today (48 URLs; only 404.html and the Google verification file are outside it), but nothing enforces it — add a build check that every .html file except 404.html and google*.html appears in sitemap.xml, alongside the existing lastmod item (14/10, 23/10).
 
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
