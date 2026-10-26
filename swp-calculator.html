@@ -638,31 +638,6 @@ footer.site .tag{margin-top:16px;max-width:36ch;line-height:1.6}
     calc();
   }
 
-  // lesson library: filters + search
-  var cards = document.querySelectorAll('[data-cat]');
-  var chips = document.querySelectorAll('.chip[data-f]');
-  var q = $('q'), empty = $('empty'), count = $('count'), filter = 'all';
-  var apply = function () {
-    var term = q ? q.value.trim().toLowerCase() : '', shown = 0;
-    cards.forEach(function (c) {
-      var ok = (filter === 'all' || c.getAttribute('data-cat') === filter) && (!term || c.textContent.toLowerCase().indexOf(term) > -1);
-      c.hidden = !ok; if (ok) shown++;
-    });
-    if (empty) empty.hidden = shown > 0;
-    if (count) count.textContent = shown + (shown === 1 ? ' lesson' : ' lessons');
-  };
-  chips.forEach(function (c) {
-    c.addEventListener('click', function () {
-      chips.forEach(function (x) { x.setAttribute('aria-pressed', x === c ? 'true' : 'false'); });
-      filter = c.getAttribute('data-f'); apply();
-    });
-  });
-  if (q) q.addEventListener('input', apply);
-  if (chips.length) {
-    var h = location.hash.slice(1);
-    chips.forEach(function (c) { if (c.getAttribute('data-f') === h) c.click(); });
-  }
-
   // copy buttons
   document.querySelectorAll('[data-copy]').forEach(function (btn) {
     btn.addEventListener('click', function () {
