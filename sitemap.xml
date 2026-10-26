@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://lemberam15.github.io/assetrama/</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://lemberam15.github.io/assetrama/lessons.html</loc><lastmod>2026-10-19</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://lemberam15.github.io/assetrama/news.html</loc><lastmod>2026-10-25</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://lemberam15.github.io/assetrama/search.html</loc><lastmod>2026-10-19</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://lemberam15.github.io/assetrama/lessons.html</loc><lastmod>2026-10-26</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://lemberam15.github.io/assetrama/news.html</loc><lastmod>2026-10-26</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://lemberam15.github.io/assetrama/search.html</loc><lastmod>2026-10-26</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://lemberam15.github.io/assetrama/about.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://lemberam15.github.io/assetrama/sip-calculator.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://lemberam15.github.io/assetrama/cagr-calculator.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
@@ -23,7 +23,7 @@
   <url><loc>https://lemberam15.github.io/assetrama/articles/market-cap-explained.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://lemberam15.github.io/assetrama/articles/market-falls-sip.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://lemberam15.github.io/assetrama/articles/nifty-sensex-explained.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://lemberam15.github.io/assetrama/articles/old-vs-new-tax-regime.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://lemberam15.github.io/assetrama/articles/old-vs-new-tax-regime.html</loc><lastmod>2026-10-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://lemberam15.github.io/assetrama/articles/ppf-vs-elss.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://lemberam15.github.io/assetrama/articles/silver-investment-guide.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://lemberam15.github.io/assetrama/articles/sovereign-gold-bonds.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -46,4 +46,6 @@
   <url><loc>https://lemberam15.github.io/assetrama/articles/lumpsum-vs-sip.html</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://lemberam15.github.io/assetrama/articles/what-is-term-insurance.html</loc><lastmod>2026-10-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://lemberam15.github.io/assetrama/articles/what-is-dividend.html</loc><lastmod>2026-10-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://lemberam15.github.io/assetrama/articles/what-is-a-mutual-fund.html</loc><lastmod>2026-10-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://lemberam15.github.io/assetrama/articles/hra-exemption.html</loc><lastmod>2026-10-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
 </urlset>
