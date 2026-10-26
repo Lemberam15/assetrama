@@ -10,6 +10,7 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 
 ## Open suggestions (for future weekly reviews)
 
+- [26/10/2026] lessons: the ItemList JSON-LD is maintained by hand and had drifted to 33 entries against 35 cards — "What is a mutual fund?" and "HRA exemption" were absent, so search engines saw a catalogue two lessons short. Patched by hand today; the durable fix is to generate the ItemList from the card list at build time, the same pattern already proposed for the search index (14/10).
 - [24/09/2026] news: bullion rows depend on sources that stop publishing ~21:30 and disagree by a few hundred rupees across outlets — pin the snapshot gold/silver rows to one named, timestamped benchmark per day (extends 30/09, 12/10, 20/10, 24/10). Repeatedly the single biggest source of intra-day drift; needs a decision from Ram on which benchmark to standardise on.
 - [11/10/2026] news: the Brent row drifts between intraday and close quotes, and can disagree with the Brent card on the same page (extends 12/10, 24/10) — pin one end-of-day benchmark and use it in both places.
 - [13/10/2026] news: the USD/INR row shows a ~2-rupee spread across outlets — pin it to the RBI reference rate or one named wire with a timestamp.
