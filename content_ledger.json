@@ -2,11 +2,6 @@
   "entries": [
     {
       "date": "25/10/2026",
-      "series": "event",
-      "topic": "EVENT/MARKET ALERT (6:30 PM monitor): Egypt halted trading for 30 min on Sun 25/10/2026 after EGX100 fell 10% (EGX30 closed -3.56%, EGX70 -11.07%); Saudi main index -3% and Aramco -1.1% after Houthi missiles were fired at Riyadh and 10 ballistic missiles at southern Saudi were intercepted; Brent settled $116.72 on Fri, highest in ~6 months; Indian markets reopen Mon 26/10 after 4 straight falling sessions (bearish)"
-    },
-    {
-      "date": "25/10/2026",
       "series": "geopolitics",
       "topic": "GEOPOLITICS: China will require an export licence for tunnel boring machines from 18/11/2026 - China makes ~70% of world TBMs; India's TBM imports from China fell from $18 mn (FY23) to $0.8 mn (FY26) as clearances slowed; India-China trade gap $69 bn in Apr-Sep FY27 (+27% YoY); late metros and rail cost more in public money"
     },
@@ -249,6 +244,11 @@
       "date": "27/10/2026",
       "series": "geopolitics",
       "topic": "GEOPOLITICS: record Rs 3.08 lakh crore (~$32.7 bn) of FPI outflows from Indian equities in 2026, nearly double 2025's Rs 1.66 lakh crore; October alone Rs 48,056 crore sold (to 25/10/2026); the money went to AI - Korea +72%, Taiwan +63%, India -19% in USD in CY26; DIIs bought Rs 6.83 lakh crore; Nifty -13% CY26; US 10-year yield ~5%"
+    },
+    {
+      "date": "27/10/2026",
+      "series": "finance101",
+      "topic": "MARKET WRAP: Sensex 73,598.67 (-0.01%), Nifty 22,749.75 (-0.02%) - flat on monthly expiry day while Nifty Smallcap 100 rose 2.7% and midcaps ~1%, IT and private banks dragged; NSE FII/DII cash data for 27/10 not yet published at 8:30 PM so the post quoted closing numbers only and explicitly did not guess flows"
     }
   ]
 }
