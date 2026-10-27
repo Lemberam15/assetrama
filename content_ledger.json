@@ -1,11 +1,6 @@
 {
   "entries": [
     {
-      "date": "27/10/2026",
-      "series": "moneystory",
-      "topic": "MONEY STORY: rupee back above 95 - closed 95.19 on 26/10, 25 paise weaker and a third straight fall; RBI has spent an estimated $80 billion since June defending it; Brent near $114 keeps the import bill climbing (caution)"
-    },
-    {
       "date": "25/10/2026",
       "series": "event",
       "topic": "EVENT/MARKET ALERT (6:30 PM monitor): Egypt halted trading for 30 min on Sun 25/10/2026 after EGX100 fell 10% (EGX30 closed -3.56%, EGX70 -11.07%); Saudi main index -3% and Aramco -1.1% after Houthi missiles were fired at Riyadh and 10 ballistic missiles at southern Saudi were intercepted; Brent settled $116.72 on Fri, highest in ~6 months; Indian markets reopen Mon 26/10 after 4 straight falling sessions (bearish)"
@@ -249,6 +244,11 @@
       "date": "27/10/2026",
       "series": "finance101",
       "topic": "FINANCE 101: Max Pain - the strike where all open Nifty options pay out the least at expiry; Nifty closed 22,753.20 on 26/10/2026, max pain 22,750, biggest call OI 23,000, biggest put OI 22,500, PCR ~1.13, monthly expiry 27/10/2026; a positioning reference, not a forecast"
+    },
+    {
+      "date": "27/10/2026",
+      "series": "geopolitics",
+      "topic": "GEOPOLITICS: record Rs 3.08 lakh crore (~$32.7 bn) of FPI outflows from Indian equities in 2026, nearly double 2025's Rs 1.66 lakh crore; October alone Rs 48,056 crore sold (to 25/10/2026); the money went to AI - Korea +72%, Taiwan +63%, India -19% in USD in CY26; DIIs bought Rs 6.83 lakh crore; Nifty -13% CY26; US 10-year yield ~5%"
     }
   ]
 }
