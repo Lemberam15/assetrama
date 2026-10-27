@@ -1,23 +1,26 @@
 # TRENDS — daily radar notes for all Asset Rama posting agents
 Updated every morning ~6:45 AM IST by the Daily Innovation Radar. Posting agents: read today's section before writing content; use a trend only where it fits the mandatory caption/design rules. Never repeat a topic from the last 48 hours (check content_ledger.json).
 
+## Tuesday 27/10/2026
+- Format (Instagram): LENGTH is now the lever. Finance Reels that work run 12-19s (median 16) with ONE named rupee amount and a question the viewer already has an opinion on; 18s is the rewatch sweet spot, 15-22s for explainers. Faceless chart-race Reels above 50k views held 87% of the video vs 66% below it. "Hey guys, today we'll talk about..." still caps reach; a visible artifact (statement, chart, rejected SMS) beats a talking head.
+- Format (LinkedIn): new 74k-post study (NBK, 9 Oct) — hashtags COST engagement (none 1.05 vs 1-3 0.82), link preview card 0.51, text-only 0.39 of the same author's image post, portrait image 1.13 vs square 0.93 / landscape 0.81, first line under 40 chars 1.13 (4-7 words strongest), 700-2,000 chars best per follower, a URL in the LAST fifth of the text 1.24. Flypost (116k posts): personal story +33%, "I/my/we" opener +19%, question opener -17%, "comment KEYWORD" flipped from +13% to -24%.
+- Today's angles (27/10, Tue — monthly F&O expiry; Nifty 22,753 / Sensex 73,607 after snapping a 4-day fall): 22,800 is the line to watch, 23,000 holds the biggest call OI, support 22,500-22,400 / 22,370; VIX 17.16, highest since 22 May. 50+ results today incl. L&T, Maruti Suzuki, Bajaj Auto, Tata Steel, SBI Life, Cipla, Paytm. Defence in focus after DAC cleared ₹2.12 lakh crore of proposals (82% local sourcing) — but these are acceptance-of-necessity approvals, not contracts. Brent eased to ~$115.9 on Saudi-Iran talks; Fed decision tomorrow 11:30 PM IST, ECB 29/10, BOJ 30/10.
+- Series: Pre-Market -> "expiry day: 22,800 is the only line that matters" (do NOT lead on crude, used twice this week). Finance Term -> "Max Pain / Call-Put OI" (expiry today) or "Refund vs Share Credit" (Jio refunds start today); avoid Grey Market Premium (26/10) and Short Covering (25/10). Money Story -> Jio listing math: GMP ₹245 over the ₹1,119 issue price, ₹2,940 per 12-share lot, listing tomorrow — framed as "what the grey market promises vs what it guarantees". Wrap -> L&T/Maruti/Bajaj Auto results day: what the street is actually pricing. Geopolitics -> FIIs ₹52,928 cr out in October vs DIIs ₹61,719 cr in: who is holding this market up (crude and gold both blocked). FII/DII -> the same October number, told as "who bought while foreigners sold".
+- Audio/visual: "WTF Is..." and "Message From A" remain the low-lift October formats; hook as text-on-screen only (~26x followers) beats spoken (~10x) — one line per beat, cut on the number.
+- Ledger note: 25/10 topics cleared today. 26/10 topics (Grey Market Premium, crude basket alert) blocked until 28/10 — so any Jio content today must use the refund/share-credit or max-pain angle, not GMP. Queue the Jio listing-day angle for 28/10 and "Fed night" for 29/10.
+
 ## Monday 26/10/2026
-- Format (Instagram): hook LENGTH now matters as much as hook type — 5-8 word hooks drew ~15x followers vs ~9x past 20 words, and 82% show the hook as text on screen (text-alone ~26x vs ~10x spoken). Rarest types still travel furthest: POV ~48x, aspirational ~34x. For carousels: 5 of the 8 best personal-finance carousels NAME AN AGE on slide 1 ("The average millionaire is 57. Not 23." — 90x); first slides of 6-10 words win, median 8 slides, 79% run 6-12.
-- Format (LinkedIn): Sept-2026 data on 134k posts — images +36% vs text, documents +22% BUT documents only pay at 11+ pages (+16% to +26%; 1-10 pages sits at -4%), and documents are the most reposted format (8.4 reposts per 100 reactions). Video under 30s is -7%, 5 min+ is +27%. Link previews -15% (the preview card hurts, not the URL). Implication: our 5-card Instagram carousel is fine for IG, but any LinkedIn PDF/carousel we ever make must be 11-14 pages.
-- Today's angles (26/10, Monday — markets reopen after 4 straight falls): Nifty 22,600 (-2.36% last week), Sensex 73,124, YTD -13.6% (worst year in over a decade); support 22,300/22,200, resistance 22,850-22,900. ~250 companies report this week — today Paytm, Tata Consumer, REC, Mankind, Ather, ITC Hotels, Bank of Maharashtra; big reactions to Infosys (PAT +6% to Rs 7,823 cr but FY27 guidance cut to 1-2%), Kotak (+29.5% to Rs 4,212 cr), Dr Reddy's (-36%), BPCL back to profit (Rs 4,993 cr vs a Rs 3,962 cr loss). Jio Platforms allotment TODAY, listing Wed 28/10, GMP ~Rs 247 over the Rs 1,119 band (~22%); Paras Healthcare lists the same day. Nifty Oct expiry tomorrow 27/10; Fed 27-28 Oct (decision ~11:30 PM IST 28/10, hold expected); FIIs have pulled ~Rs 48,050 cr from Indian shares in October so far.
-- Series: Pre-Market (Mon) -> "four falls, 250 results and a Jio allotment: what to watch today" — do NOT lead on crude, the 2:30 AM event slot already used it today. Finance Term -> "Allotment" or "Grey Market Premium" (Jio allotment is today, listing Wed) — avoid Short Covering, used 25/10. Money Story -> "Infosys profit rose 6% and the stock still fell — guidance is the number that matters", or the Jio listing-gain math; avoid the Rs 20.78 lakh crore wipe (25/10). Wrap -> Kotak +29.5% vs Dr Reddy's -36%: the two faces of Q2. Geopolitics -> rupee 94.93 plus a Fed week: what a hawkish Warsh does to FII flows (crude and gold are both blocked). FII/DII -> FIIs' October exit at ~Rs 48,050 cr; did Friday's net buying finally break the streak?
-- Audio/visual: "My Reaction To ___" (escalating numbers, under 20s) still hot; October's newest low-lift formats are "Things You Should Definitely Ghost" (a sheet-ghost holding signs naming the habits to ghost — maps cleanly onto "money habits to ghost before Diwali"), "WTF Is..." and "Message From A" (an anonymous note calling out one very specific bad habit). One text line, no talking, land the beat on the number.
-- Ledger note: 25/10 topics (Egypt/Saudi alert, China TBM licence, Rs 20.78 lakh crore wipe, Short Covering) stay blocked until 27/10. 24/10 topics (gold, cost of starting late, IPO Liquidity Drain) cleared today. Queue the Jio listing-gain angle for 28/10 (listing day) and a "Fed night" pre-market angle for 29/10.
+- Format: 5-8 word hooks drew ~15x followers vs ~9x past 20 words; text-on-screen hook ~26x vs ~10x spoken; POV ~48x, aspirational ~34x. LinkedIn: images +36%, documents +22% but only at 11+ pages; link previews -15%.
+- Angles: Nifty 22,600 after 4 straight falls, ~250 results this week, Jio allotment, Fed 27-28 Oct, FIIs ~₹48,050 cr out in October.
 
 ## Sunday 25/10/2026
-- Format: hook as text-on-screen alone travels ~26x followers vs ~10x spoken; relatable (20x) and question (18x) openers beat bold claims (11x); POV 48x. LinkedIn number-led openers and native carousels still lead.
-- Angles: Q2 earnings week ahead (26/10 Paytm, REC, Tata Consumer; 27/10 L&T, Maruti, Bajaj Auto, Tata Steel); last week Nifty -2.4%, smallcaps -7.1%, Brent ~$117, rupee ~94.9, FIIs sold Rs 4,606 cr on 19 & 22 Oct vs DIIs +Rs 10,941 cr; Jio IPO 21.58x, allotment 26/10, listing 28/10.
+- Format: relatable (20x) and question (18x) openers beat bold claims (11x); POV 48x. Angles: Q2 earnings week, Brent ~$117, rupee ~94.9, Jio IPO 21.58x (full note in git history).
 
 ## Saturday 24/10/2026
-- Format: chart-race Reels (12-19s, ONE named rupee amount, clean loop) strongest; LinkedIn number-led openers ~3x. Angles: Jio IPO closed 21.58x, allotment 26/10; Brent ~$117; rupee ~94.9; Infosys Q2 +6% with FY27 guidance cut (full note in git history).
+- Chart-race Reels (12-19s, one named rupee amount, clean loop) strongest; LinkedIn number-led openers ~3x. Brent ~$117, rupee ~94.9, Jio IPO closed 21.58x (full note in git history).
 
 ## Friday 23/10/2026
-- Third straight red day, pain in the broader market (Midcap -3.5%, Smallcap -4.5% for the week); Brent >$113; busiest Q2 day (Infosys, JSW Steel, Tata Motors, Dr Reddy's) (full note in git history).
+- Third straight red day, pain in the broader market (Midcap -3.5%, Smallcap -4.5% for the week); Brent >$113; busiest Q2 day (full note in git history).
 
 ## Thursday 22/10/2026
 - Expiry day, Nifty under 23,000, 388 stocks at 52-week lows, Jio IPO day 2, RBI MPC minutes, Brent >$110 (full note in git history).
@@ -29,7 +32,4 @@ Updated every morning ~6:45 AM IST by the Daily Innovation Radar. Posting agents
 - Dussehra holiday (markets closed); festival + timeless-value content (full note in git history).
 
 ## Monday 19/10/2026
-- Bank Q2 season, Jio IPO leads Rs 31,663 cr of offerings, Dussehra-truncated week (full note in git history).
-
-## Monday 12/10/2026
-- Number/mistake + confession openers, 0x100x dark-neon; Sept CPI 5.54%, Jio IPO 21 Oct (full note in git history).
+- Bank Q2 season, Jio IPO leads ₹31,663 cr of offerings, Dussehra-truncated week (full note in git history).
