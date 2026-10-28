@@ -57,6 +57,13 @@
    "date": "12/10/2026",
    "locked_until": "12/04/2027",
    "note": "Monday finance101 carousel slot"
+  },
+  {
+   "topic": "Large, Mid and Small Cap - the SEBI rank buckets",
+   "category": "stocks",
+   "date": "28/10/2026",
+   "locked_until": "28/04/2027",
+   "note": "Wednesday finance101 carousel slot"
   }
  ],
  "bank": [
@@ -199,7 +206,10 @@
   {
    "topic": "Market cap - big, mid, small companies",
    "category": "stocks",
-   "used": false
+   "used": true,
+   "posted": "28/10/2026",
+   "locked_until": "28/04/2027",
+   "note": "Wednesday finance101 carousel slot (posted as 'Large, Mid and Small Cap')"
   },
   {
    "topic": "Dividend yield - free money or trap?",
