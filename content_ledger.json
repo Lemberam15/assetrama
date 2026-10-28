@@ -2,6 +2,11 @@
  "entries": [
   {
    "date": "28/10/2026",
+   "series": "finance101",
+   "topic": "MARKET WRAP: Sensex 73,246.03 (-0.48%), Nifty 22,698.85 (-0.22%) - second straight red day as IT and oil stocks slid; FII net bought Rs 872 cr and DII net bought Rs 643 cr, both institutions buyers on a falling day; midcaps and smallcaps closed higher (caution)"
+  },
+  {
+   "date": "28/10/2026",
    "series": "geopolitics",
    "topic": "GEOPOLITICS: Gold is 20% below its January peak (MCX ~Rs 1.43 lakh/10g vs Rs 1.81 lakh on 30/01/2026) yet Dhanteras (06/11/2026) still feels costly - import duty rose 6% to 15% in May 2026, plus 3% GST, so ~Rs 18 of every Rs 100 is tax (caution)"
   },
@@ -244,11 +249,6 @@
    "date": "28/10/2026",
    "series": "finance101",
    "topic": "PRE-MARKET: GIFT Nifty ~22,620 (-0.35%) points to a soft open after Dow +0.03%, S&P +0.60%, Nasdaq +1.18%; Nifty 22,749.75 support 22,600 / resistance 22,800; Jio Platforms lists today after its Rs 30,213 crore IPO; US Fed decision 11:30 PM IST; Brent $115.6, rupee 95.12"
-  },
-  {
-   "date": "28/10/2026",
-   "series": "event",
-   "topic": "EVENT/MARKET ALERT (10:30 AM monitor): Sensex crashed 956 pts (-1.30%) to 72,642 and Nifty slipped to 22,506 (intraday low 22,497) on 28/10/2026 as Brent jumped 1.4% to ~$115.5 after Yemen's Houthis claimed a missile strike on Saudi Arabia's Ras Tanura refinery (5.5 lakh bpd); nearly Rs 3 lakh crore wiped off BSE market cap (below Rs 460 lakh crore), Nifty IT -3.2%, India VIX above 17, US Fed decision due 11:30 PM IST"
   }
  ]
 }
