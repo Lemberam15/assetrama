@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "29/10/2026",
+      "series": "event",
+      "topic": "EVENT/MARKET ALERT: FOMC held the US funds rate at 3.75%-4% on 28/10/2026 (2:00 PM EDT / 11:30 PM IST) by a 10-2 vote, with Cook and Hammack dissenting for a 25 bps hike; inflation still 'elevated'; CME odds of a December hike jumped to 83% from 78%; US 10-yr yield ~5.04%, rupee ~95.22 - higher-for-longer US rates keep FPI flows and the rupee under pressure (caution)"
+    },
+    {
       "date": "28/10/2026",
       "series": "geopolitics",
       "topic": "GEOPOLITICS: Gold is 20% below its January peak (MCX ~Rs 1.43 lakh/10g vs Rs 1.81 lakh on 30/01/2026) yet Dhanteras (06/11/2026) still feels costly - import duty rose 6% to 15% in May 2026, plus 3% GST, so ~Rs 18 of every Rs 100 is tax (caution)"
@@ -244,11 +249,6 @@
       "date": "28/10/2026",
       "series": "finance101",
       "topic": "PRE-MARKET: GIFT Nifty ~22,620 (-0.35%) points to a soft open after Dow +0.03%, S&P +0.60%, Nasdaq +1.18%; Nifty 22,749.75 support 22,600 / resistance 22,800; Jio Platforms lists today after its Rs 30,213 crore IPO; US Fed decision 11:30 PM IST; Brent $115.6, rupee 95.12"
-    },
-    {
-      "date": "28/10/2026",
-      "series": "event",
-      "topic": "MARKET ALERT: FOMC held the fed funds target range at 3.75%-4.00% (0 bps change) on 28/10/2026, 11:30 PM IST, on a 10-2 vote - Cook and Hammack dissented wanting a 25 bps hike; statement says inflation 'remains elevated', no dot plot at this meeting; next FOMC 8-9 Dec with a hike still expected"
     }
   ]
 }
