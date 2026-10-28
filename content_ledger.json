@@ -2,11 +2,6 @@
  "entries": [
   {
    "date": "25/10/2026",
-   "series": "moneystory",
-   "topic": "MONEY STORY: Rs 20.78 lakh crore wiped off BSE-listed value in the week to 23/10/2026 - Nifty -2.4%, Sensex -2.1%, smallcaps -7.3% (worst since Feb 2025); a fall on paper is not a loss until you sell"
-  },
-  {
-   "date": "25/10/2026",
    "series": "finance101",
    "topic": "FINANCE 101: Short Covering - a short seller borrows shares, sells them now and hopes to buy back cheaper; if the price rises instead they rush to buy back and that buying itself spikes the price (a short squeeze) - explains the sharp bounces inside this week's volatile, falling market (caution)"
   },
@@ -249,6 +244,11 @@
    "date": "28/10/2026",
    "series": "finance101",
    "topic": "FINANCE 101: Fresh issue vs Offer for Sale - a fresh issue is brand-new shares, so the company gets the cash; an OFS is promoters selling shares they already own, so the sellers get it. Jio Platforms' Rs 30,213 crore IPO (listing 28/10/2026) was 100% fresh - 27 crore new shares, no OFS - with up to Rs 27,500 crore of net proceeds to repay/prepay borrowings at Reliance Jio Infocomm"
+  },
+  {
+   "date": "28/10/2026",
+   "series": "finance101",
+   "topic": "PRE-MARKET: GIFT Nifty ~22,620 (-0.35%) points to a soft open after Dow +0.03%, S&P +0.60%, Nasdaq +1.18%; Nifty 22,749.75 support 22,600 / resistance 22,800; Jio Platforms lists today after its Rs 30,213 crore IPO; US Fed decision 11:30 PM IST; Brent $115.6, rupee 95.12"
   }
  ]
 }
