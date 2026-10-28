@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "date": "28/10/2026",
+   "series": "geopolitics",
+   "topic": "GEOPOLITICS: Gold is 20% below its January peak (MCX ~Rs 1.43 lakh/10g vs Rs 1.81 lakh on 30/01/2026) yet Dhanteras (06/11/2026) still feels costly - import duty rose 6% to 15% in May 2026, plus 3% GST, so ~Rs 18 of every Rs 100 is tax (caution)"
+  },
+  {
    "date": "24/10/2026",
    "series": "moneystory",
    "topic": "MONEY STORY: the cost of starting late - Rs 5,000/month at 12% grows to Rs 3.22 crore by age 60 if you start at 25, but only Rs 94 lakh starting at 35 and Rs 25 lakh at 45; a 10-year delay costs Rs 2.28 crore (weekend timeless lesson)"
@@ -158,7 +163,7 @@
   {
    "date": "17/10/2026",
    "series": "moneystory",
-   "topic": "MONEY STORY: The Rule of 72 - divide 72 by your yearly return to get the years money needs to double; at 8% a year money doubles in about 9 years, at 12% in about 6; \u20b91 lakh at 12% grows to roughly \u20b94 lakh in 12 years (weekend timeless lesson)"
+   "topic": "MONEY STORY: The Rule of 72 - divide 72 by your yearly return to get the years money needs to double; at 8% a year money doubles in about 9 years, at 12% in about 6; ₹1 lakh at 12% grows to roughly ₹4 lakh in 12 years (weekend timeless lesson)"
   },
   {
    "date": "17/10/2026",
@@ -244,11 +249,6 @@
    "date": "28/10/2026",
    "series": "event",
    "topic": "EVENT/MARKET ALERT (10:30 AM monitor): Sensex crashed 956 pts (-1.30%) to 72,642 and Nifty slipped to 22,506 (intraday low 22,497) on 28/10/2026 as Brent jumped 1.4% to ~$115.5 after Yemen's Houthis claimed a missile strike on Saudi Arabia's Ras Tanura refinery (5.5 lakh bpd); nearly Rs 3 lakh crore wiped off BSE market cap (below Rs 460 lakh crore), Nifty IT -3.2%, India VIX above 17, US Fed decision due 11:30 PM IST"
-  },
-  {
-   "date": "28/10/2026",
-   "series": "moneystory",
-   "topic": "MONEY STORY: Nifty IT fell 3.4% on 28/10/2026, its worst intraday fall since 3 June 2026; 10 IT stocks lost about Rs 76,871 crore of market cap in morning trade after Infosys cut FY27 CC revenue growth guidance to 1-2% from 1.5-3% (second cut in two quarters) and at least six brokerages trimmed targets; Sensex down 550 pts at 73,048, Nifty down 121 pts at 22,628"
   }
  ]
 }
