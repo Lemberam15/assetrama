@@ -57,7 +57,7 @@ later.
 | Jun 16-17, 2026 | 2:00 PM ET | 11:30 PM IST | Done — held (SEP) |
 | Jul 28-29, 2026 | 2:00 PM ET | 11:30 PM IST | Done — held |
 | Sep 15-16, 2026 | 2:00 PM ET | 11:30 PM IST | Done — hiked 25bp to 3.75-4.00% (SEP) |
-| **Oct 27-28, 2026** | **Wed 28 Oct, 2:00 PM ET** | **11:30 PM IST, 28 Oct** | Upcoming |
+| **Oct 27-28, 2026** | **Wed 28 Oct, 2:00 PM ET** | **11:30 PM IST, 28 Oct** | Done - held 3.75-4.00% (10-2; Cook & Hammack wanted +25bp), 0 bps, no dot plot, posted 28/10 |
 | **Dec 8-9, 2026** | **Wed 9 Dec, 2:00 PM ET** | **12:30 AM IST, 10 Dec** | Upcoming (SEP) |
 | Jan 26-27, 2027 | 2:00 PM ET | 11:30 PM IST | Upcoming |
 | Mar 16-17, 2027 | 2:00 PM ET | 11:30 PM IST | Upcoming (SEP) |
