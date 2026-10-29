@@ -2,11 +2,6 @@
   "entries": [
     {
       "date": "24/10/2026",
-      "series": "moneystory",
-      "topic": "MONEY STORY: the cost of starting late - Rs 5,000/month at 12% grows to Rs 3.22 crore by age 60 if you start at 25, but only Rs 94 lakh starting at 35 and Rs 25 lakh at 45; a 10-year delay costs Rs 2.28 crore (weekend timeless lesson)"
-    },
-    {
-      "date": "24/10/2026",
       "series": "finance101",
       "topic": "FINANCE 101: The IPO Liquidity Drain - an IPO blocks your cash via ASBA and pulls money from the secondary market; Jio's Rs 4.9 lakh crore public bids (Rs 7.41 lakh crore incl anchor) landed in a 4-day Nifty fall"
     },
@@ -249,6 +244,11 @@
       "date": "29/10/2026",
       "series": "festival",
       "topic": "FESTIVAL GREETING: Shubh Karwa Chauth (Karaka Chaturthi) on 29/10/2026 - a big gold/jewellery buying day; MCX gold Rs 1,43,860 per 10g, retail 24K Rs 14,395 per gram; the metal carries 3% GST and making charges another 5%"
+    },
+    {
+      "date": "29/10/2026",
+      "series": "geopolitics",
+      "topic": "GEOPOLITICS: Houthi missile strike claim on Saudi's Ras Tanura refinery (550,000 bpd); Brent settled $115.32 on 28/10 (+1%); India's crude basket averaged $120.46/bbl in October to 26/10, highest since March 2012; rupee near 95.4; Delhi petrol frozen at Rs 102.12 and diesel Rs 95.20 since 25 May while Icra puts diesel under-recovery near Rs 20/litre - who absorbs the gap"
     }
   ]
 }
