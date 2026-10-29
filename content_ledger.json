@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "29/10/2026",
+      "series": "moneystory",
+      "topic": "MONEY STORY: the AI trade split - SK Hynix profit jumped 7x and returned $45 bn to shareholders while Infosys fell 3.4% and Nifty IT dropped 2% as Alphabet's AI cash burn wiped ~$400 bn; Kospi +6.6%; Nifty up 0.70% at 22,857 on 29/10 (caution)"
+    },
+    {
       "date": "24/10/2026",
       "series": "moneystory",
       "topic": "MONEY STORY: the cost of starting late - Rs 5,000/month at 12% grows to Rs 3.22 crore by age 60 if you start at 25, but only Rs 94 lakh starting at 35 and Rs 25 lakh at 45; a 10-year delay costs Rs 2.28 crore (weekend timeless lesson)"
@@ -244,11 +249,6 @@
       "date": "29/10/2026",
       "series": "finance101",
       "topic": "FINANCE 101: Rollover - closing this month's futures contract and reopening the same trade in next month's; Nifty rolled 72.65% of its futures into the November series, below its 74.78% three-month average, roll cost 0.29%; market-wide rollover 91.09%; BSE monthly expiry (Sensex, Bankex) on 29/10/2026"
-    },
-    {
-      "date": "29/10/2026",
-      "series": "finance101",
-      "topic": "PRE-MARKET: Nifty 22,699 stuck under 22,800 for a fifth session; Fed held 3.75%-4.00% by a 10-2 vote on 28/10 but ~8 in 10 traders now price a December hike; KOSPI -2.35% on Samsung's profit miss, Brent $114.6, rupee 95.22; GIFT Nifty -0.29%; Sensex monthly expiry today"
     }
   ]
 }
