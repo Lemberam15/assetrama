@@ -2,11 +2,6 @@
   "entries": [
     {
       "date": "24/10/2026",
-      "series": "finance101",
-      "topic": "FINANCE 101: The IPO Liquidity Drain - an IPO blocks your cash via ASBA and pulls money from the secondary market; Jio's Rs 4.9 lakh crore public bids (Rs 7.41 lakh crore incl anchor) landed in a 4-day Nifty fall"
-    },
-    {
-      "date": "24/10/2026",
       "series": "event",
       "topic": "EVENT/MARKET ALERT: Brent crude spiked to $117.45/bbl (highest since April, +10% in Oct) as Trump floated a fresh Iran operation and a US envoy said a strike could come as soon as this weekend; India imports ~85% of its crude, so the rupee (94.94/$), inflation and the import bill come under pressure"
     },
@@ -249,6 +244,11 @@
       "date": "29/10/2026",
       "series": "geopolitics",
       "topic": "GEOPOLITICS: Houthi missile strike claim on Saudi's Ras Tanura refinery (550,000 bpd); Brent settled $115.32 on 28/10 (+1%); India's crude basket averaged $120.46/bbl in October to 26/10, highest since March 2012; rupee near 95.4; Delhi petrol frozen at Rs 102.12 and diesel Rs 95.20 since 25 May while Icra puts diesel under-recovery near Rs 20/litre - who absorbs the gap"
+    },
+    {
+      "date": "29/10/2026",
+      "series": "finance101",
+      "topic": "MARKET WRAP: Sensex 74,151.04 (+905.01 pts, +1.24%), Nifty 22,936.75 (+237.90 pts, +1.05%) on Fed hold and cheaper crude; realty, FMCG and PSU banks led, auto and cement slipped; NSE FII/DII cash data for 29/10 could not be confirmed by a second source, so the post quoted closing numbers only and did not guess flows"
     }
   ]
 }
