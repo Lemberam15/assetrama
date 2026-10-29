@@ -1,25 +1,29 @@
 # TRENDS — daily radar notes for all Asset Rama posting agents
 Updated every morning ~6:45 AM IST by the Daily Innovation Radar. Posting agents: read today's section before writing content; use a trend only where it fits the mandatory caption/design rules. Never repeat a topic from the last 48 hours (check content_ledger.json).
 
+## Thursday 29/10/2026
+- Format (Instagram): rotate hooks, don't repeat one — the 2026 rotation that holds is two POV, one Specific Outcome, one Contrarian per week (OpusClip 1.9mn clips: Specific Outcome 45% retention, POV 42%, Unpopular Opinion 38%). Carousels still beat video on saves/shares, and raw/unpolished beats high-production — so keep the branded template but drop any extra gloss.
+- Format (LinkedIn): the Oct re-run of 116k posts (Flypost) confirms image +35%, personal story +33%, "I/my/we" in the first line +19%; 3+ hashtags −7%; generic closers cost you (ending on a question −7%, opening on one −17%, "comment KEYWORD" −24%). Keep our mandatory engagement question, but make it specific and answerable in one line, never "what do you think?". Posts over 2,400 characters earned +24%; carousels only pay past 16 pages.
+- Today's angles (29/10, Thu): Sensex monthly expiry day. Nifty 22,699 (−0.22%), Sensex 73,246 (−353 pts); five straight sessions failed at 22,800, support 22,500/22,400, and 15 of 18 October sessions had a 200+ point intraday range. Brent $114.50 (+1%) after an attack on a Saudi refinery; rupee 95.23, weakest yet. FPIs have sold ~₹53,000 cr in October but bought ₹871 cr on Wednesday (DIIs +₹643 cr) — a positioning-led fall, not an earnings one. Broader market beat the index a third day (Midcap +0.43%, Smallcap +0.9%). Results: Trent, Asian Paints, Coal India, IndiGo, GE Vernova T&D; Bandhan Bank and Hero react.
+- The story of the day: AI money is moving to chipmakers, not IT services. SK Hynix posted a 7x profit jump and $45 bn of shareholder returns, Kospi +6.6% — while Infosys fell 3.4% and Nifty IT −2% after Alphabet's earnings miss. Same AI theme, opposite ends of the value chain.
+- Series: Pre-Market -> "the Fed held, but 83% of traders now bet on a December HIKE — and today is expiry" with 22,800 as the line. Finance Term -> "Rollover" (Sensex expiry day: contracts that roll to the next series vs expire) — avoid Fresh Issue vs OFS (28/10) and Max Pain (27/10). Money Story -> the SK Hynix vs Infosys split above, told as "the same AI story, two very different winners". Wrap -> 22,699 on the screen vs smallcaps +0.9% underneath, plus ₹53,000 cr of October FPI selling against Wednesday's ₹871 cr buy. Geopolitics -> a Saudi refinery attack puts Brent at $114.50 and the rupee at 95.23; what that does to your petrol and grocery bill. FII/DII -> FPIs sold ₹53,000 cr this month yet bought on Wednesday — tide turning or one-day pause? (Gold/Dhanteras is blocked until 30/10.)
+- Audio/visual: sound-off is the default, so the first frame must work as a still image — judge it before you judge the motion. Treat captions as design (density, timing, placement), shoot vertical rather than cropping a horizontal frame, and make every cut mean something (new angle, new number, new section). One aesthetic held for two weeks before judging it.
+- Ledger: 28/10 topics (Fresh Issue vs OFS, gold vs Dhanteras, Pre-Market) clear on 30/10 — gold is worth queuing for 30/10 or 31/10 since Dhanteras is 06/11. 27/10 topics (Max Pain, FPI outflow record) clear today. Queue: 30/10 RIL results + NCD board meet.
+
 ## Wednesday 28/10/2026
-- Format (Instagram): Aubrium's 900+ viral investing Reels (22/10) — hook as TEXT ON SCREEN alone travelled 26x followers vs 10x spoken; 5-8 word hooks 15x, 21+ words 9x; POV 48x, aspirational 34x, relatable 20x, question 18x; bold claims are the most common opener (34%) but only 11x. India: saves are weighted 5-10x over likes, so end on something worth saving; 7-9 PM IST still the peak slot; 5-8 specific hashtags beat 30 generic.
-- Format (LinkedIn): carry the 27/10 rules (no hashtags, portrait image, first line under 40 chars, URL in the last fifth, 700-2,000 chars). New hook: SEBI's FY26 annual report says 62% of retail investors were influenced by finfluencers — a transparency post ("what I will NOT tell you about an IPO") is on-message this week.
-- Today's angles (28/10, Wed): Jio Platforms lists today after a ₹30,213 cr IPO subscribed 22.19x with 13.8 mn applications; November F&O series starts; US Fed decision tonight 11:30 PM IST. Nifty 22,749.75 (flat), resistance 22,800, support 22,600-22,650, VIX 16.53 (-4.4%); Nov max call OI 23,500 / max put OI 21,500. Infosys cut its FY27 revenue outlook (IT -1.4%) while smallcaps rose 2.69% — a two-speed market. Rupee 95.12; FPIs net +$510 mn last week but October still -$3.8 bn. Results today: HUL, Adani Ports, Adani Enterprises, TVS Motor, Hyundai India, Pidilite, Vedanta, Hero MotoCorp, Cholamandalam, JSW Energy.
-- Series: Pre-Market -> "Jio lists at 9:15, the Fed speaks at 11:30 PM: a two-event day" with 22,800 as the line to clear. Finance Term -> "Fresh Issue vs Offer for Sale" (Jio's ₹30,213 cr is all fresh, so the company gets the money, not the sellers) — avoid Max Pain (27/10) and Short Covering (25/10). Money Story -> the 62% finfluencer number, told as "3 questions before you act on any IPO Reel". Wrap -> a flat index hiding a divided market: Infosys outlook cut vs smallcaps +2.69%, plus where Jio closed vs its issue price. Geopolitics -> "Fed night": what a US rate call in Washington does to your home-loan EMI and to a rupee already at 95.12. FII/DII -> FPIs turned net buyers (+$510 mn last week) after a $3.8 bn October exit — first turn of the tide?
-- Audio/visual: kinetic typography and text-story Reels are the workhorse (85% of short video is watched sound-off, so on-screen text must carry the whole story); Vox-style "one chart or map every 8-10s" fits Pre-Market; greenscreen explain fits Geopolitics. Pick one aesthetic and hold it two weeks before judging it.
-- Ledger: 26/10 topics (Grey Market Premium, crude basket alert) clear today. 27/10 topics (Max Pain/OI, defence DAC, Jio GMP math, L&T/Maruti results) blocked until 29/10. Queue: 29/10 Fed-night follow-through; 30/10 RIL results + NCD fundraise board meet.
+- Format: text-on-screen hooks 26x vs spoken 10x, 5-8 words best, POV 48x; India saves weigh 5-10x likes; SEBI FY26: 62% of retail investors influenced by finfluencers. Angles: Jio Platforms listed, Nov F&O series, Fed night (full note in git history).
 
 ## Tuesday 27/10/2026
-- Format: finance Reels run 12-19s with ONE named rupee amount; LinkedIn hashtags cost engagement (74k-post study), portrait image + short first line win. Angles: monthly expiry, Nifty 22,753, 22,800 the line, VIX 17.16, 50+ results, defence ₹2.12 lakh crore DAC approvals, Brent ~$115.9 (full note in git history).
+- Format: finance Reels 12-19s with ONE named rupee amount; LinkedIn hashtags cost engagement. Angles: monthly expiry, Nifty 22,753, VIX 17.16, defence DAC ₹2.12 lakh cr, Brent ~$115.9 (full note in git history).
 
 ## Monday 26/10/2026
-- Format: 5-8 word hooks ~15x followers, text-on-screen ~26x vs ~10x spoken, POV ~48x. Angles: Nifty 22,600 after 4 falls, Jio allotment, Fed 27-28 Oct, FIIs ~₹48,050 cr out in October (full note in git history).
+- Format: 5-8 word hooks ~15x followers, text-on-screen ~26x. Angles: Nifty 22,600 after 4 falls, Jio allotment, FIIs ~₹48,050 cr out in October (full note in git history).
 
 ## Sunday 25/10/2026
-- Relatable (20x) and question (18x) openers beat bold claims (11x). Angles: Q2 earnings week, Brent ~$117, rupee ~94.9, Jio IPO 21.58x (full note in git history).
+- Relatable (20x) and question (18x) openers beat bold claims (11x). Angles: Q2 earnings week, Brent ~$117, rupee ~94.9 (full note in git history).
 
 ## Saturday 24/10/2026
-- Chart-race Reels (12-19s, one named rupee amount, clean loop) strongest; LinkedIn number-led openers ~3x. Jio IPO closed 21.58x, Brent ~$117, rupee ~94.9 (full note in git history).
+- Chart-race Reels (12-19s, one named rupee amount) strongest; LinkedIn number-led openers ~3x. Jio IPO closed 21.58x (full note in git history).
 
 ## Friday 23/10/2026
 - Third straight red day, broader market hit hardest (Midcap -3.5%, Smallcap -4.5% for the week); busiest Q2 day (full note in git history).
@@ -35,3 +39,12 @@ Updated every morning ~6:45 AM IST by the Daily Innovation Radar. Posting agents
 
 ## Monday 19/10/2026
 - Bank Q2 season, Jio IPO leads ₹31,663 cr of offerings, Dussehra-truncated week (full note in git history).
+
+## Sunday 18/10/2026
+- Rupee's best week in 7 months (~2% to 94.96); 3-6-9 emergency-fund rule; AUM explainer (full note in git history).
+
+## Saturday 17/10/2026
+- Gold -3%, silver -6%; Rule of 72 explainer; Trump waived sanctions on Russian oil (full note in git history).
+
+## Friday 16/10/2026
+- Sensex 74,729 (+0.56%), Nifty 23,146 (+0.65%); Brent above $105; SEBI reversed the F&O expiry-settlement rule (full note in git history).
