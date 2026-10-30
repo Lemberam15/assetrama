@@ -1,11 +1,6 @@
 {
   "entries": [
     {
-      "date": "24/10/2026",
-      "series": "event",
-      "topic": "EVENT/MARKET ALERT: Brent crude spiked to $117.45/bbl (highest since April, +10% in Oct) as Trump floated a fresh Iran operation and a US envoy said a strike could come as soon as this weekend; India imports ~85% of its crude, so the rupee (94.94/$), inflation and the import bill come under pressure"
-    },
-    {
       "date": "23/10/2026",
       "series": "finance101",
       "topic": "MARKET WRAP: Sensex 73,123.83 (-0.17%), Nifty 22,600 (-0.39%) - 4th straight fall as crude spiked; FII net bought Rs 888 cr and DII net bought Rs 3,235 cr - both institutions bought yet the index closed red"
@@ -249,6 +244,11 @@
       "date": "29/10/2026",
       "series": "finance101",
       "topic": "MARKET WRAP: Sensex 74,151.04 (+905.01 pts, +1.24%), Nifty 22,936.75 (+237.90 pts, +1.05%) on Fed hold and cheaper crude; realty, FMCG and PSU banks led, auto and cement slipped; NSE FII/DII cash data for 29/10 could not be confirmed by a second source, so the post quoted closing numbers only and did not guess flows"
+    },
+    {
+      "date": "30/10/2026",
+      "series": "finance101",
+      "topic": "FINANCE 101: Holding company discount - Jio Platforms gained 26.8% over its Rs 1,119 issue price on debut (28/10/2026) while parent RIL fell 3.46% to Rs 1,158.50; RIL owns 64.5% of Jio after the fresh issue, but the market pays less for the parent than the sum of its parts, and a listed Jio price is what can slowly narrow that gap"
     }
   ]
 }
