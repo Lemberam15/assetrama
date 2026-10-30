@@ -3,11 +3,6 @@
     {
       "date": "23/10/2026",
       "series": "finance101",
-      "topic": "PRE-MARKET: Nasdaq -2.6% (worst since June) but India eyes a gap-up - GIFT Nifty ~22,837 (+100 pts); Brent $113, rupee 94.82; Nifty 22,687.65, support 22,554, resistance 22,800; Jio IPO closes + Q2 results rush"
-    },
-    {
-      "date": "23/10/2026",
-      "series": "finance101",
       "topic": "FINANCE 101: Market Breadth - only 1 in 4 NSE stocks rose on 22/10 while the Nifty fell just 2% this week; midcaps -3.5%, smallcaps -4.5% (worst since January)"
     },
     {
@@ -249,6 +244,11 @@
       "date": "30/10/2026",
       "series": "geopolitics",
       "topic": "GEOPOLITICS: India's 10-year G-Sec yield closed 7.39% on 29/10/2026 (-5 bps on the day, ~9 bps for the week) - the bond's first weekly gain in 11 weeks after yields rose over 70 bps across 10 straight weeks, a losing streak for prices not seen since at least 1998; US 10-yr fell to ~4.92-4.93% on 30/10 from 5.05% on 28/10; rupee 95.26; mutual funds bought ~Rs 4,000 cr of bonds this week; analysts still see 7.70-7.75% by December"
+    },
+    {
+      "date": "30/10/2026",
+      "series": "finance101",
+      "topic": "MARKET WRAP: Sensex 74,459.53 (+308.49, +0.42%) and Nifty 23,053.10 (+116.35, +0.51%) closed green a second day on IT (+2.32%) and pharma; FIIs turned net BUYERS at Rs 3,598.54 crore while DIIs net sold Rs 817.51 crore (NSE cash market) - foreign money returned as domestic funds trimmed, even though Midcap 100 -0.93% and Smallcap 100 -1.85% fell"
     }
   ]
 }
