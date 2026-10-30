@@ -1,11 +1,6 @@
 {
   "entries": [
     {
-      "date": "23/10/2026",
-      "series": "finance101",
-      "topic": "FINANCE 101: Market Breadth - only 1 in 4 NSE stocks rose on 22/10 while the Nifty fell just 2% this week; midcaps -3.5%, smallcaps -4.5% (worst since January)"
-    },
-    {
       "date": "22/10/2026",
       "series": "finance101",
       "topic": "MARKET WRAP: Sensex 73,249.39 (-0.62%), Nifty 22,687.65 (-0.54%) - third straight day down as Brent topped $112; FII net sold Rs 3,459 cr vs DII net bought Rs 2,891 cr (DIIs absorbed ~84% of the selling)"
@@ -249,6 +244,11 @@
       "date": "30/10/2026",
       "series": "finance101",
       "topic": "MARKET WRAP: Sensex 74,459.53 (+308.49, +0.42%) and Nifty 23,053.10 (+116.35, +0.51%) closed green a second day on IT (+2.32%) and pharma; FIIs turned net BUYERS at Rs 3,598.54 crore while DIIs net sold Rs 817.51 crore (NSE cash market) - foreign money returned as domestic funds trimmed, even though Midcap 100 -0.93% and Smallcap 100 -1.85% fell"
+    },
+    {
+      "date": "31/10/2026",
+      "series": "event",
+      "topic": "MARKET ALERT: Brent Dec futures +2.5% to $117.75/bbl (intraday $118) on 30/10/2026, highest since end-April and a 4th straight monthly gain, ~13% up in October; a small boat fixed limpet mines to the hull of tanker MT Louise 1 ~25nm off Oman's Khasab - first successful limpet-mine strike in Hormuz since the US-Iran war began in Feb 2026; 27 Indian sailors aboard safe, shipping ministry says all 29 Indian crew across both vessels hit this week unhurt"
     }
   ]
 }
