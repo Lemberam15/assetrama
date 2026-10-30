@@ -2,11 +2,6 @@
   "entries": [
     {
       "date": "23/10/2026",
-      "series": "moneystory",
-      "topic": "MONEY STORY: markets fell a 4th straight session - Sensex -544 pts (-0.74%) to 72,706, Nifty below 22,500 (-1%); nearly Rs 9.7 lakh crore wiped off BSE market cap as Brent near $114 and FII selling kept buyers away (bearish)"
-    },
-    {
-      "date": "23/10/2026",
       "series": "finance101",
       "topic": "PRE-MARKET: Nasdaq -2.6% (worst since June) but India eyes a gap-up - GIFT Nifty ~22,837 (+100 pts); Brent $113, rupee 94.82; Nifty 22,687.65, support 22,554, resistance 22,800; Jio IPO closes + Q2 results rush"
     },
@@ -249,6 +244,11 @@
       "date": "30/10/2026",
       "series": "moneystory",
       "topic": "MONEY STORY: Sensex +514 pts to 74,665 by noon (+0.69%) and Nifty 23,105 (+167, +0.73%), but only 1,201 stocks rose against 2,499 that fell; Nifty IT +1.7% after Cognizant's $5.66 bn Sept quarter met estimates and AI jitters sent money to Indian IT; Midcap 100 -0.54%, Smallcap 100 -0.86% - a green index hiding a broad selloff"
+    },
+    {
+      "date": "30/10/2026",
+      "series": "geopolitics",
+      "topic": "GEOPOLITICS: India's 10-year G-Sec yield closed 7.39% on 29/10/2026 (-5 bps on the day, ~9 bps for the week) - the bond's first weekly gain in 11 weeks after yields rose over 70 bps across 10 straight weeks, a losing streak for prices not seen since at least 1998; US 10-yr fell to ~4.92-4.93% on 30/10 from 5.05% on 28/10; rupee 95.26; mutual funds bought ~Rs 4,000 cr of bonds this week; analysts still see 7.70-7.75% by December"
     }
   ]
 }
