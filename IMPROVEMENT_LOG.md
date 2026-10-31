@@ -46,6 +46,8 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 
 - [28/10/2026] news: today's bullion card carried MCX December levels (&#8377;1,42,581 gold, &#8377;1,93,555 silver) that no authorised source supports — the verified 27/10 settlement was &#8377;1,44,100 and &#8377;1,96,511 (Moneycontrol, ET Now) — so the card had to be replaced outright rather than corrected. This is the card-level cousin of the snapshot drift already logged (24/09, 27/10): the snapshot rows are pinned to a named benchmark, the card copy is not, so a card can contradict the table printed directly above it. Suggest the same named, timestamped benchmark rule apply to card copy, plus a pre-commit check that every &#8377; bullion figure in a card appears in that run's verified source set.
 
+- [01/11/2026] articles: area-4 audit clean for the third consecutive run — the first 8 lessons (capital-gains-tax-mutual-funds through index-funds-vs-active) pass tag balance (0 unclosed, 0 mismatched), title and description on all 8 (134-176 chars), 0 broken internal links, 8/8 inline JS blocks pass node --check and 24/24 JSON-LD blocks parse; the 2025 and 2026 years in the HRA lesson are correctly framed (Income-tax Act, 2025 and the Income-tax Rules, 2026, in force 1 April 2026). No fixes needed. The structural items stand unchanged: the duplicated 31 KB <style> plus ~8 KB JS in every lesson (30/10, 31/10) and the missing visible "Reviewed" line (27/10).
+
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
 - [12/10/2026] Proposed count-up (animated) hero number on the beat card — sample delivered for Ram's approval; the live 4:5 static pipeline is unchanged. Why: count-up is the top researched number+motion pattern and motion holds viewers.
