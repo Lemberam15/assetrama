@@ -2,11 +2,6 @@
   "entries": [
     {
       "date": "22/10/2026",
-      "series": "geopolitics",
-      "topic": "GEOPOLITICS: Middle East attacks lifted Brent above $110, yet 24K gold fell ~1% to ~Rs 1.44 lakh/10g and MCX silver fell ~2% to ~Rs 2.05 lakh/kg - costly oil stokes inflation and keeps bond yields high, which drags gold; rupee near a 6-week high (Rs 94.38 on 21/10)"
-    },
-    {
-      "date": "22/10/2026",
       "series": "moneystory",
       "topic": "MONEY STORY: Brent crude crossed $110 a barrel (up ~1.7%) on fresh Houthi attacks on Saudi oil sites; India imports ~85% of its crude, its Apr-Sep oil import bill jumped 46% to $90.6 bn, and every $1/barrel adds ~$2 bn; Sensex and Nifty fell on the oil spike and Asian selloff (bearish)"
     },
@@ -249,6 +244,11 @@
       "date": "31/10/2026",
       "series": "finance101",
       "topic": "FINANCE 101: ARPU (average revenue per user) - Jio Platforms' Q2 FY27 ARPU was Rs 218.8 a month, up 3.5% from Rs 211.4 a year earlier, on 44.2 GB of data per user and 542.4 million subscribers; towers are already built, so each extra rupee of ARPU lands almost straight in operating profit"
+    },
+    {
+      "date": "31/10/2026",
+      "series": "moneystory",
+      "topic": "MONEY STORY: Sensex rose 2.7% in October, its first monthly gain after August -1.5% and September -5.8%, yet FPIs net sold Rs 34,843 crore of Indian equities in the same month (NSDL, up to 30/10) - a green month foreign money sold into; lesson: a rising price is not proof the big money is buying"
     }
   ]
 }
