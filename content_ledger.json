@@ -2,11 +2,6 @@
   "entries": [
     {
       "date": "22/10/2026",
-      "series": "finance101",
-      "topic": "MARKET WRAP: Sensex 73,249.39 (-0.62%), Nifty 22,687.65 (-0.54%) - third straight day down as Brent topped $112; FII net sold Rs 3,459 cr vs DII net bought Rs 2,891 cr (DIIs absorbed ~84% of the selling)"
-    },
-    {
-      "date": "22/10/2026",
       "series": "geopolitics",
       "topic": "GEOPOLITICS: Middle East attacks lifted Brent above $110, yet 24K gold fell ~1% to ~Rs 1.44 lakh/10g and MCX silver fell ~2% to ~Rs 2.05 lakh/kg - costly oil stokes inflation and keeps bond yields high, which drags gold; rupee near a 6-week high (Rs 94.38 on 21/10)"
     },
@@ -249,6 +244,11 @@
       "date": "31/10/2026",
       "series": "event",
       "topic": "MARKET ALERT: Brent Dec futures +2.5% to $117.75/bbl (intraday $118) on 30/10/2026, highest since end-April and a 4th straight monthly gain, ~13% up in October; a small boat fixed limpet mines to the hull of tanker MT Louise 1 ~25nm off Oman's Khasab - first successful limpet-mine strike in Hormuz since the US-Iran war began in Feb 2026; 27 Indian sailors aboard safe, shipping ministry says all 29 Indian crew across both vessels hit this week unhurt"
+    },
+    {
+      "date": "31/10/2026",
+      "series": "finance101",
+      "topic": "FINANCE 101: ARPU (average revenue per user) - Jio Platforms' Q2 FY27 ARPU was Rs 218.8 a month, up 3.5% from Rs 211.4 a year earlier, on 44.2 GB of data per user and 542.4 million subscribers; towers are already built, so each extra rupee of ARPU lands almost straight in operating profit"
     }
   ]
 }
