@@ -2,11 +2,6 @@
   "entries": [
     {
       "date": "22/10/2026",
-      "series": "moneystory",
-      "topic": "MONEY STORY: Brent crude crossed $110 a barrel (up ~1.7%) on fresh Houthi attacks on Saudi oil sites; India imports ~85% of its crude, its Apr-Sep oil import bill jumped 46% to $90.6 bn, and every $1/barrel adds ~$2 bn; Sensex and Nifty fell on the oil spike and Asian selloff (bearish)"
-    },
-    {
-      "date": "22/10/2026",
       "series": "finance101",
       "topic": "PRE-MARKET: US up, Asia down - Nifty set to gap lower; Nifty 22,811.35 (-0.34%) and Sensex 73,709.69 (-0.19%) closed 21/10; GIFT Nifty ~22,650 signals a gap-down open; US closed higher (Dow +0.69%, S&P +0.58%, Nasdaq +1.05%); Asia weak (Hang Seng -2.2%, Nikkei -1%); Brent above $110 on Red Sea risk; rupee 94.46; FII +Rs 1,022 cr, DII +Rs 1,614 cr"
     },
@@ -249,6 +244,11 @@
       "date": "31/10/2026",
       "series": "moneystory",
       "topic": "MONEY STORY: Sensex rose 2.7% in October, its first monthly gain after August -1.5% and September -5.8%, yet FPIs net sold Rs 34,843 crore of Indian equities in the same month (NSDL, up to 30/10) - a green month foreign money sold into; lesson: a rising price is not proof the big money is buying"
+    },
+    {
+      "date": "31/10/2026",
+      "series": "geopolitics",
+      "topic": "GEOPOLITICS: MCX December silver closed near Rs 1,85,300/kg on 30/10/2026 (-2.19%, PTI) against the Rs 4,20,048/kg record of 29/01/2026 - about 56% down and roughly Rs 2.35 lakh per kg; gold fell far less, so the gold-silver ratio is ~78:1 vs the 40-60 of past decades, because over half of silver demand is industrial (World Silver Survey: 657.4 of 1,130.6 Moz in 2025) and high rates slow factories; India cleared permits for ~6,500 tonnes of silver imports over six months (Reuters, 22/10/2026) before Dhanteras on 06/11, easing domestic premiums; India spent a record $12 bn on silver imports in FY26 and silver ETF inflows were Rs 1,974 crore in September"
     }
   ]
 }
