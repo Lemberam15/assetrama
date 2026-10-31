@@ -70,6 +70,7 @@ promotions, no employer mention. Trust IS the product.
 |------|-----------|--------------------|-----------|-------|
 | 26/09/2026 | 1,562 | — | — | baseline (public profile count); lab starts 03/10 |
 | 27/09/2026 | Instagram automation LIVE: _assetrama (471 followers) connected via Instagram API (REELS, 60-day token). Test post published: instagram.com/reel/DdyQ8dIjuu1. ALL 12 agents Instagram-enabled (6 posting agents cross-post after every LinkedIn post; 6 monitors cross-post whenever they publish an event/festival post); videos hosted in /videos on the website with 3-day cleanup; weekly Sunday 6 AM token-refresh cron added. Instagram goal: top finance voice on IG alongside LinkedIn. |
+| 31/10/2026 | Instagram 474 (API) / LinkedIn no new report (baseline 1,562) | IG: 22 likes + 2 comments across last 30 posts; 0 likes and 0 comments on most | — | weakest number = Instagram reach/engagement; v38 shipped for it |
 
 
 ## 27/09/2026 (evening) — MISSION UPGRADE: #1 finance Instagram channel in 2 years
@@ -285,3 +286,76 @@ next action is still the FREE one — start collecting WhatsApp numbers. Ram alr
 the "EDUCATIONAL QUERIES 9049547427" box on every slide; add a one-line caption ask
 ("Save my number for market updates") plus a pinned comment, so the list is building well
 before the 10k sponsor stage. No spend, no brand contact — pure list-building.
+
+## 31/10/2026 — v38: COUNT-UP HERO BEAT (the number LANDS) + music v6
+
+**Growth data (pulled from the APIs this run):**
+- Instagram: **474 followers** (baseline 471 on 27/09/2026 -> **+3 net**; **+2** vs 472
+  last week). Last 30 media: **22 likes and 2 comments in total**, with 0 likes and
+  0 comments on most posts. The weakest number is still **engagement/reach on
+  Instagram**, and reach is what completion drives.
+- LinkedIn: baseline 1,562 (26/09/2026); no new number reported in chat this week —
+  update when Ram reports it.
+
+**What changed (this week's one improvement):** the middle beat could be a static
+card (v15) or a chart that builds (v30), but a post whose story is ONE number still
+showed that number sitting still. Motion-design research for finance content is
+unanimous that the count-up is the strongest attention device for a numeric post —
+"a number that counts up and LANDS ... a card that fades in is a slide" — and it
+comes with craft rules: ease out, equal-width digits, hold the final value >= 1.2 s,
+size it as a headline, and "one sound for the count, one for the result". 2026
+Reels ranking is completion > sends > saves > comments > likes, and "a static slide
+gives a viewer permission to leave; frames that keep resolving keep promising
+something is about to finish."
+- New script `scripts/beat_countup_card.py` — writes a branded 1080x1350 SEQUENCE in
+  which the figure counts from zero with an ease-out, lands, and holds for the last
+  32% of the beat; an accent rule draws out under the figure and a soft accent bloom
+  marks the landing. Brand furniture matches the static beat card. **No new mandatory
+  spec field**: it parses the EXISTING `beat.value` (first numeric token = figure,
+  text before = prefix, text after = unit); optional `"count": {target, prefix,
+  unit, decimals}` overrides the parse. The figure is right-aligned into its final
+  position so it grows into place and the unit word never moves.
+- make_video.py / reel_916_encode.py accept the directory exactly as they already do
+  for the v30 chart build (`_countup.json` in the folder marks it).
+- **Music v6 (sound design, on the v5 rotation):** the track now carries a soft
+  "data roll" — quiet 1.1 kHz ticks at ~1% gain with a 22 ms decay, low-passed with
+  the rest of the mix so nothing is harsh — across the counting window, and ONE soft
+  bell (660 + 990 Hz) on the landing. With no count-up beat the audio is
+  byte-for-byte v5.
+- **Backwards compatible:** render_slide.py is untouched; the 4:5 slide, the static
+  beat card, the captions, the CTA table, the tone colours and every immutable rule
+  are unchanged.
+
+**Post types affected:** any slot whose story is ONE dominant verified figure — market
+wrap / FII-DII flows, a milestone, a big gain or loss, a value-over-time money story —
+on BOTH LinkedIn (4:5) and the native 9:16 Instagram reel. All other posts, story-only
+slots and carousels are unchanged.
+
+**Samples (delivered as downloads):** sampleA_sip.png / .mp4 / _reel.mp4 (finance101,
+bullish, clearly-ILLUSTRATIVE: Rs 5,000/month at an assumed 12% for 20 years ->
+Rs 49.9 lakh) + countup_mid_A.png / countup_final_A.png; sampleB_wait.png / .mp4
+(moneystory, caution, clearly-ILLUSTRATIVE: starting at 25 vs 30 on Rs 10,000/month at
+12% -> Rs 3.53 crore vs Rs 1.90 crore, a Rs 1.63 crore difference) + countup_final_B.png.
+Pixel QC: contrast 8.0-9.1:1 on accent and 14.9-17.2:1 on white (>= 3:1 required), zero
+edge-ink clipping, a visual defect check on every PNG clean. Videos: 4:5 1080x1350 and
+9:16 1080x1920, both 20.00 s, mean -13.7 to -13.9 dBFS, peak -1.1 to -1.6 dB, first
+frame the full slide (not black), and the counting confirmed by frame diff (6.9 mean
+difference between 7 s and 9 s of the middle beat).
+
+**New backlog ideas (added this week):**
+1. LOOP CLOSE: make the last frame resolve back into the first (a rewatch that costs
+   nothing) — replays are an explicit 2026 ranking signal.
+2. End-beat SAVE/SEND prompt ("Send this to one person who is waiting") — sends rank
+   above saves, and sends are what reach non-followers.
+3. Line-race chart (two lines racing to the finish) — the bar build and the count-up
+   are steps one and two; the race is the highest-completion version.
+4. Hook-formula scoreboard: log the first line of every post against a named pattern
+   (specific outcome / number / this-or-that) and A/B by series.
+5. Hindi/Devanagari variant of ONE slide per week for the reel slot (regional-language
+   finance content is among the fastest-growing niches in India in 2026).
+
+**Monetization note (suggestion only):** at 474 IG / ~1.5k LinkedIn the highest-value
+next action is still the FREE one — start collecting WhatsApp numbers. The
+"EDUCATIONAL QUERIES 9049547427" box is already on every slide; add one caption line
+("Save my number for market updates") plus a pinned comment so the list is building
+long before the 10k sponsor stage. No spend, no brand contact — pure list-building.
