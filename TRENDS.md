@@ -1,6 +1,17 @@
 # TRENDS — daily radar notes for all Asset Rama posting agents
 Updated every morning ~6:45 AM IST by the Daily Innovation Radar. Posting agents: read today's section before writing content; use a trend only where it fits the mandatory caption/design rules. Never repeat a topic from the last 48 hours (check content_ledger.json).
 
+## Saturday 31/10/2026
+- Format (new this week): Instagram's Reels ranking upgrade lifted Reels time spent ~4% in Q3, and the 3-minute cap is now used for mini-documentaries (Hootsuite, 26/10). The tactic worth adding: TRIAL REELS — publish to non-followers first, so a new hook can be tested without a flop sitting on the profile. Rotation that still holds: 2 POV + 1 specific-outcome + 1 contrarian per week (Specific Outcome 45% retention, POV 42%, contrarian 38%).
+- Format (compliance-safe, 27/10): "how I think about X" framing beats "you should X" — first-person process reads as education, second-person commands on a named asset read as advice. On Reels chase SAVES, not views: reference-material content is what the ranker and the audience both reward.
+- Today (Sat 31/10, market closed): Friday closed green a second day — Sensex 74,459.53 (+308.49, +0.42%), Nifty 23,053.10 (+116.35, +0.51%), week ~+1.8%/+2%. October finished Sensex +2.7%, Nifty +1.9% — the first monthly gain after −5.8% and −1.5%. And the flows FLIPPED on Friday: FIIs net BOUGHT Rs 3,598.54 cr while DIIs net sold Rs 817.51 cr, the exact reverse of Thursday.
+- The month's honest number: FPIs still net sold Rs 34,843 cr of Indian equities in October (NSDL), even after buying over Rs 14,000 cr in the final week. One good week has not ended a two-month exit — "a rebound, not yet a trend" (Ventura).
+- RIL + Jio Q2, reported Friday evening and NOT yet posted anywhere: RIL PAT Rs 25,548 cr (+41% YoY) on revenue Rs 3.33 lakh cr (+28.6%), and the board cleared up to Rs 15,000 cr of NCDs. Jio Platforms: revenue Rs 47,485 cr (+11.3%), EBITDA Rs 21,879 cr (+16.6%, margin 54.1%), PAT Rs 8,389 cr (+13.7%), ARPU Rs 218.8, 542.4 mn subscribers, 5G past 300 mn, H1 free cash flow Rs 32,130 cr (+98%).
+- Today's event to plan around: Diwali Laxmi Pujan falls on Sunday 08/11, with the Muhurat trading session 14:20-15:30 that day, and Balipratipada a market holiday on Tue 10/11. This is Samvat 2083 week — book the Dhanteras (06/11) gold piece and the Muhurat piece now, not on the day.
+- Series: Finance Term -> ARPU, using Jio's live Rs 218.8 (what you pay a month vs what the company books per user) — avoid Holding company discount (30/10). Money Story -> "October turned green, but foreign money still left": Nifty +1.9% vs FPI −Rs 34,843 cr, and RIL's +41% quarter as the earnings half. Geopolitics -> the metals story: gold broke below $4,000 (Rs 1.42 lakh/10g) and silver below $52.5 (Rs 1.92 lakh/kg) even with war risk live, because December Fed-hike odds are ~75% and the US 10-year sits at 4.90%. Do NOT re-run the tanker/Brent alert (31/10). FII/DII -> Friday's flip above. Wrap -> Saturday, so no wrap today; hold the month-end wrap for Monday 02/11.
+- Audio/visual: weekend is save-driven, not news-driven — keep the text-on-screen hook (26x vs 10x spoken), 5-8 words, and one concept per video. A Saturday explainer that someone saves on Sunday beats a hot take that dies by Monday.
+- Ledger: 30/10 topics (Holding company discount, 30/10 Pre-Market, breadth Money Story, G-Sec Geopolitics, 30/10 Wrap) clear 01/11. The 31/10 Brent/tanker alert clears 02/11. Queue for after the window: RIL's Q2 numbers as Monday's Money Story, and the Karwa Chauth gold thread returning as a Dhanteras (06/11) piece.
+
 ## Friday 30/10/2026
 - Format (Instagram): the hook should be TEXT ON SCREEN and nothing else for the first two seconds. In 900+ viral investing reels (Aubrium, 22/10) a text-only hook travelled 26x the account's followers; the same hook shown AND spoken travelled 10x. Drop the voiceover under the hook, start talking after it. 5-8 words is the sweet spot (15x); 21+ words drops to 9x. POV hooks 48x and aspirational 34x beat bold claims (11x) even though bold claims are 34% of all reels — so stop opening with the loud claim.
 - Format (carousels): 5 of the 8 top-scoring personal-finance first slides name an AGE (best: "The average millionaire is 57. Not 23." at 90.1x). First slides of 6-10 words, 8 slides typical, and real-numbers case studies over-index (13% of outliers vs 5% library). The "vs explainer" (one difference per slide) is the cleanest structure for a two-term post.
@@ -47,6 +58,3 @@ Updated every morning ~6:45 AM IST by the Daily Innovation Radar. Posting agents
 
 ## Sunday 18/10/2026
 - Rupee's best week in 7 months (~2% to 94.96); 3-6-9 emergency-fund rule; AUM explainer (full note in git history).
-
-## Saturday 17/10/2026
-- Gold -3%, silver -6%; Rule of 72 explainer; Trump waived sanctions on Russian oil (full note in git history).
