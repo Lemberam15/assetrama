@@ -1,6 +1,126 @@
 {
   "entries": [
     {
+      "date": "01/11/2026",
+      "series": "event",
+      "topic": "EVENT/MARKET ALERT (6:30 PM monitor): Qatar's LNG carrier Al Mayeda was hit by unidentified objects on Friday 30/10, confirmed by Nakilat on Sunday 01/11 via the Qatar Stock Exchange; the US has told Gulf allies fresh strikes on Iran could begin as early as 04/11/2026, a day after the midterms; Brent Dec settled $117.64 on 30/10 (intraday $118) and India's crude basket averaged $120.46/bbl to 26/10, highest since March 2012; rupee 94.95 on 30/10"
+    },
+    {
+      "date": "01/11/2026",
+      "series": "finance101",
+      "topic": "FINANCE 101: De-rating (P/E compression) - Nifty 50's 12-month forward P/E fell 31% from 24.8x in Sep 2024 to 17.2x in Sep 2026 (Bajaj AMC), while Q2 FY27 Nifty-50 profit is up about 19% YoY on results declared so far (Kotak); the multiple did the falling, not the earnings. Nifty P/E (TTM) 19.30 on 30/10/2026 (NSE)."
+    },
+    {
+      "date": "01/11/2026",
+      "series": "moneystory",
+      "topic": "MONEY STORY (weekend lesson): compounding math - Rs 5,000 a month for 20 years at an assumed 12% a year = Rs 12 lakh invested, about Rs 49.5 lakh back; first 10 years build ~Rs 11.5 lakh, the last 10 add ~Rs 38 lakh (end-of-month SIP convention); no live market call, Sunday market closed, Friday close Sensex 74,459.53 (+308.49, +0.42%) and Nifty 23,053.10 (+116.35, +0.51%)"
+    },
+    {
+      "date": "01/11/2026",
+      "series": "geopolitics",
+      "topic": "GEOPOLITICS: RBI has reportedly proposed a Rs 50 lakh per-year sub-limit under the LRS for business travel, pilgrimages and high-ticket trips (reported 27/10/2026, no start date; education and medical likely exempt), inside today's $2.5 lakh (~Rs 2.37 cr) yearly cap; travel is ~60% of money Indians send abroad; rupee fell ~7% in 12 months from 88.84 to 94.95 (30/10 close, Reuters) and RBI is estimated to have sold $75-80 bn since June to slow the fall"
+    },
+    {
+      "date": "31/10/2026",
+      "series": "event",
+      "topic": "MARKET ALERT: Brent Dec futures +2.5% to $117.75/bbl (intraday $118) on 30/10/2026, highest since end-April and a 4th straight monthly gain, ~13% up in October; a small boat fixed limpet mines to the hull of tanker MT Louise 1 ~25nm off Oman's Khasab - first successful limpet-mine strike in Hormuz since the US-Iran war began in Feb 2026; 27 Indian sailors aboard safe, shipping ministry says all 29 Indian crew across both vessels hit this week unhurt"
+    },
+    {
+      "date": "31/10/2026",
+      "series": "finance101",
+      "topic": "FINANCE 101: ARPU (average revenue per user) - Jio Platforms' Q2 FY27 ARPU was Rs 218.8 a month, up 3.5% from Rs 211.4 a year earlier, on 44.2 GB of data per user and 542.4 million subscribers; towers are already built, so each extra rupee of ARPU lands almost straight in operating profit"
+    },
+    {
+      "date": "31/10/2026",
+      "series": "moneystory",
+      "topic": "MONEY STORY: Sensex rose 2.7% in October, its first monthly gain after August -1.5% and September -5.8%, yet FPIs net sold Rs 34,843 crore of Indian equities in the same month (NSDL, up to 30/10) - a green month foreign money sold into; lesson: a rising price is not proof the big money is buying"
+    },
+    {
+      "date": "31/10/2026",
+      "series": "geopolitics",
+      "topic": "GEOPOLITICS: MCX December silver closed near Rs 1,85,300/kg on 30/10/2026 (-2.19%, PTI) against the Rs 4,20,048/kg record of 29/01/2026 - about 56% down and roughly Rs 2.35 lakh per kg; gold fell far less, so the gold-silver ratio is ~78:1 vs the 40-60 of past decades, because over half of silver demand is industrial (World Silver Survey: 657.4 of 1,130.6 Moz in 2025) and high rates slow factories; India cleared permits for ~6,500 tonnes of silver imports over six months (Reuters, 22/10/2026) before Dhanteras on 06/11, easing domestic premiums; India spent a record $12 bn on silver imports in FY26 and silver ETF inflows were Rs 1,974 crore in September"
+    },
+    {
+      "date": "30/10/2026",
+      "series": "finance101",
+      "topic": "FINANCE 101: Holding company discount - Jio Platforms gained 26.8% over its Rs 1,119 issue price on debut (28/10/2026) while parent RIL fell 3.46% to Rs 1,158.50; RIL owns 64.5% of Jio after the fresh issue, but the market pays less for the parent than the sum of its parts, and a listed Jio price is what can slowly narrow that gap"
+    },
+    {
+      "date": "30/10/2026",
+      "series": "finance101",
+      "topic": "PRE-MARKET: Nasdaq -1.38%, S&P -0.30%, Dow -0.25% overnight as Alphabet fell ~12% and AI-spending doubt returned; Asia sold off (Kospi, Nikkei deep red), GIFT Nifty ~23,000 vs Nifty close 22,936.75 - 22,800 the line, 23,000 the wall; Brent ~$115 on Iran strike fears, rupee 95.2; FIIs sold Rs 943 cr vs DIIs bought Rs 1,924 cr"
+    },
+    {
+      "date": "30/10/2026",
+      "series": "moneystory",
+      "topic": "MONEY STORY: Sensex +514 pts to 74,665 by noon (+0.69%) and Nifty 23,105 (+167, +0.73%), but only 1,201 stocks rose against 2,499 that fell; Nifty IT +1.7% after Cognizant's $5.66 bn Sept quarter met estimates and AI jitters sent money to Indian IT; Midcap 100 -0.54%, Smallcap 100 -0.86% - a green index hiding a broad selloff"
+    },
+    {
+      "date": "30/10/2026",
+      "series": "geopolitics",
+      "topic": "GEOPOLITICS: India's 10-year G-Sec yield closed 7.39% on 29/10/2026 (-5 bps on the day, ~9 bps for the week) - the bond's first weekly gain in 11 weeks after yields rose over 70 bps across 10 straight weeks, a losing streak for prices not seen since at least 1998; US 10-yr fell to ~4.92-4.93% on 30/10 from 5.05% on 28/10; rupee 95.26; mutual funds bought ~Rs 4,000 cr of bonds this week; analysts still see 7.70-7.75% by December"
+    },
+    {
+      "date": "30/10/2026",
+      "series": "finance101",
+      "topic": "MARKET WRAP: Sensex 74,459.53 (+308.49, +0.42%) and Nifty 23,053.10 (+116.35, +0.51%) closed green a second day on IT (+2.32%) and pharma; FIIs turned net BUYERS at Rs 3,598.54 crore while DIIs net sold Rs 817.51 crore (NSE cash market) - foreign money returned as domestic funds trimmed, even though Midcap 100 -0.93% and Smallcap 100 -1.85% fell"
+    },
+    {
+      "date": "29/10/2026",
+      "series": "finance101",
+      "topic": "FINANCE 101: Rollover - closing this month's futures contract and reopening the same trade in next month's; Nifty rolled 72.65% of its futures into the November series, below its 74.78% three-month average, roll cost 0.29%; market-wide rollover 91.09%; BSE monthly expiry (Sensex, Bankex) on 29/10/2026"
+    },
+    {
+      "date": "29/10/2026",
+      "series": "festival",
+      "topic": "FESTIVAL GREETING: Shubh Karwa Chauth (Karaka Chaturthi) on 29/10/2026 - a big gold/jewellery buying day; MCX gold Rs 1,43,860 per 10g, retail 24K Rs 14,395 per gram; the metal carries 3% GST and making charges another 5%"
+    },
+    {
+      "date": "29/10/2026",
+      "series": "geopolitics",
+      "topic": "GEOPOLITICS: Houthi missile strike claim on Saudi's Ras Tanura refinery (550,000 bpd); Brent settled $115.32 on 28/10 (+1%); India's crude basket averaged $120.46/bbl in October to 26/10, highest since March 2012; rupee near 95.4; Delhi petrol frozen at Rs 102.12 and diesel Rs 95.20 since 25 May while Icra puts diesel under-recovery near Rs 20/litre - who absorbs the gap"
+    },
+    {
+      "date": "29/10/2026",
+      "series": "finance101",
+      "topic": "MARKET WRAP: Sensex 74,151.04 (+905.01 pts, +1.24%), Nifty 22,936.75 (+237.90 pts, +1.05%) on Fed hold and cheaper crude; realty, FMCG and PSU banks led, auto and cement slipped; NSE FII/DII cash data for 29/10 could not be confirmed by a second source, so the post quoted closing numbers only and did not guess flows"
+    },
+    {
+      "date": "28/10/2026",
+      "series": "finance101",
+      "topic": "FINANCE 101: Fresh issue vs Offer for Sale - a fresh issue is brand-new shares, so the company gets the cash; an OFS is promoters selling shares they already own, so the sellers get it. Jio Platforms' Rs 30,213 crore IPO (listing 28/10/2026) was 100% fresh - 27 crore new shares, no OFS - with up to Rs 27,500 crore of net proceeds to repay/prepay borrowings at Reliance Jio Infocomm"
+    },
+    {
+      "date": "28/10/2026",
+      "series": "finance101",
+      "topic": "PRE-MARKET: GIFT Nifty ~22,620 (-0.35%) points to a soft open after Dow +0.03%, S&P +0.60%, Nasdaq +1.18%; Nifty 22,749.75 support 22,600 / resistance 22,800; Jio Platforms lists today after its Rs 30,213 crore IPO; US Fed decision 11:30 PM IST; Brent $115.6, rupee 95.12"
+    },
+    {
+      "date": "27/10/2026",
+      "series": "finance101",
+      "topic": "FINANCE 101: Max Pain - the strike where all open Nifty options pay out the least at expiry; Nifty closed 22,753.20 on 26/10/2026, max pain 22,750, biggest call OI 23,000, biggest put OI 22,500, PCR ~1.13, monthly expiry 27/10/2026; a positioning reference, not a forecast"
+    },
+    {
+      "date": "27/10/2026",
+      "series": "geopolitics",
+      "topic": "GEOPOLITICS: record Rs 3.08 lakh crore (~$32.7 bn) of FPI outflows from Indian equities in 2026, nearly double 2025's Rs 1.66 lakh crore; October alone Rs 48,056 crore sold (to 25/10/2026); the money went to AI - Korea +72%, Taiwan +63%, India -19% in USD in CY26; DIIs bought Rs 6.83 lakh crore; Nifty -13% CY26; US 10-year yield ~5%"
+    },
+    {
+      "date": "27/10/2026",
+      "series": "finance101",
+      "topic": "MARKET WRAP: Sensex 73,598.67 (-0.01%), Nifty 22,749.75 (-0.02%) - flat on monthly expiry day while Nifty Smallcap 100 rose 2.7% and midcaps ~1%, IT and private banks dragged; NSE FII/DII cash data for 27/10 not yet published at 8:30 PM so the post quoted closing numbers only and explicitly did not guess flows"
+    },
+    {
+      "date": "26/10/2026",
+      "series": "geopolitics",
+      "topic": "GEOPOLITICS: rupee slid to 95.22 on 26/10/2026 (third straight fall, 84 paise in 3 sessions) on firm dollar, costly oil and FPI outflows of Rs 48,056 crore in October so far (vs Rs 29,631 crore bought in August); US Fed decides 28/10 at 11:30 PM IST, hold at 3.75%-4.00% expected, December hike pencilled in; costlier imports for phones, edible oil and foreign travel, tailwind for dollar-earning IT/pharma"
+    },
+    {
+      "date": "26/10/2026",
+      "series": "finance101",
+      "topic": "MARKET WRAP: Sensex 73,606.75 (+0.66%), Nifty 22,753.20 (+0.68%) - first green close in 5 sessions, snapping a 4-day losing streak; FIIs net SOLD Rs 1,462.49 cr while DIIs net BOUGHT Rs 2,609.57 cr (DIIs out-bought FII selling by ~Rs 1,147 cr)"
+    },
+    {
       "date": "21/10/2026",
       "series": "geopolitics",
       "topic": "GEOPOLITICS: Brent crude back above $110/bbl (5-month high) as US-Iran peace talks stalled and 18 tanker attacks hit in two weeks; India imports ~88% of its crude, and every $10/bbl rise adds ~$13-14 bn to the import bill and feeds inflation and the rupee"
@@ -129,126 +249,6 @@
       "date": "16/10/2026",
       "series": "finance101",
       "topic": "FINANCE 101: Bonus issue vs dividend - Tech Mahindra declared a Rs 15/share interim dividend and recommended a 1:1 bonus issue (15/10/2026); dividend is taxed at your slab rate while a bonus adds free shares and keeps holding value the same"
-    },
-    {
-      "date": "16/10/2026",
-      "series": "festival",
-      "topic": "FESTIVAL GREETING: Shubh Durga Puja - Maha Shashthi on 16/10/2026 opens Durga Puja; India's biggest festive consumption window, festive retail demand powers consumer/auto/retail"
-    },
-    {
-      "date": "26/10/2026",
-      "series": "geopolitics",
-      "topic": "GEOPOLITICS: rupee slid to 95.22 on 26/10/2026 (third straight fall, 84 paise in 3 sessions) on firm dollar, costly oil and FPI outflows of Rs 48,056 crore in October so far (vs Rs 29,631 crore bought in August); US Fed decides 28/10 at 11:30 PM IST, hold at 3.75%-4.00% expected, December hike pencilled in; costlier imports for phones, edible oil and foreign travel, tailwind for dollar-earning IT/pharma"
-    },
-    {
-      "date": "26/10/2026",
-      "series": "finance101",
-      "topic": "MARKET WRAP: Sensex 73,606.75 (+0.66%), Nifty 22,753.20 (+0.68%) - first green close in 5 sessions, snapping a 4-day losing streak; FIIs net SOLD Rs 1,462.49 cr while DIIs net BOUGHT Rs 2,609.57 cr (DIIs out-bought FII selling by ~Rs 1,147 cr)"
-    },
-    {
-      "date": "27/10/2026",
-      "series": "finance101",
-      "topic": "FINANCE 101: Max Pain - the strike where all open Nifty options pay out the least at expiry; Nifty closed 22,753.20 on 26/10/2026, max pain 22,750, biggest call OI 23,000, biggest put OI 22,500, PCR ~1.13, monthly expiry 27/10/2026; a positioning reference, not a forecast"
-    },
-    {
-      "date": "27/10/2026",
-      "series": "geopolitics",
-      "topic": "GEOPOLITICS: record Rs 3.08 lakh crore (~$32.7 bn) of FPI outflows from Indian equities in 2026, nearly double 2025's Rs 1.66 lakh crore; October alone Rs 48,056 crore sold (to 25/10/2026); the money went to AI - Korea +72%, Taiwan +63%, India -19% in USD in CY26; DIIs bought Rs 6.83 lakh crore; Nifty -13% CY26; US 10-year yield ~5%"
-    },
-    {
-      "date": "27/10/2026",
-      "series": "finance101",
-      "topic": "MARKET WRAP: Sensex 73,598.67 (-0.01%), Nifty 22,749.75 (-0.02%) - flat on monthly expiry day while Nifty Smallcap 100 rose 2.7% and midcaps ~1%, IT and private banks dragged; NSE FII/DII cash data for 27/10 not yet published at 8:30 PM so the post quoted closing numbers only and explicitly did not guess flows"
-    },
-    {
-      "date": "28/10/2026",
-      "series": "finance101",
-      "topic": "FINANCE 101: Fresh issue vs Offer for Sale - a fresh issue is brand-new shares, so the company gets the cash; an OFS is promoters selling shares they already own, so the sellers get it. Jio Platforms' Rs 30,213 crore IPO (listing 28/10/2026) was 100% fresh - 27 crore new shares, no OFS - with up to Rs 27,500 crore of net proceeds to repay/prepay borrowings at Reliance Jio Infocomm"
-    },
-    {
-      "date": "28/10/2026",
-      "series": "finance101",
-      "topic": "PRE-MARKET: GIFT Nifty ~22,620 (-0.35%) points to a soft open after Dow +0.03%, S&P +0.60%, Nasdaq +1.18%; Nifty 22,749.75 support 22,600 / resistance 22,800; Jio Platforms lists today after its Rs 30,213 crore IPO; US Fed decision 11:30 PM IST; Brent $115.6, rupee 95.12"
-    },
-    {
-      "date": "29/10/2026",
-      "series": "finance101",
-      "topic": "FINANCE 101: Rollover - closing this month's futures contract and reopening the same trade in next month's; Nifty rolled 72.65% of its futures into the November series, below its 74.78% three-month average, roll cost 0.29%; market-wide rollover 91.09%; BSE monthly expiry (Sensex, Bankex) on 29/10/2026"
-    },
-    {
-      "date": "29/10/2026",
-      "series": "festival",
-      "topic": "FESTIVAL GREETING: Shubh Karwa Chauth (Karaka Chaturthi) on 29/10/2026 - a big gold/jewellery buying day; MCX gold Rs 1,43,860 per 10g, retail 24K Rs 14,395 per gram; the metal carries 3% GST and making charges another 5%"
-    },
-    {
-      "date": "29/10/2026",
-      "series": "geopolitics",
-      "topic": "GEOPOLITICS: Houthi missile strike claim on Saudi's Ras Tanura refinery (550,000 bpd); Brent settled $115.32 on 28/10 (+1%); India's crude basket averaged $120.46/bbl in October to 26/10, highest since March 2012; rupee near 95.4; Delhi petrol frozen at Rs 102.12 and diesel Rs 95.20 since 25 May while Icra puts diesel under-recovery near Rs 20/litre - who absorbs the gap"
-    },
-    {
-      "date": "29/10/2026",
-      "series": "finance101",
-      "topic": "MARKET WRAP: Sensex 74,151.04 (+905.01 pts, +1.24%), Nifty 22,936.75 (+237.90 pts, +1.05%) on Fed hold and cheaper crude; realty, FMCG and PSU banks led, auto and cement slipped; NSE FII/DII cash data for 29/10 could not be confirmed by a second source, so the post quoted closing numbers only and did not guess flows"
-    },
-    {
-      "date": "30/10/2026",
-      "series": "finance101",
-      "topic": "FINANCE 101: Holding company discount - Jio Platforms gained 26.8% over its Rs 1,119 issue price on debut (28/10/2026) while parent RIL fell 3.46% to Rs 1,158.50; RIL owns 64.5% of Jio after the fresh issue, but the market pays less for the parent than the sum of its parts, and a listed Jio price is what can slowly narrow that gap"
-    },
-    {
-      "date": "30/10/2026",
-      "series": "finance101",
-      "topic": "PRE-MARKET: Nasdaq -1.38%, S&P -0.30%, Dow -0.25% overnight as Alphabet fell ~12% and AI-spending doubt returned; Asia sold off (Kospi, Nikkei deep red), GIFT Nifty ~23,000 vs Nifty close 22,936.75 - 22,800 the line, 23,000 the wall; Brent ~$115 on Iran strike fears, rupee 95.2; FIIs sold Rs 943 cr vs DIIs bought Rs 1,924 cr"
-    },
-    {
-      "date": "30/10/2026",
-      "series": "moneystory",
-      "topic": "MONEY STORY: Sensex +514 pts to 74,665 by noon (+0.69%) and Nifty 23,105 (+167, +0.73%), but only 1,201 stocks rose against 2,499 that fell; Nifty IT +1.7% after Cognizant's $5.66 bn Sept quarter met estimates and AI jitters sent money to Indian IT; Midcap 100 -0.54%, Smallcap 100 -0.86% - a green index hiding a broad selloff"
-    },
-    {
-      "date": "30/10/2026",
-      "series": "geopolitics",
-      "topic": "GEOPOLITICS: India's 10-year G-Sec yield closed 7.39% on 29/10/2026 (-5 bps on the day, ~9 bps for the week) - the bond's first weekly gain in 11 weeks after yields rose over 70 bps across 10 straight weeks, a losing streak for prices not seen since at least 1998; US 10-yr fell to ~4.92-4.93% on 30/10 from 5.05% on 28/10; rupee 95.26; mutual funds bought ~Rs 4,000 cr of bonds this week; analysts still see 7.70-7.75% by December"
-    },
-    {
-      "date": "30/10/2026",
-      "series": "finance101",
-      "topic": "MARKET WRAP: Sensex 74,459.53 (+308.49, +0.42%) and Nifty 23,053.10 (+116.35, +0.51%) closed green a second day on IT (+2.32%) and pharma; FIIs turned net BUYERS at Rs 3,598.54 crore while DIIs net sold Rs 817.51 crore (NSE cash market) - foreign money returned as domestic funds trimmed, even though Midcap 100 -0.93% and Smallcap 100 -1.85% fell"
-    },
-    {
-      "date": "31/10/2026",
-      "series": "event",
-      "topic": "MARKET ALERT: Brent Dec futures +2.5% to $117.75/bbl (intraday $118) on 30/10/2026, highest since end-April and a 4th straight monthly gain, ~13% up in October; a small boat fixed limpet mines to the hull of tanker MT Louise 1 ~25nm off Oman's Khasab - first successful limpet-mine strike in Hormuz since the US-Iran war began in Feb 2026; 27 Indian sailors aboard safe, shipping ministry says all 29 Indian crew across both vessels hit this week unhurt"
-    },
-    {
-      "date": "31/10/2026",
-      "series": "finance101",
-      "topic": "FINANCE 101: ARPU (average revenue per user) - Jio Platforms' Q2 FY27 ARPU was Rs 218.8 a month, up 3.5% from Rs 211.4 a year earlier, on 44.2 GB of data per user and 542.4 million subscribers; towers are already built, so each extra rupee of ARPU lands almost straight in operating profit"
-    },
-    {
-      "date": "31/10/2026",
-      "series": "moneystory",
-      "topic": "MONEY STORY: Sensex rose 2.7% in October, its first monthly gain after August -1.5% and September -5.8%, yet FPIs net sold Rs 34,843 crore of Indian equities in the same month (NSDL, up to 30/10) - a green month foreign money sold into; lesson: a rising price is not proof the big money is buying"
-    },
-    {
-      "date": "31/10/2026",
-      "series": "geopolitics",
-      "topic": "GEOPOLITICS: MCX December silver closed near Rs 1,85,300/kg on 30/10/2026 (-2.19%, PTI) against the Rs 4,20,048/kg record of 29/01/2026 - about 56% down and roughly Rs 2.35 lakh per kg; gold fell far less, so the gold-silver ratio is ~78:1 vs the 40-60 of past decades, because over half of silver demand is industrial (World Silver Survey: 657.4 of 1,130.6 Moz in 2025) and high rates slow factories; India cleared permits for ~6,500 tonnes of silver imports over six months (Reuters, 22/10/2026) before Dhanteras on 06/11, easing domestic premiums; India spent a record $12 bn on silver imports in FY26 and silver ETF inflows were Rs 1,974 crore in September"
-    },
-    {
-      "date": "01/11/2026",
-      "series": "finance101",
-      "topic": "FINANCE 101: De-rating (P/E compression) - Nifty 50's 12-month forward P/E fell 31% from 24.8x in Sep 2024 to 17.2x in Sep 2026 (Bajaj AMC), while Q2 FY27 Nifty-50 profit is up about 19% YoY on results declared so far (Kotak); the multiple did the falling, not the earnings. Nifty P/E (TTM) 19.30 on 30/10/2026 (NSE)."
-    },
-    {
-      "date": "01/11/2026",
-      "series": "moneystory",
-      "topic": "MONEY STORY (weekend lesson): compounding math - Rs 5,000 a month for 20 years at an assumed 12% a year = Rs 12 lakh invested, about Rs 49.5 lakh back; first 10 years build ~Rs 11.5 lakh, the last 10 add ~Rs 38 lakh (end-of-month SIP convention); no live market call, Sunday market closed, Friday close Sensex 74,459.53 (+308.49, +0.42%) and Nifty 23,053.10 (+116.35, +0.51%)"
-    },
-    {
-      "date": "01/11/2026",
-      "series": "geopolitics",
-      "topic": "GEOPOLITICS: RBI has reportedly proposed a Rs 50 lakh per-year sub-limit under the LRS for business travel, pilgrimages and high-ticket trips (reported 27/10/2026, no start date; education and medical likely exempt), inside today's $2.5 lakh (~Rs 2.37 cr) yearly cap; travel is ~60% of money Indians send abroad; rupee fell ~7% in 12 months from 88.84 to 94.95 (30/10 close, Reuters) and RBI is estimated to have sold $75-80 bn since June to slow the fall"
     }
   ]
 }
