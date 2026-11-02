@@ -41,6 +41,7 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 
 - [03/11/2026] news: add a build-time check that no card's headline figure contradicts the snapshot row for the same instrument. The 02/11 evening page carried one crude card at "near $113" and another at "about $111" while the snapshot had closed at $108.66; the $113 card was retired by hand this run. A one-pass cross-check of card figure vs snapshot row would catch the drift automatically.
 
+- [03/11/2026] news: add a pre-commit duplicate guard on the card feed. Three of the 20 cards retired this run were redundant — Marico was carried twice from two BusinessLine URLs, and a Moneycontrol "record car sales + UPI" card repeated the ET car-dispatch and CNBC-TV18 UPI cards. A normalised title/topic hash check would catch these before they ship.
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
 - [02/11] render_slide.py v41: the mandatory disclaimer footer and the left contact box's body line now clear 4.5:1 (3.66-3.86:1 before, 4.50-4.67:1 on all eight themes after) on the slide and both numeric beat cards — same fix as v40's source note, on the two smallest lines that ship with EVERY post; colour-only, pixel diff confined to y 1165-1221 and 1286-1332.
