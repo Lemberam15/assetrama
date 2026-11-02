@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "02/11/2026",
+      "series": "finance101",
+      "topic": "FINANCE 101: Crack spread - the gap between crude oil and the fuel a refiner sells. RIL's Q2 FY27 fuel cracks ran 3-3.7x YoY and O2C EBITDA hit Rs 25,203 cr (+67.9%), but Singapore's petrol crack fell from a record $50.53/bbl (1 Oct 2026) to about $11 (30 Oct 2026), lowest since March"
+    },
+    {
       "date": "01/11/2026",
       "series": "event",
       "topic": "EVENT/MARKET ALERT (6:30 PM monitor): Qatar's LNG carrier Al Mayeda was hit by unidentified objects on Friday 30/10, confirmed by Nakilat on Sunday 01/11 via the Qatar Stock Exchange; the US has told Gulf allies fresh strikes on Iran could begin as early as 04/11/2026, a day after the midterms; Brent Dec settled $117.64 on 30/10 (intraday $118) and India's crude basket averaged $120.46/bbl to 26/10, highest since March 2012; rupee 94.95 on 30/10"
@@ -244,11 +249,6 @@
       "date": "16/10/2026",
       "series": "finance101",
       "topic": "PRE-MARKET: Nifty set to reclaim 23,000 - GIFT Nifty near 23,080 after the Sensex's 1,533-pt (2.11%) surge to 74,315 on 15/10; US higher (Dow +1.08%, S&P +0.33%, Nasdaq +0.08%); Brent ~$105, rupee 95.05; resistance 23,150, support 22,830"
-    },
-    {
-      "date": "16/10/2026",
-      "series": "finance101",
-      "topic": "FINANCE 101: Bonus issue vs dividend - Tech Mahindra declared a Rs 15/share interim dividend and recommended a 1:1 bonus issue (15/10/2026); dividend is taxed at your slab rate while a bonus adds free shares and keeps holding value the same"
     }
   ]
 }
