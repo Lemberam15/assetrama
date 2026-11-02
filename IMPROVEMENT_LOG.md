@@ -25,6 +25,7 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 
 ## News page — open guards (hourly cycle)
 
+- [02/11] news: the CollectionPage JSON-LD carries no `dateModified`, so nothing tells a crawler the page was rewritten in the last hour — the hourly refresh is invisible as a freshness signal. Generate `dateModified` at build time from the commit timestamp; a hand-typed value would be stale within the hour, which is why this is not an hourly fix.
 - [24/09 + 11/10 + 13/10 + 27/10 + 28/10 + 02/11] news: pin each commodity row AND its card copy to one named, timestamped benchmark per day (MCX futures vs IBJA retail vs PTI futures is the recurring drift), and label the instrument in the row. Needs a decision from Ram on which benchmark to standardise on. Recurred 02/11: the Sarafa Association had no verifiable Monday print at 08:00 IST, so the gold and silver rows moved to the India Bullions Mumbai reference mid-series — the exact drift this entry is about.
 - [20/10 + 23/10 + 25/10 + 27/10] news: build-time checks that (a) each card's outlet label matches its href domain, (b) no card href contains `live-updates` or `/live/`, (c) every card's SVG gradient id and href is unique. Catches the three most frequent failure modes in one pass.
 - [19/10 + 31/10 + 01/11] news: a per-category floor and a soft per-category cap (~4). The Mutual Funds chip has repeatedly dropped to one card, and results once held 6 of 20.
