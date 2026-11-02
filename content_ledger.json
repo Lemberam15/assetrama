@@ -2,6 +2,11 @@
   "entries": [
     {
       "date": "02/11/2026",
+      "series": "finance101",
+      "topic": "MARKET WRAP: Nifty closed 23,440.80 (+387.70, +1.68%) and Sensex 75,692.78 (+1,233.25, +1.66%), a third straight green day and Nifty's highest in five weeks; NSE provisional cash flows FII net buyers +Rs 3,115 crore (2nd straight buying session) against DII net sellers -Rs 392 crore, so foreign money did the lifting; RIL +12% on its Q2"
+    },
+    {
+      "date": "02/11/2026",
       "series": "geopolitics",
       "topic": "GEOPOLITICS: Brent slid over 4% to ~$108.3/bbl (lowest since 21/10) as Iran-Qatar held a third day of Doha peace talks; Sensex +1,233.25 to 75,692.78, Nifty +387.70 to 23,440.80, rupee 94.90/$; US midterms on 03/11, Emkay puts 60% odds on a Democratic sweep and warns oil may not fall after the vote; India imports over 85% of its crude"
     },
@@ -244,11 +249,6 @@
       "date": "17/10/2026",
       "series": "event",
       "topic": "EVENT/MARKET ALERT: Brent crude hit $110 (settled $109.86, +3.7%, highest since 19/05/2026) and WTI topped $100 ($101.41) as Strait of Hormuz attacks escalated over 10 days and a missile aimed at Saudi's Yanbu port was intercepted; India imports >85% crude, so costlier oil pressures the rupee, CAD and inflation"
-    },
-    {
-      "date": "16/10/2026",
-      "series": "finance101",
-      "topic": "MARKET WRAP: Sensex 74,729.27 (+0.56%), Nifty 23,146.15 (+0.65%) - 2nd straight green day; FIIs net BOUGHT Rs 1,166 cr (first buying after 15 straight selling sessions) vs DIIs net sold Rs 3,661 cr - index rose even as DIIs sold"
     }
   ]
 }
