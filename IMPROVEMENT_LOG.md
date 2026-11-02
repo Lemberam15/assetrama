@@ -23,6 +23,8 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 - [05/10 + 21/10] index: surface the growth chart and year-by-year table in the homepage SIP embed; the hero illustration is a hand-baked SVG with fixed figures — generate both from the shared SIP maths.
 - [27/10] articles: sibling lessons are linked as `../articles/x.html` from inside `articles/` — correct but redundant. Normalise to `x.html` across the library.
 
+- [02/11 20:00] search/404/sitemap: area-6 audit clean — 50 sitemap URLs all resolve to real files with no duplicates, robots.txt carries the Sitemap line, search.html shows 47 cards against a "47 pages" count with 0 broken links, tags balanced, inline JS and JSON-LD valid. One gap worth a decision: search.html indexes 47 pages but deliberately omits index.html and lessons.html, so a reader searching "lessons" or "home" gets nothing. Add two navigation cards (or an alias map) rather than 49 content cards.
+
 ## News page — open guards (hourly cycle)
 
 - [02/11] news: the CollectionPage JSON-LD carries no `dateModified`, so nothing tells a crawler the page was rewritten in the last hour — the hourly refresh is invisible as a freshness signal. Generate `dateModified` at build time from the commit timestamp; a hand-typed value would be stale within the hour, which is why this is not an hourly fix.
