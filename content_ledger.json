@@ -2,6 +2,11 @@
  "entries": [
   {
    "date": "03/11/2026",
+   "series": "geopolitics",
+   "topic": "GEOPOLITICS: gold ~30% below its January 2026 record just before Dhanteras - spot gold under $3,900/oz (one-year low) on 30/10/2026, MCX gold under Rs 1.40 lakh per 10g on 03/11/2026, October the worst October since 2008 (gold -7%, silver ~-18%); cause: oil-led inflation and December Fed hike bets, gold pays no interest; Dhanteras 06/11/2026"
+  },
+  {
+   "date": "03/11/2026",
    "series": "event",
    "topic": "EVENT/MARKET ALERT (2:30 PM monitor): SEBI recommended scrapping the 12.5% LTCG tax for foreign investors (Reuters, 02/11/2026) and FM Sitharaman said she will consider the demand - Sensex rose 1,049 pts (+1.39%) to 76,741.90 and Nifty +293.50 (+1.25%) to 23,734.30 on 03/11/2026, adding about Rs 4 lakh crore to BSE market value (total Rs 486 lakh crore); FPI outflows Rs 2.91 lakh crore in 2026"
   },
@@ -244,16 +249,6 @@
    "date": "17/10/2026",
    "series": "finance101",
    "topic": "FINANCE 101: Net Interest Margin (NIM) = (interest earned - interest paid) / average earning assets; HDFC Bank NIM 3.40% and ICICI 4.36% in Q1 FY27; analysts expect NIMs at large private banks to slip 8-20 bps in Q2 FY27 on FCNR(B) deposit inflows; HDFC Bank, ICICI, Axis and Yes Bank report Q2 on 17/10/2026"
-  },
-  {
-   "date": "17/10/2026",
-   "series": "event",
-   "topic": "EVENT/MARKET ALERT: Brent crude hit $110 (settled $109.86, +3.7%, highest since 19/05/2026) and WTI topped $100 ($101.41) as Strait of Hormuz attacks escalated over 10 days and a missile aimed at Saudi's Yanbu port was intercepted; India imports >85% crude, so costlier oil pressures the rupee, CAD and inflation"
-  },
-  {
-   "date": "03/11/2026",
-   "series": "finance101",
-   "topic": "FINANCE 101: STT (securities transaction tax) - charged on every exchange trade win or lose; Budget 2026 raised it on 01/04/2026, futures 0.02%->0.05% (+150%) and options premium 0.10%->0.15% (+50%), delivery unchanged at 0.10% each side; collections Rs 40,214.36 crore to 17/09/2026, up 53% YoY (FY26 Rs 57,522 crore, FY27 target Rs 73,700 crore); FM Sitharaman on 02/11/2026 said she will consider all views on equity taxation/LTCG before Budget 2027; SEBI FY26 study: 87.7% of individual F&O traders lost money after costs"
   }
  ]
 }
