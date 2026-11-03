@@ -1,16 +1,6 @@
 {
  "entries": [
   {
-   "date": "03/11/2026",
-   "series": "event",
-   "topic": "EVENT/MARKET ALERT (2:30 AM monitor, 03/11/2026): Brent settled $8.66 or 7.63% lower at $104.77/bbl on 02/11/2026, lowest since early October (session low $103.28); WTI -7.36% to $96.46 (low $95.15, back under $100); trigger - Qatari mediators flew to Tehran Monday evening, Trump said an Iran deal 'could happen', Iran's supreme leader granted the government authority for talks; India imports over 85% of its crude, 10-yr G-Sec yield fell 10 bps to 7.32% (best session since April), rupee 94.90; posted LinkedIn urn:li:ugcPost:7523130600732598272 + IG reel https://www.instagram.com/reel/DfQP-m3Cr9d/ + story"
-  },
-  {
-   "date": "02/11/2026",
-   "series": "finance101",
-   "topic": "MARKET WRAP: Nifty closed 23,440.80 (+387.70, +1.68%) and Sensex 75,692.78 (+1,233.25, +1.66%), a third straight green day and Nifty's highest in five weeks; NSE provisional cash flows FII net buyers +Rs 3,115 crore (2nd straight buying session) against DII net sellers -Rs 392 crore, so foreign money did the lifting; RIL +12% on its Q2"
-  },
-  {
    "date": "02/11/2026",
    "series": "geopolitics",
    "topic": "GEOPOLITICS: Brent slid over 4% to ~$108.3/bbl (lowest since 21/10) as Iran-Qatar held a third day of Doha peace talks; Sensex +1,233.25 to 75,692.78, Nifty +387.70 to 23,440.80, rupee 94.90/$; US midterms on 03/11, Emkay puts 60% odds on a Democratic sweep and warns oil may not fall after the vote; India imports over 85% of its crude"
@@ -254,6 +244,11 @@
    "date": "17/10/2026",
    "series": "event",
    "topic": "EVENT/MARKET ALERT: Brent crude hit $110 (settled $109.86, +3.7%, highest since 19/05/2026) and WTI topped $100 ($101.41) as Strait of Hormuz attacks escalated over 10 days and a missile aimed at Saudi's Yanbu port was intercepted; India imports >85% crude, so costlier oil pressures the rupee, CAD and inflation"
+  },
+  {
+   "date": "03/11/2026",
+   "series": "finance101",
+   "topic": "FINANCE 101: STT (securities transaction tax) - charged on every exchange trade win or lose; Budget 2026 raised it on 01/04/2026, futures 0.02%->0.05% (+150%) and options premium 0.10%->0.15% (+50%), delivery unchanged at 0.10% each side; collections Rs 40,214.36 crore to 17/09/2026, up 53% YoY (FY26 Rs 57,522 crore, FY27 target Rs 73,700 crore); FM Sitharaman on 02/11/2026 said she will consider all views on equity taxation/LTCG before Budget 2027; SEBI FY26 study: 87.7% of individual F&O traders lost money after costs"
   }
  ]
 }
