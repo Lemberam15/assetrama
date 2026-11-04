@@ -41,6 +41,7 @@ Suggestions accumulate here from the hourly quality cycle. The weekly Monday rev
 
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
+- [04/11] banner_1584x396.py v42: the profile banner's number-led hero line now renders its figures in the series accent instead of flat white — the one brand asset that ignored the accent-on-the-number rule every slide follows (v14/v16/v18/v12/v19); colour-only, pixel diff confined to the headline band (y 153-194), all five series plus a no-digit headline pass QC.
 - [02/11] render_slide.py v41: the mandatory disclaimer footer and the left contact box's body line now clear 4.5:1 (3.66-3.86:1 before, 4.50-4.67:1 on all eight themes after) on the slide and both numeric beat cards — same fix as v40's source note, on the two smallest lines that ship with EVERY post; colour-only, pixel diff confined to y 1165-1221 and 1286-1332.
 - [17/10–02/11] render_slide.py v23→v41 and the beat/story cards: one-accent-per-post hierarchy, chart key-row emphasis, gray-first supporting bars, unit step-back on numeric beats, quiet 01/02/03 markers and kickers, and a source note raised to 4.5:1 contrast. Full entries for each version are in the git history of this file (commit log for 18/10–01/11); the pipeline is otherwise unchanged and needs no action this week.
 - [12/10] Proposed count-up (animated) hero number on the beat card — sample delivered for Ram's approval; the live 4:5 static pipeline is unchanged.
