@@ -1,6 +1,11 @@
 [
   {
     "date": "04/11/2026",
+    "series": "finance101",
+    "topic": "MARKET WRAP (8:30 PM): Sensex closed 77,301.40 (+383.55 pts, +0.50%) and Nifty 23,960.60 (+149.75 pts, +0.63%) on 04/11/2026 - fifth straight green day and a two-month high; FIIs net bought Rs 7,284.03 crore in the equity cash market (fourth straight buying session, over Rs 20,000 crore in four days), DIIs net sold Rs 3,712.23 crore - foreign buying outweighed domestic profit-booking and the index still rose"
+  },
+  {
+    "date": "04/11/2026",
     "series": "event",
     "topic": "EVENT/MARKET ALERT (2:30 AM monitor): Brent settled $103.60/bbl on 03/11/2026, down ~1% and its lowest close since 07/10/2026, after Monday's 7.6% slide - the steepest one-day fall since July - on Qatar-mediated US-Iran peace talks; Brent is ~12% below the 30/10/2026 peak of $117.75, India's crude basket eased to ~$107 from a $120 October average, and every $1/bbl fall saves ~Rs 18,000 crore a year on oil imports; Iran says a deal is still far and the US struck Qeshm Island on 02/11"
   },
@@ -243,10 +248,5 @@
     "date": "04/11/2026",
     "series": "moneystory",
     "topic": "MONEY STORY: the 4-day 5% rally paused - Nifty +370 pts (1.58%) to 23,811 and Sensex +1,225 pts (+1.62%) to 76,917.85 on 03/11 (two-month high); FIIs net bought Rs 6,836 crore that day and Rs 18,661 crore in five of six sessions; today Nifty IT fell ~2%, breadth weak, Nifty flat ~23,794-23,824 by 11:30-11:35 am; Democrats projected to win US midterms"
-  },
-  {
-    "date": "04/11/2026",
-    "series": "geopolitics",
-    "topic": "GEOPOLITICS: US midterms blue wave - Democrats won both House and Senate on 04/11/2026; dollar index slid to a one-month low (~101.2) and rupee closed 94.58/$ (+17 paise); MCX gold +2.5% to Rs 1,42,957/10g, silver +4% to Rs 1,87,422/kg; Nifty IT -1.5% (TCS -2.5%) as a stronger rupee trims dollar earnings"
   }
 ]
