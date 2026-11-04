@@ -10,6 +10,13 @@
  },
  "posted": [
   {
+   "topic": "New Month, Fresh SIP - the reset ritual",
+   "category": "SIP",
+   "date": "04/11/2026",
+   "locked_until": "04/05/2027",
+   "note": "Wednesday finance101 carousel slot (first slot of November, month_start theme)"
+  },
+  {
    "topic": "Panic selling - the costliest reflex",
    "category": "behavior",
    "date": "26/10/2026",
@@ -86,7 +93,9 @@
    "topic": "New Month, Fresh SIP - the reset ritual",
    "category": "SIP",
    "slot_hint": "month_start",
-   "used": false
+   "used": true,
+   "posted": "04/11/2026",
+   "locked_until": "04/05/2027"
   },
   {
    "topic": "Month-End Portfolio Review in 10 minutes",
