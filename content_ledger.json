@@ -1,5 +1,15 @@
 [
  {
+  "date": "06/11/2026",
+  "series": "event",
+  "topic": "EVENT/MARKET ALERT (2:30 AM monitor): Wall Street AI/chip selloff on 05/11/2026 - Nasdaq fell over 5% and is 11% below its record (correction), S&P 500 worst day since April 2025, chip index -10%, Nvidia -8%, AMD -14%; Gift Nifty 24,450 (-0.61%) after Nifty closed at 24,536.60"
+ },
+ {
+  "date": "06/11/2026",
+  "series": "festival",
+  "topic": "FESTIVAL GREETING: Dhanteras on 06/11/2026 - 24K gold Rs 14,642 per gram (Rs 1,46,420 per 10g), IBJA expects 12% higher Dhanteras sales after gold rose 4.56% in two days; jewellery carries 3% GST plus making charges vs coins and bars"
+ },
+ {
   "date": "05/11/2026",
   "series": "event",
   "topic": "EVENT/MARKET ALERT (6:30 PM monitor): SEBI circular dated 05/11/2026 - domestic clients and FPIs may take long or short positions in INR currency derivatives with NO underlying exposure up to USD 5 million notional, one combined limit across all rupee pairs and all exchanges; FPI total short positions capped at USD 5m and longs above that need Indian equity/debt backing; follows RBI's 10/10/2026 FX derivatives changes"
@@ -238,15 +248,5 @@
   "date": "18/10/2026",
   "series": "finance101",
   "topic": "FINANCE 101: AUM (Assets Under Management) - the total market value of all the money a fund manages; India's mutual fund AUM Rs 82.64 lakh crore on 30/09/2026, up 9.3% YoY; monthly SIP contributions at a record Rs 32,490 crore"
- },
- {
-  "date": "17/10/2026",
-  "series": "geopolitics",
-  "topic": "GEOPOLITICS: gold fell ~3% (Rs 4,500/10g) and silver ~6% (Rs 13,500/kg) in the week to 16/10/2026 as a stronger rupee (~94.95/$) and US rate-hike talk pulled both down; from 16/10 about 17 fund houses paused fresh gold FoF subscriptions - new lump-sum/new SIPs stopped, existing SIPs and redemptions continue"
- },
- {
-  "date": "04/11/2026",
-  "series": "moneystory",
-  "topic": "MONEY STORY: the 4-day 5% rally paused - Nifty +370 pts (1.58%) to 23,811 and Sensex +1,225 pts (+1.62%) to 76,917.85 on 03/11 (two-month high); FIIs net bought Rs 6,836 crore that day and Rs 18,661 crore in five of six sessions; today Nifty IT fell ~2%, breadth weak, Nifty flat ~23,794-23,824 by 11:30-11:35 am; Democrats projected to win US midterms"
  }
 ]
