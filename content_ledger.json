@@ -1,20 +1,5 @@
 [
  {
-  "date": "05/11/2026",
-  "series": "finance101",
-  "topic": "FINANCE 101: India VIX, the fear gauge - VIX closed 15.19 on 04/11/2026 even after the Nifty's fifth straight green session (Nifty 23,960.60, +4.5% over five sessions); VIX is up ~60% in 2026 from 9.48 at end-2025; at 15.19 option prices imply a ~4.3% Nifty swing over 30 days (LinkedIn video post + Instagram reel/story)"
- },
- {
-  "date": "04/11/2026",
-  "series": "finance101",
-  "topic": "MARKET WRAP (8:30 PM): Sensex closed 77,301.40 (+383.55 pts, +0.50%) and Nifty 23,960.60 (+149.75 pts, +0.63%) on 04/11/2026 - fifth straight green day and a two-month high; FIIs net bought Rs 7,284.03 crore in the equity cash market (fourth straight buying session, over Rs 20,000 crore in four days), DIIs net sold Rs 3,712.23 crore - foreign buying outweighed domestic profit-booking and the index still rose"
- },
- {
-  "date": "04/11/2026",
-  "series": "event",
-  "topic": "EVENT/MARKET ALERT (2:30 AM monitor): Brent settled $103.60/bbl on 03/11/2026, down ~1% and its lowest close since 07/10/2026, after Monday's 7.6% slide - the steepest one-day fall since July - on Qatar-mediated US-Iran peace talks; Brent is ~12% below the 30/10/2026 peak of $117.75, India's crude basket eased to ~$107 from a $120 October average, and every $1/bbl fall saves ~Rs 18,000 crore a year on oil imports; Iran says a deal is still far and the US struck Qeshm Island on 02/11"
- },
- {
   "date": "03/11/2026",
   "series": "finance101",
   "topic": "MARKET WRAP: FIIs net bought Rs 6,836.81 crore and DIIs net sold Rs 3,678.85 crore in the cash market on 03/11/2026 (NSE provisional) yet the index rose - Sensex 76,917.85 (+1,225.07 pts, +1.62%), Nifty 23,810.85 (+370.05 pts, +1.58%), fourth straight green day and a two-month high"
@@ -258,5 +243,10 @@
   "date": "05/11/2026",
   "series": "event",
   "topic": "MARKET ALERT: Brent crude crashed below $100 for the first time in nearly a month on 04/11/2026 - Brent settled at $94.62 (-8.7%), WTI at $88.12 (-8.3%), oil down over 14% this week after Democrats swept the US midterms and the US and Iran signalled they are open to talks; crude is India's biggest import so cheaper oil cools inflation and eases the rupee (LinkedIn video post + Instagram reel/story)"
+ },
+ {
+  "date": "05/11/2026",
+  "series": "finance101",
+  "topic": "PRE-MARKET: a 340-point Gift Nifty gap-up to ~24,300 after the Dow's best day since Apr 2025 (+1,569 pts, +3.03%, to 53,356) on the US midterm sweep; Nifty 23,960.60 closed above its 200-DEMA (23,904), 24,000 the floor and 24,400 the next wall, India VIX 15.19 (-3.4%), Brent settled $94.62, KOSPI -3.6% on the chip selloff (LinkedIn video + Instagram story)"
  }
 ]
