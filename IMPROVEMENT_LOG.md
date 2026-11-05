@@ -3,6 +3,7 @@
 Suggestions accumulate here from the hourly quality cycle. The weekly Monday review implements the best ones, then marks them DONE and prunes. Hourly "audit PASS, no fixes needed" lines are dropped at each prune — only actionable items are kept.
 
 ## Open suggestions (for future weekly reviews)
+- [06/11/2026] news: two cards still link to publisher live blogs rather than a finished article (the ET 5 Nov Sensex live blog and the Moneycontrol Dhanteras jewellery piece), so the destination page keeps changing after the card is written. Point cards at settled article URLs and add the `live-updates` / `liveblog` href check to the hourly QC.
 
 - [30/10 + 31/10] articles: every lesson inlines its own identical ~31 KB `<style>` block and ~8 KB JS block, so the library carries roughly 1.4 MB of duplicated payload and any design fix means 37 edits. Extract one `article.css` + `article.js`. No visual change. This is the biggest single win in the repo and the gate for all further article work.
 - [26/10 + 30/10 + 31/10] lessons: the card list, the "37 lessons" count text and the ItemList JSON-LD are three hand-maintained copies of one fact, and the ItemList order already disagrees with the card order. Generate all three from the article files at build time.
