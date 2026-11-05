@@ -1,5 +1,10 @@
 [
  {
+  "date": "05/11/2026",
+  "series": "event",
+  "topic": "EVENT/MARKET ALERT (10:30 AM monitor): US midterm sweep - Democrats won both chambers of Congress; Sensex hit 78,922.44 (+1,621.04 pts, +2.10%) and Nifty topped 24,391.95 (+431.35, +1.80%) on 05/11/2026, sixth straight winning session; Brent fell to $93.5/bbl, lowest since 30/08, after an 8.7% slide; rupee firmed to 94.36; India m-cap crossed Rs 500 lakh crore; FIIs bought Rs 7,284 crore on 04/11, fourth straight session"
+ },
+ {
   "date": "03/11/2026",
   "series": "finance101",
   "topic": "MARKET WRAP: FIIs net bought Rs 6,836.81 crore and DIIs net sold Rs 3,678.85 crore in the cash market on 03/11/2026 (NSE provisional) yet the index rose - Sensex 76,917.85 (+1,225.07 pts, +1.62%), Nifty 23,810.85 (+370.05 pts, +1.58%), fourth straight green day and a two-month high"
@@ -238,11 +243,6 @@
   "date": "04/11/2026",
   "series": "moneystory",
   "topic": "MONEY STORY: the 4-day 5% rally paused - Nifty +370 pts (1.58%) to 23,811 and Sensex +1,225 pts (+1.62%) to 76,917.85 on 03/11 (two-month high); FIIs net bought Rs 6,836 crore that day and Rs 18,661 crore in five of six sessions; today Nifty IT fell ~2%, breadth weak, Nifty flat ~23,794-23,824 by 11:30-11:35 am; Democrats projected to win US midterms"
- },
- {
-  "date": "05/11/2026",
-  "series": "event",
-  "topic": "MARKET ALERT: Brent crude crashed below $100 for the first time in nearly a month on 04/11/2026 - Brent settled at $94.62 (-8.7%), WTI at $88.12 (-8.3%), oil down over 14% this week after Democrats swept the US midterms and the US and Iran signalled they are open to talks; crude is India's biggest import so cheaper oil cools inflation and eases the rupee (LinkedIn video post + Instagram reel/story)"
  },
  {
   "date": "05/11/2026",
