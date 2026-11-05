@@ -2,6 +2,11 @@
  {
   "date": "05/11/2026",
   "series": "event",
+  "topic": "EVENT/MARKET ALERT (6:30 PM monitor): SEBI circular dated 05/11/2026 - domestic clients and FPIs may take long or short positions in INR currency derivatives with NO underlying exposure up to USD 5 million notional, one combined limit across all rupee pairs and all exchanges; FPI total short positions capped at USD 5m and longs above that need Indian equity/debt backing; follows RBI's 10/10/2026 FX derivatives changes"
+ },
+ {
+  "date": "05/11/2026",
+  "series": "event",
   "topic": "EVENT/MARKET ALERT (10:30 AM monitor): US midterm sweep - Democrats won both chambers of Congress; Sensex hit 78,922.44 (+1,621.04 pts, +2.10%) and Nifty topped 24,391.95 (+431.35, +1.80%) on 05/11/2026, sixth straight winning session; Brent fell to $93.5/bbl, lowest since 30/08, after an 8.7% slide; rupee firmed to 94.36; India m-cap crossed Rs 500 lakh crore; FIIs bought Rs 7,284 crore on 04/11, fourth straight session"
  },
  {
@@ -243,10 +248,5 @@
   "date": "04/11/2026",
   "series": "moneystory",
   "topic": "MONEY STORY: the 4-day 5% rally paused - Nifty +370 pts (1.58%) to 23,811 and Sensex +1,225 pts (+1.62%) to 76,917.85 on 03/11 (two-month high); FIIs net bought Rs 6,836 crore that day and Rs 18,661 crore in five of six sessions; today Nifty IT fell ~2%, breadth weak, Nifty flat ~23,794-23,824 by 11:30-11:35 am; Democrats projected to win US midterms"
- },
- {
-  "date": "05/11/2026",
-  "series": "geopolitics",
-  "topic": "GEOPOLITICS: Brent settled $94.62 a barrel on 04/11/2026 (-$8.98, -8.7%), its lowest close since 31/08 and first sub-$100 close since early October, after the Democrats swept the US midterms; ICRA estimates every $10/bbl off crude cuts India's net oil import bill by $12-13 bn a year and India imports 85%+ of its crude; Delhi petrol still Rs 102.12/l and diesel Rs 95.20/l on 05/11 (pumps not yet passing it on); rupee ended 94.46/$ (strongest in two weeks) and Sensex had its best day in 7 months at 78,922.44 (+2.10%)"
  }
 ]
