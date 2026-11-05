@@ -1,6 +1,11 @@
 [
  {
   "date": "05/11/2026",
+  "series": "moneystory",
+  "topic": "MONEY STORY: Samvat 2082 mainboard IPOs raised a record Rs 2.12 lakh crore across 129 issues (21/10/2025-04/11/2026, Prime Database) - first time above Rs 2 lakh crore; only Rs 99,917 crore was fresh capital, Rs 1.12 lakh crore was OFS; average listing-day return 14.29%, 89 closed at or above issue price and 40 below; SME 238 issues Rs 10,511 crore; ~Rs 4.3 lakh crore IPO pipeline (116 SEBI-approved + 122 filed); posted with Nifty up ~1.9% at 24,407.90 and Sensex 78,836.54 (12 pm, 05/11/2026)"
+ },
+ {
+  "date": "05/11/2026",
   "series": "event",
   "topic": "EVENT/MARKET ALERT (10:30 AM monitor): US midterm sweep - Democrats won both chambers of Congress; Sensex hit 78,922.44 (+1,621.04 pts, +2.10%) and Nifty topped 24,391.95 (+431.35, +1.80%) on 05/11/2026, sixth straight winning session; Brent fell to $93.5/bbl, lowest since 30/08, after an 8.7% slide; rupee firmed to 94.36; India m-cap crossed Rs 500 lakh crore; FIIs bought Rs 7,284 crore on 04/11, fourth straight session"
  },
@@ -243,10 +248,5 @@
   "date": "04/11/2026",
   "series": "moneystory",
   "topic": "MONEY STORY: the 4-day 5% rally paused - Nifty +370 pts (1.58%) to 23,811 and Sensex +1,225 pts (+1.62%) to 76,917.85 on 03/11 (two-month high); FIIs net bought Rs 6,836 crore that day and Rs 18,661 crore in five of six sessions; today Nifty IT fell ~2%, breadth weak, Nifty flat ~23,794-23,824 by 11:30-11:35 am; Democrats projected to win US midterms"
- },
- {
-  "date": "05/11/2026",
-  "series": "finance101",
-  "topic": "PRE-MARKET: a 340-point Gift Nifty gap-up to ~24,300 after the Dow's best day since Apr 2025 (+1,569 pts, +3.03%, to 53,356) on the US midterm sweep; Nifty 23,960.60 closed above its 200-DEMA (23,904), 24,000 the floor and 24,400 the next wall, India VIX 15.19 (-3.4%), Brent settled $94.62, KOSPI -3.6% on the chip selloff (LinkedIn video + Instagram story)"
  }
 ]
