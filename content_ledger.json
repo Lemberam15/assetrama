@@ -2,6 +2,11 @@
  {
   "date": "06/11/2026",
   "series": "finance101",
+  "topic": "PRE-MARKET: overnight global cues - Nasdaq -5.52% to 24,315 (worst day since April 2025), S&P -4.36% to 7,354, Dow -3.44% to 51,523; Asia: Nikkei -5.8%, KOSPI -8.8% (circuit breaker), Hang Seng -1.6%; GIFT Nifty ~24,425; Nifty closed 24,536.60 (+2.40%), Sensex 79,310.01 (+2.60%), support 24,500 / Thursday low 24,308 / 24,800 August high; Brent ~$99, rupee 94.47; FIIs bought Rs 14,974.68 crore on 05/11"
+ },
+ {
+  "date": "06/11/2026",
+  "series": "finance101",
   "topic": "FINANCE 101: Net Short - FIIs net bought Rs 14,975 crore on 05/11/2026 (biggest single-day buy in over a year) yet stayed net short 1.37 lakh index futures, adding 48,541 shorts; hedging vs directional. Instagram: SIP vs Lumpsum carousel (SIP inflows record Rs 32,490 crore, Sep 2026)"
  },
  {
@@ -243,10 +248,5 @@
   "date": "18/10/2026",
   "series": "geopolitics",
   "topic": "GEOPOLITICS: the rupee's best week in 7 months - up ~2% to 94.96/$ on 16/10/2026, its first close below 95 in 38 days; RBI's dollar window for oil firms + FX-derivative curbs and a softer US dollar drove it; FX reserves fell to $726 bn by 09/10 from a $785.7 bn peak (04/09); a stronger rupee cuts import costs but oil near $110 and FII selling are the risks (HSBC sees 96 by Dec 2026)"
- },
- {
-  "date": "18/10/2026",
-  "series": "moneystory",
-  "topic": "MONEY STORY: the 3-6-9 emergency-fund rule - keep 3 months of essential expenses if single with a steady income, 6-12 months with dependents or an irregular income; size it on essentials, not salary (Rs 50,000/month -> Rs 1.5 lakh for 3 months, Rs 3 lakh for 6) (weekend timeless lesson)"
  }
 ]
