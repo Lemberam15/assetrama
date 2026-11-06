@@ -1,6 +1,11 @@
 [
  {
   "date": "06/11/2026",
+  "series": "moneystory",
+  "topic": "MONEY STORY: the index is green, the portfolio is red - on 06/11/2026 Sensex traded ~+450 pts near 79,760 and Nifty above 24,600 despite a 5.52% Nasdaq crash, but Nifty Midcap 100 fell 1.2%, Smallcap 100 fell 1.7% and more NSE stocks fell than rose; M&M +4.5% on a 25% Q2 profit jump, Titan, TCS, Infosys led; engagement question 'Is your portfolio beating the Nifty?'"
+ },
+ {
+  "date": "06/11/2026",
   "series": "finance101",
   "topic": "PRE-MARKET: overnight global cues - Nasdaq -5.52% to 24,315 (worst day since April 2025), S&P -4.36% to 7,354, Dow -3.44% to 51,523; Asia: Nikkei -5.8%, KOSPI -8.8% (circuit breaker), Hang Seng -1.6%; GIFT Nifty ~24,425; Nifty closed 24,536.60 (+2.40%), Sensex 79,310.01 (+2.60%), support 24,500 / Thursday low 24,308 / 24,800 August high; Brent ~$99, rupee 94.47; FIIs bought Rs 14,974.68 crore on 05/11"
  },
@@ -243,10 +248,5 @@
   "date": "19/10/2026",
   "series": "moneystory",
   "topic": "MONEY STORY: market fell on Mon 19/10 - Sensex -250 pts (-0.33%) to 74,480, Nifty -69 pts (-0.30%) to 23,078; private banks led (HDFC Bank -2%, Axis Bank -3.8% after Q2 despite Axis profit +39% to Rs 7,704 cr); weak global cues (US AI selloff, Nasdaq -2.14%) and crude near $108"
- },
- {
-  "date": "18/10/2026",
-  "series": "geopolitics",
-  "topic": "GEOPOLITICS: the rupee's best week in 7 months - up ~2% to 94.96/$ on 16/10/2026, its first close below 95 in 38 days; RBI's dollar window for oil firms + FX-derivative curbs and a softer US dollar drove it; FX reserves fell to $726 bn by 09/10 from a $785.7 bn peak (04/09); a stronger rupee cuts import costs but oil near $110 and FII selling are the risks (HSBC sees 96 by Dec 2026)"
  }
 ]
