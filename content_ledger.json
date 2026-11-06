@@ -1,6 +1,11 @@
 [
  {
   "date": "06/11/2026",
+  "series": "finance101",
+  "topic": "MARKET WRAP: Sensex 81,028.02 (+2.17%), Nifty 25,030.35 (+2.01%) - seventh straight green day, Nifty above 25,000 for the first time since 27/02/2026; NSE cash flows FIIs net bought Rs 13,750 crore, DIIs net sold Rs 5,969 crore, so foreign money did the lifting while domestic funds sold into the rise; market cap up ~Rs 29.57 lakh crore since 28/10"
+ },
+ {
+  "date": "06/11/2026",
   "series": "event",
   "topic": "EVENT/MARKET ALERT (6:30 PM monitor): Sensex closed 81,028.02 (+1,718.01 pts, +2.17%) and Nifty 25,030.35 (+493.75, +2.01%) on 06/11/2026, both at the day's high - first Sensex close above 80,000 since 05/03/2026 and Nifty's first close above 25,000 in 8 months; week +8.8%, best since Feb 2021; seventh straight session, longest in 26 months; India VIX +13.35%; Instagram reel + story also posted"
  },
@@ -243,15 +248,5 @@
   "date": "20/10/2026",
   "series": "finance101",
   "topic": "FINANCE 101: Anchor Investor - big institutions are allotted shares a day before an IPO opens; Jio Platforms' Rs 8,110 crore anchor book drew over Rs 2.5 lakh crore in bids (30x+), ahead of India's biggest-ever Rs 30,213 crore IPO opening 21/10/2026"
- },
- {
-  "date": "20/10/2026",
-  "series": "festival",
-  "topic": "FESTIVAL GREETING: Happy Dussehra / Vijayadashami on 20/10/2026 - 10th day of Navratri and the close of Durga Puja (markets closed); Vijay Muhurat 1:59-2:45 PM; festive-season demand for autos, durables, jewellery, retail"
- },
- {
-  "date": "19/10/2026",
-  "series": "finance101",
-  "topic": "MARKET WRAP: Sensex 73,852.90 (-1.17%), Nifty 22,888.95 (-1.11%) snapped a 2-day winning streak as private banks and IT dragged; FII net sold Rs 1,148.64 cr (lowest October outflow) vs DII net bought Rs 3,201.19 cr - the index still fell despite DII buying"
  }
 ]
