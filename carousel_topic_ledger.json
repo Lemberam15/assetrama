@@ -10,6 +10,13 @@
  },
  "posted": [
   {
+   "topic": "SIP vs Lumpsum - which one when",
+   "category": "SIP",
+   "date": "06/11/2026",
+   "locked_until": "06/05/2027",
+   "note": "Friday finance101 carousel slot"
+  },
+  {
    "topic": "New Month, Fresh SIP - the reset ritual",
    "category": "SIP",
    "date": "04/11/2026",
@@ -119,7 +126,9 @@
   {
    "topic": "SIP vs Lumpsum - which one when",
    "category": "SIP",
-   "used": false
+   "used": true,
+   "date": "06/11/2026",
+   "locked_until": "06/05/2027"
   },
   {
    "topic": "Step-up SIP - the 10% annual raise trick",
