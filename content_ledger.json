@@ -1,6 +1,11 @@
 [
  {
   "date": "06/11/2026",
+  "series": "geopolitics",
+  "topic": "GEOPOLITICS: Brent's 17% crash is already fading - settled $94.62 on 04/11 (from $113.43 on 30/10, lowest close since 31 Aug) then back near $100 by 06/11 on fresh tanker attacks; rupee 94.47 to 93.91, a six-month high; Delhi petrol unchanged at Rs 102.12; RBI: every $10 on Brent = ~49 bps of inflation"
+ },
+ {
+  "date": "06/11/2026",
   "series": "event",
   "topic": "EVENT/MARKET ALERT (2:30 PM monitor): Sensex reclaimed 80,000 on 06/11/2026 - intraday high 80,080.59, up 718 pts (+0.90%), first time above 80,000 since 05/03/2026; rupee firmed to about 94 a dollar, strongest since April, on sliding crude; FIIs bought Rs 14,796 crore on 05/11, biggest single-day buy since Feb 2021; Nifty 24,698 (+0.66%)"
  },
@@ -243,10 +248,5 @@
   "date": "19/10/2026",
   "series": "finance101",
   "topic": "MARKET WRAP: Sensex 73,852.90 (-1.17%), Nifty 22,888.95 (-1.11%) snapped a 2-day winning streak as private banks and IT dragged; FII net sold Rs 1,148.64 cr (lowest October outflow) vs DII net bought Rs 3,201.19 cr - the index still fell despite DII buying"
- },
- {
-  "date": "19/10/2026",
-  "series": "geopolitics",
-  "topic": "GEOPOLITICS: China's rare-earth squeeze - China controls ~70% of global rare-earth mining and 90%+ of magnet processing; it began strictly applying export rules to US buyers on 16/10/2026; India imports 80-90% of its rare-earth magnets from China and has a Rs 7,280 crore scheme for 6,000 tonnes of domestic magnet capacity"
  }
 ]
