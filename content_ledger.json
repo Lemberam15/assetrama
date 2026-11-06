@@ -1,6 +1,11 @@
 [
  {
   "date": "06/11/2026",
+  "series": "event",
+  "topic": "EVENT/MARKET ALERT (2:30 PM monitor): Sensex reclaimed 80,000 on 06/11/2026 - intraday high 80,080.59, up 718 pts (+0.90%), first time above 80,000 since 05/03/2026; rupee firmed to about 94 a dollar, strongest since April, on sliding crude; FIIs bought Rs 14,796 crore on 05/11, biggest single-day buy since Feb 2021; Nifty 24,698 (+0.66%)"
+ },
+ {
+  "date": "06/11/2026",
   "series": "moneystory",
   "topic": "MONEY STORY: the index is green, the portfolio is red - on 06/11/2026 Sensex traded ~+450 pts near 79,760 and Nifty above 24,600 despite a 5.52% Nasdaq crash, but Nifty Midcap 100 fell 1.2%, Smallcap 100 fell 1.7% and more NSE stocks fell than rose; M&M +4.5% on a 25% Q2 profit jump, Titan, TCS, Infosys led; engagement question 'Is your portfolio beating the Nifty?'"
  },
@@ -243,10 +248,5 @@
   "date": "19/10/2026",
   "series": "geopolitics",
   "topic": "GEOPOLITICS: China's rare-earth squeeze - China controls ~70% of global rare-earth mining and 90%+ of magnet processing; it began strictly applying export rules to US buyers on 16/10/2026; India imports 80-90% of its rare-earth magnets from China and has a Rs 7,280 crore scheme for 6,000 tonnes of domestic magnet capacity"
- },
- {
-  "date": "19/10/2026",
-  "series": "moneystory",
-  "topic": "MONEY STORY: market fell on Mon 19/10 - Sensex -250 pts (-0.33%) to 74,480, Nifty -69 pts (-0.30%) to 23,078; private banks led (HDFC Bank -2%, Axis Bank -3.8% after Q2 despite Axis profit +39% to Rs 7,704 cr); weak global cues (US AI selloff, Nasdaq -2.14%) and crude near $108"
  }
 ]
