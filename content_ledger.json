@@ -1,6 +1,11 @@
 [
  {
   "date": "06/11/2026",
+  "series": "finance101",
+  "topic": "FINANCE 101: Net Short - FIIs net bought Rs 14,975 crore on 05/11/2026 (biggest single-day buy in over a year) yet stayed net short 1.37 lakh index futures, adding 48,541 shorts; hedging vs directional. Instagram: SIP vs Lumpsum carousel (SIP inflows record Rs 32,490 crore, Sep 2026)"
+ },
+ {
+  "date": "06/11/2026",
   "series": "event",
   "topic": "EVENT/MARKET ALERT (2:30 AM monitor): Wall Street AI/chip selloff on 05/11/2026 - Nasdaq fell over 5% and is 11% below its record (correction), S&P 500 worst day since April 2025, chip index -10%, Nvidia -8%, AMD -14%; Gift Nifty 24,450 (-0.61%) after Nifty closed at 24,536.60"
  },
@@ -243,10 +248,5 @@
   "date": "18/10/2026",
   "series": "moneystory",
   "topic": "MONEY STORY: the 3-6-9 emergency-fund rule - keep 3 months of essential expenses if single with a steady income, 6-12 months with dependents or an irregular income; size it on essentials, not salary (Rs 50,000/month -> Rs 1.5 lakh for 3 months, Rs 3 lakh for 6) (weekend timeless lesson)"
- },
- {
-  "date": "18/10/2026",
-  "series": "finance101",
-  "topic": "FINANCE 101: AUM (Assets Under Management) - the total market value of all the money a fund manages; India's mutual fund AUM Rs 82.64 lakh crore on 30/09/2026, up 9.3% YoY; monthly SIP contributions at a record Rs 32,490 crore"
  }
 ]
