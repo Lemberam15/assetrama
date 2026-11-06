@@ -1,6 +1,11 @@
 [
  {
   "date": "06/11/2026",
+  "series": "event",
+  "topic": "EVENT/MARKET ALERT (6:30 PM monitor): Sensex closed 81,028.02 (+1,718.01 pts, +2.17%) and Nifty 25,030.35 (+493.75, +2.01%) on 06/11/2026, both at the day's high - first Sensex close above 80,000 since 05/03/2026 and Nifty's first close above 25,000 in 8 months; week +8.8%, best since Feb 2021; seventh straight session, longest in 26 months; India VIX +13.35%; Instagram reel + story also posted"
+ },
+ {
+  "date": "06/11/2026",
   "series": "geopolitics",
   "topic": "GEOPOLITICS: Brent's 17% crash is already fading - settled $94.62 on 04/11 (from $113.43 on 30/10, lowest close since 31 Aug) then back near $100 by 06/11 on fresh tanker attacks; rupee 94.47 to 93.91, a six-month high; Delhi petrol unchanged at Rs 102.12; RBI: every $10 on Brent = ~49 bps of inflation"
  },
