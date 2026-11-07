@@ -1,6 +1,11 @@
 [
  {
   "date": "07/11/2026",
+  "series": "geopolitics",
+  "topic": "GEOPOLITICS: gold's best week since August - MCX Dec gold Rs 1,42,364/10g on 06/11 (+4.5% week) as AI-stock fear pushed money into bullion, then Friday's US payrolls (165,000 vs 65,000 expected) lifted Dec Fed hike odds to ~81% and gold fell 1.20% on the day; retail 24K Rs 1,41,452/10g, India physical buying ahead of Diwali"
+ },
+ {
+  "date": "07/11/2026",
   "series": "moneystory",
   "topic": "MONEY STORY: SIP discipline in a red year - September 2026 SIP inflow hit a record Rs 32,490 crore (up Rs 193 crore on August, +10.7% YoY, AMFI data); equity funds took Rs 38,306.55 crore, 67th straight month of inflows; SIP assets Rs 17.86 lakh crore = 21.6% of industry AUM; set against Samvat 2082 ending down 4.0% (Sensex) and 3.1% (Nifty) on 06/11/2026"
  },
@@ -243,10 +248,5 @@
   "date": "21/10/2026",
   "series": "finance101",
   "topic": "FINANCE 101: Grey Market Premium (GMP) - the unofficial premium IPO shares fetch before listing; set by dealers not NSE/BSE/SEBI, experts rate it ~70-80% accurate; Jio Platforms IPO opened 21/10/2026 with GMP ~22%"
- },
- {
-  "date": "21/10/2026",
-  "series": "finance101",
-  "topic": "CAROUSEL (Instagram): Rupee cost averaging - why SIPs love crashes; a fixed Rs 5,000 SIP buys more units in a fall (56 units at NAV 90) than in a rally (45 units at NAV 110)"
  }
 ]
