@@ -1,5 +1,10 @@
 [
  {
+  "date": "07/11/2026",
+  "series": "finance101",
+  "topic": "FINANCE 101: Samvat - the Hindu financial year (Diwali to Diwali, not Jan-Dec); Samvat 2082 ended as the weakest in 15 years with Sensex -4.0% and Nifty -3.1% (worst since 2011) yet its final week rose 8.6-8.8%, the biggest weekly gain in nearly six years; midcaps +2.1%, smallcaps +4.2%; 287 of Nifty 500 (57%) ended negative; Samvat 2083 opens at Muhurat trading Sunday 08/11/2026, 2:20-3:30 pm"
+ },
+ {
   "date": "06/11/2026",
   "series": "finance101",
   "topic": "MARKET WRAP: Sensex 81,028.02 (+2.17%), Nifty 25,030.35 (+2.01%) - seventh straight green day, Nifty above 25,000 for the first time since 27/02/2026; NSE cash flows FIIs net bought Rs 13,750 crore, DIIs net sold Rs 5,969 crore, so foreign money did the lifting while domestic funds sold into the rise; market cap up ~Rs 29.57 lakh crore since 28/10"
@@ -243,10 +248,5 @@
   "date": "20/10/2026",
   "series": "moneystory",
   "topic": "MONEY STORY: the 50-30-20 budgeting rule - split take-home pay into 50% needs, 30% wants and 20% savings; on a Rs 50,000 monthly take-home that is Rs 25,000 / Rs 15,000 / Rs 10,000 (timeless lesson; NSE/BSE closed for Dussehra on 20/10/2026)"
- },
- {
-  "date": "20/10/2026",
-  "series": "finance101",
-  "topic": "FINANCE 101: Anchor Investor - big institutions are allotted shares a day before an IPO opens; Jio Platforms' Rs 8,110 crore anchor book drew over Rs 2.5 lakh crore in bids (30x+), ahead of India's biggest-ever Rs 30,213 crore IPO opening 21/10/2026"
  }
 ]
