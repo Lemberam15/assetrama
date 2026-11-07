@@ -1,6 +1,11 @@
 [
  {
   "date": "07/11/2026",
+  "series": "event",
+  "topic": "EVENT/MARKET ALERT (6:30 PM monitor): Singapore International Commercial Court enforcement orders let the Sheriff seize and sell Tata Power's shares in Bhira Investments Pte Ltd and Tata Power International Pte Ltd; Kleros debt above USD 650 mn (about Rs 6,113 crore) - USD 490.32 mn damages plus 5.33% interest from 30/11/2020; TATAPOWER fell 3.44% to Rs 352.40 on 06/11; appeal filed 07/09/2026, submissions due 23/11/2026, hearing 19/01/2027, no stay; attachment notices served on both units 06/11/2026 and those shares are pledged to a lenders' consortium; stock in focus Monday 09/11 after Muhurat trading"
+ },
+ {
+  "date": "07/11/2026",
   "series": "geopolitics",
   "topic": "GEOPOLITICS: gold's best week since August - MCX Dec gold Rs 1,42,364/10g on 06/11 (+4.5% week) as AI-stock fear pushed money into bullion, then Friday's US payrolls (165,000 vs 65,000 expected) lifted Dec Fed hike odds to ~81% and gold fell 1.20% on the day; retail 24K Rs 1,41,452/10g, India physical buying ahead of Diwali"
  },
@@ -243,10 +248,5 @@
   "date": "21/10/2026",
   "series": "finance101",
   "topic": "PRE-MARKET: overnight global cues - US mixed (Dow +1.02% to 52,496, S&P +0.28%, Nasdaq flat at 26,425); Asia mostly up (Nikkei +1.17%, Hang Seng -0.09%, KOSPI +3.93%); GIFT Nifty flat ~23,010; Nifty closed 22,889 / Sensex 73,853, resistance 23,000, support 22,700; Brent ~$110, rupee 94.78"
- },
- {
-  "date": "21/10/2026",
-  "series": "finance101",
-  "topic": "FINANCE 101: Grey Market Premium (GMP) - the unofficial premium IPO shares fetch before listing; set by dealers not NSE/BSE/SEBI, experts rate it ~70-80% accurate; Jio Platforms IPO opened 21/10/2026 with GMP ~22%"
  }
 ]
