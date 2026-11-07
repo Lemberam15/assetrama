@@ -1,6 +1,11 @@
 [
  {
   "date": "07/11/2026",
+  "series": "moneystory",
+  "topic": "MONEY STORY: SIP discipline in a red year - September 2026 SIP inflow hit a record Rs 32,490 crore (up Rs 193 crore on August, +10.7% YoY, AMFI data); equity funds took Rs 38,306.55 crore, 67th straight month of inflows; SIP assets Rs 17.86 lakh crore = 21.6% of industry AUM; set against Samvat 2082 ending down 4.0% (Sensex) and 3.1% (Nifty) on 06/11/2026"
+ },
+ {
+  "date": "07/11/2026",
   "series": "event",
   "topic": "EVENT/MARKET ALERT (10:30 AM monitor): Trump confirmed fresh US strikes on Iran's Qeshm Island air defences on 06/11/2026, calling them 'minor'; Iran says it downed a US MQ-9 drone over Qeshm on the Strait of Hormuz route; Brent Jan settled $98.32 (+0.03%) on 06/11 after its steepest weekly fall since the Covid crash; India imports ~88% of its crude; Qatar mediating, Trump says talks show 'a lot of progress'"
  },
@@ -243,10 +248,5 @@
   "date": "21/10/2026",
   "series": "finance101",
   "topic": "CAROUSEL (Instagram): Rupee cost averaging - why SIPs love crashes; a fixed Rs 5,000 SIP buys more units in a fall (56 units at NAV 90) than in a rally (45 units at NAV 110)"
- },
- {
-  "date": "20/10/2026",
-  "series": "geopolitics",
-  "topic": "GEOPOLITICS: India-US trade deal nears completion - Trump's 16/10 waiver lifted the threat of 100% tariffs on Indian goods over Russian oil; Rubio in Mumbai (20/10) said the deal is 'very close'; India's US-bound goods exports rose 21.8% in August to $8.32 bn"
  }
 ]
