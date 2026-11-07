@@ -1,5 +1,10 @@
 [
  {
+  "date": "08/11/2026",
+  "series": "festival",
+  "topic": "FESTIVAL GREETING (2:30 AM monitor): Diwali on 08/11/2026 and the Muhurat trading session that opens Samvat 2083 - NSE and BSE trade 2:20 pm to 3:30 pm IST with pre-open from 2:05 pm; Samvat 2082 ended with Sensex -4.0% and Nifty -3.1% for the year, but the final week was the best since Feb 2021 with Sensex closing 81,028.02 (+2.17%) and Nifty 25,030.35 (+2.01%) on 06/11; markets shut Tuesday 10/11 for Diwali-Balipratipada"
+ },
+ {
   "date": "07/11/2026",
   "series": "event",
   "topic": "EVENT/MARKET ALERT (6:30 PM monitor): Singapore International Commercial Court enforcement orders let the Sheriff seize and sell Tata Power's shares in Bhira Investments Pte Ltd and Tata Power International Pte Ltd; Kleros debt above USD 650 mn (about Rs 6,113 crore) - USD 490.32 mn damages plus 5.33% interest from 30/11/2020; TATAPOWER fell 3.44% to Rs 352.40 on 06/11; appeal filed 07/09/2026, submissions due 23/11/2026, hearing 19/01/2027, no stay; attachment notices served on both units 06/11/2026 and those shares are pledged to a lenders' consortium; stock in focus Monday 09/11 after Muhurat trading"
@@ -243,10 +248,5 @@
   "date": "21/10/2026",
   "series": "moneystory",
   "topic": "MONEY STORY: the market opened +800 points (Sensex ~74,600) then gave it ALL back and slipped red by noon - Sensex -124 (-0.17%) to 73,728, Nifty -68 (-0.30%) to 22,820, breadth 3,056 falls vs 768 rises; Brent near $110 + FII selling drowned an IT-led bounce (Nifty IT +2%, LTTS +15%)"
- },
- {
-  "date": "21/10/2026",
-  "series": "finance101",
-  "topic": "PRE-MARKET: overnight global cues - US mixed (Dow +1.02% to 52,496, S&P +0.28%, Nasdaq flat at 26,425); Asia mostly up (Nikkei +1.17%, Hang Seng -0.09%, KOSPI +3.93%); GIFT Nifty flat ~23,010; Nifty closed 22,889 / Sensex 73,853, resistance 23,000, support 22,700; Brent ~$110, rupee 94.78"
  }
 ]
