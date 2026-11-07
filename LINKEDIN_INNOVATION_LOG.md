@@ -71,6 +71,7 @@ promotions, no employer mention. Trust IS the product.
 | 26/09/2026 | 1,562 | — | — | baseline (public profile count); lab starts 03/10 |
 | 27/09/2026 | Instagram automation LIVE: _assetrama (471 followers) connected via Instagram API (REELS, 60-day token). Test post published: instagram.com/reel/DdyQ8dIjuu1. ALL 12 agents Instagram-enabled (6 posting agents cross-post after every LinkedIn post; 6 monitors cross-post whenever they publish an event/festival post); videos hosted in /videos on the website with 3-day cleanup; weekly Sunday 6 AM token-refresh cron added. Instagram goal: top finance voice on IG alongside LinkedIn. |
 | 31/10/2026 | Instagram 474 (API) / LinkedIn no new report (baseline 1,562) | IG: 22 likes + 2 comments across last 30 posts; 0 likes and 0 comments on most | — | weakest number = Instagram reach/engagement; v38 shipped for it |
+| 07/11/2026 | Instagram 476 (API) / LinkedIn no new report (baseline 1,562) | IG: ~10 likes + 0 comments across last 30 posts | — | weakest number = Instagram reach/engagement; v46 shipped for it |
 
 
 ## 27/09/2026 (evening) — MISSION UPGRADE: #1 finance Instagram channel in 2 years
@@ -359,3 +360,87 @@ next action is still the FREE one — start collecting WhatsApp numbers. The
 "EDUCATIONAL QUERIES 9049547427" box is already on every slide; add one caption line
 ("Save my number for market updates") plus a pinned comment so the list is building
 long before the 10k sponsor stage. No spend, no brand contact — pure list-building.
+
+## 07/11/2026 — v46: SEND-ASK BEAT + LOOP-CLOSE TAIL (the reel ends where it started) + music v8
+
+**Growth data (pulled from the APIs this run):**
+- Instagram: **476 followers** (baseline 471 on 27/09/2026 -> **+5 in six weeks**;
+  +2 vs 474 last week). Last 30 media: **about 10 likes and ZERO comments in total**,
+  with 0 likes / 0 comments on most posts — worse than the 22 likes in last week's
+  window. 163 posts published, so the per-post engagement is effectively zero: the
+  bottleneck is REACH, not follower count.
+- LinkedIn: baseline 1,562 (26/09/2026); no new number reported in chat this week —
+  update when Ram reports it.
+- Weakest number this week: **Instagram engagement / reach**.
+
+**What changed (this week's one improvement):** the video had no ask at the end and
+ended on a fade to black. 2026 ranking guidance is explicit that watch time,
+likes-per-reach and SENDS-per-reach are the signals that decide distribution, and
+that a send — a DM — is the only one that reaches people who do NOT follow you;
+ending research is equally explicit that a fade-to-black reads as "finished, swipe",
+while a tail that returns to the opening frame reads as unfinished and buys the
+rewatch. So every post now ends on ONE ask and closes its own loop:
+- New script `scripts/send_ask_card.py` writes a branded 1080x1350 SEND-ASK card
+  (tag pill + ASSET RAMA + logo + "+ FOLLOW" header, quiet tracked kicker, large
+  white hero, short accent rule, a post-specific "to ..." line, an accent-filled
+  SEND chip and an outlined SAVE FOR LATER chip, mandatory disclaimer). The ask
+  block sits between y 454-894 — the upper two thirds, clear of the platform UI and
+  of the disclaimer — so it reads as a still and never collides with slide furniture.
+- `make_video.py` takes it as an OPTIONAL 7th argument and `reel_916_encode.py` as an
+  optional 6th: the 20 s becomes four beats — slide (0-6.0 s) | beat card / count-up /
+  chart (6.0-11.0 s) | slide (11.0-15.6 s) | SEND-ASK card (15.6 s on) — and from
+  18.8 s the frame dissolves (smoothstep) back into FRAME 0, with the last frame
+  pixel-identical to the first. No fade to black on these posts.
+- **MUSIC v8 (sound design):** ONE soft resolve bell on the mood's own tonic + its
+  fifth (1.8 s decay, ~2% gain, low-passed with the rest of the mix) is struck as the
+  card appears — the ask gets a sound, in the same warm, non-bright character Ram
+  asked for on 27/09/2026. No send card = byte-for-byte the v7 track.
+- **Backwards compatible:** render_slide.py is untouched (slides byte-identical);
+  with no send card the video is exactly the old 3-beat edit with the old 1.4 s
+  fade-out. No mandatory spec field is added — `send` is an optional object
+  (`kicker`, `hero`, `to`, `chip_a`, `chip_b`), and the SKILL now requires a
+  post-specific `to` line (a generic "send this to a friend" is the line every
+  account already runs).
+
+**Post types affected:** ALL 12 slots, on BOTH platforms — the send card is now part
+of the UNIVERSAL BASELINE (item 7), because reach is the constraint everywhere. The
+captions, the CTA table, the tone colours, the beat/count-up/chart beats and every
+immutable caption rule are unchanged.
+
+**Samples (delivered as downloads):** sampleA_3numbers_send.png + sampleA_3numbers.png
++ sampleA_3numbers.mp4 + sampleA_3numbers_reel.mp4 (finance101, bullish, clearly
+ILLUSTRATIVE: Rs 5,000/month at an assumed 12% for 15 years -> Rs 24.98 lakh) and
+sampleB_waiting_send.png + sampleB_waiting.png + sampleB_waiting.mp4 (moneystory,
+caution, clearly ILLUSTRATIVE: Rs 10,000/month at 12% for 20 years -> Rs 98.93 lakh
+vs Rs 66.13 lakh if you start 3 years late, a Rs 32.79 lakh gap). Pixel QC on the
+cards: white hero 14.4-15.3:1, kicker 5.5-5.9:1, disclaimer 4.6:1, dark-on-accent
+chip 9.2-9.9:1 (>= 3:1 large / 4.5:1 small required), no ink within 10 px of any
+edge, ask block 66% of frame height with 388 px clear of the disclaimer. Videos:
+20.00 s, 1080x1350 and 1080x1920, mean -14.1 / -14.4 dBFS, peak -2.1 / -2.7 dB,
+frame 0 not black (mean luminance 40.7), frame at 16.2 s differs from frame 0 by
+33/255 (the card is really there) and the LAST frame differs from frame 0 by only
+2.1/255 — the loop closes. The reel's four beats were confirmed frame-by-frame
+(1.0 s = slide, 8.0 s = beat card, 13.0 s = slide, 16.5 s = send card, 19.9 s =
+slide again).
+
+**New backlog ideas (added this week):**
+1. Hook A/B on the first frame: render two hook wordings and keep the one with the
+   better 3-second retention from Instagram insights — the loop now protects that
+   metric, so it is finally measurable.
+2. Reply-to-every-comment script (first 60 minutes, always with a question back) +
+   a pinned "send this to one person" comment — a second distribution event per post.
+3. Mirror the loop close on the CAROUSEL slots (last card returns to card 1):
+   carousels out-engage reels by roughly 12% in 2026 benchmarks.
+4. Devanagari twin of the send card for the reel slot ("YEH BHEJO ...") — regional
+   language finance is one of the fastest-growing niches in India.
+5. Caption-side mirror of the card ("Send this to the one person who ...") plus a
+   hook-formula scoreboard logging the first line of every post by pattern.
+
+**Monetization note (suggestion only):** at 476 IG / ~1.5k LinkedIn and flat growth,
+stop optimising for follower count this month. The ONE most valuable next action is
+to convert the audience he already has into a WhatsApp list with a FREE lead magnet:
+a one-page PDF ("12 things Indian investors get wrong about SIPs") built from posts
+he has already published, linked from the bio and the website to a Google Form that
+captures name + WhatsApp number. Sponsors and newsletter deals are bought on list
+size, not follower count — a 2,000-person list is pitchable long before 10k
+followers. No spend, no brand contact, nothing implemented without Ram's approval.
