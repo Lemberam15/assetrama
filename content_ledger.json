@@ -1,6 +1,11 @@
 [
  {
   "date": "08/11/2026",
+  "series": "event",
+  "topic": "EVENT/MARKET ALERT (10:30 AM monitor): weekend Gulf escalation - Iran's IRGC says two tankers hit sea mines near the Strait of Hormuz late Saturday and caught fire; Houthis claim six missile and drone attacks including Saudi Aramco sites, Khurais and Riyadh airport; CENTCOM disabled M/V Huda running the blockade; Brent closed $98.32 on 06/11/2026 before the strikes, down 13% on the week; Rapidan's McNally puts 80% odds on fighting resuming and $100+ oil; India imports ~88-90% of crude, first full session Monday 09/11 after Muhurat trading"
+ },
+ {
+  "date": "08/11/2026",
   "series": "finance101",
   "topic": "FINANCE 101: Muhurat trading is a ritual, not a forecast - Nifty moved under 1% in 19 of the last 20 Muhurat sessions (2006-2025) and closed higher in 15 of them, median gain just +0.30%; today's session 2:20-3:30 pm IST opens Samvat 2083; exchanges shut Tuesday 10/11 for Balipratipada"
  },
@@ -243,10 +248,5 @@
   "date": "26/10/2026",
   "series": "finance101",
   "topic": "MARKET WRAP: Sensex 73,606.75 (+0.66%), Nifty 22,753.20 (+0.68%) - first green close in 5 sessions, snapping a 4-day losing streak; FIIs net SOLD Rs 1,462.49 cr while DIIs net BOUGHT Rs 2,609.57 cr (DIIs out-bought FII selling by ~Rs 1,147 cr)"
- },
- {
-  "date": "21/10/2026",
-  "series": "geopolitics",
-  "topic": "GEOPOLITICS: Brent crude back above $110/bbl (5-month high) as US-Iran peace talks stalled and 18 tanker attacks hit in two weeks; India imports ~88% of its crude, and every $10/bbl rise adds ~$13-14 bn to the import bill and feeds inflation and the rupee"
  }
 ]
