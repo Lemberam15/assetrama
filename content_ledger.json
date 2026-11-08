@@ -1,6 +1,11 @@
 [
  {
   "date": "08/11/2026",
+  "series": "finance101",
+  "topic": "MARKET WRAP: Muhurat trading on Diwali - Sensex 80,999.40 (-28.62 pts, -0.04%), Nifty 24,986.40 (-43.95 pts, -0.18%), 7-day winning run snapped, first red Diwali close in 9 years; pharma +1.74% and smallcaps +1% while banks/IT/realty slipped; NSE FII/DII cash data for the muhurat session not yet published, so the post quoted closing numbers only and did not guess flows"
+ },
+ {
+  "date": "08/11/2026",
   "series": "geopolitics",
   "topic": "GEOPOLITICS: India's forex reserves fell to $717.06 bn in the week to 30/10/2026, down $68.65 bn from the record $785.71 bn in September, as the RBI sold dollars to hold the rupee near 95 and FCNR(B) swap dollars were deployed; rupee closed 93.91 on 06/11 (six-month high), Reuters poll sees 96.00 by end-January"
  },
@@ -243,20 +248,5 @@
   "date": "27/10/2026",
   "series": "finance101",
   "topic": "FINANCE 101: Max Pain - the strike where all open Nifty options pay out the least at expiry; Nifty closed 22,753.20 on 26/10/2026, max pain 22,750, biggest call OI 23,000, biggest put OI 22,500, PCR ~1.13, monthly expiry 27/10/2026; a positioning reference, not a forecast"
- },
- {
-  "date": "27/10/2026",
-  "series": "geopolitics",
-  "topic": "GEOPOLITICS: record Rs 3.08 lakh crore (~$32.7 bn) of FPI outflows from Indian equities in 2026, nearly double 2025's Rs 1.66 lakh crore; October alone Rs 48,056 crore sold (to 25/10/2026); the money went to AI - Korea +72%, Taiwan +63%, India -19% in USD in CY26; DIIs bought Rs 6.83 lakh crore; Nifty -13% CY26; US 10-year yield ~5%"
- },
- {
-  "date": "27/10/2026",
-  "series": "finance101",
-  "topic": "MARKET WRAP: Sensex 73,598.67 (-0.01%), Nifty 22,749.75 (-0.02%) - flat on monthly expiry day while Nifty Smallcap 100 rose 2.7% and midcaps ~1%, IT and private banks dragged; NSE FII/DII cash data for 27/10 not yet published at 8:30 PM so the post quoted closing numbers only and explicitly did not guess flows"
- },
- {
-  "date": "26/10/2026",
-  "series": "geopolitics",
-  "topic": "GEOPOLITICS: rupee slid to 95.22 on 26/10/2026 (third straight fall, 84 paise in 3 sessions) on firm dollar, costly oil and FPI outflows of Rs 48,056 crore in October so far (vs Rs 29,631 crore bought in August); US Fed decides 28/10 at 11:30 PM IST, hold at 3.75%-4.00% expected, December hike pencilled in; costlier imports for phones, edible oil and foreign travel, tailwind for dollar-earning IT/pharma"
  }
 ]
