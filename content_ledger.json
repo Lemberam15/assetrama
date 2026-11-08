@@ -1,6 +1,11 @@
 [
  {
   "date": "08/11/2026",
+  "series": "moneystory",
+  "topic": "MONEY STORY: foreign money is a tourist, not a landlord - FPIs pulled Rs 2.95 lakh crore out of Indian equities in Jan-Oct 2026, then net bought Rs 45,960 crore in the 5 sessions to 06/11/2026 (Rs 14,975 crore on 05/11, their biggest single day since Feb 2021) while DIIs sold Rs 24,197 crore that week; Nifty closed 25,030.35 on 06/11/2026"
+ },
+ {
+  "date": "08/11/2026",
   "series": "event",
   "topic": "EVENT/MARKET ALERT (10:30 AM monitor): weekend Gulf escalation - Iran's IRGC says two tankers hit sea mines near the Strait of Hormuz late Saturday and caught fire; Houthis claim six missile and drone attacks including Saudi Aramco sites, Khurais and Riyadh airport; CENTCOM disabled M/V Huda running the blockade; Brent closed $98.32 on 06/11/2026 before the strikes, down 13% on the week; Rapidan's McNally puts 80% odds on fighting resuming and $100+ oil; India imports ~88-90% of crude, first full session Monday 09/11 after Muhurat trading"
  },
@@ -243,10 +248,5 @@
   "date": "26/10/2026",
   "series": "geopolitics",
   "topic": "GEOPOLITICS: rupee slid to 95.22 on 26/10/2026 (third straight fall, 84 paise in 3 sessions) on firm dollar, costly oil and FPI outflows of Rs 48,056 crore in October so far (vs Rs 29,631 crore bought in August); US Fed decides 28/10 at 11:30 PM IST, hold at 3.75%-4.00% expected, December hike pencilled in; costlier imports for phones, edible oil and foreign travel, tailwind for dollar-earning IT/pharma"
- },
- {
-  "date": "26/10/2026",
-  "series": "finance101",
-  "topic": "MARKET WRAP: Sensex 73,606.75 (+0.66%), Nifty 22,753.20 (+0.68%) - first green close in 5 sessions, snapping a 4-day losing streak; FIIs net SOLD Rs 1,462.49 cr while DIIs net BOUGHT Rs 2,609.57 cr (DIIs out-bought FII selling by ~Rs 1,147 cr)"
  }
 ]
