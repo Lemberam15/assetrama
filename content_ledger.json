@@ -1,6 +1,11 @@
 [
  {
   "date": "08/11/2026",
+  "series": "geopolitics",
+  "topic": "GEOPOLITICS: India's forex reserves fell to $717.06 bn in the week to 30/10/2026, down $68.65 bn from the record $785.71 bn in September, as the RBI sold dollars to hold the rupee near 95 and FCNR(B) swap dollars were deployed; rupee closed 93.91 on 06/11 (six-month high), Reuters poll sees 96.00 by end-January"
+ },
+ {
+  "date": "08/11/2026",
   "series": "event",
   "topic": "EVENT/MARKET ALERT (2:30 PM monitor): Taiwan TAIEX fell 12.19% in the week to 06/11/2026, its worst since 2001, closing 39,701.64 and 20.55% below its 06/10/2026 high (bear market); Taiwan FSC caps short selling at 3% of 30-day average daily volume (from 30%) and lifts short-sale margin 90%->130% from 09/11, MOF cleared the NT$500 bn (~US$15.26 bn / Rs 1.43 lakh crore) National Stabilization Fund, its 10th intervention; Korea FSS waived the 140% margin-loan collateral rule 09/11-31/01/2027 after KOSPI fell below 5,000 with a 20-minute circuit breaker on 06/11; India's first full session after Muhurat is Monday 09/11, Nifty closed 25,030.35 (+8.58% week) on 06/11"
  },
