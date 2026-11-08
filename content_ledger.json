@@ -1,6 +1,11 @@
 [
  {
   "date": "08/11/2026",
+  "series": "finance101",
+  "topic": "FINANCE 101: Muhurat trading is a ritual, not a forecast - Nifty moved under 1% in 19 of the last 20 Muhurat sessions (2006-2025) and closed higher in 15 of them, median gain just +0.30%; today's session 2:20-3:30 pm IST opens Samvat 2083; exchanges shut Tuesday 10/11 for Balipratipada"
+ },
+ {
+  "date": "08/11/2026",
   "series": "festival",
   "topic": "FESTIVAL GREETING (2:30 AM monitor): Diwali on 08/11/2026 and the Muhurat trading session that opens Samvat 2083 - NSE and BSE trade 2:20 pm to 3:30 pm IST with pre-open from 2:05 pm; Samvat 2082 ended with Sensex -4.0% and Nifty -3.1% for the year, but the final week was the best since Feb 2021 with Sensex closing 81,028.02 (+2.17%) and Nifty 25,030.35 (+2.01%) on 06/11; markets shut Tuesday 10/11 for Diwali-Balipratipada"
  },
@@ -243,10 +248,5 @@
   "date": "21/10/2026",
   "series": "geopolitics",
   "topic": "GEOPOLITICS: Brent crude back above $110/bbl (5-month high) as US-Iran peace talks stalled and 18 tanker attacks hit in two weeks; India imports ~88% of its crude, and every $10/bbl rise adds ~$13-14 bn to the import bill and feeds inflation and the rupee"
- },
- {
-  "date": "21/10/2026",
-  "series": "moneystory",
-  "topic": "MONEY STORY: the market opened +800 points (Sensex ~74,600) then gave it ALL back and slipped red by noon - Sensex -124 (-0.17%) to 73,728, Nifty -68 (-0.30%) to 22,820, breadth 3,056 falls vs 768 rises; Brent near $110 + FII selling drowned an IT-led bounce (Nifty IT +2%, LTTS +15%)"
  }
 ]
