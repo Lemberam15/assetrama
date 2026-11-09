@@ -1,6 +1,11 @@
 [
  {
   "date": "09/11/2026",
+  "series": "event",
+  "topic": "EVENT/MARKET ALERT (2:30 PM monitor): Nvidia's board opened an independent probe into CEO Jensen Huang after he admitted an affair with Alice Huang, an ex-Megaspeed executive US officials suspect was a Chinese intelligence asset; Nvidia fell about 3.7% in overnight trading on 09/11/2026 and is ~22% below its October high; in India Nifty IT fell about 2% the same day with TCS, HCL Tech and Infosys leading the fall; slide tone bearish, music solemn; LinkedIn video urn:li:ugcPost:7525486459651571712, Instagram reel https://www.instagram.com/reel/Dfg_sFcnFFx/ + story"
+ },
+ {
+  "date": "09/11/2026",
   "series": "moneystory",
   "topic": "MONEY STORY: the index fell, the money rotated - Nifty 24,914.30 (-72.10, -0.29%) and Sensex 80,787.28 (-212.12, -0.26%) at 12:02 pm on 09/11/2026 while Nifty PSU Bank rose 2.48% and Nifty Pharma 1.51% and Nifty IT fell 1.38%; breadth 1,633 advances vs 2,181 declines, India VIX 17.30 (-6.13%); chart showed the three sector moves, beat card carried the 24,914 level"
  },
@@ -243,10 +248,5 @@
   "date": "29/10/2026",
   "series": "geopolitics",
   "topic": "GEOPOLITICS: Houthi missile strike claim on Saudi's Ras Tanura refinery (550,000 bpd); Brent settled $115.32 on 28/10 (+1%); India's crude basket averaged $120.46/bbl in October to 26/10, highest since March 2012; rupee near 95.4; Delhi petrol frozen at Rs 102.12 and diesel Rs 95.20 since 25 May while Icra puts diesel under-recovery near Rs 20/litre - who absorbs the gap"
- },
- {
-  "date": "29/10/2026",
-  "series": "finance101",
-  "topic": "MARKET WRAP: Sensex 74,151.04 (+905.01 pts, +1.24%), Nifty 22,936.75 (+237.90 pts, +1.05%) on Fed hold and cheaper crude; realty, FMCG and PSU banks led, auto and cement slipped; NSE FII/DII cash data for 29/10 could not be confirmed by a second source, so the post quoted closing numbers only and did not guess flows"
  }
 ]
