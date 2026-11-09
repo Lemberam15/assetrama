@@ -1,6 +1,11 @@
 [
  {
   "date": "09/11/2026",
+  "series": "geopolitics",
+  "topic": "GEOPOLITICS: Brent $98.28 and WTI $91.25 on 09/11/2026, down 16% from October's $117.64 high, as Trump said fresh US strikes on Iran are unlikely while talks progress; rupee firmed to 93.74 (six-month high, Friday close 93.98); Delhi petrol still Rs 102.12 and diesel Rs 95.20 - none of the crude fall has reached the pump. Instagram: story only (geopolitics slot)."
+ },
+ {
+  "date": "09/11/2026",
   "series": "event",
   "topic": "EVENT/MARKET ALERT (2:30 PM monitor): Nvidia's board opened an independent probe into CEO Jensen Huang after he admitted an affair with Alice Huang, an ex-Megaspeed executive US officials suspect was a Chinese intelligence asset; Nvidia fell about 3.7% in overnight trading on 09/11/2026 and is ~22% below its October high; in India Nifty IT fell about 2% the same day with TCS, HCL Tech and Infosys leading the fall; slide tone bearish, music solemn; LinkedIn video urn:li:ugcPost:7525486459651571712, Instagram reel https://www.instagram.com/reel/Dfg_sFcnFFx/ + story"
  },
@@ -243,10 +248,5 @@
   "date": "29/10/2026",
   "series": "festival",
   "topic": "FESTIVAL GREETING: Shubh Karwa Chauth (Karaka Chaturthi) on 29/10/2026 - a big gold/jewellery buying day; MCX gold Rs 1,43,860 per 10g, retail 24K Rs 14,395 per gram; the metal carries 3% GST and making charges another 5%"
- },
- {
-  "date": "29/10/2026",
-  "series": "geopolitics",
-  "topic": "GEOPOLITICS: Houthi missile strike claim on Saudi's Ras Tanura refinery (550,000 bpd); Brent settled $115.32 on 28/10 (+1%); India's crude basket averaged $120.46/bbl in October to 26/10, highest since March 2012; rupee near 95.4; Delhi petrol frozen at Rs 102.12 and diesel Rs 95.20 since 25 May while Icra puts diesel under-recovery near Rs 20/litre - who absorbs the gap"
  }
 ]
