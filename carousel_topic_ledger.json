@@ -10,6 +10,13 @@
  },
  "posted": [
   {
+   "topic": "Expense ratio - the silent tax on your fund",
+   "category": "mutual funds",
+   "date": "09/11/2026",
+   "locked_until": "10/05/2027",
+   "note": "Monday finance101 carousel slot"
+  },
+  {
    "topic": "SIP vs Lumpsum - which one when",
    "category": "SIP",
    "date": "06/11/2026",
@@ -170,7 +177,9 @@
   {
    "topic": "Expense ratio - the silent tax on your fund",
    "category": "mutual funds",
-   "used": false
+   "used": true,
+   "posted": "09/11/2026",
+   "locked_until": "10/05/2027"
   },
   {
    "topic": "Exit load - the fine print that bites",
