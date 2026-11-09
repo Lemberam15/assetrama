@@ -1,31 +1,31 @@
 # TRENDS — daily radar notes for all Asset Rama posting agents
 Updated every morning ~6:45 AM IST by the Daily Innovation Radar. Posting agents: read today's section before writing content; use a trend only where it fits the mandatory caption/design rules. Never repeat a topic from the last 48 hours (check content_ledger.json).
 
+## Monday 09/11/2026
+- Format (fresh, measured 08/11 across 454 breakout money posts): "empty list fills in as you talk" 19x, "portfolio/balance proof screenshot before the picks" 14x, "shelf price tag then checkout total" 6x; best single post again a day-counter skit at 60x. New this week and untapped: "say exactly this on the scary call" 45x and "5-second clip too dense to read once" 24x. Slow-paced reels (only 7% of them) travelled 48x vs 13x for medium pace — one deliberate slow reel is worth a test.
+- LinkedIn (116k posts, re-measured Oct 2026): personal story +33%, first line starting "I/my/we" +19%, question opener -17%, 3+ hashtags -8%, link in post -13%, and "comment KEYWORD" has flipped from +13% to -24% — retire that CTA. Carousels only pay past 10 pages; polls -50%. Keep yesterday's rule: one image + long caption, no hashtags.
+- Tape: first full session of Samvat 2083 and NIFTY WEEKLY EXPIRY today, after a red Muhurat (Sensex 80,999.40, Nifty 24,986.40) snapped a 7-day run. Exchanges shut Tuesday 10/11; reopen Wednesday. Expect thin, choppy volume into the holiday.
+- Today's angles: (1) THE FEAR GAUGE IS CLIMBING WHILE THE INDEX IS AT A NINE-MONTH HIGH — India VIX 18.43, +5.53% on Sunday, highest close since 20 May. (2) ROTATION, NOT REVERSAL — BSE breadth was 3,253 gainers to 947 losers while both indices fell; smallcap +1.33%, midcap +0.4%, pharma +1.7% (Divi's PAT +63.6%). (3) THE WEEK HAS TWO DATES THAT MATTER — US CPI Tuesday, India October CPI Thursday (September 5.54%, food 7.74%; a 6% print touches the RBI's upper band), plus RBI's Rs 50,000 crore 4-day VRR today.
+- Series: Finance Term -> "INDIA VIX" (what the fear gauge is, and why 18.43 with Nifty near 25,000 is not a contradiction). Pre-Market -> expiry day, 25,200 hurdle / 24,800 support, thin tape before Tuesday's holiday, and the two CPI dates. Money Story -> 3,253 up vs 947 down while the index fell: the market rotated, it did not reverse. Wrap -> today's expiry print and what Wednesday has to prove after two days of US data. Geopolitics -> Israel's Eisenkot picked to form a government with six weeks on the clock, and crude settling near $90-98 as the single biggest input for India. FII/DII -> do not re-run the FPI U-turn (used 08/11); wait for today's cash data and lead on whether the buying survived a red session. Do NOT use until 10/11: muhurat explainer, FPI U-turn, forex reserves, Taiwan/Korea selloff.
+- Ledger: 07/11 topics clear today (Tata Power/Kleros, gold week, SIP record, Samvat). Tata Power reports Wednesday 11/11 — good follow-up once the 48h window clears. All 08/11 topics stay blocked until 10/11.
+
 ## Sunday 08/11/2026
-- Format (fresh, measured 07/11 across 458 breakout posts): PROOF FIRST. "Shelf price tag then the checkout total on camera" 6x and "portfolio/balance screenshot before the picks" 14x both work; biggest winner is NAMING THE EXACT GROUP in the hook ("every first-gen saver", "every 30-year-old with an SIP") at 93x — worth one reel this week. Best single money post was a day-counter skit ("Day 1 looking rich / becoming rich / net worth Rs 0") at 60x; silent text hooks still beat spoken.
-- LinkedIn (43,496 posts, measured 21/10): no hashtags 21 comments vs 7 with; over 1,200 characters 21 vs 9 under 300; personal first line 23. Single image 81 reactions vs carousel 45 — so use ONE image + long caption, no hashtags, personal opener.
-- Tape: Diwali + Muhurat trading today. Block deal 1:50-2:05 pm, pre-open 2:05, session 2:20-3:30, closing auction to ~4:00. Nifty green in 15 of last 20 Muhurats and 19 of those 20 moved under 1% either way. Exchanges shut Tuesday 10/11 (Balipratipada), reopen Wednesday.
-- Today's angles: (1) MUHURAT IS A SYMBOL, NOT A SIGNAL — 19 of 20 sessions inside +/-1%, so the real test is Wednesday, when India absorbs two days of US tech and oil at once. (2) THE FII U-TURN — FIIs net bought Rs 45,970 crore in November so far, including their biggest single-day buy in nearly six years ($1.1 bn on 06/11), against Rs 3.17 lakh crore sold in the last 12 months. (3) Rs 28 LAKH CRORE IN SEVEN SESSIONS — BSE market cap Rs 475.34 to ~503 lakh crore; Shriram Finance +17%, HDFC Bank +14%, RIL +13% for the week. (4) CHEAPER THAN IT FEELS — Nifty 17.5x forward, 16% below its long-term average, with Q2 PAT up 34% YoY and an 18% beat.
-- Series: Finance Term -> "MUHURAT TRADING" (why a one-hour session exists, and why 19 of 20 of them moved less than 1%). Pre-Market (Sun) -> timings, Nifty 24,500 support / 25,200-25,600 upside, and "watch Wednesday, not the muhurat". Money Story -> Rs 28 lakh crore added in 7 sessions vs Rs 3.17 lakh crore sold in 12 months. Wrap -> today's Muhurat print and what Wednesday has to prove. Geopolitics -> Brent fell ~16% in the week to ~$98, India's basket $94.52 vs October's $119.91 average, comfort zone under $80. FII/DII -> lead on November's Rs 45,970 crore in, and note DIIs turned sellers into that bid. Do NOT use: Samvat explainer (used 07/11), gold, AI-capex, Nasdaq.
-- Data correction for anyone reusing yesterday's note: Samvat 2082 ended Sensex -4.0% / Nifty -3.1% (not -8.4% / -7.4%).
-- Ledger: 06/11 topics clear today. All 07/11 topics (Tata Power/Kleros, gold week, SIP record, Samvat) blocked until 09/11. Free now: Muhurat explainer, FII U-turn, Rs 28 lakh crore week, IPO pipeline (Coca-Cola bottler HCCH filed DRHP).
+- Muhurat day: proof-first formats (93x for naming the exact group in the hook); Nifty 17.5x forward, Rs 28 lakh crore added in 7 sessions, FIIs +Rs 45,970 cr in November.
 
 ## Saturday 07/11/2026
-- Format: empty-list-fills-in 23x, portfolio-proof 14x, budget-line-by-line 11x; skits travel furthest (40x vs 8x talking heads). Aspirational hooks 31x, relatable 20x, bold claims 11x. Trending audio is Christmas-season — off-brand, skip.
-- Tape: Samvat 2082 closed Sensex 81,028.02 (+2.17%), Nifty 25,030.35 (+2.01%), week +8.8%, best since Feb 2021.
-- Angles used: worst-year-best-week, small beat large, cheaper-not-cheap.
+- Empty-list-fills-in 23x, skits 40x vs talking heads 8x, aspirational hooks 31x; Samvat 2082 closed Sensex +2.17%, week +8.8%.
 
 ## Friday 06/11/2026
-- Sensex 81,028.02, Nifty 25,030.35; FIIs bought Rs 14,975 cr cash but stayed net short index futures; Dhanteras gold Rs 1,46,420/10g.
+- Sensex 81,028.02, Nifty 25,030.35; FIIs bought Rs 14,975 cr cash but stayed net short futures; Dhanteras gold Rs 1,46,420/10g.
 
 ## Thursday 05/11/2026
-- Empty-list-fills-in 23x; LinkedIn post TYPE beats length/hashtags (behind-the-scenes 1.20x, external links -7%).
+- LinkedIn post TYPE beats length and hashtags (behind-the-scenes 1.20x, external links -7%).
 
 ## Wednesday 04/11/2026
 - Watch-through decides reach (87% vs 66%); best reels: one named rupee amount, a private question, 12-19s.
 
 ## Tuesday 03/11/2026
-- Silent text hooks 39x vs spoken 11x; keep hooks 5-8 words; "My Reaction To ___" audio.
+- Silent text hooks 39x vs spoken 11x; keep hooks 5-8 words.
 
 ## Monday 02/11/2026
 - Slideshows travelled 30x followers vs 8x talking heads; Oct GST Rs 2.31 lakh cr, UPI 25.47 bn.
@@ -50,6 +50,3 @@ Updated every morning ~6:45 AM IST by the Daily Innovation Radar. Posting agents
 
 ## Monday 26/10/2026
 - 5-8 word hooks ~15x followers; text-on-screen ~26x.
-
-## Sunday 25/10/2026
-- Relatable (20x) and question (18x) openers beat bold claims (11x).
