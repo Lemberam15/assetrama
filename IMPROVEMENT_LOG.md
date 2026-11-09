@@ -17,6 +17,7 @@
 - [01/11] index.html: the JSON-LD carries only the site/org/person graph, with no ItemList for the eight calculators it promotes. Generate it at build time.
 - [05/10 + 21/10] index: surface the growth chart and year-by-year table in the homepage SIP embed; the hero illustration is a hand-baked SVG with fixed figures — generate both from the shared SIP maths.
 - [27/10] articles: sibling lessons are linked as `../articles/x.html` from inside `articles/` — correct but redundant. Normalise to `x.html` across the library.
+- [09/11/2026] articles: add a duplicate-`id` check to `scripts/site_qc.py`. `articles/what-is-a-mutual-fund.html` carried `id="menu"` twice — the global nav and a section heading — so that lesson's own "In this lesson" TOC link `#menu` scrolled to the nav instead of the section (fixed by hand this run). One uniqueness assert per page covers all 38 lessons in a single pass and would have caught it at build time.
 
 ## News page — open guards (hourly cycle)
 
@@ -36,6 +37,8 @@
 
 - [08/11/2026] news: add a small "last updated HH:MM IST" line under the snapshot table. The header sentence carries the session and date but no clock time, so a reader cannot tell whether the numbers are a morning print or the close; one timestamp line would also give the hourly job an obvious place to stamp freshness.
 - [08/11/2026] calculators (sip + cagr): neither page's WebApplication JSON-LD carries a `dateModified`, so search engines have no freshness signal on the two most-linked tools. Add `dateModified` to both blocks (and keep it in step with any content edit). The 03/11 contextual-link item is now closed: sip-calculator links articles/lumpsum-vs-sip.html and cagr-calculator links articles/xirr-vs-cagr.html as of commit 8b0ad6d.
+- [09/11/2026] news: the commodity-benchmark drift recurred at 12:00 IST — the gold row moved from IBJA's Mumbai retail print (last printed 6 Nov, ₹1,41,452) to the MCX December contract (₹1,44,223, +1.17%) mid-series, because the Diwali Monday had no fresh IBJA print at midday. Silver moved with it (MCX December). Still the same open decision for Ram: one named, timestamped instrument per row, printed in the row label.
+
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 
 - [09/11/2026] send_ask_card.py v47: the figures inside the send card's "to" line now render in the series/tone accent instead of flat grey, so the post's own number reads first on the card every slot ends on (it was the last brand surface drawing a number in grey - the slide, chart panel, beat card and banner all colour theirs); colour-only, same font/size/baseline/wrap, a "to" line with no digit is byte-identical and a digit line's pixel diff is confined to the digits (accent clears 7:1 on all 8 themes vs the 3:1 large-text floor); verified on 3 specs (moneystory / finance101 / bearish event: no-digit card byte-identical, digit cards changed 985 and 1,269 px, all accent, none grey) plus a 4 s MP4 with the send card (4.00 s, 1080x1350, max -15.9 dB, no clipping) — why: number emphasis is the one lever the send beat was missing.
