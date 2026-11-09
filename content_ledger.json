@@ -1,6 +1,11 @@
 [
  {
   "date": "09/11/2026",
+  "series": "moneystory",
+  "topic": "MONEY STORY: the index fell, the money rotated - Nifty 24,914.30 (-72.10, -0.29%) and Sensex 80,787.28 (-212.12, -0.26%) at 12:02 pm on 09/11/2026 while Nifty PSU Bank rose 2.48% and Nifty Pharma 1.51% and Nifty IT fell 1.38%; breadth 1,633 advances vs 2,181 declines, India VIX 17.30 (-6.13%); chart showed the three sector moves, beat card carried the 24,914 level"
+ },
+ {
+  "date": "09/11/2026",
   "series": "finance101",
   "topic": "PRE-MARKET: 25,200 is the only test today - Nifty closed 24,986.40 (-43.95, -0.18%) in the Muhurat session and the weekly expiry moved to Monday because exchanges are shut 10/11 for Diwali-Balipratipada; GIFT Nifty 25,042 (+0.2%), Nikkei up 3%+ on a chip rebound, support 24,800, thin tape expected; US CPI Tuesday 10/11, India CPI Thursday 12/11 (September 5.54%)"
  },
@@ -243,10 +248,5 @@
   "date": "29/10/2026",
   "series": "finance101",
   "topic": "MARKET WRAP: Sensex 74,151.04 (+905.01 pts, +1.24%), Nifty 22,936.75 (+237.90 pts, +1.05%) on Fed hold and cheaper crude; realty, FMCG and PSU banks led, auto and cement slipped; NSE FII/DII cash data for 29/10 could not be confirmed by a second source, so the post quoted closing numbers only and did not guess flows"
- },
- {
-  "date": "28/10/2026",
-  "series": "finance101",
-  "topic": "FINANCE 101: Fresh issue vs Offer for Sale - a fresh issue is brand-new shares, so the company gets the cash; an OFS is promoters selling shares they already own, so the sellers get it. Jio Platforms' Rs 30,213 crore IPO (listing 28/10/2026) was 100% fresh - 27 crore new shares, no OFS - with up to Rs 27,500 crore of net proceeds to repay/prepay borrowings at Reliance Jio Infocomm"
  }
 ]
