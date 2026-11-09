@@ -1,6 +1,11 @@
 [
  {
   "date": "09/11/2026",
+  "series": "finance101",
+  "topic": "MARKET WRAP: Sensex 81,106.65 (+107.25, +0.13%) and Nifty 25,044.65 (+58.25, +0.23%), a nine-month high, on 09/11/2026; FIIs net bought Rs 7,212.22 crore of cash equities while DIIs net sold Rs 7,172.53 crore (NSE provisional, via CNBC TV18/ET) - foreign money did the buying as domestic funds booked profits; exchanges shut 10/11 for Diwali-Balipratipada"
+ },
+ {
+  "date": "09/11/2026",
   "series": "geopolitics",
   "topic": "GEOPOLITICS: Brent $98.28 and WTI $91.25 on 09/11/2026, down 16% from October's $117.64 high, as Trump said fresh US strikes on Iran are unlikely while talks progress; rupee firmed to 93.74 (six-month high, Friday close 93.98); Delhi petrol still Rs 102.12 and diesel Rs 95.20 - none of the crude fall has reached the pump. Instagram: story only (geopolitics slot)."
  },
@@ -137,7 +142,7 @@
  {
   "date": "05/11/2026",
   "series": "event",
-  "topic": "EVENT/MARKET ALERT (10:30 AM monitor): US midterm sweep - Democrats won both chambers of Congress; Sensex hit 78,922.44 (+1,621.04 pts, +2.10%) and Nifty topped 24,391.95 (+431.35, +1.80%) on 05/11/2026, sixth straight winning session; Brent fell to $93.5/bbl, lowest since 30/08, after an 8.7% slide; rupee firmed to 94.36; India m-cap crossed Rs 500 lakh crore; FIIs bought Rs 7,284 crore on 04/11, fourth straight session"
+  "topic": "EVENT/MARKET ALERT (10:30 AM monitor): US midterm sweap - Democrats won both chambers of Congress; Sensex hit 78,922.44 (+1,621.04 pts, +2.10%) and Nifty topped 24,391.95 (+431.35, +1.80%) on 05/11/2026, sixth straight winning session; Brent fell to $93.5/bbl, lowest since 30/08, after an 8.7% slide; rupee firmed to 94.36; India m-cap crossed Rs 500 lakh crore; FIIs bought Rs 7,284 crore on 04/11, fourth straight session"
  },
  {
   "date": "03/11/2026",
@@ -243,10 +248,5 @@
   "date": "29/10/2026",
   "series": "finance101",
   "topic": "FINANCE 101: Rollover - closing this month's futures contract and reopening the same trade in next month's; Nifty rolled 72.65% of its futures into the November series, below its 74.78% three-month average, roll cost 0.29%; market-wide rollover 91.09%; BSE monthly expiry (Sensex, Bankex) on 29/10/2026"
- },
- {
-  "date": "29/10/2026",
-  "series": "festival",
-  "topic": "FESTIVAL GREETING: Shubh Karwa Chauth (Karaka Chaturthi) on 29/10/2026 - a big gold/jewellery buying day; MCX gold Rs 1,43,860 per 10g, retail 24K Rs 14,395 per gram; the metal carries 3% GST and making charges another 5%"
  }
 ]
