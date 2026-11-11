@@ -1,6 +1,11 @@
 [
  {
   "date": "11/11/2026",
+  "series": "event",
+  "topic": "MONITOR ABORT (2:30 PM): duplicate suppressed - the US October CPI / December Fed hike story was ALREADY posted today by the 2:30 AM event monitor (entry sits at the END of this file: headline CPI 0.4% m/m vs 0.3% expected, core 0.3% vs 0.2%, US 2-year yield +19 bp to 4.74%) and by the 7:30 AM finance101 core-inflation post, so it is inside the 72-hour no-repeat window. The 2:30 PM run built and briefly published an India-angle version (India 10-yr 7.2005%, RBI hike risk) before catching the repeat, then deleted it (ugcPost 7526211117191421952) and skipped Instagram. LESSON: content_ledger.json is NOT in strict date order - the 2:30 AM entry is at the end of the file, so every scan must read ALL entries, not just the first few."
+ },
+ {
+  "date": "11/11/2026",
   "series": "moneystory",
   "topic": "MONEY STORY: Rs 38 lakh crore added to BSE market cap in 8 sessions to ~Rs 512 lakh crore; Nifty +10% in 8 sessions, Sensex 82,390 (+1,285, +1.59%) and Nifty 25,385 (+340, +1.36%) at ~12:00 IST on 11/11/2026; FIIs bought Rs 53,170 crore this month, Nifty Q2 earnings +24% (12-quarter high); angle = repricing, not new cash. IG story skipped: GitHub write blocked this run."
  },
