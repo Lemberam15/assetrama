@@ -2,11 +2,6 @@
   {
     "date": "09/11/2026",
     "series": "finance101",
-    "topic": "PRE-MARKET: 25,200 is the only test today - Nifty closed 24,986.40 (-43.95, -0.18%) in the Muhurat session and the weekly expiry moved to Monday because exchanges are shut 10/11 for Diwali-Balipratipada; GIFT Nifty 25,042 (+0.2%), Nikkei up 3%+ on a chip rebound, support 24,800, thin tape expected; US CPI Tuesday 10/11, India CPI Thursday 12/11 (September 5.54%)"
-  },
-  {
-    "date": "09/11/2026",
-    "series": "finance101",
     "topic": "FINANCE 101: India VIX (fear gauge) - closed 18.43 on 08/11/2026 (+5.53%, prev 17.465, NSE) even as Nifty ended 24,986.40 (-43.95, -0.18%) after an 8.58% week to 25,030.35; VIX = 30-day implied volatility of Nifty options, 18.43 prices roughly a 5% monthly swing; slide said VIX = 30-day implied vol, ~5% monthly move priced. Instagram: carousel 'Expense ratio - the silent tax on your fund' (BER caps 2.10% first 500 cr to 0.95% above 50,000 cr, effective 01/04/2026) + story."
   },
   {
@@ -248,5 +243,10 @@
     "date": "12/11/2026",
     "series": "moneystory",
     "topic": "MONEY STORY: Nvidia board prepared to oust CEO Jensen Huang - shares fell 8% after hours on 11/11, about $600 bn of market value gone since Sunday's probe, board met Wednesday with CFO Colette Kress floated as interim CEO; Q3 results due 17/11; Dan Ives values Nvidia at $300 a share with Huang vs $225 without"
+  },
+  {
+    "date": "12/11/2026",
+    "series": "geopolitics",
+    "topic": "GEOPOLITICS: about 85% of exchange-held copper sits in US warehouses (report of 09/11/2026) as tariff fear pulls metal into America; India meets only half its refined copper demand at home and the FY26 copper import bill crossed Rs 1.3 lakh crore; cable and wire prices up about 20% in a year (Jefferies, 12/10/2026); MCX copper Rs 1,330/kg on 12/11/2026, LME 3M $13,805/t"
   }
 ]
