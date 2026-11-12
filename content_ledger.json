@@ -1,16 +1,6 @@
 [
  {
   "date": "11/11/2026",
-  "series": "finance101",
-  "topic": "MARKET WRAP: Sensex 81,879.40 (+772.75 pts, +0.95%), Nifty 25,255.05 (+210.40 pts, +0.84%) - FII net bought Rs 12,563 cr (NSE provisional, 11-Nov-2026) while DII net sold Rs 8,435 cr; index rose on foreign buying as domestic funds booked profits"
- },
- {
-  "date": "11/11/2026",
-  "series": "geopolitics",
-  "topic": "GEOPOLITICS: rupee closed 93.70/USD on 11/11/2026, strongest close since April, as Brent fell from about $118 (30/10) to about $90 (10/11), a 24% drop, and FPIs bought Rs 53,172 crore of Indian shares in 1-9 November after Rs 4.48 lakh crore of Jan-Oct outflows; angle = a cheaper dollar cuts what Indians pay for gold, phones and foreign trips. Slide tone bullish, beat card Rs 93.70, music uplifting. Instagram: story only (geopolitics cadence). HQ mp4 retention skipped: base64 exceeds the GitHub API 4.7MB payload limit."
- },
- {
-  "date": "11/11/2026",
   "series": "event",
   "topic": "MONITOR ABORT (2:30 PM): duplicate suppressed - the US October CPI / December Fed hike story was ALREADY posted today by the 2:30 AM event monitor (entry sits at the END of this file: headline CPI 0.4% m/m vs 0.3% expected, core 0.3% vs 0.2%, US 2-year yield +19 bp to 4.74%) and by the 7:30 AM finance101 core-inflation post, so it is inside the 72-hour no-repeat window. The 2:30 PM run built and briefly published an India-angle version (India 10-yr 7.2005%, RBI hike risk) before catching the repeat, then deleted it (ugcPost 7526211117191421952) and skipped Instagram. LESSON: content_ledger.json is NOT in strict date order - the 2:30 AM entry is at the end of the file, so every scan must read ALL entries, not just the first few."
  },
@@ -253,5 +243,10 @@
   "date": "10/11/2026",
   "series": "geopolitics",
   "topic": "GEOPOLITICS: the rupee is half your gold price - global gold fell 21.4% in dollars from 30/01 to 30/10/2026 but only 14.9% in rupees (Axis MF report, Nov 2026), because the rupee slid from about 89 to 96 a dollar and gold import duty rose from 6% to 15% in 2026; MCX Dec gold closed Rs 1,43,106 per 10g on 09/11/2026, 21% below the Rs 1,80,779 January peak; MCX shut for Diwali-Balipratipada morning session, rupee closed 93.9275"
+ },
+ {
+  "date": "12/11/2026",
+  "series": "finance101",
+  "topic": "FINANCE 101: EMI reset - India's October CPI is due today 12/11/2026 at 4 PM with consensus at 6.0% (Mint/Informist polls, range 5.9-6.2%), which would be the first breach of RBI's 6% limit since October 2024 against 5.54% in September; repo is 5.50% after the 07/10/2026 hike with a December hike to 5.75% widely expected; on a Rs 50 lakh 20-year loan at 8.50%, another 25 bps takes the EMI from Rs 43,391 to Rs 44,186 (Rs 794 more a month, about Rs 1.9 lakh over the term)"
  }
 ]
