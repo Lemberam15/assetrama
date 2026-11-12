@@ -1,10 +1,5 @@
 [
   {
-    "date": "11/11/2026",
-    "series": "moneystory",
-    "topic": "MONEY STORY: Rs 38 lakh crore added to BSE market cap in 8 sessions to ~Rs 512 lakh crore; Nifty +10% in 8 sessions, Sensex 82,390 (+1,285, +1.59%) and Nifty 25,385 (+340, +1.36%) at ~12:00 IST on 11/11/2026; FIIs bought Rs 53,170 crore this month, Nifty Q2 earnings +24% (12-quarter high); angle = repricing, not new cash. IG story skipped: GitHub write blocked this run."
-  },
-  {
     "date": "09/11/2026",
     "series": "finance101",
     "topic": "PRE-MARKET: 25,200 is the only test today - Nifty closed 24,986.40 (-43.95, -0.18%) in the Muhurat session and the weekly expiry moved to Monday because exchanges are shut 10/11 for Diwali-Balipratipada; GIFT Nifty 25,042 (+0.2%), Nikkei up 3%+ on a chip rebound, support 24,800, thin tape expected; US CPI Tuesday 10/11, India CPI Thursday 12/11 (September 5.54%)"
@@ -248,5 +243,10 @@
     "date": "12/11/2026",
     "series": "finance101",
     "topic": "PRE-MARKET: Wall Street rallied on 11/11 (Dow +254.60 to 52,486.49, S&P 500 +1.31% to 7,619.38, Nasdaq +1.60% to 25,466.19) but Nvidia fell ~8% after hours on reports its board could consider removing CEO Jensen Huang; Nifty closed 25,255.05 (+210.40, +0.84%) and Sensex 81,879.40 (+772.75, +0.95%), both highest since 26/02/2026; support 25,095 (11/11 low) and resistance 25,424 (11/11 high), heaviest call OI 25,500, RSI 79.5; GIFT Nifty ~25,240 flat; Brent ~$92, rupee 93.69; India October CPI due 4 PM today with consensus near 6%"
+  },
+  {
+    "date": "12/11/2026",
+    "series": "moneystory",
+    "topic": "MONEY STORY: Nvidia board prepared to oust CEO Jensen Huang - shares fell 8% after hours on 11/11, about $600 bn of market value gone since Sunday's probe, board met Wednesday with CFO Colette Kress floated as interim CEO; Q3 results due 17/11; Dan Ives values Nvidia at $300 a share with Huang vs $225 without"
   }
 ]
