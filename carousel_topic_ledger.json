@@ -10,6 +10,13 @@
  },
  "posted": [
   {
+   "topic": "Step-up SIP - the 10% annual raise trick",
+   "category": "SIP",
+   "date": "13/11/2026",
+   "locked_until": "13/05/2027",
+   "note": "Friday finance101 carousel slot"
+  },
+  {
    "topic": "Expense ratio - the silent tax on your fund",
    "category": "mutual funds",
    "date": "09/11/2026",
@@ -140,7 +147,9 @@
   {
    "topic": "Step-up SIP - the 10% annual raise trick",
    "category": "SIP",
-   "used": false
+   "used": true,
+   "posted": "13/11/2026",
+   "locked_until": "13/05/2027"
   },
   {
    "topic": "Rupee cost averaging - why SIPs love crashes",
