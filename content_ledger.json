@@ -1,11 +1,6 @@
 [
  {
   "date": "12/11/2026",
-  "series": "finance101",
-  "topic": "MARKET WRAP: Sensex 81,911.01 (+0.04%), Nifty 25,299.35 (+0.18%), third straight green close - FII net bought Rs 7,831 cr vs DII net sold Rs 6,331 cr; FII buying outran DII selling"
- },
- {
-  "date": "12/11/2026",
   "series": "event",
   "topic": "EVENT/MARKET ALERT (6:30 PM monitor): India's October CPI inflation printed 6.09% on 12/11/2026 (MoSPI, ~4 pm, after the 3:30 pm close), up from 5.54% in September and the first breach of the RBI's 6% upper tolerance band in two years; food inflation (CFPI) 8.94% vs 7.74%, onion +116.22%, rural 6.63%, urban 5.41%, prices rose in 11 of 12 divisions; repo 5.50% after the 07/10/2026 hike and economists expect another 25 bps at the 2-4 December MPC (decision 04/12/2026); LinkedIn video post urn:li:ugcPost:7526638025704124416 (an earlier copy with the website link misspelled as lememberam15 was deleted and republished) + Instagram reel https://www.instagram.com/reel/DfpLJXcjHA_/ and story"
  },
@@ -248,5 +243,10 @@
   "date": "12/11/2026",
   "series": "finance101",
   "topic": "PRE-MARKET: Wall Street rallied on 11/11 (Dow +254.60 to 52,486.49, S&P 500 +1.31% to 7,619.38, Nasdaq +1.60% to 25,466.19) but Nvidia fell ~8% after hours on reports its board could consider removing CEO Jensen Huang; Nifty closed 25,255.05 (+210.40, +0.84%) and Sensex 81,879.40 (+772.75, +0.95%), both highest since 26/02/2026; support 25,095 (11/11 low) and resistance 25,424 (11/11 high), heaviest call OI 25,500, RSI 79.5; GIFT Nifty ~25,240 flat; Brent ~$92, rupee 93.69; India October CPI due 4 PM today with consensus near 6%"
+ },
+ {
+  "date": "13/11/2026",
+  "series": "festival",
+  "topic": "FESTIVAL GREETING (6:30 AM monitor): Chhath Puja 2026 begins 13/11/2026 with Nahay Khay - Sandhya Arghya 15/11 and Usha Arghya 16/11 in Bihar, Jharkhand and east UP; CAIT estimate put Chhath trade above Rs 50,000 crore in 2025 (about Rs 15,000 crore in Bihar) and October GST was Rs 2.31 lakh crore, up 22.9% YoY on festive demand"
  }
 ]
