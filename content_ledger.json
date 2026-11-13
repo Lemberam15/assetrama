@@ -1,10 +1,5 @@
 [
  {
-  "date": "09/11/2026",
-  "series": "finance101",
-  "topic": "FINANCE 101: India VIX (fear gauge) - closed 18.43 on 08/11/2026 (+5.53%, prev 17.465, NSE) even as Nifty ended 24,986.40 (-43.95, -0.18%) after an 8.58% week to 25,030.35; VIX = 30-day implied volatility of Nifty options, 18.43 prices roughly a 5% monthly swing; slide said VIX = 30-day implied vol, ~5% monthly move priced. Instagram: carousel 'Expense ratio - the silent tax on your fund' (BER caps 2.10% first 500 cr to 0.95% above 50,000 cr, effective 01/04/2026) + story."
- },
- {
   "date": "08/11/2026",
   "series": "finance101",
   "topic": "MARKET WRAP: Muhurat trading on Diwali - Sensex 80,999.40 (-28.62 pts, -0.04%), Nifty 24,986.40 (-43.95 pts, -0.18%), 7-day winning run snapped, first red Diwali close in 9 years; pharma +1.74% and smallcaps +1% while banks/IT/realty slipped; NSE FII/DII cash data for the muhurat session not yet published, so the post quoted closing numbers only and did not guess flows"
@@ -248,5 +243,10 @@
   "date": "13/11/2026",
   "series": "geopolitics",
   "topic": "GEOPOLITICS: Brent fell early on 12/11 after Trump said the US needs no Iran deal, then jumped $3.06 to settle at $95.82 on Houthi claims against Saudi's East-West pipeline and Yanbu; ICRA's rule of thumb - each $10/bbl adds $14-16 bn to India's import bill, 30-40 bps to the current account and 40-60 bps to CPI; rupee closed at 94.20 on 13/11"
+ },
+ {
+  "date": "13/11/2026",
+  "series": "finance101",
+  "topic": "MARKET WRAP: Sensex closed 318.56 points (-0.39%) lower at 81,592.45 and Nifty fell 155.05 points (-0.61%) to 25,144.30 on 13/11/2026, snapping a three-day rally on 6.09% October CPI and rate-hike worries; FIIs net bought Rs 5,736.55 crore in the cash market while DIIs net sold Rs 2,253.58 crore (NSE+BSE provisional), so foreign buying continued into a red tape"
  }
 ]
