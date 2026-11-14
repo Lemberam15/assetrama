@@ -444,3 +444,92 @@ he has already published, linked from the bio and the website to a Google Form t
 captures name + WhatsApp number. Sponsors and newsletter deals are bought on list
 size, not follower count — a 2,000-person list is pitchable long before 10k
 followers. No spend, no brand contact, nothing implemented without Ram's approval.
+
+---
+
+## 14/11/2026 — v54: COLD-OPEN HOOK BEAT + DESIGNED REEL COVER (frame 0 becomes a hook) + music v10
+
+**Growth data pulled first (as the mission requires):**
+- Instagram: **477 followers** (baseline 471 on 27/09/2026 -> **+6 in seven weeks**;
+  +1 vs 476 last week). Last 30 media: **12 likes and ZERO comments**, and 180
+  media objects published in total. Per-post engagement is effectively zero, so
+  the bottleneck is REACH and the first-seconds hold, not follower count.
+- LinkedIn: baseline 1,562 (26/09/2026); no new number reported in chat this week
+  — update when Ram reports it.
+- Weakest number this week: **Instagram reach / 3-second hold**.
+
+**What changed (this week's one improvement):** every post now OPENS on a
+purpose-built HOOK frame instead of the full information slide.
+- New script `scripts/hook_card.py` renders a 1080x1350 hook card, a 1080x1920
+  hook card AND a 9:16 JPEG cover in one call: series tag pill, logo mark +
+  ASSET RAMA + "+ FOLLOW" chip, then ONE 3-7 word hook at 112-136 px with a
+  single accent phrase, a short accent rule, one quiet sub-line, and the
+  mandatory disclaimer. 9:16 keeps Meta's safe zones (top 14% / bottom 35%
+  clear of key text).
+- `make_video.py` takes it as an OPTIONAL 8th argument and `reel_916_encode.py`
+  as an optional 7th: frame 0 = hook at full opacity (no fade-in), held 1.4 s,
+  then a HARD cut into the slide. The video simply becomes 21.4 s; every
+  existing beat boundary keeps its meaning because the content timeline starts
+  1.4 s later, and the loop-close tail now dissolves back into the HOOK, so the
+  loop is still pixel-perfect.
+- `ig_publish.py` gains an optional COVER_URL (6th argument): Meta fetches it and
+  uses it as the Reels-tab cover instead of the first video frame, so the
+  profile grid shows a designed hook that still reads at 150 px.
+- **MUSIC v10:** the hook is scored — one soft low impact on frame 0 and a quiet
+  rising swell that peaks exactly on the cut into the slide; the master fade-in
+  drops to 0.05 s so the impact is not swallowed. QC: peak and mean loudness are
+  IDENTICAL with and without the hook sound (-1.2 dBFS peak in the WAV, -13.4 /
+  -13.6 dBFS mean after AAC), so the hook adds character, not volume.
+- **Backwards compatible:** render_slide.py, send_ask_card.py, the beat /
+  count-up / chart cards, the captions, the CTA table, the tone colours and every
+  immutable caption rule are untouched. No mandatory spec field is added — `hook`
+  is an optional object (`line`, `accent`, `sub`) and with no hook PNG the video
+  is the old edit frame for frame.
+- **Why (2026 research):** the swipe decision fires at ~1.3-1.7 s; reels above a
+  60% 3-second hold out-reach those below 40% by 5-10x and skip rate in the first
+  3 s is the first ranking checkpoint, ahead of shares/likes/saves; 85% watch
+  muted, so the first-frame text overlay is the only hook that fires, and it must
+  be at full opacity in frame 0.0. Ram's posts opened on a 55-character headline
+  plus three points plus a CTA — the right frame for second 4, not second 0.
+
+**Post types affected:** ALL 12 slots on BOTH platforms — the hook is now part of
+the UNIVERSAL BASELINE (item 8). Captions, CTA table, tone colours, beat/count-up
+/chart beats, send-ask card and every immutable rule are unchanged.
+
+**Samples (delivered as downloads):** sampleA_sip3years_hook.png +
+sampleA_sip3years_cover.jpg + sampleA_sip3years.mp4 + sampleA_sip3years_reel.mp4
++ sampleA_sip3years_before_after.png (moneystory, caution, clearly ILLUSTRATIVE:
+Rs 10,000/month at an assumed 12% -> Rs 98.93 lakh over 20 years vs Rs 66.13 lakh
+if you start 3 years late, a Rs 32.79 lakh gap) and sampleB_crude_hook.png +
+sampleB_crude_cover.jpg + sampleB_crude.mp4 + sampleB_crude_reel.mp4 +
+sampleB_crude_before_after.png (geopolitics, caution, NO beat card — exercises the
+no-beat path). Pixel QC on all four hook cards: white 11.3-11.5:1, accent
+6.0-6.1:1 (>= 3:1 large-text floor), no ink within 10 px of any edge, no clipped
+line (the fit loop checks line width, not just line count). Videos: 21.40 s,
+1080x1350 and 1080x1920, mean -13.4 / -13.6 dBFS, frame 0 = hook, 1.4 s cut into
+the slide proven frame-by-frame, last frame within 1.5-2.9/255 of frame 0 (the
+loop closes into the hook).
+
+**New backlog ideas (added this week):**
+1. Hook A/B: the hook is now a separate, swappable asset — render two hook lines
+   per post and keep a per-pattern retention scoreboard (question / number /
+   myth-bust / warning).
+2. Per-slot hook formulas in the skill: pre-market = today's one number;
+   geopolitics = the country or commodity; money story = the gap; festival = one
+   line of wisdom. Formula library, not free text.
+3. Use the same hook card as card 1 of every carousel and as the first frame of
+   every Story, so all three surfaces open on the same designed hook.
+4. Devanagari twin hook card for the 7:30 AM term slot (regional-language finance
+   is one of India's fastest-growing niches).
+5. A SECOND hook at 1.4 s: cut hook -> one-line "stakes" card -> slide, and test
+   whether a re-hook lifts the 5-second hold.
+
+**Monetization note (suggestion only, nothing implemented):** at 477 IG / ~1.5k
+LinkedIn, do not chase follower count this month. The ONE most valuable next
+action is to build the free lead magnet NOW and start the WhatsApp list: take the
+3 best posts already published, turn them into a one-page PDF ("12 things Indian
+investors get wrong about SIPs"), host it on the website repo and put a Google
+Form (name + WhatsApp number) behind it in the bio and the website. Sponsors and
+newsletter deals are bought on list size, not follower count — a 2,000-person list
+is pitchable long before 10k followers. No spend, no brand contact, nothing
+implemented without Ram's approval.
