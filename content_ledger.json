@@ -1,11 +1,6 @@
 [
  {
   "date": "08/11/2026",
-  "series": "event",
-  "topic": "EVENT/MARKET ALERT (2:30 PM monitor): Taiwan TAIEX fell 12.19% in the week to 06/11/2026, its worst since 2001, closing 39,701.64 and 20.55% below its 06/10/2026 high (bear market); Taiwan FSC caps short selling at 3% of 30-day average daily volume (from 30%) and lifts short-sale margin 90%->130% from 09/11, MOF cleared the NT$500 bn (~US$15.26 bn / Rs 1.43 lakh crore) National Stabilization Fund, its 10th intervention; Korea FSS waived the 140% margin-loan collateral rule 09/11-31/01/2027 after KOSPI fell below 5,000 with a 20-minute circuit breaker on 06/11; India's first full session after Muhurat is Monday 09/11, Nifty closed 25,030.35 (+8.58% week) on 06/11"
- },
- {
-  "date": "08/11/2026",
   "series": "moneystory",
   "topic": "MONEY STORY: foreign money is a tourist, not a landlord - FPIs pulled Rs 2.95 lakh crore out of Indian equities in Jan-Oct 2026, then net bought Rs 45,960 crore in the 5 sessions to 06/11/2026 (Rs 14,975 crore on 05/11, their biggest single day since Feb 2021) while DIIs sold Rs 24,197 crore that week; Nifty closed 25,030.35 on 06/11/2026"
  },
@@ -248,5 +243,10 @@
   "date": "14/11/2026",
   "series": "finance101",
   "topic": "FINANCE 101: what a second 25 bps repo hike to 5.75% on 04/12/2026 does to a Rs 50 lakh 20-year home loan EMI - EMI Rs 43,391 at 8.50% versus Rs 44,186 at 8.75% (Rs 794 more a month, about Rs 1.9 lakh over the term); repo 5.50% after the 07/10/2026 hike; Moneycontrol poll of 10 economists (13/11/2026) expects 5.75%; MPC meets 2-4 December 2026"
+ },
+ {
+  "date": "14/11/2026",
+  "series": "moneystory",
+  "topic": "MONEY STORY (weekend lesson): Jensen Huang resigned as Nvidia CEO on 11/11/2026 (CFO Colette Kress interim) and the $4 trn stock is down over 10% in a week - key-man risk versus the Nifty 50 index fund, which holds all 50 firms and swapped Wipro for BSE on 30/09/2026 with no action needed from investors"
  }
 ]
