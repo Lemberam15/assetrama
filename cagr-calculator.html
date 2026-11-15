@@ -580,7 +580,10 @@ footer.site .tag{margin-top:16px;max-width:36ch;line-height:1.6}
     var draw = function (d) {
       var svg = $('calcChart'); if (!svg) return;
       var W = 480, H = 260, l = 86, r = 30, t = 14, b = 30, pw = W - l - r, ph = H - t - b;
-      var n = d.length - 1, max = d[n].val, st = nice(max), top = Math.ceil(max / st) * st;
+      var n = d.length - 1, max = 0;
+      d.forEach(function (pt) { if (pt.val > max) max = pt.val; if (pt.inv > max) max = pt.inv; });
+      if (!(max > 0)) max = 1;
+      var st = nice(max), top = Math.ceil(max / st) * st;
       var X = function (k) { return (l + (n ? k / n * pw : 0)).toFixed(1); };
       var V = function (v) { return (t + ph - v / top * ph).toFixed(1); };
       var s = '<defs><linearGradient id="calcFill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" class="g-stop" stop-opacity=".30"/><stop offset="1" class="g-stop" stop-opacity="0"/></linearGradient></defs>';
