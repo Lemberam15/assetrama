@@ -2,11 +2,6 @@
   {
     "date": "30/10/2026",
     "series": "finance101",
-    "topic": "FINANCE 101: Holding company discount - Jio Platforms gained 26.8% over its Rs 1,119 issue price on debut (28/10/2026) while parent RIL fell 3.46% to Rs 1,158.50; RIL owns 64.5% of Jio after the fresh issue, but the market pays less for the parent than the sum of its parts, and a listed Jio price is what can slowly narrow that gap"
-  },
-  {
-    "date": "30/10/2026",
-    "series": "finance101",
     "topic": "PRE-MARKET: Nasdaq -1.38%, S&P -0.30%, Dow -0.25% overnight as Alphabet fell ~12% and AI-spending doubt returned; Asia sold off (Kospi, Nikkei deep red), GIFT Nifty ~23,000 vs Nifty close 22,936.75 - 22,800 the line, 23,000 the wall; Brent ~$115 on Iran strike fears, rupee 95.2; FIIs sold Rs 943 cr vs DIIs bought Rs 1,924 cr"
   },
   {
@@ -248,5 +243,10 @@
     "date": "15/11/2026",
     "series": "moneystory",
     "topic": "MONEY STORY (weekend lesson): direct vs regular mutual fund plans - ET illustration (Rs 20,000/mo, 15 years, 12%) puts a direct plan at ~Rs 94.4 lakh vs ~Rs 86 lakh in a regular plan, a Rs 8.4 lakh gap from a 1% fee difference (0.7% vs 1.7% TER); SEBI made direct plans the default on AMC websites and apps from 01/11/2026 (announced 28/10/2026 by chairman Tuhin Kanta Pandey); AMFI TER range 0.36-4.3% regular vs 0-2.7% direct"
+  },
+  {
+    "date": "15/11/2026",
+    "series": "geopolitics",
+    "topic": "GEOPOLITICS: RBI's net short forward dollar book hit a record $239.2 bn at end-September 2026 (vs $200.06 bn a month earlier) and $40 bn of it falls due within a year; forex reserves $719.547 bn in the week to 06/11/2026, $66.16 bn below the 04/09/2026 record of $785.706 bn, and that week's $2.49 bn rise was 88.5% gold revaluation (gold +$2.205 bn) while foreign currency assets rose just $232 mn; rupee closed 94.24 on 13/11/2026, so imported gold, fuel and phones stay costly for Indian buyers"
   }
 ]
