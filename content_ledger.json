@@ -1,16 +1,6 @@
 [
   {
     "date": "08/11/2026",
-    "series": "event",
-    "topic": "EVENT/MARKET ALERT (10:30 AM monitor): weekend Gulf escalation - Iran's IRGC says two tankers hit sea mines near the Strait of Hormuz late Saturday and caught fire; Houthis claim six missile and drone attacks including Saudi Aramco sites, Khurais and Riyadh airport; CENTCOM disabled M/V Huda running the blockade; Brent closed $98.32 on 06/11/2026 before the strikes, down 13% on the week; Rapidan's McNally puts 80% odds on fighting resuming and $100+ oil; India imports ~88-90% of crude, first full session Monday 09/11 after Muhurat trading"
-  },
-  {
-    "date": "08/11/2026",
-    "series": "finance101",
-    "topic": "FINANCE 101: Muhurat trading is a ritual, not a forecast - Nifty moved under 1% in 19 of the last 20 Muhurat sessions (2006-2025) and closed higher in 15 of them, median gain just +0.30%; today's session 2:20-3:30 pm IST opens Samvat 2083; exchanges shut Tuesday 10/11 for Balipratipada"
-  },
-  {
-    "date": "08/11/2026",
     "series": "festival",
     "topic": "FESTIVAL GREETING (2:30 AM monitor): Diwali on 08/11/2026 and the Muhurat trading session that opens Samvat 2083 - NSE and BSE trade 2:20 pm to 3:30 pm IST with pre-open from 2:05 pm; Samvat 2082 ended with Sensex -4.0% and Nifty -3.1% for the year, but the final week was the best since Feb 2021 with Sensex closing 81,028.02 (+2.17%) and Nifty 25,030.35 (+2.01%) on 06/11; markets shut Tuesday 10/11 for Diwali-Balipratipada"
   },
@@ -253,5 +243,10 @@
     "date": "14/11/2026",
     "series": "festival",
     "topic": "FESTIVAL GREETING (6:30 PM monitor): Labh Pancham on 14/11/2026 - Kartak Sud Pancham in Vikram Samvat 2083 (Panchami tithi 13/11 8:42 pm to 14/11 11:23 pm, prevails at sunrise); Gujarat's traders reopen after Diwali and open the new ledger (chopda/khatu) with 'Shubh' left, 'Labh' right and a swastik in the middle; 'Labh' means gain - a wish for profit, not a promise; the habit worth copying is opening the OLD statement once a year before starting a new SIP. Tone festival, mood festive, IG reel+story. LinkedIn urn:li:ugcPost:7527359975824945153"
+  },
+  {
+    "date": "15/11/2026",
+    "series": "finance101",
+    "topic": "FINANCE 101: the real cost of a $150 US stock under LRS - at Rs 94.25 a dollar (13/11/2026) $150 is Rs 14,138, but up to 1.4% forex markup adds Rs 198 and brokerage 0.1% plus 18% GST adds Rs 17, so about Rs 215 (Rs 14,352 total) is gone before the stock moves; LRS cap $2,50,000 a year per PAN across all purposes; 20% TCS only above Rs 10 lakh a year and it is a tax credit, nil below; Groww/Zerodha/Angel One GIFT City rollout October 2026"
   }
 ]
