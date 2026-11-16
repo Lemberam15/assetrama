@@ -1,11 +1,6 @@
 [
   {
     "date": "30/10/2026",
-    "series": "moneystory",
-    "topic": "MONEY STORY: Sensex +514 pts to 74,665 by noon (+0.69%) and Nifty 23,105 (+167, +0.73%), but only 1,201 stocks rose against 2,499 that fell; Nifty IT +1.7% after Cognizant's $5.66 bn Sept quarter met estimates and AI jitters sent money to Indian IT; Midcap 100 -0.54%, Smallcap 100 -0.86% - a green index hiding a broad selloff"
-  },
-  {
-    "date": "30/10/2026",
     "series": "geopolitics",
     "topic": "GEOPOLITICS: India's 10-year G-Sec yield closed 7.39% on 29/10/2026 (-5 bps on the day, ~9 bps for the week) - the bond's first weekly gain in 11 weeks after yields rose over 70 bps across 10 straight weeks, a losing streak for prices not seen since at least 1998; US 10-yr fell to ~4.92-4.93% on 30/10 from 5.05% on 28/10; rupee 95.26; mutual funds bought ~Rs 4,000 cr of bonds this week; analysts still see 7.70-7.75% by December"
   },
@@ -248,5 +243,10 @@
     "date": "16/11/2026",
     "series": "finance101",
     "topic": "FINANCE 101: WPI vs CPI - wholesale vs retail inflation. WPI 11.39% in September 2026 (up from 9.92% in August; fuel and power 25.85%, crude petroleum and natural gas 57.32%, manufactured products 9.76%, primary articles 8.67%; base 2022-23; released 14/10/2026) versus CPI 6.09% in October 2026 (two-year high, above RBI's 6% ceiling, food 8.94%, September 5.54%; base 2024=100; released 12/11/2026); October WPI prints Monday 16/11/2026 at 12:00 noon; WPI has no services, rent or retail margin, so wholesale leads retail. Tone caution, mood tense. LinkedIn urn:li:ugcPost:7527912820542365697, IG reel https://www.instagram.com/reel/DfyO_vtDiTI/"
+  },
+  {
+    "date": "16/11/2026",
+    "series": "finance101",
+    "topic": "PRE-MARKET: global overnight cues - GIFT Nifty +115 at 25,260 gapping up into 25,400 resistance (capped Nifty all last week), support 25,000 then 24,800; Nifty Friday close 25,144.30 (-0.61%), Sensex 81,592.45 (-0.39%); US Friday Dow +0.10% at 52,347.55, S&P 500 -0.40% at 7,561.67, Nasdaq -0.91% at 25,136.27 but all three up for the week; Asia Monday Nikkei -1.5% after Japan Q3 GDP shrank 0.1% annualised, KOSPI -2.9%, Hang Seng +1.0%; Brent $95.02, rupee 94.24, October WPI due 12:00 IST today. Tone caution, mood tense. LinkedIn urn:li:ugcPost:7527932596635443200, IG story 17966712978230324"
   }
 ]
