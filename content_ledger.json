@@ -1,11 +1,6 @@
 [
  {
   "date": "31/10/2026",
-  "series": "event",
-  "topic": "MARKET ALERT: Brent Dec futures +2.5% to $117.75/bbl (intraday $118) on 30/10/2026, highest since end-April and a 4th straight monthly gain, ~13% up in October; a small boat fixed limpet mines to the hull of tanker MT Louise 1 ~25nm off Oman's Khasab - first successful limpet-mine strike in Hormuz since the US-Iran war began in Feb 2026; 27 Indian sailors aboard safe, shipping ministry says all 29 Indian crew across both vessels hit this week unhurt"
- },
- {
-  "date": "31/10/2026",
   "series": "finance101",
   "topic": "FINANCE 101: ARPU (average revenue per user) - Jio Platforms' Q2 FY27 ARPU was Rs 218.8 a month, up 3.5% from Rs 211.4 a year earlier, on 44.2 GB of data per user and 542.4 million subscribers; towers are already built, so each extra rupee of ARPU lands almost straight in operating profit"
  },
@@ -248,5 +243,10 @@
   "date": "16/11/2026",
   "series": "geopolitics",
   "topic": "GEOPOLITICS: gold -4.5% last week to $3,888/oz and silver -5.3% to $49 even as Iran hit a US base in Bahrain on 15/11; dollar at a 19-month high, US 10-yr above 5%, ~85% odds of a Dec Fed hike; India: gold ~Rs 1.36 lakh/10g (Rs 4,700 cheaper than 11/11), silver ~Rs 1.70 lakh/kg"
+ },
+ {
+  "date": "16/11/2026",
+  "series": "finance101",
+  "topic": "MARKET WRAP: Sensex 82,104.79 (+0.63%), Nifty 25,291.10 (+0.58%) on 16/11/2026; FIIs net bought Rs 4,864.68 crore in cash (11th straight session), DIIs net sold Rs 3,519.05 crore; November FPI inflow a record ~$9.6 bn. Tone bullish, mood uplifting. LinkedIn urn:li:ugcPost:7528108231823343617, IG reel https://www.instagram.com/reel/DfzoD_RCM4F/"
  }
 ]
