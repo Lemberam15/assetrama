@@ -8,6 +8,10 @@ Checks, in one pass:
   4. robots.txt still allows crawling and points at the sitemap
   5. every application/ld+json block parses
   6. inline <script> blocks pass `node --check` (skipped if node is absent)
+  7. no duplicate id="" in any page
+  8. lessons.html and search.html: the visible "N lessons" / "N pages" count text,
+     the number of cards and (on lessons.html) the ItemList all agree, every
+     ListItem carries both url and name, and the ItemList order follows the DOM
 
 Exit code 0 = all clear, 1 = at least one failure. No network access, no writes.
 """
@@ -92,6 +96,70 @@ def check_links(p):
             fails.append('%s: dead link %s' % (p.relative_to(ROOT), raw))
 
 
+ID = re.compile(r'\sid="([^"]+)"')
+
+
+def check_dup_ids(p):
+    seen = {}
+    for m in ID.finditer(p.read_text()):
+        seen[m.group(1)] = seen.get(m.group(1), 0) + 1
+    for k, v in seen.items():
+        if v > 1:
+            fails.append('%s: id="%s" is used %d times' % (p.relative_to(ROOT), k, v))
+
+
+CARD = re.compile(r'<a class="card [^"]*" data-cat="[a-z]+" href="([^"]+)">\s*'
+                  r'<div class="art".*?<h2>(.*?)</h2>', re.S)
+COUNT = re.compile(r'<p class="count" id="count">(\d+)\s+(\w+)</p>')
+ITEMLIST = re.compile(r'<script type="application/ld\+json">(\{"@context": "https://schema.org", '
+                      r'"@type": "ItemList".*?)</script>', re.S)
+
+
+def check_index(page, with_itemlist=False):
+    """The card list, the visible count text and (on lessons.html) the ItemList are
+    three hand-maintained copies of one fact. Assert they agree before a commit."""
+    p = ROOT / page
+    if not p.exists():
+        fails.append('%s missing' % page)
+        return
+    text = p.read_text()
+    cards = CARD.findall(text)
+    m = COUNT.search(text)
+    if not m:
+        fails.append('%s: no <p class="count" id="count"> line' % page)
+        return
+    stated = int(m.group(1))
+    if stated != len(cards):
+        fails.append('%s: count text says %d %s but %d cards render'
+                     % (page, stated, m.group(2), len(cards)))
+    if with_itemlist:
+        block = ITEMLIST.search(text)
+        if not block:
+            fails.append('%s: no ItemList JSON-LD' % page)
+            return
+        data = json.loads(block.group(1))
+        items = data.get('itemListElement', [])
+        if data.get('numberOfItems') != len(items):
+            fails.append('%s: ItemList numberOfItems %s but %d items'
+                         % (page, data.get('numberOfItems'), len(items)))
+        if len(items) != len(cards):
+            fails.append('%s: ItemList has %d items but %d cards render'
+                         % (page, len(items), len(cards)))
+        for i, it in enumerate(items, 1):
+            if not it.get('url') or not it.get('name'):
+                fails.append('%s: ItemList position %d is missing url or name' % (page, i))
+            if it.get('position') != i:
+                fails.append('%s: ItemList position %d is numbered %s'
+                             % (page, i, it.get('position')))
+        want = [c[0].rsplit('/', 1)[-1] for c in cards]
+        got = [(it.get('url') or '').rsplit('/', 1)[-1] for it in items]
+        if want != got:
+            bad = next(i for i, (a, b) in enumerate(zip(want, got)) if a != b) if len(want) == len(got) else 0
+            fails.append('%s: ItemList order does not follow the cards (first difference at card %d: %s vs %s)'
+                         % (page, bad + 1, want[bad] if want else '?', got[bad] if got else '?'))
+    notes.append('%s: %d cards, count text agrees' % (page, len(cards)))
+
+
 def check_sitemap(all_pages):
     sm = ROOT / 'sitemap.xml'
     if not sm.exists():
@@ -160,8 +228,11 @@ def main():
         check_tags(p)
         check_links(p)
         check_jsonld(p)
+        check_dup_ids(p)
         if subprocess.run(['which', 'node'], capture_output=True).returncode == 0:
             check_scripts(p)
+    check_index('lessons.html', with_itemlist=True)
+    check_index('search.html')
     check_sitemap(all_pages)
     check_robots()
 
