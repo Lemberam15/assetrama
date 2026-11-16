@@ -1,11 +1,6 @@
 [
   {
     "date": "30/10/2026",
-    "series": "finance101",
-    "topic": "PRE-MARKET: Nasdaq -1.38%, S&P -0.30%, Dow -0.25% overnight as Alphabet fell ~12% and AI-spending doubt returned; Asia sold off (Kospi, Nikkei deep red), GIFT Nifty ~23,000 vs Nifty close 22,936.75 - 22,800 the line, 23,000 the wall; Brent ~$115 on Iran strike fears, rupee 95.2; FIIs sold Rs 943 cr vs DIIs bought Rs 1,924 cr"
-  },
-  {
-    "date": "30/10/2026",
     "series": "moneystory",
     "topic": "MONEY STORY: Sensex +514 pts to 74,665 by noon (+0.69%) and Nifty 23,105 (+167, +0.73%), but only 1,201 stocks rose against 2,499 that fell; Nifty IT +1.7% after Cognizant's $5.66 bn Sept quarter met estimates and AI jitters sent money to Indian IT; Midcap 100 -0.54%, Smallcap 100 -0.86% - a green index hiding a broad selloff"
   },
@@ -248,5 +243,10 @@
     "date": "15/11/2026",
     "series": "geopolitics",
     "topic": "GEOPOLITICS: RBI's net short forward dollar book hit a record $239.2 bn at end-September 2026 (vs $200.06 bn a month earlier) and $40 bn of it falls due within a year; forex reserves $719.547 bn in the week to 06/11/2026, $66.16 bn below the 04/09/2026 record of $785.706 bn, and that week's $2.49 bn rise was 88.5% gold revaluation (gold +$2.205 bn) while foreign currency assets rose just $232 mn; rupee closed 94.24 on 13/11/2026, so imported gold, fuel and phones stay costly for Indian buyers"
+  },
+  {
+    "date": "16/11/2026",
+    "series": "finance101",
+    "topic": "FINANCE 101: WPI vs CPI - wholesale vs retail inflation. WPI 11.39% in September 2026 (up from 9.92% in August; fuel and power 25.85%, crude petroleum and natural gas 57.32%, manufactured products 9.76%, primary articles 8.67%; base 2022-23; released 14/10/2026) versus CPI 6.09% in October 2026 (two-year high, above RBI's 6% ceiling, food 8.94%, September 5.54%; base 2024=100; released 12/11/2026); October WPI prints Monday 16/11/2026 at 12:00 noon; WPI has no services, rent or retail margin, so wholesale leads retail. Tone caution, mood tense. LinkedIn urn:li:ugcPost:7527912820542365697, IG reel https://www.instagram.com/reel/DfyO_vtDiTI/"
   }
 ]
