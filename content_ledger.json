@@ -1,11 +1,6 @@
 [
   {
     "date": "30/10/2026",
-    "series": "geopolitics",
-    "topic": "GEOPOLITICS: India's 10-year G-Sec yield closed 7.39% on 29/10/2026 (-5 bps on the day, ~9 bps for the week) - the bond's first weekly gain in 11 weeks after yields rose over 70 bps across 10 straight weeks, a losing streak for prices not seen since at least 1998; US 10-yr fell to ~4.92-4.93% on 30/10 from 5.05% on 28/10; rupee 95.26; mutual funds bought ~Rs 4,000 cr of bonds this week; analysts still see 7.70-7.75% by December"
-  },
-  {
-    "date": "30/10/2026",
     "series": "finance101",
     "topic": "MARKET WRAP: Sensex 74,459.53 (+308.49, +0.42%) and Nifty 23,053.10 (+116.35, +0.51%) closed green a second day on IT (+2.32%) and pharma; FIIs turned net BUYERS at Rs 3,598.54 crore while DIIs net sold Rs 817.51 crore (NSE cash market) - foreign money returned as domestic funds trimmed, even though Midcap 100 -0.93% and Smallcap 100 -1.85% fell"
   },
@@ -248,5 +243,10 @@
     "date": "16/11/2026",
     "series": "finance101",
     "topic": "PRE-MARKET: global overnight cues - GIFT Nifty +115 at 25,260 gapping up into 25,400 resistance (capped Nifty all last week), support 25,000 then 24,800; Nifty Friday close 25,144.30 (-0.61%), Sensex 81,592.45 (-0.39%); US Friday Dow +0.10% at 52,347.55, S&P 500 -0.40% at 7,561.67, Nasdaq -0.91% at 25,136.27 but all three up for the week; Asia Monday Nikkei -1.5% after Japan Q3 GDP shrank 0.1% annualised, KOSPI -2.9%, Hang Seng +1.0%; Brent $95.02, rupee 94.24, October WPI due 12:00 IST today. Tone caution, mood tense. LinkedIn urn:li:ugcPost:7527932596635443200, IG story 17966712978230324"
+  },
+  {
+    "date": "16/11/2026",
+    "series": "moneystory",
+    "topic": "MONEY STORY: FIIs net bought Rs 79,302 crore in the 10 sessions to 13/11/2026 (NSE provisional cash market) while DIIs net sold Rs 49,089 crore on every one of those sessions - combined institutions still +Rs 30,214 crore; biggest FII day 5/11 +Rs 14,975 crore against DII -Rs 10,445 crore; a swap, not new money. Tone bullish, mood uplifting. LinkedIn urn:li:ugcPost:7527986919314714625"
   }
 ]
