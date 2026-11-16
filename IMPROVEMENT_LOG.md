@@ -16,6 +16,7 @@
 - [15/11] calculators: both SIP and CAGR hand-type their no-JS sample figures into the static HTML (`rTot`, `rCagr`, `endOut`) while the script recomputes the same numbers on load, so a defaults change silently desynchronises the pre-JS render — derive them from the shared defaults object or assert equality in `scripts/site_qc.py`.
 - [08/11] calculators: neither the SIP nor the CAGR WebApplication JSON-LD carries a `dateModified`, so search engines have no freshness signal on the two most-linked tools.
 - [10/11] index: the home page's lesson cards carry `data-cat="basics"` and `data-cat="market"`, which are not in the fixed category set (markets, business, results, global, commodity, economy, mf) that news.html and lessons.html filter on.
+- [16/11/2026] lessons: the ItemList JSON-LD carries no `dateModified` and no lesson shows a review date, so the library hub gives crawlers no freshness signal (same gap logged for the SIP/CAGR calculators on 08/11).
 - [09/11] index: the JSON-LD `Person` node (@id `about.html#ram`) carries `name: "Asset Rama"`, the same string as the Organization and WebSite nodes; the site uses that persona name for `meta author` everywhere too.
 
 ### News page — open guards (hourly cycle)
