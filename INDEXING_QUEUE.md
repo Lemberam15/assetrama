@@ -44,7 +44,8 @@
 - [09/11/2026] https://lemberam15.github.io/assetrama/hra-calculator.html
 - [09/11/2026] https://lemberam15.github.io/assetrama/articles/fd-vs-debt-funds.html
 - [12/10/2026] https://lemberam15.github.io/assetrama/articles/what-is-emi.html
-- [12/10/2026] https://lemberam15.github.io/assetrama/articles/lumpsum-vs-sip.html
+- [16/11/2026] https://lemberam15.github.io/assetrama/articles/what-is-a-bonus-share.html
+- [16/11/2026] https://lemberam15.github.io/assetrama/articles/what-is-ppf.html
 
 ## Done
 
