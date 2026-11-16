@@ -1,11 +1,6 @@
 [
  {
   "date": "31/10/2026",
-  "series": "finance101",
-  "topic": "FINANCE 101: ARPU (average revenue per user) - Jio Platforms' Q2 FY27 ARPU was Rs 218.8 a month, up 3.5% from Rs 211.4 a year earlier, on 44.2 GB of data per user and 542.4 million subscribers; towers are already built, so each extra rupee of ARPU lands almost straight in operating profit"
- },
- {
-  "date": "31/10/2026",
   "series": "moneystory",
   "topic": "MONEY STORY: Sensex rose 2.7% in October, its first monthly gain after August -1.5% and September -5.8%, yet FPIs net sold Rs 34,843 crore of Indian equities in the same month (NSDL, up to 30/10) - a green month foreign money sold into; lesson: a rising price is not proof the big money is buying"
  },
@@ -248,5 +243,10 @@
   "date": "16/11/2026",
   "series": "finance101",
   "topic": "MARKET WRAP: Sensex 82,104.79 (+0.63%), Nifty 25,291.10 (+0.58%) on 16/11/2026; FIIs net bought Rs 4,864.68 crore in cash (11th straight session), DIIs net sold Rs 3,519.05 crore; November FPI inflow a record ~$9.6 bn. Tone bullish, mood uplifting. LinkedIn urn:li:ugcPost:7528108231823343617, IG reel https://www.instagram.com/reel/DfzoD_RCM4F/"
+ },
+ {
+  "date": "17/11/2026",
+  "series": "event",
+  "topic": "MARKET ALERT (night monitor): US AI selloff deepens - S&P 500 -1.8%, Nasdaq -2.3%, Dow -1.3% in late trade on 16/11/2026, Nasdaq now >10% below its 06/10/2026 record (technical correction); chip index SOX -4.6% on a new US rule curbing China's access to top AI chips, VIX up ~22% to ~23.6, Nvidia results due Tuesday; Brent Jan settled -3.6% at $92.44, WTI -3.2% at $85.72 on IEA surplus talk; rupee 93.92. Tone bearish, mood urgent. LinkedIn urn:li:ugcPost:7528203222017073152, IG reel https://www.instagram.com/reel/Df0TLhEAkx5/, IG story 18186719386427006"
  }
 ]
