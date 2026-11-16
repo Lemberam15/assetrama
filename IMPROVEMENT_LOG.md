@@ -18,6 +18,7 @@
 - [10/11] index: the home page's lesson cards carry `data-cat="basics"` and `data-cat="market"`, which are not in the fixed category set (markets, business, results, global, commodity, economy, mf) that news.html and lessons.html filter on.
 - [16/11/2026] lessons: the ItemList JSON-LD carries no `dateModified` and no lesson shows a review date, so the library hub gives crawlers no freshness signal (same gap logged for the SIP/CAGR calculators on 08/11).
 - [09/11] index: the JSON-LD `Person` node (@id `about.html#ram`) carries `name: "Asset Rama"`, the same string as the Organization and WebSite nodes; the site uses that persona name for `meta author` everywhere too.
+- [16/11/2026] calculators: the SIP and CAGR pages keep their FAQ JSON-LD and their visible `<details>` copy in sync today (5 and 6 questions each), but nothing asserts that: edit one and the rich result silently diverges from the page, the same drift risk already logged for the hand-typed pre-JS figures on 15/11. Extend `scripts/site_qc.py` to compare question strings between the FAQPage block and the `.faq` markup.
 
 ### News page — open guards (hourly cycle)
 - [15/11/2026] news: the snapshot narrative is marked up as a single `<h2>` holding ~200 words of prose, so the page ships a heading longer than any search snippet and screen readers announce it as a title. Split into `<h2>` + `<p>`. This needs the generator, not a hand edit — news.html is rewritten every hour.
