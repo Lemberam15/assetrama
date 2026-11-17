@@ -1,1 +1,57 @@
+# Asset Rama — Site Improvement Log
+
+## Open suggestions (for future weekly reviews)
+
+### Biggest wins — need a build step
+- [30/10] articles: every lesson inlines its own identical ~31 KB `<style>` block and ~8 KB JS block, so the library carries roughly 1.4 MB of duplicated payload and any design fix means 39 edits. Extract one `article.css` + `article.js`. No visual change. Still the biggest single win in the repo and the gate for all further article work.
+- [28/10] calculators: `calc.js` extraction (~6.5 KB of identical chart/formatter JS on each of the 9 calculators) is the gate for the rest — a single nav partial instead of nine hand-copied 17-link blocks, a visible "Assumptions" line under each result, a "last reviewed" date, and a reverse mode on the CAGR page.
+- [14/10] lessons/search: the card lists are still hand-maintained. The counts and the ItemList are now asserted by `scripts/site_qc.py` (16/11), so drift fails the run instead of shipping — but generating the cards from the article files at build time is still the end state.
+
+### Content and SEO
+- [15/11/2026] index: FAQPage JSON-LD — DEFERRED this week. The home page carries no visible Q&A copy to mark up, and Google requires the FAQ text to be visible on the page. Add a short visible FAQ block using the existing `.faq` component first, then the schema in the same commit.
+- [27/10] articles: no lesson shows a "last reviewed" date, so neither a reader nor the weekly task can tell whether the tax and rate figures were checked against the current year. One visible `Reviewed: <Month YYYY>` line under the byline, plus a rotation check flagging anything reviewed more than two quarters ago.
+- [12/11] lessons: the library is lopsided — 11 of 40 cards are Mutual Funds and 8 each Basics and Market Moves, against 3 Gold & Silver and 2 Commodities, so two of the seven filter chips open a nearly empty shelf. Commission gold and commodity lessons before adding more MF pieces.
+- [17/10] calculators: encode SIP and CAGR slider state in the URL query string (`?amt=&rate=&yrs=`) so a modelled scenario can be shared. Feature change.
+- [27/10] articles: sibling lessons are linked as `../articles/x.html` from inside `articles/` — correct but redundant. Normalise to `x.html` across the library.
+- [15/11] calculators: both SIP and CAGR hand-type their no-JS sample figures into the static HTML (`rTot`, `rCagr`, `endOut`) while the script recomputes the same numbers on load, so a defaults change silently desynchronises the pre-JS render — derive them from the shared defaults object or assert equality in `scripts/site_qc.py`.
+- [08/11] calculators: neither the SIP nor the CAGR WebApplication JSON-LD carries a `dateModified`, so search engines have no freshness signal on the two most-linked tools.
+- [10/11] index: the home page's lesson cards carry `data-cat="basics"` and `data-cat="market"`, which are not in the fixed category set (markets, business, results, global, commodity, economy, mf) that news.html and lessons.html filter on.
+- [16/11/2026] lessons: the ItemList JSON-LD carries no `dateModified` and no lesson shows a review date, so the library hub gives crawlers no freshness signal (same gap logged for the SIP/CAGR calculators on 08/11).
+- [16/11/2026] index: the three featured lesson cards are fixed evergreen starters (`what-is-sip`, `what-is-cagr`, `market-falls-sip`), so the home page never surfaces the newest lesson even though the library gains one most days; add a fourth "latest lesson" card driven from `content_ledger.json` so the home page stays fresh without a hand edit.
+- [17/11/2026] index: the JSON-LD `Person` node is named "Asset Rama", exactly like the `Organization` node, so the home page declares two different entities under one name; give the author’s real name (the about.html `#ram` anchor already implies one) or drop the `Person` node. Structured-data change — verify in the Rich Results test before shipping.
+- [09/11] index: the JSON-LD `Person` node (@id `about.html#ram`) carries `name: "Asset Rama"`, the same string as the Organization and WebSite nodes; the site uses that persona name for `meta author` everywhere too.
+- [16/11/2026] calculators: the SIP and CAGR pages keep their FAQ JSON-LD and their visible `<details>` copy in sync today (5 and 6 questions each), but nothing asserts that: edit one and the rich result silently diverges from the page, the same drift risk already logged for the hand-typed pre-JS figures on 15/11. Extend `scripts/site_qc.py` to compare question strings between the FAQPage block and the `.faq` markup.
+
+### News page — open guards (hourly cycle)
+- [15/11/2026] news: the snapshot narrative is marked up as a single `<h2>` holding ~200 words of prose, so the page ships a heading longer than any search snippet and screen readers announce it as a title. Split into `<h2>` + `<p>`. This needs the generator, not a hand edit — news.html is rewritten every hour.
+- [16/11/2026] news: the intro paragraph under the table has grown into a ~1,500-character running narrative carrying a full week of events. Split into a two-sentence summary plus a "what to watch today" list. Same generator fix.
+- [02/11] news: the CollectionPage JSON-LD carries no `dateModified`, so nothing tells a crawler the page was rewritten in the last hour. Generate it at build time from the commit timestamp.
+- [20/10] news: build-time checks that (a) each card's outlet label matches its href domain, (b) no card href contains `live-updates` or `/live/`, (c) every card's SVG gradient id and href is unique.
+- [19/10] news: a per-category floor and a soft per-category cap (~4). The Mutual Funds chip has repeatedly dropped to one card.
+- [27/10] news: derive the visible "N stories" count from the rendered card count and assert `count == cards` before commit.
+- [18/10] news: the 20-card cap forces same-day retirement on most runs; raise to ~24 or set per-category caps.
+- [12/10] news: drive the snapshot heading and its "as of" note from one variable; add a per-row `live`/`close` status tag so an intraday print cannot be read as a close.
+- [28/09] news cron: pre-commit guard on payload size (~100 KB) and presence of "Market snapshot".
+- [16/10] news: label non-trading days explicitly ("previous session — market holiday"), show the weekly move on those days, and record each source article's publish date on its card so the 72-hour cleanup keys off it.
+- [03/11] news: add a build-time check that no card's headline figure contradicts the snapshot row for the same instrument.
+- [03/11] news: add a pre-commit duplicate guard on the card feed (normalised title/topic hash).
+- [24/09 + 09/11] news: pin each commodity row AND its card copy to one named, timestamped benchmark per day (MCX futures vs IBJA retail vs PTI futures is the recurring drift) and label the instrument in the row. Needs a decision from Ram on which benchmark to standardise on.
+- [06/11] news: the numbers printed inside each card's art SVG are hand-typed copies of that card's own figures, and three of the 20 had drifted onto another company's results. Generate the SVG figures from the card data.
+
+## Content pipeline (LinkedIn / Instagram) — daily improvement
 - [02/11] Proposed count-up (animated) hero number on the beat card — sample delivered for Ram's approval; the live 4:5 static pipeline is unchanged.
+- [12/11] slide: one accent per headline (a numeric `highlight` no longer stacks a second accent on the hero figure); the festival photo creative now carries the question strip plus the send card.
+- [16/11] hook card: the cold-open hook's dominant figure now renders up to 1.20x larger on the shared baseline (v55); [15/11] every chart value carries a direction glyph so gain/loss is not encoded by colour alone.
+- [17/11] slide/hook: every negative figure now uses a real minus sign (U+2212) instead of a hyphen - twice as wide and maths-axis aligned, so a loss reads as strongly as a gain and the sign survives a muted red (v56, render_slide.norm_minus + NUM_RE; ranges and years untouched).
+
+## Done — weekly review 16/11/2026
+- [09/11/2026] articles: duplicate-`id` check added to `scripts/site_qc.py` — it now fails the run if any page reuses an id.
+- [10/11 + 03/11 + 13/11/2026] lessons: the ItemList is regenerated from the card order (positions 1..40 in DOM order, every item carrying `url` and `name`), and `site_qc.py` now asserts cards == visible count text == `numberOfItems` on lessons.html and search.html.
+- [09/11 + 12/11/2026] search: lessons.html is now an indexed card under Tools, so the library hub is reachable from site search; count text is 52 pages.
+- New lesson: `articles/what-is-ppf.html` — the 7.1% rate and quarterly reset, the ₹500–₹1.5 lakh limits, the 15-year term with loans and partial withdrawal, and why PPF is exempt in both tax regimes — wired into lessons.html (Tax), search.html and sitemap.xml, with links from the PPF calculator and PPF vs ELSS.
+- New lesson: `articles/what-is-a-bonus-share.html` — bonus shares vs stock splits, price adjustment on the ex-date and the tax treatment — wired into lessons.html, search.html and sitemap.xml, with internal links from what-is-dividend and what-is-a-share.
+- Fixed: the footer "What is a SIP?" link pointed at the wrong lesson on 4 pages (what-is-dividend, what-is-credit-score, what-is-nps, what-is-term-insurance).
+- Fixed: search.html carried duplicate SVG gradient ids (`rg`/`lg-c-t-ppf` twice), and the HRA calculator card was captioned with the PPF art text.
+
+## Decided earlier (do not re-open)
+- [27/10] 404.html: REJECTED — converting the absolute production URLs to relative paths would break them. GitHub Pages serves 404.html at whatever path was requested, so a relative `about.html` on `/assetrama/foo/bar` resolves to `/assetrama/foo/about.html`. The absolute URLs are correct for a 404 page.
