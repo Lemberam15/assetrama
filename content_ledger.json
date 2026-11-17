@@ -1,10 +1,5 @@
 [
   {
-    "date": "01/11/2026",
-    "series": "geopolitics",
-    "topic": "GEOPOLITICS: RBI has reportedly proposed a Rs 50 lakh per-year sub-limit under the LRS for business travel, pilgrimages and high-ticket trips (reported 27/10/2026, no start date; education and medical likely exempt), inside today's $2.5 lakh (~Rs 2.37 cr) yearly cap; travel is ~60% of money Indians send abroad; rupee fell ~7% in 12 months from 88.84 to 94.95 (30/10 close, Reuters) and RBI is estimated to have sold $75-80 bn since June to slow the fall"
-  },
-  {
     "date": "02/11/2026",
     "series": "moneystory",
     "topic": "MONEY STORY: the consumer never got the slowdown memo - October gross GST Rs 2,31,290 crore (+22.9% YoY, fastest this fiscal, second-highest on comparable basis after April 2026's Rs 2,42,702 cr; net Rs 2,03,356 cr +25.6%), UPI record 25.47 bn payments worth Rs 31.53 lakh crore, car sales 5.25 lakh units (first month above 5 lakh); Sensex up ~900 pts / Nifty ~23,313 on the day"
@@ -248,5 +243,10 @@
     "date": "17/11/2026",
     "series": "event",
     "topic": "MARKET ALERT (6:30 PM monitor): SEBI weighing curbs on margin-funded stock buying (MTF) - Reuters 17/11/2026; MTF positions at Rs 1.53 lakh crore, up 29% YoY and nearly double end-2024, two-thirds in small/midcaps; proposal to bar fresh MTF in a stock once holdings cross 5-10% of free float; 36 stocks above 10%, 220+ above 5%; public consultation before rules. Tone caution, mood tense. LinkedIn urn:li:ugcPost:7528444785834037249, IG reel https://www.instagram.com/reel/Df2BPkNku-9/, IG story 18100247225435710"
+  },
+  {
+    "date": "17/11/2026",
+    "series": "finance101",
+    "topic": "MARKET WRAP: Sensex 82,532.19 (+427.40, +0.52%), Nifty 25,387.40 (+96.30, +0.38%) on 17/11/2026 - highest close since Feb, banks led; FIIs net bought Rs 4,195.38 cr cash (12th straight session), DIIs +Rs 196.93 cr; takeaway: foreign money, not domestic funds, held the market up. Tone bullish, mood uplifting. LinkedIn urn:li:ugcPost:7528471856878772224, IG reel https://www.instagram.com/reel/Df2NlTXEpfT/, IG story 18104349512356727"
   }
 ]
