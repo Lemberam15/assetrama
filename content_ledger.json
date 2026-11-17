@@ -1,11 +1,6 @@
 [
   {
     "date": "01/11/2026",
-    "series": "finance101",
-    "topic": "FINANCE 101: De-rating (P/E compression) - Nifty 50's 12-month forward P/E fell 31% from 24.8x in Sep 2024 to 17.2x in Sep 2026 (Bajaj AMC), while Q2 FY27 Nifty-50 profit is up about 19% YoY on results declared so far (Kotak); the multiple did the falling, not the earnings. Nifty P/E (TTM) 19.30 on 30/10/2026 (NSE)."
-  },
-  {
-    "date": "01/11/2026",
     "series": "moneystory",
     "topic": "MONEY STORY (weekend lesson): compounding math - Rs 5,000 a month for 20 years at an assumed 12% a year = Rs 12 lakh invested, about Rs 49.5 lakh back; first 10 years build ~Rs 11.5 lakh, the last 10 add ~Rs 38 lakh (end-of-month SIP convention); no live market call, Sunday market closed, Friday close Sensex 74,459.53 (+308.49, +0.42%) and Nifty 23,053.10 (+116.35, +0.51%)"
   },
@@ -248,5 +243,10 @@
     "date": "17/11/2026",
     "series": "moneystory",
     "topic": "MONEY STORY: Bank Nifty crossed 62,000 for the first time ever on 17/11/2026 - record 62,414.90, up 823 pts (1.34%), beating its 03/02/2026 peak of 61,764.85; Sensex 82,831 (+726, +0.88%), Nifty 25,486 (+195, +0.77%); PNB/SBI/Canara up to 5%, PSU Bank and Realty +2%, India VIX -2%, Brent ~$91.65. Tone bullish, mood uplifting. LinkedIn urn:li:ugcPost:7528349591952490497, IG story 18240673783320267"
+  },
+  {
+    "date": "17/11/2026",
+    "series": "geopolitics",
+    "topic": "GEOPOLITICS: Brent -22% in November ($117.64 on 30/10 to ~$92 on 17/11) after IEA flagged a 1.7 mn bpd Q4 surplus; rupee closed 93.47/$ (7-month high, +46 paise) but Delhi petrol still Rs 102.12/l and diesel Rs 95.20; BoB: 10% oil fall saves $9-10 bn a year. Tone caution, mood calm. LinkedIn urn:li:ugcPost:7528435391058702336, IG story 17955811821317585"
   }
 ]
