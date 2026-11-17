@@ -1,11 +1,6 @@
 [
  {
   "date": "31/10/2026",
-  "series": "moneystory",
-  "topic": "MONEY STORY: Sensex rose 2.7% in October, its first monthly gain after August -1.5% and September -5.8%, yet FPIs net sold Rs 34,843 crore of Indian equities in the same month (NSDL, up to 30/10) - a green month foreign money sold into; lesson: a rising price is not proof the big money is buying"
- },
- {
-  "date": "31/10/2026",
   "series": "geopolitics",
   "topic": "GEOPOLITICS: MCX December silver closed near Rs 1,85,300/kg on 30/10/2026 (-2.19%, PTI) against the Rs 4,20,048/kg record of 29/01/2026 - about 56% down and roughly Rs 2.35 lakh per kg; gold fell far less, so the gold-silver ratio is ~78:1 vs the 40-60 of past decades, because over half of silver demand is industrial (World Silver Survey: 657.4 of 1,130.6 Moz in 2025) and high rates slow factories; India cleared permits for ~6,500 tonnes of silver imports over six months (Reuters, 22/10/2026) before Dhanteras on 06/11, easing domestic premiums; India spent a record $12 bn on silver imports in FY26 and silver ETF inflows were Rs 1,974 crore in September"
  },
@@ -248,5 +243,10 @@
   "date": "17/11/2026",
   "series": "event",
   "topic": "MARKET ALERT (night monitor): US AI selloff deepens - S&P 500 -1.8%, Nasdaq -2.3%, Dow -1.3% in late trade on 16/11/2026, Nasdaq now >10% below its 06/10/2026 record (technical correction); chip index SOX -4.6% on a new US rule curbing China's access to top AI chips, VIX up ~22% to ~23.6, Nvidia results due Tuesday; Brent Jan settled -3.6% at $92.44, WTI -3.2% at $85.72 on IEA surplus talk; rupee 93.92. Tone bearish, mood urgent. LinkedIn urn:li:ugcPost:7528203222017073152, IG reel https://www.instagram.com/reel/Df0TLhEAkx5/, IG story 18186719386427006"
+ },
+ {
+  "date": "17/11/2026",
+  "series": "finance101",
+  "topic": "FINANCE TERM: pullback vs correction vs bear market - 5% = pullback, 10-20% = correction, 20%+ = bear market; no official definitions, difference is depth AND cause (corrections sentiment-led, bears fundamental); Nifty 25,291.10 close 16/11/2026 is 4.1% below its 26,373.20 record (pullback), Nasdaq is >10% below its 06/10/2026 peak (correction). Tone caution, mood tense. LinkedIn urn:li:ugcPost:7528273261319696384, IG reel https://www.instagram.com/reel/Df0y7DpiZph/, IG story 18032166968888390"
  }
 ]
