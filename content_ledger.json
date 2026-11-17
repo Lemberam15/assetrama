@@ -1,10 +1,5 @@
 [
  {
-  "date": "31/10/2026",
-  "series": "geopolitics",
-  "topic": "GEOPOLITICS: MCX December silver closed near Rs 1,85,300/kg on 30/10/2026 (-2.19%, PTI) against the Rs 4,20,048/kg record of 29/01/2026 - about 56% down and roughly Rs 2.35 lakh per kg; gold fell far less, so the gold-silver ratio is ~78:1 vs the 40-60 of past decades, because over half of silver demand is industrial (World Silver Survey: 657.4 of 1,130.6 Moz in 2025) and high rates slow factories; India cleared permits for ~6,500 tonnes of silver imports over six months (Reuters, 22/10/2026) before Dhanteras on 06/11, easing domestic premiums; India spent a record $12 bn on silver imports in FY26 and silver ETF inflows were Rs 1,974 crore in September"
- },
- {
   "date": "01/11/2026",
   "series": "event",
   "topic": "EVENT/MARKET ALERT (6:30 PM monitor): Qatar's LNG carrier Al Mayeda was hit by unidentified objects on Friday 30/10, confirmed by Nakilat on Sunday 01/11 via the Qatar Stock Exchange; the US has told Gulf allies fresh strikes on Iran could begin as early as 04/11/2026, a day after the midterms; Brent Dec settled $117.64 on 30/10 (intraday $118) and India's crude basket averaged $120.46/bbl to 26/10, highest since March 2012; rupee 94.95 on 30/10"
@@ -248,5 +243,10 @@
   "date": "17/11/2026",
   "series": "finance101",
   "topic": "FINANCE TERM: pullback vs correction vs bear market - 5% = pullback, 10-20% = correction, 20%+ = bear market; no official definitions, difference is depth AND cause (corrections sentiment-led, bears fundamental); Nifty 25,291.10 close 16/11/2026 is 4.1% below its 26,373.20 record (pullback), Nasdaq is >10% below its 06/10/2026 peak (correction). Tone caution, mood tense. LinkedIn urn:li:ugcPost:7528273261319696384, IG reel https://www.instagram.com/reel/Df0y7DpiZph/, IG story 18032166968888390"
+ },
+ {
+  "date": "17/11/2026",
+  "series": "finance101",
+  "topic": "PRE-MARKET: AI selloff day 3 - Nasdaq -2.49% to 24,509.76 (S&P -1.92%, Dow -1.41%) on 16/11/2026 after US curbs on China AI-chip access; Asia red (Nikkei ~-1.2%, Hang Seng -0.98%) but GIFT Nifty flat at 25,262 vs Nifty 25,291.10 (+0.58%) and Sensex 82,104.79 (+0.63%); Brent settled $92.44 (-3.6%), rupee 93.92 (+27 paise), FIIs +Rs 4,864.68 cr (11th straight session); 25,400 resistance vs 25,080/25,000 support; Nvidia earnings tonight"
  }
 ]
