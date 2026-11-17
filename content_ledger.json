@@ -1,11 +1,6 @@
 [
   {
     "date": "01/11/2026",
-    "series": "moneystory",
-    "topic": "MONEY STORY (weekend lesson): compounding math - Rs 5,000 a month for 20 years at an assumed 12% a year = Rs 12 lakh invested, about Rs 49.5 lakh back; first 10 years build ~Rs 11.5 lakh, the last 10 add ~Rs 38 lakh (end-of-month SIP convention); no live market call, Sunday market closed, Friday close Sensex 74,459.53 (+308.49, +0.42%) and Nifty 23,053.10 (+116.35, +0.51%)"
-  },
-  {
-    "date": "01/11/2026",
     "series": "geopolitics",
     "topic": "GEOPOLITICS: RBI has reportedly proposed a Rs 50 lakh per-year sub-limit under the LRS for business travel, pilgrimages and high-ticket trips (reported 27/10/2026, no start date; education and medical likely exempt), inside today's $2.5 lakh (~Rs 2.37 cr) yearly cap; travel is ~60% of money Indians send abroad; rupee fell ~7% in 12 months from 88.84 to 94.95 (30/10 close, Reuters) and RBI is estimated to have sold $75-80 bn since June to slow the fall"
   },
@@ -248,5 +243,10 @@
     "date": "17/11/2026",
     "series": "geopolitics",
     "topic": "GEOPOLITICS: Brent -22% in November ($117.64 on 30/10 to ~$92 on 17/11) after IEA flagged a 1.7 mn bpd Q4 surplus; rupee closed 93.47/$ (7-month high, +46 paise) but Delhi petrol still Rs 102.12/l and diesel Rs 95.20; BoB: 10% oil fall saves $9-10 bn a year. Tone caution, mood calm. LinkedIn urn:li:ugcPost:7528435391058702336, IG story 17955811821317585"
+  },
+  {
+    "date": "17/11/2026",
+    "series": "event",
+    "topic": "MARKET ALERT (6:30 PM monitor): SEBI weighing curbs on margin-funded stock buying (MTF) - Reuters 17/11/2026; MTF positions at Rs 1.53 lakh crore, up 29% YoY and nearly double end-2024, two-thirds in small/midcaps; proposal to bar fresh MTF in a stock once holdings cross 5-10% of free float; 36 stocks above 10%, 220+ above 5%; public consultation before rules. Tone caution, mood tense. LinkedIn urn:li:ugcPost:7528444785834037249, IG reel https://www.instagram.com/reel/Df2BPkNku-9/, IG story 18100247225435710"
   }
 ]
