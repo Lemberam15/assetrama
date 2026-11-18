@@ -49,6 +49,7 @@
 - [12/11] slide: one accent per headline (a numeric `highlight` no longer stacks a second accent on the hero figure); the festival photo creative now carries the question strip plus the send card.
 - [16/11] hook card: the cold-open hook's dominant figure now renders up to 1.20x larger on the shared baseline (v55); [15/11] every chart value carries a direction glyph so gain/loss is not encoded by colour alone.
 - [17/11] slide/hook: every negative figure now uses a real minus sign (U+2212) instead of a hyphen - twice as wide and maths-axis aligned, so a loss reads as strongly as a gain and the sign survives a muted red (v56, render_slide.norm_minus + NUM_RE; ranges and years untouched).
+- [18/11] hook: the cold-open hold is now read-time based (1 s per 3 words, floor 1.5 s, cap 2.2 s, from the word count `hook_card.py` writes to `<hook>.json`) — a 7-word hook was being cut away at 1.4 s before it could be read; also fixed the reel encoder crashing when a reel had a hook but no send card (it now renders the beat-cut).
 
 ## Done — weekly review 16/11/2026
 - [09/11/2026] articles: duplicate-`id` check added to `scripts/site_qc.py` — it now fails the run if any page reuses an id.
