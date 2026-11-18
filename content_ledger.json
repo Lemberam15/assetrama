@@ -1,10 +1,5 @@
 [
  {
-  "date": "18/11/2026",
-  "series": "finance101",
-  "topic": "MARKET BREADTH: Nifty 25,387.40 (+0.38%) closed at its highest level since Feb 2026 on 17/11/2026, but only 1,817 NSE stocks rose against 1,813 that fell; Nifty Midcap 100 +0.25% and Smallcap 100 -0.22% while Sensex gained 0.52% - the index is not the portfolio. Tone caution, mood tense. LinkedIn urn:li:ugcPost:7528635394872225793, IG carousel https://www.instagram.com/p/Df3XzjnH71m/, IG story 18128423564313037"
- },
- {
   "date": "02/11/2026",
   "series": "moneystory",
   "topic": "MONEY STORY: the consumer never got the slowdown memo - October gross GST Rs 2,31,290 crore (+22.9% YoY, fastest this fiscal, second-highest on comparable basis after April 2026's Rs 2,42,702 cr; net Rs 2,03,356 cr +25.6%), UPI record 25.47 bn payments worth Rs 31.53 lakh crore, car sales 5.25 lakh units (first month above 5 lakh); Sensex up ~900 pts / Nifty ~23,313 on the day"
@@ -248,5 +243,10 @@
   "date": "17/11/2026",
   "series": "event",
   "topic": "MARKET ALERT (6:30 PM monitor): SEBI weighing curbs on margin-funded stock buying (MTF) - Reuters 17/11/2026; MTF positions at Rs 1.53 lakh crore, up 29% YoY and nearly double end-2024, two-thirds in small/midcaps; proposal to bar fresh MTF in a stock once holdings cross 5-10% of free float; 36 stocks above 10%, 220+ above 5%; public consultation before rules. Tone caution, mood tense. LinkedIn urn:li:ugcPost:7528444785834037249, IG reel https://www.instagram.com/reel/Df2BPkNku-9/, IG story 18100247225435710"
+ },
+ {
+  "date": "18/11/2026",
+  "series": "finance101",
+  "topic": "PRE-MARKET: Nvidia beat after the close yet GIFT Nifty 25,256 at 8 AM IST on 18/11/2026, ~130 pts under Nifty's 25,387.40 close; Wall Street fell first - Dow -848.75 (-1.64%) to 50,759.42, S&P 500 -1.03% to 7,340.53, Nasdaq -0.74% to 24,328.38; Sensex 82,532.19 (+427.40) on 17/11; 25,500 resistance vs 25,200 support, 25,800 above; Brent $92.70, rupee 93.47. Tone caution, mood tense. LinkedIn urn:li:ugcPost:7528657108771434496, IG story 18120971002797409"
  }
 ]
