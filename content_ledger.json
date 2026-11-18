@@ -1,10 +1,5 @@
 [
   {
-    "date": "02/11/2026",
-    "series": "finance101",
-    "topic": "FINANCE 101: Crack spread - the gap between crude oil and the fuel a refiner sells. RIL's Q2 FY27 fuel cracks ran 3-3.7x YoY and O2C EBITDA hit Rs 25,203 cr (+67.9%), but Singapore's petrol crack fell from a record $50.53/bbl (1 Oct 2026) to about $11 (30 Oct 2026), lowest since March"
-  },
-  {
     "date": "03/11/2026",
     "series": "finance101",
     "topic": "MARKET WRAP: FIIs net bought Rs 6,836.81 crore and DIIs net sold Rs 3,678.85 crore in the cash market on 03/11/2026 (NSE provisional) yet the index rose - Sensex 76,917.85 (+1,225.07 pts, +1.62%), Nifty 23,810.85 (+370.05 pts, +1.58%), fourth straight green day and a two-month high"
@@ -248,5 +243,10 @@
     "date": "18/11/2026",
     "series": "geopolitics",
     "topic": "GEOPOLITICS: gold fell to a one-year low - MCX gold -2.5% to ~Rs 1.31 lakh/10g and silver -3.7% to Rs 1,63,350/kg on 18/11/2026, 27% below the 2026 peak of Rs 1,80,779; US dollar at a 19-month high, 10-year yields near 5%, CME pricing a 96% chance of a US rate HIKE in December; rupee 93.44 (7-month high). Tone bearish, mood urgent. LinkedIn urn:li:ugcPost:7528796274112983040, IG story 18133474225703990"
+  },
+  {
+    "date": "18/11/2026",
+    "series": "finance101",
+    "topic": "MARKET WRAP: Sensex -500.38 pts to 82,031.81 (-0.61%) and Nifty -159.45 pts to 25,227.95 (-0.63%) on 18/11/2026; FIIs net bought Rs 5,866.78 cr while DIIs net sold Rs 3,159.90 cr (NSE provisional cash market) - foreign buying met domestic selling, index still fell. Tone caution, mood tense. LinkedIn urn:li:ugcPost:7528832805779353601, IG reel https://www.instagram.com/reel/Df4x_mXiWzB/"
   }
 ]
