@@ -10,6 +10,13 @@
  },
  "posted": [
   {
+   "topic": "52-week high - signal or trap?",
+   "category": "stocks",
+   "date": "18/11/2026",
+   "locked_until": "19/05/2027",
+   "note": "Wednesday finance101 carousel slot"
+  },
+  {
    "topic": "Step-up SIP - the 10% annual raise trick",
    "category": "SIP",
    "date": "13/11/2026",
@@ -260,7 +267,9 @@
   {
    "topic": "52-week high - signal or trap?",
    "category": "stocks",
-   "used": false
+   "used": true,
+   "posted": "18/11/2026",
+   "locked_until": "19/05/2027"
   },
   {
    "topic": "ROE and ROCE - how companies get graded",
