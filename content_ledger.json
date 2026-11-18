@@ -1,11 +1,6 @@
 [
  {
   "date": "02/11/2026",
-  "series": "moneystory",
-  "topic": "MONEY STORY: the consumer never got the slowdown memo - October gross GST Rs 2,31,290 crore (+22.9% YoY, fastest this fiscal, second-highest on comparable basis after April 2026's Rs 2,42,702 cr; net Rs 2,03,356 cr +25.6%), UPI record 25.47 bn payments worth Rs 31.53 lakh crore, car sales 5.25 lakh units (first month above 5 lakh); Sensex up ~900 pts / Nifty ~23,313 on the day"
- },
- {
-  "date": "02/11/2026",
   "series": "finance101",
   "topic": "PRE-MARKET: Nasdaq -2.86% (25,437) on the AI-spend rout, worst month since March 2025, yet Gift Nifty ~23,290 (+~200 pts) on Brent cooling to $111 from $117.64; Nifty closed 23,053.10 with 23,200 the wall and 22,850 the floor, Sensex 74,459.53 with 75,000/73,800; rupee 94.94, FIIs bought Rs 3,598 cr Friday, US midterms 03/11"
  },
@@ -248,5 +243,10 @@
   "date": "18/11/2026",
   "series": "finance101",
   "topic": "PRE-MARKET: Nvidia beat after the close yet GIFT Nifty 25,256 at 8 AM IST on 18/11/2026, ~130 pts under Nifty's 25,387.40 close; Wall Street fell first - Dow -848.75 (-1.64%) to 50,759.42, S&P 500 -1.03% to 7,340.53, Nasdaq -0.74% to 24,328.38; Sensex 82,532.19 (+427.40) on 17/11; 25,500 resistance vs 25,200 support, 25,800 above; Brent $92.70, rupee 93.47. Tone caution, mood tense. LinkedIn urn:li:ugcPost:7528657108771434496, IG story 18120971002797409"
+ },
+ {
+  "date": "18/11/2026",
+  "series": "moneystory",
+  "topic": "MONEY STORY: India's 10% November rally hit the brakes - Sensex -366 pts at 82,167 and Nifty -122 at 25,266 by 11:30 IST (profit booking after Tuesday's 9-month high), breadth 2,206 declines vs 969 advances, Nvidia's record $115.8 bn quarter (+103% YoY) still left GIFT Nifty 133 pts down; Nifty +10.1% and Sensex +10.8% in November so far"
  }
 ]
