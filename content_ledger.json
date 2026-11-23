@@ -1,11 +1,6 @@
 [
  {
   "date": "03/11/2026",
-  "series": "geopolitics",
-  "topic": "GEOPOLITICS: gold ~30% below its January 2026 record just before Dhanteras - spot gold under $3,900/oz (one-year low) on 30/10/2026, MCX gold under Rs 1.40 lakh per 10g on 03/11/2026, October the worst October since 2008 (gold -7%, silver ~-18%); cause: oil-led inflation and December Fed hike bets, gold pays no interest; Dhanteras 06/11/2026"
- },
- {
-  "date": "03/11/2026",
   "series": "event",
   "topic": "EVENT/MARKET ALERT (2:30 PM monitor): SEBI recommended scrapping the 12.5% LTCG tax for foreign investors (Reuters, 02/11/2026) and FM Sitharaman said she will consider the demand - Sensex rose 1,049 pts (+1.39%) to 76,741.90 and Nifty +293.50 (+1.25%) to 23,734.30 on 03/11/2026, adding about Rs 4 lakh crore to BSE market value (total Rs 486 lakh crore); FPI outflows Rs 2.91 lakh crore in 2026"
  },
@@ -248,5 +243,10 @@
   "date": "23/11/2026",
   "series": "geopolitics",
   "topic": "GEOPOLITICS: gold's worst week in 8 months then a 2.4% bounce - spot gold -8.9% to $3,538/oz on 20/11/2026 (14-month low), silver -15% in five sessions; cause 99% priced chance of a 25bp Dec Fed hike (gold pays no interest); 23/11/2026 MCX gold +2.38% to Rs 1,24,677/10g, silver Rs 1,52,171/kg, rupee 92.91"
+ },
+ {
+  "date": "23/11/2026",
+  "series": "finance101",
+  "topic": "MARKET WRAP: Sensex -1,483.72 pts to 82,435.99 (-1.77%) and Nifty -450.95 pts to 25,349.65 (-1.75%) on 23/11/2026, banks and metals led the fall (Bank Nifty -3.17%); FIIs net bought Rs 5,672.99 cr while DIIs net sold Rs 2,760.12 cr (NSE provisional cash). Tone bearish, mood urgent. LinkedIn urn:li:ugcPost:7530647312214351872, IG reel https://www.instagram.com/reel/DgFq2MdmTj4/, IG story 4036821900554328384"
  }
 ]
