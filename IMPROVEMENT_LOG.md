@@ -47,6 +47,7 @@
 - [06/11] news: the numbers printed inside each card's art SVG are hand-typed copies of that card's own figures, and three of the 20 had drifted onto another company's results. Generate the SVG figures from the card data.
 - [18/11/2026] calculators: sip-calculator and cagr-calculator each carry their own ~120-line copy of the same chart and number-format helpers (`inr`, `inrFull`, `axis`, `nice`, `draw`); extract them into one shared script so a fix to the y-axis or the crore/lakh formatter lands on every calculator at once.
 - [18/11/2026] calculators: the SIP page caps expected return at 18% and the annual step-up at 25% without saying so in the copy; add a one-line note under each slider explaining the cap and why it is there, so a user does not read the ceiling as a recommendation.
+- [24/11/2026] index.html: the JSON-LD `@graph` carries only WebSite, Organization and Person; add a BreadcrumbList for the home page trail and an FAQPage built from the questions already answered in the on-page copy, so the home page can win rich results the same way the lesson pages do.
 
 ## Content pipeline (LinkedIn / Instagram) — daily improvement
 - [02/11] Proposed count-up (animated) hero number on the beat card — sample delivered for Ram's approval; the live 4:5 static pipeline is unchanged.
