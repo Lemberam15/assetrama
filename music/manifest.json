@@ -1,0 +1,199 @@
+{
+ "version": 1,
+ "updated": "2026-11-21",
+ "how_it_is_used": "scripts/music_lib.py in the video pipeline reads this file, picks the first track for the post mood, cuts from `start` (or the mood override), loops with a 0.8 s crossfade if the post needs more than the track has left, normalises to -12 dBFS RMS, adds the count/bell/hook/guess cues, then muxes. Change a mood mapping here and the next post follows it - no code change.",
+ "default": "atlasaudio-motivation-corporate",
+ "moods": {
+  "finance101": {
+   "tracks": [
+    "atlasaudio-motivation-corporate",
+    "paulyudin-motivation"
+   ],
+   "gain_db": 0.0,
+   "why": "bright, warm explainer"
+  },
+  "moneystory": {
+   "tracks": [
+    "paulyudin-motivation",
+    "atlasaudio-motivation-corporate"
+   ],
+   "gain_db": 0.0,
+   "why": "warm, human, comeback energy"
+  },
+  "geopolitics": {
+   "tracks": [
+    "mixkit-deep-urban",
+    "libertybeats-the-saviour"
+   ],
+   "gain_db": 0.0,
+   "why": "serious, dark, analytical"
+  },
+  "event": {
+   "tracks": [
+    "the-mountain-simulation-worlds",
+    "mixkit-deep-urban"
+   ],
+   "gain_db": 0.0,
+   "why": "tense, unsettled - the default for monitor posts"
+  },
+  "urgent": {
+   "tracks": [
+    "eduardbykovets-the-destroyer",
+    "geronic-the-punisher"
+   ],
+   "gain_db": -1.5,
+   "why": "crash, selloff, shock"
+  },
+  "tense": {
+   "tracks": [
+    "the-mountain-simulation-worlds",
+    "libertybeats-the-saviour"
+   ],
+   "gain_db": -1.0,
+   "start": 70.0,
+   "why": "suspense, waiting for a decision"
+  },
+  "solemn": {
+   "tracks": [
+    "libertybeats-the-saviour",
+    "mixkit-deep-urban"
+   ],
+   "gain_db": 0.0,
+   "why": "grave news, losses, consequence"
+  },
+  "uplifting": {
+   "tracks": [
+    "clip20-driving-ambition",
+    "atlasaudio-motivation-corporate"
+   ],
+   "gain_db": 0.0,
+   "why": "rally, milestone, record high"
+  },
+  "festival": {
+   "tracks": [
+    "studiokolomna-cant-stop-electronic-travel",
+    "paulyudin-motivation"
+   ],
+   "gain_db": 0.0,
+   "why": "festive, light, celebratory"
+  },
+  "festive": {
+   "tracks": [
+    "studiokolomna-cant-stop-electronic-travel",
+    "paulyudin-motivation"
+   ],
+   "gain_db": 0.0,
+   "why": "alias of festival"
+  },
+  "calm": {
+   "tracks": [
+    "mixkit-deep-urban",
+    "studiokolomna-cant-stop-electronic-travel"
+   ],
+   "gain_db": -1.0,
+   "start": 150.0,
+   "why": "steady, low-key, no drama"
+  }
+ },
+ "tracks": {
+  "atlasaudio-motivation-corporate": {
+   "file": "tracks/atlasaudio-motivation-corporate.mp3",
+   "dur_s": 123.7,
+   "start": 40.0,
+   "bpm": 92,
+   "rms_db": -12.4,
+   "peak_db": -0.1,
+   "character": "Warm corporate build - soft piano/pad, steady pulse. Explainer and hopeful-business energy.",
+   "source": "Supplied by Ram (Pixabay-style ID)",
+   "licence": "Unknown - supplied by Ram (Pixabay-style numeric ID in the original filename). Pixabay Content License usually applies: free commercial use, no attribution, no standalone redistribution. Confirm before paid use."
+  },
+  "clip20-driving-ambition": {
+   "file": "tracks/clip20-driving-ambition.mp3",
+   "dur_s": 20.0,
+   "start": 0.0,
+   "bpm": 108,
+   "rms_db": -18.2,
+   "peak_db": -5.1,
+   "character": "Driving ambition sting, 20 s exactly - forward motion, no intro to trim.",
+   "source": "Supplied by Ram (Pixabay-style ID)",
+   "licence": "Unknown - supplied by Ram (Pixabay-style filename). Confirm the source licence before paid use."
+  },
+  "eduardbykovets-the-destroyer": {
+   "file": "tracks/eduardbykovets-the-destroyer.mp3",
+   "dur_s": 129.1,
+   "start": 74.5,
+   "bpm": 107,
+   "rms_db": -14.4,
+   "peak_db": -0.1,
+   "character": "Aggressive, bright, hard-hitting - for a crash, a selloff, a shock.",
+   "source": "Supplied by Ram (Pixabay-style ID)",
+   "licence": "Unknown - supplied by Ram (Pixabay-style numeric ID in the original filename). Pixabay Content License usually applies: free commercial use, no attribution, no standalone redistribution. Confirm before paid use."
+  },
+  "geronic-the-punisher": {
+   "file": "tracks/geronic-the-punisher.mp3",
+   "dur_s": 108.6,
+   "start": 4.0,
+   "bpm": 107,
+   "rms_db": -10.7,
+   "peak_db": 0.0,
+   "character": "Hard and relentless, loud intro hit, bright top end - escalation.",
+   "source": "Supplied by Ram (Pixabay-style ID)",
+   "licence": "Unknown - supplied by Ram (Pixabay-style numeric ID in the original filename). Pixabay Content License usually applies: free commercial use, no attribution, no standalone redistribution. Confirm before paid use."
+  },
+  "libertybeats-the-saviour": {
+   "file": "tracks/libertybeats-the-saviour.mp3",
+   "dur_s": 350.6,
+   "start": 103.0,
+   "bpm": 80,
+   "rms_db": -15.5,
+   "peak_db": -0.0,
+   "character": "Epic cinematic build, long-form - weight, resolve, consequence.",
+   "source": "Supplied by Ram (Pixabay-style ID)",
+   "licence": "Unknown - supplied by Ram (Pixabay-style numeric ID in the original filename). Pixabay Content License usually applies: free commercial use, no attribution, no standalone redistribution. Confirm before paid use."
+  },
+  "mixkit-deep-urban": {
+   "file": "tracks/mixkit-deep-urban.mp3",
+   "dur_s": 288.7,
+   "start": 30.0,
+   "bpm": 80,
+   "rms_db": -12.4,
+   "peak_db": 0.0,
+   "character": "Deep urban groove, dark and steady - analysis, geopolitics, policy.",
+   "source": "Mixkit",
+   "licence": "Mixkit Free License (mixkit.co) - free for commercial use, no attribution, but the file may not be redistributed as a standalone download."
+  },
+  "paulyudin-motivation": {
+   "file": "tracks/paulyudin-motivation.mp3",
+   "dur_s": 75.5,
+   "start": 25.5,
+   "bpm": 108,
+   "rms_db": -16.6,
+   "peak_db": -0.2,
+   "character": "Motivational, warm and hopeful - personal money stories, comebacks.",
+   "source": "Supplied by Ram (Pixabay-style ID)",
+   "licence": "Unknown - supplied by Ram (Pixabay-style numeric ID in the original filename). Pixabay Content License usually applies: free commercial use, no attribution, no standalone redistribution. Confirm before paid use."
+  },
+  "studiokolomna-cant-stop-electronic-travel": {
+   "file": "tracks/studiokolomna-cant-stop-electronic-travel.mp3",
+   "dur_s": 135.0,
+   "start": 35.0,
+   "bpm": 80,
+   "rms_db": -13.9,
+   "peak_db": -0.0,
+   "character": "Upbeat electronic travel groove - light, festive, momentum.",
+   "source": "Supplied by Ram (Pixabay-style ID)",
+   "licence": "Unknown - supplied by Ram (Pixabay-style numeric ID in the original filename). Pixabay Content License usually applies: free commercial use, no attribution, no standalone redistribution. Confirm before paid use."
+  },
+  "the-mountain-simulation-worlds": {
+   "file": "tracks/the-mountain-simulation-worlds.mp3",
+   "dur_s": 132.0,
+   "start": 15.0,
+   "bpm": 107,
+   "rms_db": -12.3,
+   "peak_db": 0.0,
+   "character": "Moody, bass-heavy simulation - tension, uncertainty, \"what if\".",
+   "source": "Supplied by Ram (Pixabay-style ID)",
+   "licence": "Unknown - supplied by Ram (Pixabay-style numeric ID in the original filename). Pixabay Content License usually applies: free commercial use, no attribution, no standalone redistribution. Confirm before paid use."
+  }
+ }
+}
