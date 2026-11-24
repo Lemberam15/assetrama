@@ -247,6 +247,36 @@ def festival_layer(img, spec):
     return img
 
 
+
+def chart_panel(img, chart, pal, top, height=188):
+    """branded horizontal-bar panel: title + 2-6 bars, negatives red"""
+    acc, on = pal["accent"], pal["on"]
+    M = 62
+    box = (M, top, W - M, top + height)
+    img = glass(img, box); d = ImageDraw.Draw(img)
+    d.text((M + 26, top + 18), chart.get("title", ""), font=F("SemiBold", 23),
+           fill=(198, 206, 220, 255))
+    bars = chart.get("bars", [])[:6]
+    base = chart.get("baseline")
+    vals = [abs(float(b.get("value", 0)) - (float(base) if base is not None else 0)) or 1
+            for b in bars] or [1]
+    mx = max(vals)
+    y = top + 56
+    row = max(22, int((height - 74) / max(1, len(bars))))
+    for b in bars:
+        v = float(b.get("value", 0))
+        raw = abs(v - (float(base) if base is not None else 0))
+        bw = max(14, int((W - M - 300) * raw / mx))
+        col = (255, 92, 92) if v < 0 else acc
+        d.text((M + 26, y + 2), str(b.get("label", ""))[:8], font=F("Medium", 20),
+               fill=(210, 216, 228, 255))
+        d.rounded_rectangle([M + 120, y, M + 120 + bw, y + row - 10], 6, fill=col + (235,))
+        d.text((M + 132 + bw, y + 2), str(b.get("display", "")), font=F("SemiBold", 20),
+               fill=col + (255,))
+        y += row
+    return img
+
+
 # ---------------- helpers ----------------
 def wrap(text, font, maxw):
     words, lines, cur = text.split(), [], ""
@@ -496,7 +526,8 @@ def render(spec, out, reveal=3, show_cta=True, show_header=True):
 
     # ---- three glass point cards
     cy = sy + 30
-    ch, gap = 134, 12
+    has_chart = bool(spec.get("chart"))
+    ch, gap = (92, 10) if has_chart else (134, 12)
     icons = spec.get("icons") or [pick_icon(p) for p in spec["points"][:3]]
     nf, pf = F("Bold", 25), F("Medium", 29)
     for i, pt in enumerate(spec["points"][:3]):
@@ -505,13 +536,13 @@ def render(spec, out, reveal=3, show_cta=True, show_header=True):
             continue
         box = (M, cy, W - M, cy + ch)
         img = glass(img, box); d = ImageDraw.Draw(img)
-        chip(img, (M + 22, cy + 40, M + 22 + 56, cy + 40 + 56), "0%d" % (i + 1), nf, pal)
+        chip(img, (M + 22, cy + (ch - 56) // 2, M + 22 + 56, cy + (ch - 56) // 2 + 56), "0%d" % (i + 1), nf, pal)
         d = ImageDraw.Draw(img)
         icon_badge(img, M + 146, cy + ch // 2, icons[i], pal)
         d = ImageDraw.Draw(img)
         d.line([(M + 198, cy + 26), (M + 198, cy + ch - 26)], fill=(255, 255, 255, 50), width=2)
-        ty = cy + 40
-        for line in wrap(pt, pf, CW - 240)[:2]:
+        ty = cy + (24 if has_chart else 40)
+        for line in wrap(pt, pf, CW - 240)[:(1 if has_chart else 2)]:
             x = M + 226
             for word in line.split():
                 fig = any(c.isdigit() for c in word) or "\u20b9" in word or "%" in word
@@ -520,6 +551,9 @@ def render(spec, out, reveal=3, show_cta=True, show_header=True):
             ty += 39
         cy += ch + gap
 
+    if has_chart:
+        img = chart_panel(img, spec["chart"], pal, cy + 6)
+        cy += 6 + 188
     # fixed furniture: contacts + disclaimer sit at the same spot in every frame
     qy, by = cy + 14, cy + 14 + 92
     ky, kh = by + 112, 104
