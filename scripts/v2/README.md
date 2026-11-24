@@ -46,6 +46,26 @@ python scripts/v2/build_film_v2.py spec.json post.mp4 --music bed.wav \
 8. **Film lengths:** 44.5 s default for the 7:30 term slot on LinkedIn; 30 s for
    the Instagram reel; 20-25 s for event alerts.
 
+## Festival posts (Ram's rule, 24/11/2026)
+
+Festival posts use their own imagery, not the generic plate. Set BOTH
+`"tone": "festival"` and a `"festival"` key:
+
+| key | motif drawn behind the cards |
+|---|---|
+| `gurpurb` | gurudwara dome + side domes + finial, warm rays |
+| `diwali` | three diyas with flames |
+| `eid` | crescent, stars and hanging lanterns |
+| `christmas` | tree, trunk and stars |
+| `holi` | soft colour clouds |
+| `ganesh` | diya row (override with a plate) |
+| `newyear` | firework bursts |
+
+The motif is drawn in code at low alpha BEHIND the glass cards, so it reads as a
+watermark through the glass and never fights the text. A photo plate at
+`assets_v2/plates/<festival>.png` (Ram's ChatGPT Go batch) wins over the drawn
+motif automatically. Never put festival imagery behind the disclaimer strip.
+
 ## What still needs a human eye
 
 - Icon meaning: auto-pick is keyword scoring, so check each slide once.
