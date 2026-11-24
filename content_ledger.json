@@ -1,10 +1,5 @@
 [
  {
-  "date": "03/11/2026",
-  "series": "moneystory",
-  "topic": "MONEY STORY: foreign money owns the least of India since Dec 2011 - FPI stake in BSE-listed firms 14.02% at Sept quarter end (lowest since Dec 2011, Mint/CMIE), domestic MF ownership a record 11.59%, gap down to 2.43 pp from 4.77 pp; FIIs sold Rs 45,162 cr in October (NSE provisional) then bought Rs 9,420 cr in six sessions to 02/11, DIIs net sellers Rs 392 cr on 02/11; Nifty 4th straight up session, ~23,691 (+1.07%), Sensex ~76,626 (+1.23%) at noon 03/11"
- },
- {
   "date": "05/11/2026",
   "series": "event",
   "topic": "EVENT/MARKET ALERT (6:30 PM monitor): SEBI circular dated 05/11/2026 - domestic clients and FPIs may take long or short positions in INR currency derivatives with NO underlying exposure up to USD 5 million notional, one combined limit across all rupee pairs and all exchanges; FPI total short positions capped at USD 5m and longs above that need Indian equity/debt backing; follows RBI's 10/10/2026 FX derivatives changes"
@@ -248,5 +243,10 @@
   "date": "24/11/2026",
   "series": "event",
   "topic": "MARKET ALERT (2:30 AM monitor): Nvidia board reinstates Jensen Huang as CEO 11 days after his exit; NVDA +31%, Nasdaq +6.8%, S&P 500 +4.9%, Dow +3.2% on 23/11/2026 - biggest US rally since April 2025, roughly half of last week's fall recovered; Brent below $90 (lowest since 27/08); India read: Nifty IT +1.69% on 23/11 while Nifty fell 1.75%, NSE shut 24/11 for Guru Nanak Jayanti, reopens 25/11. Tone bullish, mood uplifting. LinkedIn urn:li:ugcPost:7530739748274110464, IG reel https://www.instagram.com/reel/DgGUz1_Eokt/, IG story 4037005979614511150"
+ },
+ {
+  "date": "24/11/2026",
+  "series": "finance101",
+  "topic": "FINANCE TERM: settlement holiday - NSE/BSE shut 24/11/2026 for Guru Nanak Jayanti and it is also a settlement holiday, so no pay-in/pay-out; India settles equity trades T+1, so Monday 23/11 sale proceeds move to Wednesday 25/11 (trading reopens 9:15 AM); F&O/intraday credits from 23/11 not usable on 24/11"
  }
 ]
