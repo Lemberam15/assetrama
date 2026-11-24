@@ -8,6 +8,7 @@ icons, tone colours, marker-swipe question, gradient CTA.
 """
 import os, sys, json, math, random, urllib.request
 import numpy as np
+from PIL import ImageChops
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -102,6 +103,149 @@ def background(accent, seed):
     n = np.random.default_rng(seed).normal(0, 3.2, (H, W, 1)).repeat(3, axis=2)
     arr = np.clip(arr + n, 0, 255).astype(np.uint8)
     return Image.fromarray(arr, "RGB").convert("RGBA")
+
+
+# ---------------- festival motifs (drawn in code, no external photos) ----------------
+FESTIVALS = {
+    "gurpurb":   dict(glow=(255, 176, 58), ink=(255, 206, 140)),
+    "diwali":    dict(glow=(255, 150, 40), ink=(255, 208, 130)),
+    "eid":       dict(glow=(120, 220, 200), ink=(210, 245, 235)),
+    "christmas": dict(glow=(255, 120, 110), ink=(255, 225, 220)),
+    "holi":      dict(glow=(255, 140, 200), ink=(255, 220, 240)),
+    "ganesh":    dict(glow=(255, 160, 60), ink=(255, 220, 160)),
+    "newyear":   dict(glow=(255, 200, 80), ink=(255, 235, 180)),
+    "default":   dict(glow=(255, 176, 58), ink=(255, 220, 170)),
+}
+
+
+def _rays(img, col, cx, cy, n=14, r=900, alpha=26):
+    lay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(lay)
+    for i in range(n):
+        a0 = (360 / n) * i + 6
+        a1 = a0 + 360 / n * 0.42
+        p = [(cx, cy)]
+        for a in (a0, a1):
+            p.append((cx + r * math.cos(math.radians(a)), cy + r * math.sin(math.radians(a))))
+        d.polygon(p, fill=col + (alpha,))
+    img.alpha_composite(lay.filter(ImageFilter.GaussianBlur(26)))
+
+
+def _gurudwara(img, ink, cx=800, cy=690, k=1.15):
+    lay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(lay)
+    bw, bh = 210 * k, 150 * k
+    d.rectangle([cx - bw, cy, cx + bw, cy + bh], fill=ink + (70,))
+    d.ellipse([cx - bw * 0.72, cy - 96 * k, cx + bw * 0.72, cy + 26 * k], fill=ink + (78,))
+    d.ellipse([cx - 42 * k, cy - 150 * k, cx + 42 * k, cy - 70 * k], fill=ink + (84,))
+    d.line([(cx, cy - 150 * k), (cx, cy - 190 * k)], fill=ink + (60,), width=max(2, int(5 * k)))
+    d.ellipse([cx - 8 * k, cy - 204 * k, cx + 8 * k, cy - 188 * k], fill=ink + (60,))
+    for sx in (-1.25, 1.25):
+        d.ellipse([cx + sx * bw - 52 * k, cy - 10 * k, cx + sx * bw + 52 * k, cy + 60 * k], fill=ink + (64,))
+    d.arc([cx - 40 * k, cy + 40 * k, cx + 40 * k, cy + 150 * k], 180, 360, fill=ink + (55,), width=max(2, int(4 * k)))
+    img.alpha_composite(lay.filter(ImageFilter.GaussianBlur(0.6)))
+
+
+def _diya_row(img, ink, cx=800, cy=720, k=1.5):
+    lay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(lay)
+    for i, (dx, dy, sk) in enumerate([(0, 0, 1.25), (-150, 78, 0.8), (140, 70, 0.7)]):
+        x, y, kk = cx + dx, cy + dy, k * sk
+        d.arc([x - 62 * kk, y - 26 * kk, x + 62 * kk, y + 46 * kk], 0, 180, fill=ink + (80,),
+              width=max(3, int(7 * kk)))
+        d.polygon([(x, y - 74 * kk), (x + 15 * kk, y - 34 * kk), (x - 15 * kk, y - 34 * kk)],
+                  fill=(255, 205, 105, 205))
+        d.ellipse([x - 40 * kk, y - 104 * kk, x + 40 * kk, y - 20 * kk], fill=(255, 170, 60, 44))
+    img.alpha_composite(lay.filter(ImageFilter.GaussianBlur(2)))
+
+
+def _crescent(img, ink, cx=810, cy=680, r=175):
+    lay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(lay)
+    d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=ink + (90,))
+    cut = Image.new("L", (W, H), 0)
+    ImageDraw.Draw(cut).ellipse([cx - r + 48, cy - r - 14, cx + r + 48, cy + r - 14], fill=255)
+    a = lay.split()[3]
+    a = ImageChops.subtract(a, cut.filter(ImageFilter.GaussianBlur(2)))
+    lay.putalpha(a)
+    for sx, sy, sr in ((cx - 150, cy - 96, 6), (cx + 118, cy + 96, 5), (cx + 150, cy - 120, 7)):
+        d.ellipse([sx - sr, sy - sr, sx + sr, sy + sr], fill=ink + (120,))
+    img.alpha_composite(lay)
+
+
+def _lantern(img, ink, cx=900, cy=560, k=1.5):
+    lay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(lay)
+    for dx, dy, sc in ((0, 0, 0.8), (140, 120, 0.55)):
+        x, y = cx + dx, cy + dy
+        d.line([(x, 0), (x, y - 70 * sc)], fill=ink + (40,), width=2)
+        d.rounded_rectangle([x - 46 * sc, y - 66 * sc, x + 46 * sc, y + 66 * sc], int(16 * sc),
+                            fill=ink + (30,), outline=ink + (60,), width=2)
+        d.line([(x, y + 66 * sc), (x, y + 104 * sc)], fill=ink + (50,), width=2)
+    img.alpha_composite(lay.filter(ImageFilter.GaussianBlur(0.6)))
+
+
+def _tree(img, ink, cx=810, cy=610, k=1.15):
+    lay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(lay)
+    for i, (w, h) in enumerate(((150, 150), (118, 132), (86, 112))):
+        top = cy + i * 108 * k
+        d.polygon([(cx, top - h * k), (cx - w * k, top), (cx + w * k, top)], fill=ink + (68,))
+    d.rectangle([cx - 16 * k, cy + 240 * k, cx + 16 * k, cy + 330 * k], fill=ink + (70,))
+    for sx, sy, sr in ((cx - 210, cy - 130, 9), (cx - 130, cy - 40, 6), (cx + 150, cy - 150, 7)):
+        d.polygon([(sx, sy - sr * 2), (sx + sr * 0.7, sy - sr * 0.5), (sx + sr * 2, sy - sr * 0.2),
+                   (sx + sr * 0.8, sy + sr * 0.7), (sx + sr * 1.2, sy + sr * 2), (sx, sy + sr * 1.2),
+                   (sx - sr * 1.2, sy + sr * 2), (sx - sr * 0.8, sy + sr * 0.7), (sx - sr * 2, sy - sr * 0.2),
+                   (sx - sr * 0.7, sy - sr * 0.5)], fill=ink + (95,))
+    img.alpha_composite(lay.filter(ImageFilter.GaussianBlur(1)))
+
+
+def _holi(img, ink, cx=0, cy=0, k=1.0):
+    lay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(lay)
+    cols = [(255, 120, 180), (255, 200, 80), (120, 220, 200), (170, 140, 255)]
+    rnd = random.Random(7)
+    for i in range(9):
+        x, y = rnd.randint(60, W - 60), rnd.randint(120, 520)
+        r = rnd.randint(60, 140)
+        d.ellipse([x - r, y - r, x + r, y + r], fill=cols[i % 4] + (30,))
+    img.alpha_composite(lay.filter(ImageFilter.GaussianBlur(30)))
+
+
+def _fireworks(img, ink, cx=800, cy=700, k=1.6):
+    lay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(lay)
+    for ox, oy, r in ((0, 0, 150), (-180, 150, 90), (120, 210, 70)):
+        x, y = cx + ox, cy + oy
+        for i in range(12):
+            a = math.radians(30 * i)
+            d.line([(x, y), (x + r * math.cos(a), y + r * math.sin(a))], fill=ink + (60,), width=3)
+    img.alpha_composite(lay.filter(ImageFilter.GaussianBlur(2)))
+
+
+FESTIVAL_DRAW = {"gurpurb": _gurudwara, "diwali": _diya_row, "eid": _crescent,
+                 "christmas": _tree, "holi": _holi, "ganesh": _diya_row,
+                 "newyear": _fireworks}
+
+
+def festival_layer(img, spec):
+    """festival posts get their own imagery: warm rays + the festival's own motif.
+    A photo plate at assets_v2/plates/<festival>.png wins over the drawn motif."""
+    key = (spec.get("festival") or "default").lower()
+    cfg = FESTIVALS.get(key, FESTIVALS["default"])
+    plate = os.path.join(ASSETS, "plates", f"{key}.png")
+    if os.path.exists(plate):
+        p = Image.open(plate).convert("RGBA").resize((W, H), Image.LANCZOS)
+        img.alpha_composite(p)
+        return img
+    _rays(img, cfg["glow"], 800, 620, n=16, r=1100, alpha=26)
+    fn = FESTIVAL_DRAW.get(key)
+    if fn:
+        fn(img, cfg["ink"])
+    if key == "eid":
+        _lantern(img, cfg["ink"])
+    return img
+
 
 # ---------------- helpers ----------------
 def wrap(text, font, maxw):
@@ -209,6 +353,11 @@ def icon_badge(img, cx, cy, kind, pal):
         d.line([(cx - 16, cy - 8), (cx, cy + 12)], fill=wht, width=4)
         d.line([(cx, cy + 12), (cx + 16, cy - 8)], fill=wht, width=4)
         d.line([(cx, cy + 12), (cx, cy - 18)], fill=acc, width=4)
+    elif kind == "star":
+        for i in range(8):
+            a = math.radians(45 * i)
+            d.line([(cx, cy), (cx + 20 * math.cos(a), cy + 20 * math.sin(a))], fill=acc, width=3)
+        d.ellipse([cx - 4, cy - 4, cx + 4, cy + 4], fill=wht)
     elif kind == "dot":
         d.ellipse([cx - 5, cy - 5, cx + 5, cy + 5], fill=acc)
     elif kind == "bell":
@@ -257,7 +406,7 @@ ICON_RULES = [
                   "market", "nav", "fund", "price", "crore", "lakh", "%")),
 ]
 
-def pick_icon(text, default="dot"):
+def pick_icon(text, default="star"):
     """score every icon rule against the point's own words, highest score wins
     (tie-break follows ICON_RULES order: chart, then holiday, then next-day)"""
     t = text.lower()
@@ -273,6 +422,8 @@ def render(spec, out, reveal=3, show_cta=True, show_header=True):
     pal = TONES[spec.get("tone", "neutral")]
     acc, deep, on = pal["accent"], pal["deep"], pal["on"]
     img = background(acc, seed=sum(map(ord, spec["headline"])) & 0xFFFF)
+    if spec.get("tone") == "festival" or spec.get("festival"):
+        img = festival_layer(img, spec)
     d = ImageDraw.Draw(img)
     M = 62          # side margin
     CW = W - 2 * M  # content width
