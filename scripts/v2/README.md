@@ -66,6 +66,23 @@ watermark through the glass and never fights the text. A photo plate at
 `assets_v2/plates/<festival>.png` (Ram's ChatGPT Go batch) wins over the drawn
 motif automatically. Never put festival imagery behind the disclaimer strip.
 
+## Instagram 9:16 reel (v2)
+
+```
+python scripts/v2/reel_916_v2.py slide.png  reel_slide.png     # each 4:5 card
+python scripts/v2/reel_916_v2.py hook.png   reel_hook.png
+python scripts/v2/reel_916_v2.py beat.png   reel_beat.png
+python scripts/v2/reel_916_v2.py send.png   reel_send.png
+python <skill>/scripts/reel_916_encode.py reel_slide.png ig.mp4 30 <mood> reel_beat.png reel_send.png reel_hook.png
+```
+
+The wrapper blurs and darkens the card's own plate into the top and bottom of
+the 1080x1920 frame and centres the card - it adds NO second header and no
+second FOLLOW chip, because the v2 card already carries both. Keep the reel at
+~30 s even when the LinkedIn film runs 44.5 s: completion drives reach on Reels.
+Do not use the old `reel_916_slide.py` on a v2 card - it stamps the series
+accent (blue) and a duplicate header.
+
 ## What still needs a human eye
 
 - Icon meaning: auto-pick is keyword scoring, so check each slide once.
