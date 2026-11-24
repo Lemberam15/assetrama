@@ -48,6 +48,20 @@ python scripts/v2/build_film_v2.py spec.json post.mp4 --music bed.wav \
    runs the SAME 60 s film - same beats, same animated header - never a shorter
    cut. Event alerts stay at 20-25 s.
 
+## Charts
+
+`"chart": {"title": ..., "baseline": <optional>, "bars": [{"label","value","display"}]}`
+draws the branded bar panel between the points and the question. Points drop to
+ONE line each (~45 chars) when a chart is present, so the fonts never shrink.
+
+- `value` is the raw number used only to size the bar; `display` is what the
+  reader sees (put the sign in it: `+436`, `-576`). Negative values render red.
+- Add `baseline` when the bars are deltas - index closes measured from a round
+  level, flows measured from zero. Without it, three near-identical index
+  closes all render as full bars and the chart says nothing.
+- Use a chart only when the spread is meaningful, roughly every second or third
+  post. Never invent a value to fill a bar.
+
 ## Festival posts (Ram's rule, 24/11/2026)
 
 Festival posts use their own imagery, not the generic plate. Set BOTH
