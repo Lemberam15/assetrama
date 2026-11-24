@@ -685,14 +685,24 @@ def beat_card(spec, out, show_header=True):
     val = str(b.get("value", ""))
     digits = "".join(ch for ch in val if ch.isdigit() or ch in ".,")
     prefix = val.replace(digits, "").strip()
-    f_small, f_big = F("Bold", 96), F("Bold", 240)
+    # auto-fit the hero figure so a long number can never run off the frame
+    big = 240
+    while big > 72:
+        f_small, f_big = F("Bold", int(big * 0.4)), F("Bold", big)
+        tw_s = f_small.getbbox(prefix + " ")[2] if prefix else 0
+        tw_b = f_big.getbbox(digits or val)[2]
+        if tw_s + tw_b <= W - 200:
+            break
+        big -= 8
+    f_small, f_big = F("Bold", int(big * 0.4)), F("Bold", big)
     tw_s = f_small.getbbox(prefix + " ")[2] if prefix else 0
     tw_b = f_big.getbbox(digits or val)[2]
     total = tw_s + tw_b
+    val_top = 470 + int((240 - big) * 0.9)
     x0 = (W - total) / 2
     if prefix:
-        d.text((x0, 560), prefix, font=f_small, fill=(255, 255, 255, 255))
-    d.text((x0 + tw_s, 470), digits or val, font=f_big, fill=acc + (255,))
+        d.text((x0, val_top + 90), prefix, font=f_small, fill=(255, 255, 255, 255))
+    d.text((x0 + tw_s, val_top), digits or val, font=f_big, fill=acc + (255,))
     lay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     ImageDraw.Draw(lay).rounded_rectangle([x0, 790, x0 + total, 802], 6, fill=acc + (235,))
     img.alpha_composite(lay); d = ImageDraw.Draw(img)
