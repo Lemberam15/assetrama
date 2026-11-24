@@ -1,10 +1,5 @@
 [
  {
-  "date": "05/11/2026",
-  "series": "event",
-  "topic": "EVENT/MARKET ALERT (10:30 AM monitor): US midterm sweep - Democrats won both chambers of Congress; Sensex hit 78,922.44 (+1,621.04 pts, +2.10%) and Nifty topped 24,391.95 (+431.35, +1.80%) on 05/11/2026, sixth straight winning session; Brent fell to $93.5/bbl, lowest since 30/08, after an 8.7% slide; rupee firmed to 94.36; India m-cap crossed Rs 500 lakh crore; FIIs bought Rs 7,284 crore on 04/11, fourth straight session"
- },
- {
   "date": "06/11/2026",
   "series": "finance101",
   "topic": "MARKET WRAP: Sensex 81,028.02 (+2.17%), Nifty 25,030.35 (+2.01%) - seventh straight green day, Nifty above 25,000 for the first time since 27/02/2026; NSE cash flows FIIs net bought Rs 13,750 crore, DIIs net sold Rs 5,969 crore, so foreign money did the lifting while domestic funds sold into the rise; market cap up ~Rs 29.57 lakh crore since 28/10"
@@ -248,5 +243,10 @@
   "date": "24/11/2026",
   "series": "moneystory",
   "topic": "MONEY STORY: foreign money bought November's record month (FPIs over Rs 1.3 lakh crore, biggest monthly inflow ever; BofA survey: Asia funds overweight India first time since Jan) while DIIs sold over Rs 61,000 crore - and the Sensex still fell 1,483.72 pts to 82,435.99 (-1.77%) on 23/11/2026 (Nifty 25,349.65, -1.75%); NSE/BSE shut 24/11 for Guru Nanak Jayanti. Tone bearish, mood solemn (libertybeats-the-saviour). LinkedIn urn:li:ugcPost:7530887284259287040, IG reel https://www.instagram.com/reel/DgHc1EADhOH/ (rebuilt 13:16 IST with the 9:16 header fix; earlier reel DgHYWajCTd4 removed), IG story 4037322661931061921"
+ },
+ {
+  "date": "24/11/2026",
+  "series": "festival",
+  "topic": "FESTIVAL GREETING (2:30 PM monitor): Prakash Gurpurb / Guru Nanak Jayanti on 24/11/2026 - 557th birth anniversary on Kattak Purnima (Purnima tithi 23/11 11:42 pm to 24/11 8:23 pm); NSE and BSE shut for the festival and it is a settlement holiday, so Monday's sale proceeds land tomorrow - trading resumes Wed 25/11, pre-open 9:00, regular 9:15-3:30; the three pillars Kirat Karo (honest work), Vand Chhako (share, the dasvandh one-tenth) and Naam Japo, plus dasvandh as a 'pay yourself last, then give' rule"
  }
 ]
