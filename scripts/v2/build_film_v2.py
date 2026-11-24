@@ -115,6 +115,7 @@ def main():
     ap.add_argument("--beat", type=float, default=4.5)
     ap.add_argument("--send", type=float, default=3.5)
     ap.add_argument("--fps", type=int, default=12)
+    ap.add_argument("--size", default="4:5", choices=["4:5", "9:16"])
     ap.add_argument("--work", default=".")
     a = ap.parse_args()
 
@@ -130,8 +131,19 @@ def main():
     R.beat_card(spec, os.path.join(w, "base_beat.png"), show_header=False)
     R.send_card(spec, os.path.join(w, "base_send.png"), show_header=False)
 
+    # 9:16: same cards, wrapped on their own blurred plate (no second header)
+    if a.size == "9:16":
+        import reel_916_v2 as RW
+        for n in ("base_slide", "base_hook", "base_beat", "base_send"):
+            RW.wrap(os.path.join(w, n + ".png"), os.path.join(w, n + "_916.png"))
+        OUT_W, OUT_H, OFF_Y = 1080, 1920, 175
+    else:
+        OUT_W, OUT_H, OFF_Y = W, H, 0
+
     bases = [("base_hook.png", a.hook), ("base_slide.png", a.hold),
              ("base_beat.png", a.beat), ("base_send.png", a.send), ("base_send.png", 0.5)]
+    if a.size == "9:16":
+        bases = [(f.replace(".png", "_916.png"), d) for f, d in bases]
     total = sum(d for _, d in bases)
     frames = int(total * a.fps)
     imgs = [Image.open(os.path.join(w, f)).convert("RGBA") for f, _ in bases]
@@ -143,7 +155,7 @@ def main():
     shaded = _shade(Image.open(R.LOGO_PATH).convert("RGBA"))
     exe = imageio_ffmpeg.get_ffmpeg_exe()
     tmp = os.path.join(w, "_vo.mp4")
-    cmd = [exe, "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(a.fps),
+    cmd = [exe, "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{OUT_W}x{OUT_H}", "-r", str(a.fps),
            "-i", "-", "-vf", f"fade=t=out:st={total - 1.5:.2f}:d=1.5,format=yuv420p",
            "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-threads", "1",
            "-pix_fmt", "yuv420p", tmp]
@@ -154,7 +166,7 @@ def main():
         while idx < len(bounds) - 1 and t >= bounds[idx]:
             idx += 1
         frame = imgs[idx].copy()
-        frame.alpha_composite(header_tile(t, pal, spec["tag"], shaded), (OX, OY))
+        frame.alpha_composite(header_tile(t, pal, spec["tag"], shaded), (OX, OY + OFF_Y))
         p.stdin.write(frame.convert("RGB").tobytes())
     p.stdin.close(); p.wait()
 
@@ -164,7 +176,7 @@ def main():
                         "-shortest", a.out], capture_output=True)
     else:
         subprocess.run([exe, "-y", "-i", tmp, "-c", "copy", a.out], capture_output=True)
-    print(f"built {a.out}  {total:.1f}s  {frames} frames  mood={spec.get('tone')}")
+    print(f"built {a.out}  {total:.1f}s  {frames} frames  {OUT_W}x{OUT_H}  tone={spec.get('tone')}")
 
 
 if __name__ == "__main__":
