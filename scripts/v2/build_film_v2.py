@@ -136,7 +136,7 @@ def main():
         import reel_916_v2 as RW
         for n in ("base_slide", "base_hook", "base_beat", "base_send"):
             RW.wrap(os.path.join(w, n + ".png"), os.path.join(w, n + "_916.png"))
-        OUT_W, OUT_H, OFF_Y = 1080, 1920, 175
+        OUT_W, OUT_H, OFF_Y = 1080, 1920, (1920 - H) // 2  # header must sit INSIDE the card (card is centred at (1920-H)/2), not straddle its top edge (fixed 24/11/2026, Ram's report)
     else:
         OUT_W, OUT_H, OFF_Y = W, H, 0
 
