@@ -40,11 +40,13 @@ python scripts/v2/build_film_v2.py spec.json post.mp4 --music bed.wav \
 5. **Question = the caption's question**, 1-5 words, <= ~55 characters, rendered
    on the marker swipe. Answerable in one line, opinion-based.
 6. **CTA is content-matched and FOLLOW-framed** (see the slot table in SKILL.md).
-7. **Hold time follows the word count.** ~100 words on the slide = 30-35 s hold
-   (a full read plus a second look at the figures). An alert with 30 words = 20 s.
-   Never shorten the hold below a full read; never pad it beyond one re-read.
-8. **Film lengths:** 44.5 s default for the 7:30 term slot on LinkedIn; 30 s for
-   the Instagram reel; 20-25 s for event alerts.
+7. **Hold time follows the word count.** ~100 words on the slide = 45-50 s hold
+   (two full reads plus a look at the figures). An alert with 30 words = 20 s.
+   Never shorten the hold below a full read.
+8. **Film length: 60 s for the 7:30 term slot** (Ram's rule, 24/11/2026:
+   hook 2.5 s + slide 50 s + beat 4 s + send 3.5 s). The Instagram 9:16 reel
+   runs the SAME 60 s film - same beats, same animated header - never a shorter
+   cut. Event alerts stay at 20-25 s.
 
 ## Festival posts (Ram's rule, 24/11/2026)
 
@@ -68,6 +70,14 @@ motif automatically. Never put festival imagery behind the disclaimer strip.
 
 ## Instagram 9:16 reel (v2)
 
+```
+python scripts/v2/build_film_v2.py spec.json ig.mp4 --size 9:16 --music bed.wav \
+    --hook 2.5 --hold 50 --beat 4 --send 3.5      # native 9:16, same 60 s film
+```
+(`--size 9:16` wraps each card on its own blurred plate and pastes the SAME
+animated header, so the reel matches the LinkedIn film beat for beat.)
+
+Manual equivalent:
 ```
 python scripts/v2/reel_916_v2.py slide.png  reel_slide.png     # each 4:5 card
 python scripts/v2/reel_916_v2.py hook.png   reel_hook.png
