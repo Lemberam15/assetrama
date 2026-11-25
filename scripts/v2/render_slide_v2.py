@@ -6,7 +6,7 @@ icons, tone colours, marker-swipe question, gradient CTA.
     python render_slide_v2.py spec.json slide.png          # the 4:5 slide
     python render_slide_v2.py spec.json slide.png --cards  # + hook/beat/send cards
 """
-import os, sys, json, math, random, urllib.request
+import os, re, sys, json, math, random, urllib.request
 import numpy as np
 from PIL import ImageChops
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
@@ -683,26 +683,36 @@ def beat_card(spec, out, show_header=True):
     d.text((W / 2, 430), " ".join(b.get("kicker", "THE NUMBER").upper()),
            font=F("SemiBold", 30), fill=(176, 184, 198, 255), anchor="mm")
     val = str(b.get("value", ""))
-    digits = "".join(ch for ch in val if ch.isdigit() or ch in ".,")
-    prefix = val.replace(digits, "").strip()
+    # split the figure into a leading sign/currency prefix, the digits, and a
+    # trailing unit - so the unit always reads AFTER the number ("1.45%", not
+    # "% 1.45") and a negative uses a real minus sign (v56 rule, 17/11/2026).
+    _m = re.match(r"^(\D*?)([\d.,]+)(.*)$", val)
+    prefix, digits, suffix = (_m.group(1), _m.group(2), _m.group(3).strip()) if _m else ("", val, "")
+    prefix = prefix.replace("-", "\u2212").strip()
+    suffix = suffix.replace("-", "\u2212")
     # auto-fit the hero figure so a long number can never run off the frame
     big = 240
     while big > 72:
         f_small, f_big = F("Bold", int(big * 0.4)), F("Bold", big)
         tw_s = f_small.getbbox(prefix + " ")[2] if prefix else 0
         tw_b = f_big.getbbox(digits or val)[2]
-        if tw_s + tw_b <= W - 200:
+        tw_u = f_small.getbbox(suffix)[2] + 12 if suffix else 0
+        if tw_s + tw_b + tw_u <= W - 200:
             break
         big -= 8
     f_small, f_big = F("Bold", int(big * 0.4)), F("Bold", big)
     tw_s = f_small.getbbox(prefix + " ")[2] if prefix else 0
     tw_b = f_big.getbbox(digits or val)[2]
-    total = tw_s + tw_b
+    tw_u = f_small.getbbox(suffix)[2] + 12 if suffix else 0
+    total = tw_s + tw_b + tw_u
     val_top = 470 + int((240 - big) * 0.9)
     x0 = (W - total) / 2
     if prefix:
         d.text((x0, val_top + 90), prefix, font=f_small, fill=(255, 255, 255, 255))
     d.text((x0 + tw_s, val_top), digits or val, font=f_big, fill=acc + (255,))
+    if suffix:
+        d.text((x0 + tw_s + tw_b + 12, val_top + 90), suffix, font=f_small,
+               fill=(255, 255, 255, 255))
     lay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     ImageDraw.Draw(lay).rounded_rectangle([x0, 790, x0 + total, 802], 6, fill=acc + (235,))
     img.alpha_composite(lay); d = ImageDraw.Draw(img)
