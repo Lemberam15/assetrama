@@ -73,5 +73,7 @@
 - Fixed: the footer "What is a SIP?" link pointed at the wrong lesson on 4 pages (what-is-dividend, what-is-credit-score, what-is-nps, what-is-term-insurance).
 - Fixed: search.html carried duplicate SVG gradient ids (`rg`/`lg-c-t-ppf` twice), and the HRA calculator card was captioned with the PPF art text.
 
+- [25/11/2026] sitemap: add a QC assertion that news.html's sitemap `lastmod` matches its latest commit date (it had drifted to 24/11 while the page was being updated hourly).
+
 ## Decided earlier (do not re-open)
 - [27/10] 404.html: REJECTED — converting the absolute production URLs to relative paths would break them. GitHub Pages serves 404.html at whatever path was requested, so a relative `about.html` on `/assetrama/foo/bar` resolves to `/assetrama/foo/about.html`. The absolute URLs are correct for a 404 page.
