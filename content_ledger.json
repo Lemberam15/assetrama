@@ -1,11 +1,6 @@
 [
  {
   "date": "06/11/2026",
-  "series": "finance101",
-  "topic": "FINANCE 101: Net Short - FIIs net bought Rs 14,975 crore on 05/11/2026 (biggest single-day buy in over a year) yet stayed net short 1.37 lakh index futures, adding 48,541 shorts; hedging vs directional. Instagram: SIP vs Lumpsum carousel (SIP inflows record Rs 32,490 crore, Sep 2026)"
- },
- {
-  "date": "06/11/2026",
   "series": "event",
   "topic": "EVENT/MARKET ALERT (2:30 AM monitor): Wall Street AI/chip selloff on 05/11/2026 - Nasdaq fell over 5% and is 11% below its record (correction), S&P 500 worst day since April 2025, chip index -10%, Nvidia -8%, AMD -14%; Gift Nifty 24,450 (-0.61%) after Nifty closed at 24,536.60"
  },
@@ -248,5 +243,10 @@
   "date": "25/11/2026",
   "series": "moneystory",
   "topic": "MONEY STORY: your car costs more from 1 December 2026 - Hyundai up to Rs 8,000 on select models and variants, Tata Motors PV 0.5% average across all ICE and EV models (fourth hike of 2026 for both), Maruti went first on 22/11 at ~0.31% volume-weighted, Audi also raising; cause is steel and copper input costs plus Middle East supply-chain pressure, not demand, as the December discount season opens on a higher sticker. Tone caution, mood tense (the-mountain-simulation-worlds). LinkedIn urn:li:ugcPost:7531247006640623617, IG story 18392236165224549"
+ },
+ {
+  "date": "25/11/2026",
+  "series": "geopolitics",
+  "topic": "GEOPOLITICS: US Section 301 excess-capacity findings on 16 partners incl India due any day - no India rate yet; India already pays 10% under a separate 301 case, Feb framework pointed to an 18% cap; India's US goods exports $86.5 bn in FY25 (~20%), electronics $14.6 bn, textiles $10.9 bn, gems $9.9 bn; Sensex +1,502 pts to 83,938.28, Nifty 25,819.25, rupee 92.23. Tone caution, mood tense. LinkedIn urn:li:ugcPost:7531333193128603648, IG story 18080358941459518"
  }
 ]
