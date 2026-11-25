@@ -102,8 +102,9 @@ python <skill>/scripts/reel_916_encode.py reel_slide.png ig.mp4 30 <mood> reel_b
 
 The wrapper blurs and darkens the card's own plate into the top and bottom of
 the 1080x1920 frame and centres the card - it adds NO second header and no
-second FOLLOW chip, because the v2 card already carries both. Keep the reel at
-~30 s even when the LinkedIn film runs 44.5 s: completion drives reach on Reels.
+second FOLLOW chip, because the v2 card already carries both. The reel is the
+SAME 60 s film as LinkedIn (Ram's rule, 24/11/2026: hook 2.5 + slide 50 + beat 4
++ send 3.5, identical beats and the same animated header) - never a shorter cut.
 Do not use the old `reel_916_slide.py` on a v2 card - it stamps the series
 accent (blue) and a duplicate header.
 
