@@ -1,11 +1,6 @@
 [
   {
     "date": "06/11/2026",
-    "series": "geopolitics",
-    "topic": "GEOPOLITICS: Brent's 17% crash is already fading - settled $94.62 on 04/11 (from $113.43 on 30/10, lowest close since 31 Aug) then back near $100 by 06/11 on fresh tanker attacks; rupee 94.47 to 93.91, a six-month high; Delhi petrol unchanged at Rs 102.12; RBI: every $10 on Brent = ~49 bps of inflation"
-  },
-  {
-    "date": "06/11/2026",
     "series": "event",
     "topic": "EVENT/MARKET ALERT (2:30 PM monitor): Sensex reclaimed 80,000 on 06/11/2026 - intraday high 80,080.59, up 718 pts (+0.90%), first time above 80,000 since 05/03/2026; rupee firmed to about 94 a dollar, strongest since April, on sliding crude; FIIs bought Rs 14,796 crore on 05/11, biggest single-day buy since Feb 2021; Nifty 24,698 (+0.66%)"
   },
@@ -248,5 +243,10 @@
     "date": "25/11/2026",
     "series": "event",
     "topic": "MARKET ALERT (2:30 AM monitor): four tankers hit naval mines east of the Strait of Hormuz in 24 hours (IRGC via Tasnim/Fars/TASS; 30+ in ten days on the route) - Brent settled +2.27% at $91.40 and WTI +2.35% at $82.05 on 24/11/2026, most of the move late in US trade; metals cracked the other way - gold -1.45% to $3,573.88 (spot ~$3,550), silver -5.4% to $40.9 (14-month low), LME copper -5.05% to $11,858.50/t, LME tin -7%; US close mixed (S&P -0.7%, Nasdaq -2.1%, Dow +0.8%); India read: NSE/BSE reopen 25/11 after Guru Nanak Jayanti, crude above $91 hits OMCs, paints, aviation, inflation and the rupee. Tone bearish, mood urgent (eduardbykovets-the-destroyer). Renderer v2, 60 s film, hook 2.5 + hold 50 + beat 4 + send 3.5. LinkedIn urn:li:ugcPost:7531101166630518784, IG reel https://www.instagram.com/reel/DgI4s2xjLmg/, IG story 4037726841270703914"
+  },
+  {
+    "date": "25/11/2026",
+    "series": "event",
+    "topic": "MARKET ALERT (6:30 AM monitor): AI chip rout returned - PHLX Semiconductor Index -7.88% on 24/11/2026 (all 30 stocks down), Nvidia -5.86% to $155.38, Micron -11.01% to $629.79 after a BNP Paribas downgrade; Seoul followed, KOSPI opened -3.94% and slid 4.6% to ~4,750 (from 5,006.03 on 24/11), Korea Exchange fired a sell-side sidecar at 9:08 AM KST, KOSPI 200 futures -5.12%, Samsung Electronics -6.7%, SK hynix -6.6%; separately the US is due to publish Section 301 excess-capacity findings today covering 16 partners incl India (18% framework rate, $58bn goods surplus cited), WSJ reports India could face higher tariffs; Dow closed above 50,000 for the first time (+0.85% to 50,018.70), S&P -0.50%, Nasdaq -1.48%; India read: NSE/BSE reopen 25/11 after Guru Nanak Jayanti, Nifty 25,349.65, rupee 92.91. Tone bearish, mood tense (the-mountain-simulation-worlds). Renderer v2, 60 s film, hook 2.5 + hold 50 + beat 4 + send 3.5. LinkedIn urn:li:ugcPost:7531163693649358848, IG reel https://www.instagram.com/reel/DgJVI6pksxQ/, IG story 4037851947663151874"
   }
 ]
