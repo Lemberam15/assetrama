@@ -1,11 +1,6 @@
 [
  {
   "date": "07/11/2026",
-  "series": "geopolitics",
-  "topic": "GEOPOLITICS: gold's best week since August - MCX Dec gold Rs 1,42,364/10g on 06/11 (+4.5% week) as AI-stock fear pushed money into bullion, then Friday's US payrolls (165,000 vs 65,000 expected) lifted Dec Fed hike odds to ~81% and gold fell 1.20% on the day; retail 24K Rs 1,41,452/10g, India physical buying ahead of Diwali"
- },
- {
-  "date": "07/11/2026",
   "series": "moneystory",
   "topic": "MONEY STORY: SIP discipline in a red year - September 2026 SIP inflow hit a record Rs 32,490 crore (up Rs 193 crore on August, +10.7% YoY, AMFI data); equity funds took Rs 38,306.55 crore, 67th straight month of inflows; SIP assets Rs 17.86 lakh crore = 21.6% of industry AUM; set against Samvat 2082 ending down 4.0% (Sensex) and 3.1% (Nifty) on 06/11/2026"
  },
@@ -248,5 +243,10 @@
   "date": "26/11/2026",
   "series": "finance101",
   "topic": "FINANCE TERM: max pain - the strike where the most options expire worthless. Sensex monthly F&O expired 26/11/2026; max pain 83,800 vs the 25/11 close of 83,938.28 (138 points above); a disputed theory, not a forecast. Tone neutral, mood finance101 (atlasaudio-motivation-corporate). Renderer v2, 60 s film, hook 2.5 + hold 50 + beat 4 + send 3.5. LinkedIn urn:li:ugcPost:7531534865134088192, IG reel https://www.instagram.com/reel/DgL-DEYukba/, IG story 4038595055912153476"
+ },
+ {
+  "date": "26/11/2026",
+  "series": "finance101",
+  "topic": "PRE-MARKET: Dow's 1,105-point intraday dive ended +164.25 at 50,182.95 while S&P 500 fell 0.25% to 7,182.78 and Nasdaq 0.62% to 23,585.80 on 25/11/2026; Asia green on 26/11 (Nikkei +1.85%, Hang Seng +1.22% to 22,234, Kospi +1.88%) and GIFT Nifty near 26,050 vs Nifty's 25,819.25 close; 26,000 is the wall (85.68 lakh call OI, Monday's high 25,992), record 26,373, support 25,600-25,500 with put writing at 25,700; US Oct core PCE 3.3% vs 3.2% expected, Q3 GDP revised to 4.3%"
  }
 ]
