@@ -451,6 +451,11 @@ def pick_icon(text, default="star"):
 def render(spec, out, reveal=3, show_cta=True, show_header=True):
     pal = TONES[spec.get("tone", "neutral")]
     acc, deep, on = pal["accent"], pal["deep"], pal["on"]
+    # supporting figures: a quiet neutral, so ONE figure per point owns the
+    # saturated tone accent (v2.1, 26/11/2026). A tint of the accent was tried
+    # first and rejected - a lighter tint of the accent is BRIGHTER than the
+    # accent, so the supporting numbers pulled the eye harder than the hero.
+    acc2 = (205, 212, 224)
     img = background(acc, seed=sum(map(ord, spec["headline"])) & 0xFFFF)
     if spec.get("tone") == "festival" or spec.get("festival"):
         img = festival_layer(img, spec)
@@ -542,11 +547,23 @@ def render(spec, out, reveal=3, show_cta=True, show_header=True):
         d = ImageDraw.Draw(img)
         d.line([(M + 198, cy + 26), (M + 198, cy + ch - 26)], fill=(255, 255, 255, 50), width=2)
         ty = cy + (24 if has_chart else 40)
+        # ONE hero figure per point (v2.1, 26/11/2026): the FIRST number in the
+        # point keeps the full tone accent, every later number in the same point
+        # takes a lighter tint of that same accent. Before this, "Sensex
+        # +1,502.29 pts (+1.82%) to 83,938.28" carried three equally bright
+        # figures and the eye had no hero; the accent now marks only the figure
+        # you want remembered (the v39 rule, applied to the point cards).
+        fig_seen = 0
         for line in wrap(pt, pf, CW - 240)[:(1 if has_chart else 2)]:
             x = M + 226
             for word in line.split():
                 fig = any(c.isdigit() for c in word) or "\u20b9" in word or "%" in word
-                d.text((x, ty), word, font=pf, fill=(acc if fig else (255, 255, 255)) + (255,))
+                if fig:
+                    col = acc if fig_seen == 0 else acc2
+                    fig_seen += 1
+                else:
+                    col = (255, 255, 255)
+                d.text((x, ty), word, font=pf, fill=col + (255,))
                 x += pf.getbbox(word + " ")[2]
             ty += 39
         cy += ch + gap
