@@ -1,10 +1,5 @@
 [
   {
-    "date": "07/11/2026",
-    "series": "finance101",
-    "topic": "FINANCE 101: Samvat - the Hindu financial year (Diwali to Diwali, not Jan-Dec); Samvat 2082 ended as the weakest in 15 years with Sensex -4.0% and Nifty -3.1% (worst since 2011) yet its final week rose 8.6-8.8%, the biggest weekly gain in nearly six years; midcaps +2.1%, smallcaps +4.2%; 287 of Nifty 500 (57%) ended negative; Samvat 2083 opens at Muhurat trading Sunday 08/11/2026, 2:20-3:30 pm"
-  },
-  {
     "date": "08/11/2026",
     "series": "festival",
     "topic": "FESTIVAL GREETING (2:30 AM monitor): Diwali on 08/11/2026 and the Muhurat trading session that opens Samvat 2083 - NSE and BSE trade 2:20 pm to 3:30 pm IST with pre-open from 2:05 pm; Samvat 2082 ended with Sensex -4.0% and Nifty -3.1% for the year, but the final week was the best since Feb 2021 with Sensex closing 81,028.02 (+2.17%) and Nifty 25,030.35 (+2.01%) on 06/11; markets shut Tuesday 10/11 for Diwali-Balipratipada"
@@ -248,5 +243,10 @@
     "date": "26/11/2026",
     "series": "geopolitics",
     "topic": "GEOPOLITICS: gold's 25/11 crash was a US rate story, not a war story - Oct core PCE 3.3% (vs 3.2% expected) left ~96% odds of a 25bp Fed hike on 8-9 Dec, and CME raised gold margin 5%->6% of contract value (silver 8%->9%) after the 24/11 close, forcing leveraged longs out; spot gold fell 2.05% to ~$3,482 (15-month low), spot silver low $38.09 (52-week low) before snapping back; the rupee absorbed half - MCX gold Dec settled 25/11 at Rs 1,21,137 (-0.97%) while the rupee closed 92.23, an 8-month high, +2.9% in November; 26/11 MCX gold opened 1.2% higher and hit Rs 1,23,888 intraday, rupee closed 92.44. Tone caution, mood geopolitics (mixkit-deep-urban). Renderer v2, 60 s film, hook 2.5 + hold 50 + beat 4 + send 3.5. LinkedIn urn:li:ugcPost:7531693082271203329, IG story https://www.instagram.com/stories/_assetrama/4038910375721692904 (story only, no reel per cadence)."
+  },
+  {
+    "date": "26/11/2026",
+    "series": "finance101",
+    "topic": "MARKET WRAP: Sensex 84,328.59 (+390.31, +0.46%) and Nifty 25,884.50 (+65.25, +0.25%) on 26/11/2026, second straight green day near 10-month highs, IT led and Bank Nifty slipped 0.26% with late selling off the 25,974.95 high; FII net +Rs 5,843.33 crore and DII net +Rs 5,630.72 crore provisional NSE cash (about Rs 11,474 crore together). Renderer v2, 60 s film, hook 2.5 + hold 50 + beat 4 + send 3.5, mood uplifting (clip20-driving-ambition). LinkedIn urn:li:ugcPost:7531731609755185154, IG reel https://www.instagram.com/reel/DgNXaxsuzh3/ + story https://www.instagram.com/stories/_assetrama/4038987719794935203"
   }
 ]
