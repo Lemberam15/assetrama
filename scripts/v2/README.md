@@ -36,10 +36,12 @@ python scripts/v2/build_film_v2.py spec.json post.mp4 --music bed.wav \
    FIRST number in a point takes the tone accent; later numbers in the same point
    render in a neutral grey (26/11/2026), so write each point with the figure you
    want remembered first - a point carrying three bright figures has no hero.
-4. **Icons are chosen from the point's own words** (chart, calendar-cross,
-   calendar-tick, up, down, rupee, percent, shield, piggy, coins, bank, warn).
+4. **Icons are chosen from the point's own words** (chart, cal-x,
+   cal-tick, up, down, rupee, percent, shield, piggy, coins, bank, warn).
    Override with `"icons": ["chart","shield","percent"]` when the words mislead.
-   Never let an icon claim something the text does not say.
+   Never let an icon claim something the text does not say. `cal-x` and `cal-tick`
+are the real keys (fixed 26/11/2026) - `calendar-cross`/`calendar-tick` silently
+draw an EMPTY circle.
 5. **Question = the caption's question**, 1-5 words, <= ~55 characters, rendered
    on the marker swipe. Answerable in one line, opinion-based.
 6. **CTA is content-matched and FOLLOW-framed** (see the slot table in SKILL.md).
