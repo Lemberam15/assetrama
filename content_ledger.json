@@ -1,10 +1,5 @@
 [
   {
-    "date": "08/11/2026",
-    "series": "festival",
-    "topic": "FESTIVAL GREETING (2:30 AM monitor): Diwali on 08/11/2026 and the Muhurat trading session that opens Samvat 2083 - NSE and BSE trade 2:20 pm to 3:30 pm IST with pre-open from 2:05 pm; Samvat 2082 ended with Sensex -4.0% and Nifty -3.1% for the year, but the final week was the best since Feb 2021 with Sensex closing 81,028.02 (+2.17%) and Nifty 25,030.35 (+2.01%) on 06/11; markets shut Tuesday 10/11 for Diwali-Balipratipada"
-  },
-  {
     "date": "10/11/2026",
     "series": "geopolitics",
     "topic": "GEOPOLITICS: the rupee is half your gold price - global gold fell 21.4% in dollars from 30/01 to 30/10/2026 but only 14.9% in rupees (Axis MF report, Nov 2026), because the rupee slid from about 89 to 96 a dollar and gold import duty rose from 6% to 15% in 2026; MCX Dec gold closed Rs 1,43,106 per 10g on 09/11/2026, 21% below the Rs 1,80,779 January peak; MCX shut for Diwali-Balipratipada morning session, rupee closed 93.9275"
@@ -248,5 +243,10 @@
     "date": "26/11/2026",
     "series": "finance101",
     "topic": "MARKET WRAP: Sensex 84,328.59 (+390.31, +0.46%) and Nifty 25,884.50 (+65.25, +0.25%) on 26/11/2026, second straight green day near 10-month highs, IT led and Bank Nifty slipped 0.26% with late selling off the 25,974.95 high; FII net +Rs 5,843.33 crore and DII net +Rs 5,630.72 crore provisional NSE cash (about Rs 11,474 crore together). Renderer v2, 60 s film, hook 2.5 + hold 50 + beat 4 + send 3.5, mood uplifting (clip20-driving-ambition). LinkedIn urn:li:ugcPost:7531731609755185154, IG reel https://www.instagram.com/reel/DgNXaxsuzh3/ + story https://www.instagram.com/stories/_assetrama/4038987719794935203"
+  },
+  {
+    "date": "26/11/2026",
+    "series": "event",
+    "topic": "MARKET ALERT (10:30 PM monitor): war premium back in oil - Houthis hit Saudi's Ras Tanura (largest refinery/export hub) on 25/11 and Aramco's Jazan refinery (400,000 bpd) on 26/11 per the Saudi-led coalition; Iran's IRGC says sea mines hit two tankers north of Oman's Khasba, one a supertanker with 2 mn barrels left burning, UKMTO reported an explosion near a tanker 50 nm west of Dubai; Brent settled +3.5% at $94.61 on 25/11 and traded +1.6% at $96.14 on 26/11 (no WTI settlement, US Thanksgiving); India imports most of its crude and the rupee closed 92.44"
   }
 ]
