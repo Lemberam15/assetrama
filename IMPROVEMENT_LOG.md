@@ -83,3 +83,4 @@
 
 ## Decided earlier (do not re-open)
 - [27/10] 404.html: REJECTED — converting the absolute production URLs to relative paths would break them. GitHub Pages serves 404.html at whatever path was requested, so a relative `about.html` on `/assetrama/foo/bar` resolves to `/assetrama/foo/about.html`. The absolute URLs are correct for a 404 page.
+- [26/11/2026] sip/cagr calculators: support query-string pre-fill (e.g. `?amt=10000&yrs=10`) so a worked example can be linked from a lesson or shared; both pages today only open on fixed defaults.
