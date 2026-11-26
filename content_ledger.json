@@ -1,11 +1,6 @@
 [
  {
   "date": "07/11/2026",
-  "series": "moneystory",
-  "topic": "MONEY STORY: SIP discipline in a red year - September 2026 SIP inflow hit a record Rs 32,490 crore (up Rs 193 crore on August, +10.7% YoY, AMFI data); equity funds took Rs 38,306.55 crore, 67th straight month of inflows; SIP assets Rs 17.86 lakh crore = 21.6% of industry AUM; set against Samvat 2082 ending down 4.0% (Sensex) and 3.1% (Nifty) on 06/11/2026"
- },
- {
-  "date": "07/11/2026",
   "series": "event",
   "topic": "EVENT/MARKET ALERT (10:30 AM monitor): Trump confirmed fresh US strikes on Iran's Qeshm Island air defences on 06/11/2026, calling them 'minor'; Iran says it downed a US MQ-9 drone over Qeshm on the Strait of Hormuz route; Brent Jan settled $98.32 (+0.03%) on 06/11 after its steepest weekly fall since the Covid crash; India imports ~88% of its crude; Qatar mediating, Trump says talks show 'a lot of progress'"
  },
@@ -248,5 +243,10 @@
   "date": "26/11/2026",
   "series": "finance101",
   "topic": "PRE-MARKET: Dow's 1,105-point intraday dive ended +164.25 at 50,182.95 while S&P 500 fell 0.25% to 7,182.78 and Nasdaq 0.62% to 23,585.80 on 25/11/2026; Asia green on 26/11 (Nikkei +1.85%, Hang Seng +1.22% to 22,234, Kospi +1.88%) and GIFT Nifty near 26,050 vs Nifty's 25,819.25 close; 26,000 is the wall (85.68 lakh call OI, Monday's high 25,992), record 26,373, support 25,600-25,500 with put writing at 25,700; US Oct core PCE 3.3% vs 3.2% expected, Q3 GDP revised to 4.3%"
+ },
+ {
+  "date": "26/11/2026",
+  "series": "moneystory",
+  "topic": "MONEY STORY: Tata Sons may be forced to list - RBI's 16/11/2026 letter told the holding company to comply with upper-layer NBFC rules 'including the requirement of listing'; Tata Trusts (65.9%) chief Noel Tata asked on 20/11 that no IPO step be taken; board meets 30/11 with an IPO plan on the agenda (convert to a public company, Chandrasekaran reappointment to an EGM, draft papers within 90 days of a shareholder yes); SP Group holds 18.4%; valuation talk up to Rs 18 lakh crore vs Malegam's ~Rs 15 lakh crore; Tata Sons on the RBI upper-layer list since Sept 2022. Market context 26/11: Sensex up ~0.4-0.6% near 84,240-84,450, Nifty near 25,890-25,940, IT leading. Tone caution, mood moneystory (paulyudin-motivation). Renderer v2, 60 s film, hook 2.5 + hold 50 + beat 4 + send 3.5. LinkedIn urn:li:ugcPost:7531612296020725760, IG story https://www.instagram.com/stories/_assetrama/4038749060986117901 (story only, no reel per cadence)."
  }
 ]
