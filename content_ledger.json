@@ -2,11 +2,6 @@
   {
     "date": "12/11/2026",
     "series": "finance101",
-    "topic": "FINANCE 101: EMI reset - India's October CPI is due today 12/11/2026 at 4 PM with consensus at 6.0% (Mint/Informist polls, range 5.9-6.2%), which would be the first breach of RBI's 6% limit since October 2024 against 5.54% in September; repo is 5.50% after the 07/10/2026 hike with a December hike to 5.75% widely expected; on a Rs 50 lakh 20-year loan at 8.50%, another 25 bps takes the EMI from Rs 43,391 to Rs 44,186 (Rs 794 more a month, about Rs 1.9 lakh over the term)"
-  },
-  {
-    "date": "12/11/2026",
-    "series": "finance101",
     "topic": "PRE-MARKET: Wall Street rallied on 11/11 (Dow +254.60 to 52,486.49, S&P 500 +1.31% to 7,619.38, Nasdaq +1.60% to 25,466.19) but Nvidia fell ~8% after hours on reports its board could consider removing CEO Jensen Huang; Nifty closed 25,255.05 (+210.40, +0.84%) and Sensex 81,879.40 (+772.75, +0.95%), both highest since 26/02/2026; support 25,095 (11/11 low) and resistance 25,424 (11/11 high), heaviest call OI 25,500, RSI 79.5; GIFT Nifty ~25,240 flat; Brent ~$92, rupee 93.69; India October CPI due 4 PM today with consensus near 6%"
   },
   {
@@ -248,5 +243,10 @@
     "date": "27/11/2026",
     "series": "finance101",
     "topic": "FINANCE TERM: put-call ratio (PCR) - why 1.03 is not automatically bullish. Nifty 26/11/2026 close 25,884.50; 1 Dec expiry total put OI 15.80 crore vs call OI 15.33 crore = PCR 1.03 (NSE F&O bhavcopy); heaviest put OI at 25,000 (87.7 lakh, 884 points below spot), heaviest call OI at 26,000 (1.09 crore, 115 points above); fresh OI +4.20 crore puts vs +2.65 crore calls, biggest put additions at 25,200 (+41.3 lakh) and call additions at 26,600 (+26.9 lakh). Note: a narrower near-strike PCR calc printed 0.73 on some screens, so the post used the bhavcopy 1.03 and framed the lesson on strike placement, not the headline decimal. Tone neutral, mood tense (the-mountain-simulation-worlds). Renderer v2, 60 s film, hook 2.5 + hold 50 + beat 4 + send 3.5. LinkedIn urn:li:ugcPost:7531898547382837248, IG reel https://www.instagram.com/reel/DgOjkT9BhDz/ + story https://www.instagram.com/stories/_assetrama/4039322660546007732"
+  },
+  {
+    "date": "27/11/2026",
+    "series": "finance101",
+    "topic": "PRE-MARKET: no fresh US cue - Wall Street shut Thursday for Thanksgiving (last close 25/11: Dow 50,182.95 +164.25, S&P 500 7,182.78 -0.25%, Nasdaq 23,585.80 -0.62%) and today is a half-session ending 11:30 PM IST; Asia leads on 27/11 (Nikkei +0.9%, Hang Seng +0.6%, KOSPI +2.2%) but GIFT Nifty 25,958 points to a soft open near 25,846 vs Thursday's Nifty 25,884.50 (+65.25) and Sensex 84,328.59 (+390.31); Nifty support 25,733, resistance 25,975, and a Friday close above 25,800 makes a fifth straight weekly gain; FIIs bought Rs 5,843 crore for an 18th straight session"
   }
 ]
