@@ -1,10 +1,5 @@
 [
   {
-    "date": "12/11/2026",
-    "series": "finance101",
-    "topic": "PRE-MARKET: Wall Street rallied on 11/11 (Dow +254.60 to 52,486.49, S&P 500 +1.31% to 7,619.38, Nasdaq +1.60% to 25,466.19) but Nvidia fell ~8% after hours on reports its board could consider removing CEO Jensen Huang; Nifty closed 25,255.05 (+210.40, +0.84%) and Sensex 81,879.40 (+772.75, +0.95%), both highest since 26/02/2026; support 25,095 (11/11 low) and resistance 25,424 (11/11 high), heaviest call OI 25,500, RSI 79.5; GIFT Nifty ~25,240 flat; Brent ~$92, rupee 93.69; India October CPI due 4 PM today with consensus near 6%"
-  },
-  {
     "date": "13/11/2026",
     "series": "moneystory",
     "topic": "MONEY STORY: Brent jumped to $95.57 a barrel from $92 at Thursday's India close after Houthi strikes on Saudi pipeline/Yanbu/Aramco sites; Sensex fell 370 points to 81,539 and Nifty 158 to 25,141 by noon even as FIIs bought Rs 7,830.60 crore on 12/11; India imports most of its crude, so costlier oil hits the rupee, fuel prices and inflation"
@@ -248,5 +243,10 @@
     "date": "27/11/2026",
     "series": "finance101",
     "topic": "PRE-MARKET: no fresh US cue - Wall Street shut Thursday for Thanksgiving (last close 25/11: Dow 50,182.95 +164.25, S&P 500 7,182.78 -0.25%, Nasdaq 23,585.80 -0.62%) and today is a half-session ending 11:30 PM IST; Asia leads on 27/11 (Nikkei +0.9%, Hang Seng +0.6%, KOSPI +2.2%) but GIFT Nifty 25,958 points to a soft open near 25,846 vs Thursday's Nifty 25,884.50 (+65.25) and Sensex 84,328.59 (+390.31); Nifty support 25,733, resistance 25,975, and a Friday close above 25,800 makes a fifth straight weekly gain; FIIs bought Rs 5,843 crore for an 18th straight session"
+  },
+  {
+    "date": "27/11/2026",
+    "series": "moneystory",
+    "topic": "MARKET FALL (12:30 money story): Sensex -736.86 pts (-0.87%) to 83,591.73 and Nifty -206.05 (-0.80%) to 25,678.45 at 11:31 AM IST on 27/11/2026 after two green days; IT led the slide, Nifty IT -1.72% and nearly Rs 54,000 crore wiped off IT market cap (TCS/HCL/Infosys), Brent +2.91% at $97.36 and rupee 92.87 vs 92.38; breadth stayed positive - 2,080 BSE advancers vs 1,276 decliners, midcaps and smallcaps up. Tone bearish, mood urgent (eduardbykovets-the-destroyer). Renderer v2, 60 s film, hook 2.5 + hold 50 + beat 4 + send 3.5. LinkedIn urn:li:ugcPost:7531972199675666432, IG STORY ONLY (money-story slot) https://www.instagram.com/stories/_assetrama/4039469066753242820"
   }
 ]
