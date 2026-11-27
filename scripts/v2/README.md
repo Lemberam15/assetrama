@@ -116,6 +116,6 @@ accent (blue) and a duplicate header.
 ## What still needs a human eye
 
 - Icon meaning: auto-pick is keyword scoring, so check each slide once.
-- The phone glyph in the contact box is the weakest drawing; it is on the list.
+- ~~The phone glyph in the contact box is the weakest drawing~~ - fixed 27/11/2026 (a real handset, see IMPROVEMENT_LOG).
 - Backgrounds are still code-generated. AI plates (Ram's ChatGPT Go batch) drop
   into `assets_v2/plates/<tone>.png` and are picked by tone when present.
