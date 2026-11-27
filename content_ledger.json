@@ -1,11 +1,6 @@
 [
   {
     "date": "13/11/2026",
-    "series": "geopolitics",
-    "topic": "GEOPOLITICS: Brent fell early on 12/11 after Trump said the US needs no Iran deal, then jumped $3.06 to settle at $95.82 on Houthi claims against Saudi's East-West pipeline and Yanbu; ICRA's rule of thumb - each $10/bbl adds $14-16 bn to India's import bill, 30-40 bps to the current account and 40-60 bps to CPI; rupee closed at 94.20 on 13/11"
-  },
-  {
-    "date": "13/11/2026",
     "series": "finance101",
     "topic": "MARKET WRAP: Sensex closed 318.56 points (-0.39%) lower at 81,592.45 and Nifty fell 155.05 points (-0.61%) to 25,144.30 on 13/11/2026, snapping a three-day rally on 6.09% October CPI and rate-hike worries; FIIs net bought Rs 5,736.55 crore in the cash market while DIIs net sold Rs 2,253.58 crore (NSE+BSE provisional), so foreign buying continued into a red tape"
   },
@@ -248,5 +243,10 @@
     "date": "27/11/2026",
     "series": "geopolitics",
     "topic": "GEOPOLITICS: Beijing's national-team rescue - Shanghai Composite +3.73% to 3,606.49 on 27/11/2026, its biggest one-day gain since Oct 2024, after the State Council said Central Huijin will act as a quasi-stabilisation fund; copper on SHFE +5.51% and LME +3.76% to $12,318/t, first weekly gain in seven weeks; Nifty Metal +1.40% was the best big sector while Sensex fell 989.33 pts to 83,339.26 and the rupee slid 60 paise to 92.98"
+  },
+  {
+    "date": "27/11/2026",
+    "series": "finance101",
+    "topic": "MARKET WRAP: Sensex -989.33 pts (-1.17%) to 83,339.26 and Nifty -277.30 (-1.07%) to 25,607.20 on 27/11/2026, snapping a four-week rally (week: Sensex -0.69%, Nifty -0.75%); FII net +Rs 1,634.33 crore, a 19th straight buying session, DII net -Rs 556.42 crore provisional NSE cash; IT and banks led the fall on crude near $97 and a weak rupee. Tone caution, mood solemn (libertybeats-the-saviour). Renderer v2, 60 s film, hook 2.5 + hold 50 + beat 4 + send 3.5. LinkedIn urn:li:ugcPost:7532094184439209984, IG reel https://www.instagram.com/reel/DgP918TCKzb/ + story https://www.instagram.com/stories/_assetrama/4039719671061500659"
   }
 ]
