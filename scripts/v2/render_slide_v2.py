@@ -344,8 +344,25 @@ def icon_badge(img, cx, cy, kind, pal):
         for dx in (-9, 0, 9):
             d.ellipse([cx + dx - 2, cy - 4, cx + dx + 2, cy + 1], fill=acc)
     elif kind == "phone":
-        d.arc([cx - 18, cy - 18, cx + 18, cy + 18], 120, 300, fill=wht, width=4)
-        d.arc([cx - 12, cy - 12, cx + 12, cy + 12], 120, 300, fill=acc, width=3)
+        # a real receiver (v2.2, 27/11/2026). The old drawing was two nested arcs,
+        # which read as a wifi / speaker wave rather than a phone - and this is the
+        # glyph in the contact box that sits on EVERY slide. Now a curved handset:
+        # a thin swept handle with two round ends, built on its own layer and
+        # rotated -42 deg so it reads as a phone at badge size (thicker handles
+        # were tried and read as a dumbbell). All white, like the bell.
+        L = 68
+        lay = Image.new("RGBA", (L, L), (0, 0, 0, 0))
+        ld = ImageDraw.Draw(lay)
+        ox = oy = 34
+        rr = 19
+        ld.arc([ox - rr, oy - rr, ox + rr, oy + rr], 196, 344, fill=wht, width=10)
+        for a in (196, 344):
+            px = ox + rr * math.cos(math.radians(a))
+            py = oy + rr * math.sin(math.radians(a))
+            ld.ellipse([px - 9.5, py - 9.5, px + 9.5, py + 9.5], fill=wht)
+        lay = lay.rotate(-42, resample=Image.BICUBIC, center=(34, 34))
+        img.alpha_composite(lay, (int(cx - L / 2), int(cy - L / 2)))
+        d = ImageDraw.Draw(img)
     elif kind == "rupee":
         d.text((cx, cy - 1), "\u20b9", font=F("Bold", 40), fill=wht, anchor="mm")
     elif kind == "percent":
