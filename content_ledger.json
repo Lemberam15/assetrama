@@ -1,11 +1,6 @@
 [
   {
     "date": "13/11/2026",
-    "series": "moneystory",
-    "topic": "MONEY STORY: Brent jumped to $95.57 a barrel from $92 at Thursday's India close after Houthi strikes on Saudi pipeline/Yanbu/Aramco sites; Sensex fell 370 points to 81,539 and Nifty 158 to 25,141 by noon even as FIIs bought Rs 7,830.60 crore on 12/11; India imports most of its crude, so costlier oil hits the rupee, fuel prices and inflation"
-  },
-  {
-    "date": "13/11/2026",
     "series": "geopolitics",
     "topic": "GEOPOLITICS: Brent fell early on 12/11 after Trump said the US needs no Iran deal, then jumped $3.06 to settle at $95.82 on Houthi claims against Saudi's East-West pipeline and Yanbu; ICRA's rule of thumb - each $10/bbl adds $14-16 bn to India's import bill, 30-40 bps to the current account and 40-60 bps to CPI; rupee closed at 94.20 on 13/11"
   },
@@ -248,5 +243,10 @@
     "date": "27/11/2026",
     "series": "moneystory",
     "topic": "MARKET FALL (12:30 money story): Sensex -736.86 pts (-0.87%) to 83,591.73 and Nifty -206.05 (-0.80%) to 25,678.45 at 11:31 AM IST on 27/11/2026 after two green days; IT led the slide, Nifty IT -1.72% and nearly Rs 54,000 crore wiped off IT market cap (TCS/HCL/Infosys), Brent +2.91% at $97.36 and rupee 92.87 vs 92.38; breadth stayed positive - 2,080 BSE advancers vs 1,276 decliners, midcaps and smallcaps up. Tone bearish, mood urgent (eduardbykovets-the-destroyer). Renderer v2, 60 s film, hook 2.5 + hold 50 + beat 4 + send 3.5. LinkedIn urn:li:ugcPost:7531972199675666432, IG STORY ONLY (money-story slot) https://www.instagram.com/stories/_assetrama/4039469066753242820"
+  },
+  {
+    "date": "27/11/2026",
+    "series": "geopolitics",
+    "topic": "GEOPOLITICS: Beijing's national-team rescue - Shanghai Composite +3.73% to 3,606.49 on 27/11/2026, its biggest one-day gain since Oct 2024, after the State Council said Central Huijin will act as a quasi-stabilisation fund; copper on SHFE +5.51% and LME +3.76% to $12,318/t, first weekly gain in seven weeks; Nifty Metal +1.40% was the best big sector while Sensex fell 989.33 pts to 83,339.26 and the rupee slid 60 paise to 92.98"
   }
 ]
