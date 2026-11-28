@@ -268,8 +268,18 @@ def chart_panel(img, chart, pal, top, height=188):
         raw = abs(v - (float(base) if base is not None else 0))
         bw = max(14, int((W - M - 300) * raw / mx))
         col = (255, 92, 92) if v < 0 else acc
-        d.text((M + 26, y + 2), str(b.get("label", ""))[:8], font=F("Medium", 20),
-               fill=(210, 216, 228, 255))
+        # v2.2 (28/11/2026): a label was hard-cut at 8 characters with no
+        # ellipsis, so "Bank Nifty" shipped as "Bank Nif". It now shrinks to
+        # 17 px, then ellipsizes, and the 8-char cut is gone.
+        lab = str(b.get("label", ""))
+        lf = F("Medium", 20)
+        while lf.size > 16 and lf.getbbox(lab)[2] > 86:
+            lf = F("Medium", lf.size - 1)
+        if lf.getbbox(lab)[2] > 86:
+            while lab and lf.getbbox(lab + "\u2026")[2] > 86:
+                lab = lab[:-1]
+            lab = lab.rstrip(" .,-") + "\u2026"
+        d.text((M + 26, y + 2), lab, font=lf, fill=(210, 216, 228, 255))
         d.rounded_rectangle([M + 120, y, M + 120 + bw, y + row - 10], 6, fill=col + (235,))
         d.text((M + 132 + bw, y + 2), str(b.get("display", "")), font=F("SemiBold", 20),
                fill=col + (255,))
@@ -571,7 +581,18 @@ def render(spec, out, reveal=3, show_cta=True, show_header=True):
         # figures and the eye had no hero; the accent now marks only the figure
         # you want remembered (the v39 rule, applied to the point cards).
         fig_seen = 0
-        for line in wrap(pt, pf, CW - 240)[:(1 if has_chart else 2)]:
+        # QC WARN (v2.2, 28/11/2026): a point that does not fit its allowed
+        # lines used to be cut SILENTLY (a chart point lost its tail mid-
+        # sentence). It still fits only the allowed lines - the layout must not
+        # move - but it now says so, like hook_card.py does for a missing digit.
+        _lines = wrap(pt, pf, CW - 240)
+        _room = 1 if has_chart else 2
+        if len(_lines) > _room:
+            print("WARN: point %d needs %d lines, %d fit%s - CUT: %r"
+                  % (i + 1, len(_lines), _room,
+                     " (chart present: points must be ONE line ~45 chars)" if has_chart else "",
+                     " ".join(_lines[_room:])), file=sys.stderr)
+        for line in _lines[:_room]:
             x = M + 226
             for word in line.split():
                 fig = any(c.isdigit() for c in word) or "\u20b9" in word or "%" in word
@@ -724,28 +745,49 @@ def beat_card(spec, out, show_header=True):
     prefix, digits, suffix = (_m.group(1), _m.group(2), _m.group(3).strip()) if _m else ("", val, "")
     prefix = prefix.replace("-", "\u2212").strip()
     suffix = suffix.replace("-", "\u2212")
+    # v2.2 (28/11/2026): the SIGN belongs to the figure, not to the label row.
+    # A negative beat used to draw its real minus in WHITE at 0.4x, so it read
+    # as a stray white dash floating beside the accent number (worst on the
+    # bearish card, where it looked like a loading bar). The sign is now drawn
+    # in the tone accent at 0.5x and optically centred on the digits, so
+    # "-989.33" lands as ONE figure. A currency word in the prefix ("Rs", "$")
+    # stays white and small, exactly as before.
+    sign = "\u2212" if prefix.startswith("\u2212") else ("+" if prefix.startswith("+") else "")
+    word = prefix[len(sign):].strip() if sign else prefix
+
+    def _figw(size):
+        f_s, f_g, f_b = F("Bold", int(size * 0.4)), F("Bold", int(size * 0.5)), F("Bold", size)
+        w = f_b.getbbox(digits or val)[2]
+        if sign:
+            w += f_g.getbbox(sign)[2] + 10
+        if word:
+            w += f_s.getbbox(word + " ")[2]
+        if suffix:
+            w += f_s.getbbox(suffix)[2] + 12
+        return w
+
     # auto-fit the hero figure so a long number can never run off the frame
     big = 240
-    while big > 72:
-        f_small, f_big = F("Bold", int(big * 0.4)), F("Bold", big)
-        tw_s = f_small.getbbox(prefix + " ")[2] if prefix else 0
-        tw_b = f_big.getbbox(digits or val)[2]
-        tw_u = f_small.getbbox(suffix)[2] + 12 if suffix else 0
-        if tw_s + tw_b + tw_u <= W - 200:
-            break
+    while big > 72 and _figw(big) > W - 200:
         big -= 8
-    f_small, f_big = F("Bold", int(big * 0.4)), F("Bold", big)
-    tw_s = f_small.getbbox(prefix + " ")[2] if prefix else 0
+    f_small, f_sign, f_big = F("Bold", int(big * 0.4)), F("Bold", int(big * 0.5)), F("Bold", big)
+    tw_sg = f_sign.getbbox(sign)[2] + 10 if sign else 0
+    tw_wd = f_small.getbbox(word + " ")[2] if word else 0
     tw_b = f_big.getbbox(digits or val)[2]
     tw_u = f_small.getbbox(suffix)[2] + 12 if suffix else 0
-    total = tw_s + tw_b + tw_u
+    total = tw_sg + tw_wd + tw_b + tw_u
     val_top = 470 + int((240 - big) * 0.9)
     x0 = (W - total) / 2
-    if prefix:
-        d.text((x0, val_top + 90), prefix, font=f_small, fill=(255, 255, 255, 255))
-    d.text((x0 + tw_s, val_top), digits or val, font=f_big, fill=acc + (255,))
+    _db = f_big.getbbox(digits or val)
+    _cy = val_top + (_db[1] + _db[3]) / 2.0        # optical centre of the digits
+    if sign:
+        _sb = f_sign.getbbox(sign)
+        d.text((x0, _cy - (_sb[1] + _sb[3]) / 2.0), sign, font=f_sign, fill=acc + (255,))
+    if word:
+        d.text((x0 + tw_sg, val_top + 90), word, font=f_small, fill=(255, 255, 255, 255))
+    d.text((x0 + tw_sg + tw_wd, val_top), digits or val, font=f_big, fill=acc + (255,))
     if suffix:
-        d.text((x0 + tw_s + tw_b + 12, val_top + 90), suffix, font=f_small,
+        d.text((x0 + tw_sg + tw_wd + tw_b + 12, val_top + 90), suffix, font=f_small,
                fill=(255, 255, 255, 255))
     lay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     ImageDraw.Draw(lay).rounded_rectangle([x0, 790, x0 + total, 802], 6, fill=acc + (235,))
