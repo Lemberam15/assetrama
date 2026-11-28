@@ -1,11 +1,6 @@
 [
  {
   "date": "14/11/2026",
-  "series": "event",
-  "topic": "MARKET ALERT (2:30 AM monitor): Iran said it considers the Strait of Hormuz closed again after the IRGC said an LNG tanker hit a mine and exploded in the strait on 13/11; the US struck an Iranian island in the strait and Iran said it hit a US early-warning radar in Bahrain - sharpest direct US-Iran exchange since early September; UN Security Council met at Bahrain's request; Brent $95.86 a barrel, up 1.5% in 24 hours; India imports about 9 of every 10 barrels, rupee 94.24, October CPI 6.09%"
- },
- {
-  "date": "14/11/2026",
   "series": "finance101",
   "topic": "FINANCE 101: what a second 25 bps repo hike to 5.75% on 04/12/2026 does to a Rs 50 lakh 20-year home loan EMI - EMI Rs 43,391 at 8.50% versus Rs 44,186 at 8.75% (Rs 794 more a month, about Rs 1.9 lakh over the term); repo 5.50% after the 07/10/2026 hike; Moneycontrol poll of 10 economists (13/11/2026) expects 5.75%; MPC meets 2-4 December 2026"
  },
@@ -248,5 +243,10 @@
   "date": "28/11/2026",
   "series": "event",
   "topic": "MARKET ALERT (2:30 AM monitor): Wall Street's best week since October 2022 and S&P 500's best week since April 2025 - Dow +591.99 pts (+1.18%) to 50,774.94, S&P 500 +1.60% to 7,297.49 and Nasdaq +2.31% to 24,129.50 in the 27/11/2026 half session; for the week S&P +5.6%, Nasdaq +6.68%, Dow +5.46%, AI and chip stocks leading the bounce; yet November is still heading for its worst since 2008 and traders almost fully price a December Fed HIKE after Oct core PCE 3.3% and Q3 GDP 4.3%. Tone caution, mood tense (the-mountain-simulation-worlds). Renderer v2, 60 s film, hook 2.5 + hold 50 + beat 4 + send 3.5. LinkedIn urn:li:ugcPost:7532189480913465344, IG reel https://www.instagram.com/reel/DgQno4dB-qs/ + story https://www.instagram.com/stories/_assetrama/4039903487084459166"
+ },
+ {
+  "date": "28/11/2026",
+  "series": "finance101",
+  "topic": "FINANCE 101: backwardation vs contango - why the nearest oil barrel costs most. ICE Brent Jan 2027 settled $96.57/bbl on 27/11/2026, Feb $91.67 and Mar $88.63, a downward-sloping curve; front month dearer than later months = backwardation (tight prompt supply, OPEC+ 29/11, strong diesel cracks), the mirror is contango; India imported a record 88.7% of its crude in FY26 and its Apr-Oct crude bill is up 53.5% to $111 billion on volumes up just 2.7%, so India pays at the front of the curve. Tone caution, mood calm (mixkit-deep-urban). Renderer v2, 60 s film, hook 2.5 + hold 50 + beat 4 + send 3.5. LinkedIn urn:li:ugcPost:7532259492504285184, IG reel https://www.instagram.com/reel/DgRHikthEdg/ + story https://www.instagram.com/stories/_assetrama/4040043796859062680"
  }
 ]
