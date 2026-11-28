@@ -36,6 +36,10 @@ python scripts/v2/build_film_v2.py spec.json post.mp4 --music bed.wav \
    FIRST number in a point takes the tone accent; later numbers in the same point
    render in a neutral grey (26/11/2026), so write each point with the figure you
    want remembered first - a point carrying three bright figures has no hero.
+   A point that needs MORE lines than fit (one line with a chart, two without)
+   is still cut to fit the layout, but it now prints
+   `WARN: point N needs X lines, Y fit - CUT: ...` on stderr (28/11/2026) -
+   shorten the point instead of shipping a cut sentence.
 4. **Icons are chosen from the point's own words** (chart, cal-x,
    cal-tick, up, down, rupee, percent, shield, piggy, coins, bank, warn).
    Override with `"icons": ["chart","shield","percent"]` when the words mislead.
