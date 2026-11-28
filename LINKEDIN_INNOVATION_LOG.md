@@ -72,6 +72,7 @@ promotions, no employer mention. Trust IS the product.
 | 27/09/2026 | Instagram automation LIVE: _assetrama (471 followers) connected via Instagram API (REELS, 60-day token). Test post published: instagram.com/reel/DdyQ8dIjuu1. ALL 12 agents Instagram-enabled (6 posting agents cross-post after every LinkedIn post; 6 monitors cross-post whenever they publish an event/festival post); videos hosted in /videos on the website with 3-day cleanup; weekly Sunday 6 AM token-refresh cron added. Instagram goal: top finance voice on IG alongside LinkedIn. |
 | 31/10/2026 | Instagram 474 (API) / LinkedIn no new report (baseline 1,562) | IG: 22 likes + 2 comments across last 30 posts; 0 likes and 0 comments on most | — | weakest number = Instagram reach/engagement; v38 shipped for it |
 | 07/11/2026 | Instagram 476 (API) / LinkedIn no new report (baseline 1,562) | IG: ~10 likes + 0 comments across last 30 posts | — | weakest number = Instagram reach/engagement; v46 shipped for it |
+| 28/11/2026 | Instagram 474 (API) / LinkedIn no new report (baseline 1,562) | IG: 7 likes + 0 comments across the last 30 media; 474 followers vs 476 on 07/11 | — | weakest number = Instagram reach/engagement; v70 shipped for it (kinetic hook + hook sound design) |
 
 
 ## 27/09/2026 (evening) — MISSION UPGRADE: #1 finance Instagram channel in 2 years
@@ -533,3 +534,110 @@ Form (name + WhatsApp number) behind it in the bio and the website. Sponsors and
 newsletter deals are bought on list size, not follower count — a 2,000-person list
 is pitchable long before 10k followers. No spend, no brand contact, nothing
 implemented without Ram's approval.
+
+## 28/11/2026 — v70: KINETIC HOOK + HOOK SOUND DESIGN
+
+**Growth data (pulled from the APIs before choosing anything):**
+- Instagram: **474 followers** (baseline 471 on 27/09/2026; 476 on 07/11) — flat to
+  down. Last 30 media: **7 likes, 0 comments** in total (0-2 likes on 26 of the 30).
+- LinkedIn: no new number reported in chat this week — still the 1,562 baseline of
+  26/09/2026. Update when Ram reports one.
+- Weakest number: **Instagram reach + engagement**, so this week works on the first
+  2.5 seconds of every post — the only part every viewer sees.
+
+**What changed (three optional pieces; nothing removed, nothing made mandatory):**
+
+1. **`scripts/kinetic_hook.py`** — the cold-open hook is no longer a still. It now
+   renders a 30-frame sequence (12 fps = 2.50 s): the whole line settles from 7.5 %
+   larger + slightly soft into focus (0-0.5 s), a light band sweeps the line and the
+   accent phrase lights up from 62 % to full tone colour (0.26-0.8 s), the accent
+   underline draws left to right (0.55-0.95 s), the sub-line rises (0.85-1.2 s), then
+   everything holds still and readable to 2.5 s. **Frame 0 is the complete hook line**
+   (larger + soft), because frame 0 is the LinkedIn thumbnail and the cover — a
+   half-empty frame 0 would be a worse thumbnail than the still it replaced. The
+   settle ends on the exact v54 still layout, so the cover JPEG and the held frame
+   match to the pixel.
+2. **`scripts/v2/build_film_v2.py --kinetic <dir>`** — plays that sequence inside the
+   SAME 2.5 s `--hook` window, so film length, every later beat and the music timing
+   are untouched. Same file also gains **`--slice START:END`**, which renders one
+   window of the timeline so a 60 s film can be built in two commands and concatenated
+   with `-c copy` (needed for the 9:16 reel, which takes ~4 m 45 s in one call).
+   **With neither flag the film is byte-for-byte the pre-v70 film — sha1-verified
+   against the file fetched from raw.githubusercontent.com before the change.**
+3. **`scripts/hook_sfx.py`** — the v2 film had NO sound design at all (the bed simply
+   started). This lays one short cue on the opening: a soft riser into a low impact as
+   the hook locks. Cue peak ~-14 dBFS, opening-window RMS lift +0.12 dB / +0.05 dB,
+   duration unchanged, refuses to write a clipping file. It is mixed into the bed
+   BEFORE build_film_v2, so the encoder is untouched. This is the music-rotation
+   improvement for the week (music v13, real licensed tracks, shipped 21/11).
+
+**Research behind it (2-3 concrete ideas, from outside finance too):**
+- 2026 faceless-format studies: "a static title card that sits on screen for 2 seconds
+  before the animation begins loses the viewer before the content starts; the strongest
+  kinetic typography videos open with text already in motion" — and restraint matters,
+  over-animated text gets harder to read, not more engaging. Our settle is 0.5 s, not a
+  word-by-word build.
+- Investing-Reel dataset (900+ reels, Oct 2026): heavy-text reels travelled 20x the
+  account's followers vs 11x for light-text; slideshow/static formats travel 30x vs 8x
+  for talking heads — the faceless slide format is the right bet, it just has to MOVE.
+- Broadcast sports packages 2026 (Fox NASCAR, NHL/Gameday, Telemundo World Cup): bold
+  typography, one clear hierarchy ("what must the viewer read first — protect that at
+  all costs"), motion treated as part of the system rather than decoration. Adopted the
+  hierarchy rule: the hook line stays the only big thing on screen.
+- Indian market check: median Indian Short is 61 s and 53 % run a minute or longer, so
+  the 60 s film is right for this audience — the "12-19 s" advice in Western studies
+  does not apply here. Ram's 50 s read-hold stays.
+
+**Backwards compatibility:** no `--kinetic` and no `--slice` -> identical film (sha1
+verified). `render_slide_v2.py`, `music_lib.py`, the caption rules, the CTA table, tone
+colours, red-for-negative charts, the URL/emoji checks and the Instagram cadence are all
+untouched. `kinetic_hook.py` failure falls back to the still hook.
+
+**QC (pixel-measured, both samples):** row-band contrast worst **8.26:1** on the slides
+and **11.6:1** on kinetic frame 0 (bar: >= 3:1 for large text); zero bright pixels within
+6 px of any edge (no clipping); no overlap; audio mean -14.0 / -13.6 dBFS, peak -0.4 /
+-0.7 dB; frame 0 differs from frame 5 (motion present) and frame 0 is the hook, not the
+slide. Film specs: 60.50 s, 1080x1350 (4:5) and 1080x1920 (9:16), 12 fps, H.264 + AAC.
+
+**Post types affected:** ALL 12 daily slots + festival/event posts, on both platforms
+(4:5 film and 9:16 reel). Stories unaffected.
+
+**Samples (delivered as downloads):**
+- `SampleA_marketwrap_slide.png` / `SampleA_marketwrap_hook.png` / `SampleA_marketwrap.mp4`
+  / `SampleA_marketwrap_reel916.mp4` — **verified 27/11/2026 data**: Sensex 83,339.26
+  (-989.33, -1.17 %), Nifty 25,607.20 (-277.30, -1.07 %), FII net +Rs 1,634.33 cr (19th
+  straight buying session), DII net -Rs 556.42 cr, week FII +Rs 17,629.73 cr.
+  (NSE provisional FII/DII cash data + NSE index close file, 27/11/2026.)
+- `SampleB_sip_slide.png` / `SampleB_sip_hook.png` / `SampleB_sip.mp4` — **clearly
+  ILLUSTRATIVE**: Rs 5,000/month for 20 years at an assumed 12 % a year = Rs 49.96 lakh
+  on Rs 12 lakh invested (Rs 37.96 lakh of growth). Labelled illustrative on the slide.
+- `KineticHook_filmstrip.png` — six frames of the hook at 0.00 / 0.25 / 0.50 / 0.75 /
+  1.08 / 2.42 s, so the animation can be reviewed as one image.
+
+**New backlog ideas (added this week — do not repeat shipped items):**
+1. Kinetic the QUESTION strip: the marker-swipe question could underline itself over
+   0.4 s when the slide lands, so the ask reads as an action rather than a caption.
+2. Hook A/B scoreboard, now buildable: the kinetic hook takes any line, so render two
+   hooks per week and log which pattern (number / warning / relatable) held better.
+3. "Stakes" second beat at 2.5 s: cut hook -> one-line stakes card -> slide, and test
+   whether the re-hook lifts the 5-second hold (already sketched in the 14/11 backlog —
+   now cheaper to build because the hook beat is a sequence, not a still).
+4. Devanagari twin kinetic hook for the 7:30 AM term slot (regional-language finance is
+   one of India's fastest-growing niches) — the accent sweep is language-agnostic.
+5. Beat-cut sound design: the same `hook_sfx.py` riser placed under the beat card and
+   the send card, so each cut has a small audible "landing" and the film has rhythm.
+6. Quote-card hook variant: a real, sourced one-line quote settles in the same way, for
+   Money Story posts (needs a verified attribution every time).
+
+**Monetization note (suggestion only, nothing implemented):** at 474 IG followers and
+~1.5k LinkedIn, the ONE most valuable next action is still the **WhatsApp list behind a
+free lead magnet** — but this week the sharper version is to attach it to the posts that
+already work: the 3 highest-saving posts (rule-of-72, T+1, the SIP maths) become a
+one-page PDF on the website, with a Google Form (name + WhatsApp) linked from the bio and
+the website. At this follower count the list is the only asset that can be pitched to a
+sponsor; a 1,000-2,000 person list is sellable long before 10k followers. No spend, no
+brand contact, nothing implemented without Ram's approval.
+
+**Catch-up note (log hygiene):** v62 "GUESS BEAT" (21/11/2026) and v63 "number-led hook
+WARN" (23/11/2026) shipped to the skill but were never written up in this log. Both are
+documented in SKILL.md; no action needed, noted here so the record is complete.

@@ -123,3 +123,24 @@ accent (blue) and a duplicate header.
 - ~~The phone glyph in the contact box is the weakest drawing~~ - fixed 27/11/2026 (a real handset, see IMPROVEMENT_LOG).
 - Backgrounds are still code-generated. AI plates (Ram's ChatGPT Go batch) drop
   into `assets_v2/plates/<tone>.png` and are picked by tone when present.
+
+## Kinetic hook + hook sound design (v70, 28/11/2026)
+
+The hook beat is no longer a still. `scripts/kinetic_hook.py` renders a 30-frame
+sequence for the same 2.5 s window and `build_film_v2.py --kinetic <dir>` plays it:
+
+```
+python scripts/kinetic_hook.py spec.json kin/
+python scripts/music_lib.py <mood> 62 bed.wav
+python scripts/hook_sfx.py bed.wav bed_sfx.wav        # hook riser + impact
+python scripts/v2/build_film_v2.py spec.json post.mp4 --music bed_sfx.wav \
+    --hook 2.5 --hold 50 --beat 4 --send 3.5 --kinetic kin/
+```
+
+Frame 0 is still the complete hook line (thumbnail/cover safe). No `--kinetic` and
+no `--slice` gives byte-for-byte the pre-v70 film.
+
+`--slice START:END` renders only one window of the timeline (the header animation
+stays continuous across the cut) so a 60 s film, or the slower 9:16 reel, can be
+built in two commands and concatenated with `-c copy`. Only the last slice carries
+the fade-out.

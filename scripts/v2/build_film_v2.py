@@ -116,6 +116,12 @@ def main():
     ap.add_argument("--send", type=float, default=3.5)
     ap.add_argument("--fps", type=int, default=12)
     ap.add_argument("--size", default="4:5", choices=["4:5", "9:16"])
+    ap.add_argument("--slice", default="",
+                    help="START:END seconds - render only this window of the timeline "
+                         "(v70, for machines that cannot hold a 60 s encode in one call); "
+                         "concat the slices with -c copy afterwards")
+    ap.add_argument("--kinetic", default="",
+                    help="directory of kinetic-hook frames (kinetic_hook.py) - v70")
     ap.add_argument("--work", default=".")
     a = ap.parse_args()
 
@@ -140,10 +146,29 @@ def main():
     else:
         OUT_W, OUT_H, OFF_Y = W, H, 0
 
-    bases = [("base_hook.png", a.hook), ("base_slide.png", a.hold),
-             ("base_beat.png", a.beat), ("base_send.png", a.send), ("base_send.png", 0.5)]
+    tail = [("base_slide.png", a.hold), ("base_beat.png", a.beat),
+            ("base_send.png", a.send), ("base_send.png", 0.5)]
     if a.size == "9:16":
-        bases = [(f.replace(".png", "_916.png"), d) for f, d in bases]
+        tail = [(f.replace(".png", "_916.png"), d) for f, d in tail]
+    if a.kinetic:
+        # KINETIC HOOK (v70, 28/11/2026): the hook beat plays a frame sequence
+        # instead of one still. It occupies exactly the same --hook window, so
+        # the film length and every later beat are unchanged.
+        man = json.load(open(os.path.join(a.kinetic, "manifest.json")))
+        fr = man["frames"]
+        per = a.hook / max(1, len(fr))
+        hook_bases = []
+        for f in fr:
+            src = os.path.abspath(os.path.join(a.kinetic, f))
+            if a.size == "9:16":
+                import reel_916_v2 as RW
+                dst = os.path.abspath(os.path.join(w, "kf_" + f))
+                RW.wrap(src, dst)
+                src = dst
+            hook_bases.append((src, per))
+    else:
+        hook_bases = [("base_hook_916.png" if a.size == "9:16" else "base_hook.png", a.hook)]
+    bases = hook_bases + tail
     total = sum(d for _, d in bases)
     frames = int(total * a.fps)
     imgs = [Image.open(os.path.join(w, f)).convert("RGBA") for f, _ in bases]
@@ -155,12 +180,21 @@ def main():
     shaded = _shade(Image.open(R.LOGO_PATH).convert("RGBA"))
     exe = imageio_ffmpeg.get_ffmpeg_exe()
     tmp = os.path.join(w, "_vo.mp4")
+    if a.slice:
+        s0, s1 = (float(x) for x in a.slice.split(":"))
+        i0, i1 = max(0, int(round(s0 * a.fps))), min(frames, int(round(s1 * a.fps)))
+        last = s1 >= total - 1e-6
+    else:
+        s0, i0, i1, last = 0.0, 0, frames, True
+    vf = "format=yuv420p"
+    if last:
+        vf = f"fade=t=out:st={total - 1.5 - s0:.2f}:d=1.5,format=yuv420p"
     cmd = [exe, "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{OUT_W}x{OUT_H}", "-r", str(a.fps),
-           "-i", "-", "-vf", f"fade=t=out:st={total - 1.5:.2f}:d=1.5,format=yuv420p",
+           "-i", "-", "-vf", vf,
            "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-threads", "1",
            "-pix_fmt", "yuv420p", tmp]
     p = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-    for i in range(frames):
+    for i in range(i0, i1):
         t = i / a.fps
         idx = 0
         while idx < len(bounds) - 1 and t >= bounds[idx]:
@@ -176,7 +210,8 @@ def main():
                         "-shortest", a.out], capture_output=True)
     else:
         subprocess.run([exe, "-y", "-i", tmp, "-c", "copy", a.out], capture_output=True)
-    print(f"built {a.out}  {total:.1f}s  {frames} frames  {OUT_W}x{OUT_H}  tone={spec.get('tone')}")
+    print(f"built {a.out}  {total:.1f}s  {i1 - i0} frames  {OUT_W}x{OUT_H}  tone={spec.get('tone')}"
+          + (f"  slice {s0:.2f}-{i1 / a.fps:.2f}s" if a.slice else ""))
 
 
 if __name__ == "__main__":
